@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Innovation Jam 2026 - Ally Chen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260623k" />
+  <style>
+    /* Innovation Jam '26 - magenta/plum case-study theme */
+    body { background: #2b1830; overflow-x: hidden; }
+    .nav {
+      --nav-bg: #3a2545;
+      --nav-border: rgba(255,255,255,0.08);
+      --nav-link: rgba(248,241,232,0.65);
+      --nav-link-hover: #f8f1e8;
+      --nav-home: #f8f1e8;
+      --nav-dropdown-bg: #3a2545;
+      --nav-dropdown-border: rgba(255,255,255,0.12);
+      --nav-dropdown-link: rgba(248,241,232,0.65);
+      --nav-dropdown-link-hover: #f8f1e8;
+      --nav-dropdown-link-hover-bg: rgba(255,255,255,0.08);
+      --nav-dropdown-label: rgba(248,241,232,0.45);
+      --nav-mobile-bg: #3a2545;
+      --nav-mobile-border: rgba(255,255,255,0.12);
+      --nav-mobile-link: rgba(248,241,232,0.65);
+      --nav-mobile-link-hover: #f8f1e8;
+      --nav-mobile-submenu-border: rgba(255,255,255,0.12);
+      --nav-mobile-label: rgba(248,241,232,0.45);
+      --nav-toggle-bar: #f8f1e8;
+    }
+    .ij-dark { background: #2b1830; }
+    .ij-alt { background: #f8f1e8; }
+    .ij-dark .display-heading { color: #f8f1e8; }
+    .ij-alt .display-heading { color: var(--charcoal, #2d2d2d); }
+    .ij-dark .section-label { color: rgba(248,241,232,0.45); }
+    .ij-alt .section-label { color: #b1366b; }
+    .ij-dark .section-inner { border-top-color: rgba(248,241,232,0.12); }
+    .ij-alt .section-inner { border-top-color: rgba(0,0,0,0.1); }
+    .ij-dark p, .ij-dark li { color: rgba(248,241,232,0.7); }
+    .ij-alt p, .ij-alt li { color: #5a5450; }
+
+  </style>
+</head>
+<body class="event-page">
+
+  <nav class="nav" id="nav" aria-label="Primary"></nav>
+  <script src="nav.js?v=9"></script>
+
+  <!-- Hero -->
+  <section class="section ij-dark" style="min-height: 80vh; display: flex; align-items: center; background-image: linear-gradient(rgba(43,24,48,0.72), rgba(80,20,50,0.55)), url('innovation-26/IMG_2519.JPG'); background-size: cover; background-position: center 30%;">
+    <div class="section-inner event-hero-inner" style="border-top: none; width: 100%; max-width: 100%; margin: 0; padding-top: 7rem; padding-left: clamp(2rem, 8%, 10rem); padding-bottom: 5rem;">
+      <div class="section-body">
+        <a href="involvement.html#events" style="display:inline-block; margin-bottom:1.5rem; font-size:0.9rem; color:rgba(248,241,232,0.55); text-decoration:none; letter-spacing:0.05em;">&larr; Back to Involvement</a>
+        <h1 class="display-heading dh-light" style="font-size: clamp(4rem, 9vw, 7rem);">Innovation<br/>Jam 2026</h1>
+        <p style="color: rgba(248,241,232,0.95); max-width: 560px; margin-top: 1rem; font-size: 1.1rem; line-height: 1.7; text-shadow: 0 1px 12px rgba(0,0,0,0.8), 0 2px 24px rgba(0,0,0,0.6);">The Willamette Valley's flagship student innovation and entrepreneurship event - a full day of pitches, workshops, and collaboration at Oregon State University.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Overview -->
+  <section class="section ij-alt">
+    <div class="section-inner" style="max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Overview</span>
+      </div>
+      <div class="section-body">
+        <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">About the Event</h2>
+        <p style="max-width: 720px; margin: 1rem 0 1.25rem; line-height: 1.7; font-size: 1.1rem;">Innovation Jam brings together student founders, builders, and the broader Willamette Valley startup community for a full day of pitches, hands-on workshops, and networking. Teams compete for $1,500 in cash prizes and a shot at advancing to the statewide inventOR competition, where $30,000 in grants and awards are on the line. Mentors and judges are recruited from venture capital, business, and academia to guide teams through the process.</p>
+        <p style="max-width: 720px; line-height: 1.7; font-size: 1.1rem;">For Innovation Jam 2026, inventOR handed full ownership of the event to Startup Hub at OSU - the entrepreneurship club I co-founded - making it the first time a student organization has taken complete control of one of the Willamette Valley's flagship innovation events. inventOR provided the budget; we handled everything else.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="section ij-alt" style="padding-bottom: 5rem;">
+    <div class="section-inner" style="max-width: 1400px; padding-bottom: 1.5rem;">
+      <div class="section-label-col">
+        <span class="section-label">Photos</span>
+      </div>
+      <div class="section-body">
+        <div class="ij-event-header">
+          <h2 class="display-heading">Event Photos</h2>
+          <div class="ij-event-header-arrows">
+            <button class="ij-carousel-arrow ij-carousel-arrow--prev" id="ijPrev" aria-label="Previous photos">&#8592;</button>
+            <button class="ij-carousel-arrow ij-carousel-arrow--next" id="ijNext" aria-label="Next photos">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .ij-event-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+      }
+      .ij-event-header .display-heading { margin-bottom: 0; }
+      .ij-event-header-arrows { display: flex; gap: 0.75rem; }
+      .ij-event-header-arrows .ij-carousel-arrow { position: static; transform: none; }
+      .ij-carousel {
+        position: relative;
+        max-width: 98vw;
+        margin: 0 auto;
+        padding: 0 0.5rem;
+      }
+      .ij-carousel-viewport { overflow: hidden; }
+      .ij-carousel-track { display: flex; will-change: transform; }
+      .ij-carousel-slide {
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 0 0.6rem;
+      }
+      .ij-carousel-slide img {
+        height: 520px;
+        width: auto;
+        border-radius: 0.75rem;
+        display: block;
+        background: #e8e2d0;
+      }
+      .ij-carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        border: none;
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 2;
+        transition: background 0.2s;
+      }
+      .ij-carousel-arrow:hover { background: rgba(0,0,0,0.55); }
+      .ij-carousel-arrow--prev { left: 0; }
+      .ij-carousel-arrow--next { right: 0; }
+      .ij-carousel-slide-inner { overflow: hidden; display: inline-block; height: 520px; }
+      .ij-carousel-slide img { border-radius: 0; }
+      @media (max-width: 1024px) {
+        .ij-carousel-slide-inner,
+        .ij-carousel-slide img { height: 420px; }
+      }
+      @media (max-width: 640px) {
+        .ij-carousel-slide-inner,
+        .ij-carousel-slide img { height: 280px; }
+      }
+    </style>
+    <div class="ij-carousel" id="ijCarousel">
+      <div class="ij-carousel-viewport">
+        <div class="ij-carousel-track"></div>
+      </div>
+    </div>
+    <script>
+      (function() {
+        function initIjCarousel(root, photos, opts) {
+          opts = opts || {};
+          var secondsPerPhoto = opts.secondsPerPhoto || 6;
+          var alt = opts.alt || 'Photo';
+          var transforms = opts.transforms || {};
+          var N = photos.length;
+          var rendered = photos.concat(photos);
+          var viewport = root.querySelector('.ij-carousel-viewport');
+          var track = root.querySelector('.ij-carousel-track');
+          var prevBtn = opts.prevBtn || root.querySelector('.ij-carousel-arrow--prev');
+          var nextBtn = opts.nextBtn || root.querySelector('.ij-carousel-arrow--next');
+          rendered.forEach(function(src) {
+            var slide = document.createElement('div');
+            slide.className = 'ij-carousel-slide';
+            var inner = document.createElement('div');
+            inner.className = 'ij-carousel-slide-inner';
+            var img = document.createElement('img');
+            img.src = src; img.alt = alt; img.loading = 'lazy';
+            if (transforms[src]) img.style.transform = transforms[src];
+            inner.appendChild(img);
+            slide.appendChild(inner);
+            track.appendChild(slide);
+          });
+          var widths = [], cumulative = [0], singleSetWidth = 0, speed = 0;
+          var offset = 0, hovering = false, jumping = false, paused = false, lastTime = null;
+          function updatePaused() { paused = hovering || jumping; }
+          function measure() {
+            widths = []; cumulative = [0];
+            for (var i = 0; i < N; i++) {
+              var w = track.children[i].getBoundingClientRect().width;
+              widths.push(w); cumulative.push(cumulative[i] + w);
+            }
+            singleSetWidth = cumulative[N];
+            speed = singleSetWidth / (N * secondsPerPhoto * 1000);
+          }
+          function setTransform() { track.style.transform = 'translateX(' + offset + 'px)'; }
+          function applyTransform(t) {
+            track.style.transition = t ? 'transform 0.4s ease' : 'none';
+            setTransform();
+            if (!t) track.getBoundingClientRect();
+          }
+          function settle() {
+            jumping = false; updatePaused();
+            if (offset <= -singleSetWidth) offset += singleSetWidth;
+            if (offset > 0) offset -= singleSetWidth;
+            applyTransform(false);
+          }
+          function currentIndex() {
+            var pos = ((-offset) % singleSetWidth + singleSetWidth) % singleSetWidth;
+            for (var i = 0; i < N; i++) { if (pos < cumulative[i+1] - 0.5) return i; }
+            return 0;
+          }
+          function nudge(dir) {
+            jumping = true; updatePaused();
+            var i = currentIndex();
+            if (dir > 0) { offset -= widths[i]; } else { offset += widths[(i-1+N)%N]; }
+            applyTransform(true);
+            setTimeout(settle, 420);
+          }
+          function tick(now) {
+            if (lastTime === null) lastTime = now;
+            var dt = now - lastTime; lastTime = now;
+            if (!paused) {
+              offset -= speed * dt;
+              if (offset <= -singleSetWidth) offset += singleSetWidth;
+              setTransform();
+            }
+            requestAnimationFrame(tick);
+          }
+          prevBtn.addEventListener('click', function() { nudge(-1); });
+          nextBtn.addEventListener('click', function() { nudge(1); });
+          [viewport, prevBtn, nextBtn].forEach(function(el) {
+            el.addEventListener('mouseenter', function() { hovering = true; updatePaused(); });
+            el.addEventListener('mouseleave', function() { hovering = false; updatePaused(); });
+          });
+          window.addEventListener('resize', function() {
+            var old = singleSetWidth; measure();
+            if (old) offset = offset * (singleSetWidth / old);
+            applyTransform(false);
+          });
+          // Wait for images to load so width: auto resolves before measuring
+          var imgs = track.querySelectorAll('img');
+          var loaded = 0;
+          function onImgLoad() {
+            loaded++;
+            if (loaded === imgs.length) { measure(); applyTransform(false); }
+          }
+          imgs.forEach(function(img) {
+            if (img.complete) { onImgLoad(); } else { img.addEventListener('load', onImgLoad); }
+          });
+          measure(); applyTransform(false); requestAnimationFrame(tick);
+        }
+
+        var photos = [
+          'innovation-26/IMG_2967.jpg',
+          'innovation-26/IMG_2520.JPG',
+          'innovation-26/IMG_2521.JPG',
+          'innovation-26/IMG_2522.JPG',
+          'innovation-26/IMG_2523.JPG',
+          'innovation-26/IMG_2955.JPG',
+          'innovation-26/IMG_2965.JPG',
+          'innovation-26/IMG_0247.jpg',
+          'innovation-26/IMG_8228.JPG'
+        ];
+
+        initIjCarousel(document.getElementById('ijCarousel'), photos, {
+          alt: 'Innovation Jam 2026 event photo',
+          prevBtn: document.getElementById('ijPrev'),
+          nextBtn: document.getElementById('ijNext'),
+          transforms: {
+            'innovation-26/IMG_2955.JPG': 'scale(1.18)',
+            'innovation-26/IMG_2965.JPG': 'scale(1.18)'
+          }
+        });
+      })();
+    </script>
+  </section>
+
+  <!-- My Role -->
+  <section class="section ij-dark">
+    <div class="section-inner" style="max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Details</span>
+      </div>
+      <div class="section-body">
+        <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">My Role</h2>
+        <p style="max-width: 620px; margin: 1rem 0 2rem; color: rgba(248,241,232,0.75); line-height: 1.7; font-size: 1.1rem;">As part of Startup Hub's core team, I led operations and design for the event - from early planning and budget allocation through running logistics on the day. Beyond keeping the event on track, I was responsible for all merchandise and branded materials that every attendee, volunteer, judge, and mentor walked away with.</p>
+        <div class="event-role-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; border-top: 1px solid rgba(248,241,232,0.12); padding-top: 2rem;">
+          <div>
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Operations</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: #f8f1e8; margin-bottom: 1rem; letter-spacing: 0.04em;">Event Coordination</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: rgba(248,241,232,0.7); line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(248,241,232,0.12);">Managed day-of logistics, including registration, check-in, attendee guidance, and swag distribution.</li>
+              <li style="padding: 0.35rem 0;">Oversaw budget allocation across food, supplies, merchandise, and event materials.</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Design</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: #f8f1e8; margin-bottom: 1rem; letter-spacing: 0.04em;">Branding &amp; Merch</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: rgba(248,241,232,0.7); line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(248,241,232,0.12);">Designed the full suite of Innovation Jam '26 branded materials - stickers, tote bags, notebooks, award plaques, judge and mentor gift boxes, and name cards for all attendees, volunteers, and speakers.</li>
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(248,241,232,0.12);">Screen-printed the tote bags by hand, and self laser engraved the award plaques for winning teams.</li>
+              <li style="padding: 0.35rem 0;">Managed end-to-end production logistics for all merchandise.</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Programming</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: #f8f1e8; margin-bottom: 1rem; letter-spacing: 0.04em;">Pitch Sessions</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: rgba(248,241,232,0.7); line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(248,241,232,0.12);">Supported student pitch sessions where teams presented ventures to judges and peers.</li>
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(248,241,232,0.12);">Managed presentation logistics, including AV setup and keeping sessions on schedule.</li>
+              <li style="padding: 0.35rem 0;">Represented Startup Hub throughout the day, connecting with founders, judges, and fellow organizers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticker & Design Showcase -->
+  <section class="section ij-dark">
+    <div class="section-inner" style="max-width: 1400px; padding-bottom: 0;">
+      <div class="section-label-col">
+        <span class="section-label">Design</span>
+      </div>
+      <div class="section-body">
+        <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">Design Showcase</h2>
+      </div>
+    </div>
+    <div class="event-carousel-wrap" style="max-width: 1800px; margin: 0 auto; padding: 0 2rem 5rem;">
+        <div class="event-design-grid" style="display: grid; grid-template-columns: repeat(2, auto); justify-content: center; gap: 2.5rem; margin-top: 3rem;">
+          <!-- Sticker carousel -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase;">Stickers</div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <button onclick="ijCarousel('sticker', -1)" aria-label="Previous sticker design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8592;</button>
+              <div class="event-sticker-card" style="width: 440px; background: #f8f1e8; border-radius: 1rem; padding: 1.25rem 1.25rem 0.85rem; display: flex; flex-direction: column; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 360px;">
+                  <img id="ijStickerImg" src="ij-stickers/lightbulb-crop.png" alt="Innovation Jam sticker design 1" style="max-height: 330px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;" />
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: #a1788a;">
+                  <span id="ijStickerCurrent">1</span> / <span id="ijStickerTotal">4</span>
+                </div>
+              </div>
+              <button onclick="ijCarousel('sticker', 1)" aria-label="Next sticker design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8594;</button>
+            </div>
+          </div>
+          <!-- Nametag carousel -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase;">Name Tags</div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <button onclick="ijCarousel('nametag', -1)" aria-label="Previous name tag design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8592;</button>
+              <div class="event-sticker-card" style="width: 440px; background: #f8f1e8; border-radius: 1rem; padding: 1.25rem 1.25rem 0.85rem; display: flex; flex-direction: column; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 360px;">
+                  <img id="ijNametagImg" src="ij-stickers/nametag-staff.png" alt="Innovation Jam name tag design 1" style="max-height: 265px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;" />
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: #a1788a;">
+                  <span id="ijNametagCurrent">1</span> / <span id="ijNametagTotal">4</span>
+                </div>
+              </div>
+              <button onclick="ijCarousel('nametag', 1)" aria-label="Next name tag design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8594;</button>
+            </div>
+          </div>
+          <!-- Plaque carousel -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase;">Award Plaques</div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <button onclick="ijCarousel('plaque', -1)" aria-label="Previous plaque design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8592;</button>
+              <div class="event-sticker-card" style="width: 440px; background: #f8f1e8; border-radius: 1rem; padding: 1.25rem 1.25rem 0.85rem; display: flex; flex-direction: column; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 360px;">
+                  <img id="ijPlaqueImg" src="ij-stickers/plaque-1st.png" alt="Innovation Jam plaque design 1" style="max-height: 310px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;" />
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: #a1788a;">
+                  <span id="ijPlaqueCurrent">1</span> / <span id="ijPlaqueTotal">3</span>
+                </div>
+              </div>
+              <button onclick="ijCarousel('plaque', 1)" aria-label="Next plaque design" style="flex-shrink:0; background: rgba(248,241,232,0.12); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f1e8; font-size: 1.1rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,241,232,0.22)'" onmouseout="this.style.background='rgba(248,241,232,0.12)'">&#8594;</button>
+            </div>
+          </div>
+          <!-- Tote showcase -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <div style="font-size: 0.9rem; color: #d98bb0; letter-spacing: 0.1em; text-transform: uppercase;">Tote Bag</div>
+            <div class="event-sticker-card" style="width: 440px; background: #f8f1e8; border-radius: 1rem; padding: 1.25rem 1.25rem 0.85rem; display: flex; flex-direction: column; align-items: center;">
+              <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 360px; overflow: hidden;">
+                <img src="ij-tote.png" alt="Innovation Jam tote bag design" style="width: 100%; height: 460px; object-fit: contain; transform: scale(1.3); display: block;" />
+              </div>
+              <div style="margin-top: 0.75rem; font-size: 0.8rem; letter-spacing: 0.12em; color: transparent; user-select: none;">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <script>
+          (function() {
+            var groups = {
+              sticker: { name: 'Sticker', designs: [
+                { src: 'ij-stickers/lightbulb-crop.png', rot:  '2deg', maxH: '330px', shift: '0px' },
+                { src: 'ij-stickers/airplane-crop.png',  rot: '-3deg', maxH: '330px', shift: '-25px' },
+                { src: 'ij-stickers/rocket-crop.png',    rot: '-2deg', maxH: '330px', shift: '0px' },
+                { src: 'ij-stickers/star-crop.png',      rot:  '3deg', maxH: '330px', shift: '0px' }
+              ], idx: 0 },
+              nametag: { name: 'Nametag', designs: [
+                { src: 'ij-stickers/nametag-staff.png',    rot: '-1deg', maxH: '265px', shift: '0px' },
+                { src: 'ij-stickers/nametag-mentor.png',   rot:  '1deg', maxH: '265px', shift: '0px' },
+                { src: 'ij-stickers/nametag-attendee.png', rot: '-1deg', maxH: '265px', shift: '0px' },
+                { src: 'ij-stickers/nametag-judge.png',    rot:  '1deg', maxH: '265px', shift: '0px' }
+              ], idx: 0 },
+              plaque: { name: 'Plaque', designs: [
+                { src: 'ij-stickers/plaque-1st.png', rot:  '2deg', maxH: '310px', shift: '0px' },
+                { src: 'ij-stickers/plaque-2nd.png', rot: '-2deg', maxH: '310px', shift: '0px' },
+                { src: 'ij-stickers/plaque-3rd.png', rot:  '2deg', maxH: '310px', shift: '0px' }
+              ], idx: 0 }
+            };
+            function refs(key) {
+              var name = groups[key].name;
+              return {
+                img: document.getElementById('ij' + name + 'Img'),
+                cur: document.getElementById('ij' + name + 'Current')
+              };
+            }
+            window.ijCarousel = function(key, dir) {
+              var group = groups[key];
+              var r = refs(key);
+              group.idx = (group.idx + dir + group.designs.length) % group.designs.length;
+              r.img.style.opacity = '0';
+              r.img.style.transform = 'translateX(0px) rotate(0deg) scale(0.92)';
+              setTimeout(function() {
+                var d = group.designs[group.idx];
+                r.img.src = d.src;
+                r.img.alt = 'Innovation Jam ' + key + ' design ' + (group.idx + 1);
+                r.img.style.maxHeight = d.maxH;
+                r.img.style.transform = 'translateX(' + d.shift + ') rotate(' + d.rot + ') scale(1)';
+                r.img.style.opacity = '1';
+                r.cur.textContent = group.idx + 1;
+              }, 180);
+            };
+            Object.keys(groups).forEach(function(key) {
+              var d = groups[key].designs[0];
+              var r = refs(key);
+              r.img.src = d.src;
+              r.img.alt = 'Innovation Jam ' + key + ' design 1';
+              r.img.style.maxHeight = d.maxH;
+              r.img.style.transform = 'translateX(' + d.shift + ') rotate(' + d.rot + ') scale(1)';
+            });
+          })();
+        </script>
+    </div>
+  </section>
+
+  <section class="section section-contact section-contact--innovation-jam" id="contact">
+    <div class="section-inner">
+      <div class="section-label-col">
+        <span class="section-label">Contact</span>
+      </div>
+      <div class="section-body contact-body">
+        <h2 class="display-heading">Let's<br/>Connect</h2>
+        <div class="contact-links">
+          <a href="allychen-resume2028-pm.pdf" class="contact-link" target="_blank" rel="noopener">Resume</a>
+          <a href="mailto:allyten08@gmail.com" class="contact-link">allyten08@gmail.com</a>
+          <a href="https://linkedin.com/in/allyychen/" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/allyychen</a>
+          <a href="https://github.com/allyytc" target="_blank" rel="noopener" class="contact-link">github.com/allyytc</a>
+          <a href="tel:5038660073" class="contact-link">(503) 866-0073</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-footer-bar">
+      <p>&copy; 2026 Ally Chen</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

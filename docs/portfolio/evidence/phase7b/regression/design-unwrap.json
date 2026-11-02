@@ -1,0 +1,32 @@
+{
+  "camera": {
+    "view": "designCorner",
+    "position": [
+      -1.5999714105597986,
+      5.700015792329124,
+      10.800023816738502
+    ],
+    "target": [
+      -5.6,
+      1.1,
+      1.8
+    ],
+    "zoom": 249.99949761530098,
+    "azimuth": 0.4182243295792291,
+    "polar": 1.1338468501841121,
+    "minZoom": 225,
+    "maxZoom": 312.5,
+    "transitioning": false
+  },
+  "metrics": {
+    "calls": 174,
+    "triangles": 209999,
+    "peakCalls": 241,
+    "peakTriangles": 307827,
+    "textures": 24,
+    "geometries": 167,
+    "activeFrameMs": 16.952830188679247,
+    "frames": 159,
+    "paperProgress": 0
+  }
+}

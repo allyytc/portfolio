@@ -1,0 +1,111 @@
+{
+  "file": "/Users/ally/Github/portfolio/assets/blender/studio-phase4b.blend",
+  "scenes": [
+    "DeskBaked4A",
+    "LoftBaked4B",
+    "PortfolioDesk",
+    "PortfolioDesk4A",
+    "PortfolioLoft4B",
+    "RoomBlockout4A_TEMPORARY",
+    "Scene"
+  ],
+  "objects": 758,
+  "dracoAvailable": true,
+  "nookMeshes": [
+    {
+      "name": "Window reading bench / benchCushion(Clone)",
+      "materials": [
+        "Loft_Honey oak",
+        "Loft_Warm ivory"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Reading cushion / pillow(Clone)",
+      "materials": [
+        "Loft_Sage fabric"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Reading cushion / pillow(Clone).001",
+      "materials": [
+        "Loft_Muted blush"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Soft lounge seat / loungeChairRelax(Clone)",
+      "materials": [
+        "Loft_Warm ivory",
+        "Loft_Sage fabric",
+        "Loft_Honey oak"
+      ],
+      "modifiers": [
+        "BEVEL"
+      ]
+    },
+    {
+      "name": "Loft bed / pillowLeft",
+      "materials": [
+        "Loft_Sage fabric"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Loft bed / bedDouble(Clone)",
+      "materials": [
+        "Loft_Sage fabric",
+        "Loft_Honey oak",
+        "Loft_Warm ivory"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Loft bed / pillowRight",
+      "materials": [
+        "Loft_Sage fabric"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Loft bed / cover",
+      "materials": [
+        "Loft_Sage fabric",
+        "Loft_Sage fabric"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Sage draped blanket",
+      "materials": [
+        "Loft_Light sage"
+      ],
+      "modifiers": [
+        "WEIGHTED_NORMAL",
+        "SOLIDIFY"
+      ]
+    }
+  ]
+}

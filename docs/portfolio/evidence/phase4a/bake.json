@@ -1,0 +1,40 @@
+{
+  "atlas": [
+    2048,
+    2048
+  ],
+  "pass": "DIFFUSE COLOR + DIRECT + INDIRECT",
+  "seconds": 67.5072250366211,
+  "samples": 96,
+  "padding": 12,
+  "uv": "LightBakeUV",
+  "staticUnlit": true,
+  "excludedMovingPaper": true,
+  "statistics": [
+    {
+      "node": "StudioStatic",
+      "triangles": 111402,
+      "materials": 1
+    },
+    {
+      "node": "ProjectsMonitor",
+      "triangles": 26032,
+      "materials": 4
+    },
+    {
+      "node": "ProjectsSign",
+      "triangles": 35074,
+      "materials": 6
+    },
+    {
+      "node": "PrinterBody",
+      "triangles": 12066,
+      "materials": 6
+    },
+    {
+      "node": "ResumePaper",
+      "triangles": 1450,
+      "materials": 3
+    }
+  ]
+}

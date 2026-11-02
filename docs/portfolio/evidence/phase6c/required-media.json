@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "about-photo.jpg",
+    "kind": "image",
+    "src": "media/about-photo.jpg",
+    "originalPath": "about-photo.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "index.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "1637a95d8fc310357ecaf1baafe0c8d6d9d57127",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/about-photo.jpg",
+    "caption": "Ally Chen",
+    "alt": "Ally Chen",
+    "sha256": "0f3e47988b82907ebba06732e794fd5e2d00288ed2bc48be3cd41fe722bf7db0"
+  },
+  {
+    "id": "headshot.jpg",
+    "kind": "image",
+    "src": "media/headshot.jpg",
+    "originalPath": "headshot.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "index.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "cb2630c438b5fea2c1792a43f6db70bdcf3c54cd",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/headshot.jpg",
+    "caption": "Ally Chen",
+    "alt": "Ally Chen — original homepage portrait",
+    "sha256": "fb106d0ee439d5e63695439682035f4f7e00f0185d70695f9aa633cbc965cb42"
+  },
+  {
+    "id": "cookies-clubs/IMG_2319.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2319.jpg",
+    "originalPath": "cookies-clubs/IMG_2319.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "712532edc3dfb00ca13f778f8af292592e17a485",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2319.jpg",
+    "caption": "Engineering Student Council · Photo 1",
+    "alt": "Engineering Student Council original community photo 1",
+    "sha256": "debccebad64c1202d84459c6d0dc8337e2830f23923127caacd1c8fd368fe529"
+  },
+  {
+    "id": "cookies-clubs/IMG_2290.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2290.jpg",
+    "originalPath": "cookies-clubs/IMG_2290.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "0d364310f2ec459983a544a166c95613701692a4",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2290.jpg",
+    "caption": "Engineering Student Council · Photo 2",
+    "alt": "Engineering Student Council original community photo 2",
+    "sha256": "c5973270a979f4427ea6df5c1803199bb1f298e6574bd1b39f017e7fc1efb1fb"
+  },
+  {
+    "id": "cookies-clubs/IMG_2293.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2293.jpg",
+    "originalPath": "cookies-clubs/IMG_2293.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6274b8e0b8e9a688a3f40d6cf8fcf01527b3de97",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2293.jpg",
+    "caption": "Engineering Student Council · Photo 3",
+    "alt": "Engineering Student Council original community photo 3",
+    "sha256": "0df48ebdd1cb97212bb77fe835dd1ef69c60780e0e61328f2974df8df1d6f2f9"
+  },
+  {
+    "id": "cookies-clubs/IMG_2301.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2301.jpg",
+    "originalPath": "cookies-clubs/IMG_2301.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7a3236586fd36d5b0cf5de6421b5fa3a94c5b686",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2301.jpg",
+    "caption": "Engineering Student Council · Photo 4",
+    "alt": "Engineering Student Council original community photo 4",
+    "sha256": "4b8e3ff3bc16eb413661b4958313ae470660ee608fabcd5882ed739c42ce60ae"
+  },
+  {
+    "id": "cookies-clubs/IMG_2346.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2346.jpg",
+    "originalPath": "cookies-clubs/IMG_2346.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "8ba683df555b8cf2af0dc240cf9c677de9ed97d1",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2346.jpg",
+    "caption": "Engineering Student Council · Photo 5",
+    "alt": "Engineering Student Council original community photo 5",
+    "sha256": "0c7883195dade2c98b67bd1bb1b6a4372e83713625bf19a84d1dabd3d41c5bba"
+  },
+  {
+    "id": "cookies-clubs/IMG_2360.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2360.jpg",
+    "originalPath": "cookies-clubs/IMG_2360.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "1106c18d88fee6f2dda62ba620d6714df9999a44",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2360.jpg",
+    "caption": "Engineering Student Council · Photo 6",
+    "alt": "Engineering Student Council original community photo 6",
+    "sha256": "d24f6a97fe7d05ae794b82cc90ed30081bc5bfb6231fec82521761972bf284c5"
+  },
+  {
+    "id": "cookies-clubs/IMG_2368.jpg",
+    "kind": "image",
+    "src": "media/cookies-clubs/IMG_2368.jpg",
+    "originalPath": "cookies-clubs/IMG_2368.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "fde1d99e563a12428155ec8a58655c698ca9131b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cookies-clubs/IMG_2368.jpg",
+    "caption": "Engineering Student Council · Photo 7",
+    "alt": "Engineering Student Council original community photo 7",
+    "sha256": "13bad6dae9cd08cd3f12416e8750f9af68f929635cfeee4ed5b26e427c0089a2"
+  },
+  {
+    "id": "eweek/IMG_8728.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8728.jpg",
+    "originalPath": "eweek/IMG_8728.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "3c5dfec59f6ac2506c5943a35cae086f34244c15",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8728.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 6",
+    "alt": "Engineers' Week 2026 event photos 6",
+    "sha256": "684672a62dc0a136c2b4412fed4d4679b20b65eb8bded610cb546560c50d1ebc"
+  },
+  {
+    "id": "sh-pics/IMG_0068.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_0068.JPG",
+    "originalPath": "sh-pics/IMG_0068.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7cc8e89f302edf6cc447294e1b033469ba68c5f6",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_0068.JPG",
+    "caption": "Startup Hub · Photo 1",
+    "alt": "Startup Hub original community photo 1",
+    "sha256": "a889951ac120e8541a0669b0f1b85e0dc6d1816af257e02311e79c08eeb413ad"
+  },
+  {
+    "id": "sh-pics/IMG_2960.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_2960.JPG",
+    "originalPath": "sh-pics/IMG_2960.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "d0fa6de40d13007ca3257d8bf0e0be95030fdbe8",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_2960.JPG",
+    "caption": "Startup Hub · Photo 2",
+    "alt": "Startup Hub original community photo 2",
+    "sha256": "5b512248b383eb0cd162c43c514aa7f9cd99dc33e392370fbc4de67b25182962"
+  },
+  {
+    "id": "sh-pics/IMG_0217.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_0217.JPG",
+    "originalPath": "sh-pics/IMG_0217.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "bfe0117c1ccf7942510f1101004d219ba91abd05",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_0217.JPG",
+    "caption": "Startup Hub · Photo 3",
+    "alt": "Startup Hub original community photo 3",
+    "sha256": "5c11b5e5ad3846e7c8e1ce1ab846190b5894736ebc8b8eddbeee47bf1128442e"
+  },
+  {
+    "id": "sh-pics/IMG_0384.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_0384.JPG",
+    "originalPath": "sh-pics/IMG_0384.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "d29b0d27bf7063edbf8e7432d52f11565da1896f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_0384.JPG",
+    "caption": "Startup Hub · Photo 4",
+    "alt": "Startup Hub original community photo 4",
+    "sha256": "70072221024750f8ce338b14fafc7787c842e09c0d3afedffe9a5bf7f7703640"
+  },
+  {
+    "id": "sh-pics/IMG_2961.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_2961.JPG",
+    "originalPath": "sh-pics/IMG_2961.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "20e77bc2e61468fa1ae8967ebcca479ebfeb7161",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_2961.JPG",
+    "caption": "Startup Hub · Photo 5",
+    "alt": "Startup Hub original community photo 5",
+    "sha256": "00b39a37bd68f824e6dfd5da990cfc0450ca5dceb2f7b1687b4b7191b139731a"
+  },
+  {
+    "id": "sh-pics/IMG_2962.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_2962.JPG",
+    "originalPath": "sh-pics/IMG_2962.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "4eec6c28ddb7c5030baf09f1599baa9e4b47b9ec",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_2962.JPG",
+    "caption": "Startup Hub · Photo 6",
+    "alt": "Startup Hub original community photo 6",
+    "sha256": "ea99cd2258b5d9938f31e8cf30c89a2e882f0717671b89d577895d932f08d954"
+  },
+  {
+    "id": "sh-pics/IMG_2963.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_2963.JPG",
+    "originalPath": "sh-pics/IMG_2963.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6250abeaa9be10428113cbb1d7352578ca0ccba0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_2963.JPG",
+    "caption": "Startup Hub · Photo 7",
+    "alt": "Startup Hub original community photo 7",
+    "sha256": "8206596a3a49104058bf26beae89f0fbccf43582836edb7a2d020de6ec095245"
+  },
+  {
+    "id": "sh-pics/IMG_2964.JPG",
+    "kind": "image",
+    "src": "media/sh-pics/IMG_2964.JPG",
+    "originalPath": "sh-pics/IMG_2964.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "d806da8ab2e8c44d6a4e18691454e474edb0cf54",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/sh-pics/IMG_2964.JPG",
+    "caption": "Startup Hub · Photo 8",
+    "alt": "Startup Hub original community photo 8",
+    "sha256": "ce71b0c00fd12f465261b765b10e6087efa2f1c62fe91653ac192911699b0db1"
+  },
+  {
+    "id": "dfa/IMG_4952.jpeg",
+    "kind": "image",
+    "src": "media/dfa/IMG_4952.jpeg",
+    "originalPath": "dfa/IMG_4952.jpeg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "25a89009282dc3530985ead187d6bae5bab8ef33",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/IMG_4952.jpeg",
+    "caption": "Design for America · Photo 1",
+    "alt": "Design for America original community photo 1",
+    "sha256": "8475dbad46b16643c7f76215d5bd701f75e52a978b7ec6209a1883e67594ff3c"
+  },
+  {
+    "id": "dfa/DSC00506 (1).JPG",
+    "kind": "image",
+    "src": "media/dfa/DSC00506 (1).JPG",
+    "originalPath": "dfa/DSC00506 (1).JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "79b154592990d22eb35a7e33619824d538799e64",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/DSC00506%20%281%29.JPG",
+    "caption": "Design for America · Photo 2",
+    "alt": "Design for America original community photo 2",
+    "sha256": "3ef4ba85826de2fcd08a0c940d88b3aff40546c5ed84702b61eee25ae9d2b9b5"
+  },
+  {
+    "id": "dfa/DSC00582.JPG",
+    "kind": "image",
+    "src": "media/dfa/DSC00582.JPG",
+    "originalPath": "dfa/DSC00582.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "c4aa67707313e34630293d20f12136e70b775986",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/DSC00582.JPG",
+    "caption": "Design for America · Photo 3",
+    "alt": "Design for America original community photo 3",
+    "sha256": "16b1092bc1fc3cc154e3b9fe1af54dd58ce67578e4c48348f00d3dca2d89e8c5"
+  },
+  {
+    "id": "dfa/DSC00657.JPG",
+    "kind": "image",
+    "src": "media/dfa/DSC00657.JPG",
+    "originalPath": "dfa/DSC00657.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "44cb881aa74a14a0534f882e5ca6f9d72a499a9b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/DSC00657.JPG",
+    "caption": "Design for America · Photo 4",
+    "alt": "Design for America original community photo 4",
+    "sha256": "a2ddc089ac65f83afce267bfd6f25b1299a94b4079c32033055fa4bd01d22ad0"
+  },
+  {
+    "id": "dfa/IMG_0176.jpg",
+    "kind": "image",
+    "src": "media/dfa/IMG_0176.jpg",
+    "originalPath": "dfa/IMG_0176.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "53439dd1357106985047a305739b5ad07419fdba",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/IMG_0176.jpg",
+    "caption": "Design for America · Photo 5",
+    "alt": "Design for America original community photo 5",
+    "sha256": "7026bd0b5b51d7151e68dae9f4e2ce08a2a5b0db6b2120bc21bf095210d01c3a"
+  },
+  {
+    "id": "dfa/IMG_0186.jpg",
+    "kind": "image",
+    "src": "media/dfa/IMG_0186.jpg",
+    "originalPath": "dfa/IMG_0186.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "b629f6806e423ad79ab60c530da095d3649db623",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/IMG_0186.jpg",
+    "caption": "Design for America · Photo 6",
+    "alt": "Design for America original community photo 6",
+    "sha256": "6f689bd236fa2d198fe2277f519100d9c01df8d39585bea21e39d50a259b3e75"
+  },
+  {
+    "id": "dfa/IMG_0193.jpg",
+    "kind": "image",
+    "src": "media/dfa/IMG_0193.jpg",
+    "originalPath": "dfa/IMG_0193.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6bf7a058bdcf640e4e514f9fb9b4e4f3ab069278",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/IMG_0193.jpg",
+    "caption": "Design for America · Photo 7",
+    "alt": "Design for America original community photo 7",
+    "sha256": "7586442d506e67a319657fbea3206e32b43d0c754a88d06b9f3840d8b0a021bd"
+  },
+  {
+    "id": "dfa/DSC00472.JPG",
+    "kind": "image",
+    "src": "media/dfa/DSC00472.JPG",
+    "originalPath": "dfa/DSC00472.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "41fabfbbd6f6b2f09cd3cfd167aed447d91df102",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/dfa/DSC00472.JPG",
+    "caption": "Design for America · Photo 8",
+    "alt": "Design for America original community photo 8",
+    "sha256": "98480b804262af12f15c15447273dc61febeb5dd65c3851ae58b78d9d7a9492f"
+  },
+  {
+    "id": "bh-merch/3.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/3.jpg",
+    "originalPath": "bh-merch/3.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "176d82cf57ff85587f1f9ecbb00af5f9ffb856c1",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/3.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 2",
+    "alt": "BeaverHacks 2026 merch photos 2",
+    "sha256": "b2cf13139757c9c32b429b21e597af112be8e94200f833c2235ec3e584f1325c"
+  },
+  {
+    "id": "bh-event/carousel/untitled (102 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (102 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (102 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "456136ff4d663f7afa88e5a2f555988832d57f44",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28102%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 13",
+    "alt": "BeaverHacks 2026 event photos 13",
+    "sha256": "e96f86e41227471269ae299fb3393bc8ed60486c449799ee547e3dd39eeee584"
+  },
+  {
+    "id": "bh-event/carousel/untitled (43 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (43 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (43 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "0276cfa951b1fe7aa2b48b5fc96f6b75eb04daaf",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2843%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 11",
+    "alt": "BeaverHacks 2026 event photos 11",
+    "sha256": "b87a6fa0201ad59a17d7a392fb1ec20bba81b87ac39ecf86766eb7c038af5e4c"
+  },
+  {
+    "id": "bh-merch/5.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/5.jpg",
+    "originalPath": "bh-merch/5.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "5ea7b27f1624590aafab6c9bc03d8ef36fb93b39",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/5.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 5",
+    "alt": "BeaverHacks 2026 merch photos 5",
+    "sha256": "5fbef221fd117fb3044d971c5e41440747625f38719e61a2cb388b79cb32b3db"
+  },
+  {
+    "id": "bh-merch/6.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/6.jpg",
+    "originalPath": "bh-merch/6.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "66e02f50f15589a443214bac0cbba52ffb241a8f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/6.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 6",
+    "alt": "BeaverHacks 2026 merch photos 6",
+    "sha256": "76a7431a2d1821fa40435506f9df921185f913687ff1dbb061753ed592bc7977"
+  },
+  {
+    "id": "bh-event/carousel/untitled (70 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (70 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (70 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "88170757d3115bec3779bde20afd9ff643d74010",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2870%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 4",
+    "alt": "BeaverHacks 2026 event photos 4",
+    "sha256": "92470402ca0eaa158602a6181dc243b6ea9ada368a1c5959a8b67358d85f6323"
+  },
+  {
+    "id": "bh-event/carousel/untitled (59 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (59 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (59 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ce7d80fea38c0433ba1cccfa98f7f899eec4c2ed",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2859%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 28",
+    "alt": "BeaverHacks 2026 event photos 28",
+    "sha256": "7c7c57bd94e526d32a6e37050f4e227ee7b5e1faf3067b8bd86db53e9cf70418"
+  },
+  {
+    "id": "bh-event/carousel/venue2.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/venue2.jpg",
+    "originalPath": "bh-event/carousel/venue2.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "dc968b72ebabc4ecca16456c9d0aa97d783c06db",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/venue2.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 14",
+    "alt": "BeaverHacks 2026 event photos 14",
+    "sha256": "1490425a0c0a69d3d284a91d3ab784437b22a738354ecda5a8d1ad8b61ab4a33"
+  },
+  {
+    "id": "bh-event/gp1.JPG",
+    "kind": "image",
+    "src": "media/bh-event/gp1.JPG",
+    "originalPath": "bh-event/gp1.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "1520bc17c708394c60ecb950b8959126a7f57eef",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/gp1.JPG",
+    "caption": "BeaverHacks 2026 · Original event hero",
+    "alt": "BeaverHacks 2026 original event hero",
+    "sha256": "9edbce24b9c6606c82b3f3c1db3b3465c0a91364bea6981fc8dd5e726fff65bc"
+  },
+  {
+    "id": "ai-club/IMG_8454.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_8454.jpg",
+    "originalPath": "ai-club/IMG_8454.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "962a27b563c5d5c78c60188da440ad40f93e1a86",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_8454.jpg",
+    "caption": "Artificial Intelligence Club · Photo 1",
+    "alt": "Artificial Intelligence Club original community photo 1",
+    "sha256": "4c7becfb17b0383b049a9f0188a73ec23308094293f0238fc8ffa25d2676ed22"
+  },
+  {
+    "id": "ai-club/IMG_1647.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_1647.jpg",
+    "originalPath": "ai-club/IMG_1647.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "966aff305fad3bcf44c66fedd07925f3bf9c803c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_1647.jpg",
+    "caption": "Artificial Intelligence Club · Photo 2",
+    "alt": "Artificial Intelligence Club original community photo 2",
+    "sha256": "f76b35bbfb0989ada158fe34e06833de836290df6fd9cb495e22f0e1327118c6"
+  },
+  {
+    "id": "ai-club/IMG_8353.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_8353.jpg",
+    "originalPath": "ai-club/IMG_8353.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a397f6aa24b6de504c66bfabb6ffe159b346867c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_8353.jpg",
+    "caption": "Artificial Intelligence Club · Photo 3",
+    "alt": "Artificial Intelligence Club original community photo 3",
+    "sha256": "2bfbf2799fc6141906b484e31b2f6c78eeaa806198426485a3769013d4f5a775"
+  },
+  {
+    "id": "ai-club/IMG_8450.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_8450.jpg",
+    "originalPath": "ai-club/IMG_8450.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "998714e5fb27c65499a3321ca7bab837af09c2e3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_8450.jpg",
+    "caption": "Artificial Intelligence Club · Photo 4",
+    "alt": "Artificial Intelligence Club original community photo 4",
+    "sha256": "3f24240cd787cd0fc3596338ea0f4d8a2efacbcdfb7300c90fd1b463f0040a36"
+  },
+  {
+    "id": "ai-club/IMG_8523.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_8523.jpg",
+    "originalPath": "ai-club/IMG_8523.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "2dfff2f906b296e4c1ae49fb9be9777d771896cd",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_8523.jpg",
+    "caption": "Artificial Intelligence Club · Photo 5",
+    "alt": "Artificial Intelligence Club original community photo 5",
+    "sha256": "6c7ae567a6d0bfb5d4c428b0da59060e67e3da601d1b1f6acf27099431b8b5a0"
+  },
+  {
+    "id": "ai-club/IMG_8562.jpg",
+    "kind": "image",
+    "src": "media/ai-club/IMG_8562.jpg",
+    "originalPath": "ai-club/IMG_8562.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "4df8bcf898d8b4a6a6cb09534aa4764e9a83bdb0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/IMG_8562.jpg",
+    "caption": "Artificial Intelligence Club · Photo 6",
+    "alt": "Artificial Intelligence Club original community photo 6",
+    "sha256": "5a1e4fa9ad33b7d32908f8646e19c9d0d744decc589b212c62f9b6a75db06133"
+  },
+  {
+    "id": "ai-club/photo2.jpg",
+    "kind": "image",
+    "src": "media/ai-club/photo2.jpg",
+    "originalPath": "ai-club/photo2.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "3b6f6c9a446bd8b5b4e14622bc691955e50dc873",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ai-club/photo2.jpg",
+    "caption": "Artificial Intelligence Club · Photo 7",
+    "alt": "Artificial Intelligence Club original community photo 7",
+    "sha256": "206ed0aaab2fdbf0c2c68d2fa931d07a60d320eb9c2f789e98da44f096f9faea"
+  },
+  {
+    "id": "DSC00612.JPG",
+    "kind": "image",
+    "src": "media/DSC00612.JPG",
+    "originalPath": "DSC00612.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6b797104d3f8eb8f4d11aeda16f3c60cb1bbba26",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/DSC00612.JPG",
+    "caption": "Campus & Community",
+    "alt": "Ally Chen speaking in a classroom",
+    "sha256": "01033740cb6aa5fd86a6801c8450135c248f4bc1db88cc21f415d3dd44af9717"
+  },
+  {
+    "id": "bh4.JPG",
+    "kind": "image",
+    "src": "media/bh4.JPG",
+    "originalPath": "bh4.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "involvement.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "5b9e961bcae8159d03885e022272a002b94ab991",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh4.JPG",
+    "caption": "BeaverHacks 2026",
+    "alt": "BeaverHacks 2026",
+    "sha256": "b5e378573b69c5ea7a9edce6fca7821382d9e29714bc42d02a7290facc4366f0"
+  },
+  {
+    "id": "innovation-26/IMG_2965.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2965.JPG",
+    "originalPath": "innovation-26/IMG_2965.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "334e90ceabcd602e9324eed7e9a674f099fcc284",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2965.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 7",
+    "alt": "Innovation Jam 2026 event photos 7",
+    "sha256": "5b91c63d12706fbb5987f320c3099098b86b19b235ac4f8396ee7fd7f011a9f2"
+  },
+  {
+    "id": "eweek/IMG_8479.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8479.jpg",
+    "originalPath": "eweek/IMG_8479.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "37601c500027d2e1eec38b8403ca10db11f4e261",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8479.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 3",
+    "alt": "Engineers' Week 2026 event photos 3",
+    "sha256": "23ed3335863edfcfe8a1b9331d25d7984e8f428202be3fc705e32584679d7b9b"
+  },
+  {
+    "id": "bh-event/carousel/untitled (189 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (189 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (189 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "12aa88a5525b0bcec02a75367287d3be6e479e7a",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28189%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 1",
+    "alt": "BeaverHacks 2026 event photos 1",
+    "sha256": "44a858f28ff3bf828a7ff4b89629d9e1ed1b075775e767e73d80982e87ea716e"
+  },
+  {
+    "id": "bh-event/carousel/untitled (19 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (19 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (19 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "fb27918a57e8e6d250edd6fa981c0db8520f32c3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2819%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 2",
+    "alt": "BeaverHacks 2026 event photos 2",
+    "sha256": "74392af962a1e096251cf6bfbeac72888df85924f68686ea5d6dab54479fa69e"
+  },
+  {
+    "id": "bh-event/carousel/IMG_7646.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/IMG_7646.jpg",
+    "originalPath": "bh-event/carousel/IMG_7646.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "40c756b8fc7a90bedf49ce4f1f94098c417c5dad",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/IMG_7646.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 3",
+    "alt": "BeaverHacks 2026 event photos 3",
+    "sha256": "fee2336bcfdfdcbcff0230e64760d5c526d75d5cd65133692690ac1f21c24aad"
+  },
+  {
+    "id": "bh-event/carousel/venue.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/venue.jpg",
+    "originalPath": "bh-event/carousel/venue.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7be7109396590731a8bd1be0a35e13fc42837931",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/venue.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 5",
+    "alt": "BeaverHacks 2026 event photos 5",
+    "sha256": "c0c05335a56d65fd8a13a04e57c2296a5013da4d99b61d695267607f3020931f"
+  },
+  {
+    "id": "bh-event/carousel/untitled (268 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (268 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (268 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6e4bd945bf6632f92bdb1beafdafe42f3f272ac7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28268%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 6",
+    "alt": "BeaverHacks 2026 event photos 6",
+    "sha256": "1d5efd684767eb1fb79503d4d6ed2c8a31a1e60a4bf39c2bcc961e964fad87bb"
+  },
+  {
+    "id": "bh-event/carousel/untitled (57 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (57 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (57 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "31d598fc360a6ed24d3399c19aa5d3c6841ebec8",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2857%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 7",
+    "alt": "BeaverHacks 2026 event photos 7",
+    "sha256": "05b57732fce549ad572ac749184f11b7e607e68c7b3b7fc0db1245e70ca7cdb3"
+  },
+  {
+    "id": "bh-event/carousel/untitled (181 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (181 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (181 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "f0127809b5b0c87049d23355192961315a480986",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28181%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 8",
+    "alt": "BeaverHacks 2026 event photos 8",
+    "sha256": "ea5ea244116615abfb3bfd6f3994e46798728b0096165810967aac83db0f0e64"
+  },
+  {
+    "id": "bh-event/carousel/top.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/top.jpg",
+    "originalPath": "bh-event/carousel/top.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "52026cf3ab6d0868d6c124e9f7e0dc8c34b425ff",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/top.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 9",
+    "alt": "BeaverHacks 2026 event photos 9",
+    "sha256": "1c96170db5db9e009ffae1af4c65d21cf74dc873538e90bb5a425615c5e97d49"
+  },
+  {
+    "id": "bh-event/carousel/untitled (230 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (230 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (230 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "8776b45879a915f7e9d01beb34330d66a50459c9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28230%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 10",
+    "alt": "BeaverHacks 2026 event photos 10",
+    "sha256": "f4c1be8744d256b129194ed37dbcf0f1845ebcfecc5eae46cf6f4047af8a91eb"
+  },
+  {
+    "id": "bh-event/carousel/IMG_7744.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/IMG_7744.jpg",
+    "originalPath": "bh-event/carousel/IMG_7744.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6c79d514e1fa69727b477cd92e3fe625a5736606",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/IMG_7744.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 12",
+    "alt": "BeaverHacks 2026 event photos 12",
+    "sha256": "b43212c8a7ada4d11271866010e212c5ce08330f5f46fe56b8f778087c098b24"
+  },
+  {
+    "id": "bh-event/carousel/untitled (196 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (196 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (196 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "9c2238cd2c81b84bb3e0d15c211bbad5fa9a03eb",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28196%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 15",
+    "alt": "BeaverHacks 2026 event photos 15",
+    "sha256": "9d970f387e405501fa571ac78e992dfd11b017d271392b05356fe28984388073"
+  },
+  {
+    "id": "bh-event/carousel/untitled (275 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (275 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (275 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a56f1d770d90b41bb59ce3253d0de85c8d6bd94d",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28275%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 16",
+    "alt": "BeaverHacks 2026 event photos 16",
+    "sha256": "9059688dc0ff7832a90837c55f2f3966ccd26f40b34d9d5478d93b87f8205a6a"
+  },
+  {
+    "id": "bh-event/carousel/untitled (60 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (60 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (60 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "284db2a26e3fe45e3fae3ee4ad56b579c59dd847",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2860%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 17",
+    "alt": "BeaverHacks 2026 event photos 17",
+    "sha256": "fcd336427f651653dbbcfbe9e8c971618bc7e4db5754387e4de94b02a9f28441"
+  },
+  {
+    "id": "bh-event/carousel/untitled (32 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (32 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (32 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "9db5349fefafac18b787ea9125ae0696c504379c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2832%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 18",
+    "alt": "BeaverHacks 2026 event photos 18",
+    "sha256": "a00f24d689d73f801de63e1dc5cf706a860d0f178c9a528e660cd4bce073148a"
+  },
+  {
+    "id": "bh-event/carousel/untitled (249 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (249 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (249 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "c029d686e1d7a68149f2356e493e9bd6e5e4eb5b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28249%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 19",
+    "alt": "BeaverHacks 2026 event photos 19",
+    "sha256": "80d8519f3a688af46a28dafbf13d930e6dd2ac4fab0630b094727aeec4edd308"
+  },
+  {
+    "id": "bh-event/carousel/untitled (187 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (187 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (187 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "bfc00bb2cb55223e83e45834ac99ec3bb861c056",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28187%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 20",
+    "alt": "BeaverHacks 2026 event photos 20",
+    "sha256": "1b02a2374e70d2e9dbf265f77f3d8942ff0b1696d1318eeea7b279707388d5e1"
+  },
+  {
+    "id": "bh-event/carousel/untitled (52 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (52 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (52 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "caee0f26098902b9b24b56f24875f732000c8084",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2852%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 21",
+    "alt": "BeaverHacks 2026 event photos 21",
+    "sha256": "d4906a0a891a8c89039a50cd169b600843a15c748fafed3ea20afac155ac862d"
+  },
+  {
+    "id": "bh-event/carousel/DSCF6276.jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/DSCF6276.jpg",
+    "originalPath": "bh-event/carousel/DSCF6276.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "622d9fe18ac627b939ec3f697b9ebfcd2ca618a9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/DSCF6276.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 22",
+    "alt": "BeaverHacks 2026 event photos 22",
+    "sha256": "e6a7e615ab32cf85733c385e9a58353c837c674256b83e0dedda8527710864c4"
+  },
+  {
+    "id": "bh-event/carousel/untitled (89 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (89 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (89 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e12cd430c11296f42ef19046d35e3fafbf69a229",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2889%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 23",
+    "alt": "BeaverHacks 2026 event photos 23",
+    "sha256": "0d1ece019a7ee18c716791db5a04794b37099d64c8823c5d5ab9293e2fbc62e1"
+  },
+  {
+    "id": "bh-event/carousel/untitled (217 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (217 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (217 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "d1d91300408fd1798e23472a0870db27f2c5592e",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28217%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 24",
+    "alt": "BeaverHacks 2026 event photos 24",
+    "sha256": "41147a740d6d53907e7bd0bc8a35080d919386e4721116fad01301f14356dd28"
+  },
+  {
+    "id": "bh-event/carousel/untitled (11 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (11 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (11 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ba7ffb832c69eac8815feb520d318f2933f96b8c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%2811%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 25",
+    "alt": "BeaverHacks 2026 event photos 25",
+    "sha256": "98761d42466b9063f9d7c4357c597943d4331aebe5b84f421de1e004702543cc"
+  },
+  {
+    "id": "bh-event/carousel/untitled (158 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (158 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (158 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "86b2714d8c484b507fb1827929be1efa724dd55c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28158%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 26",
+    "alt": "BeaverHacks 2026 event photos 26",
+    "sha256": "6c810ea10c806c55dc2f8d29a13083a1c355bf6860df0353f7e45bb57c49ee65"
+  },
+  {
+    "id": "bh-event/carousel/untitled (248 of 275).jpg",
+    "kind": "image",
+    "src": "media/bh-event/carousel/untitled (248 of 275).jpg",
+    "originalPath": "bh-event/carousel/untitled (248 of 275).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ba85f5850d06d5af7b9e63bc8929f8989a8c02f2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-event/carousel/untitled%20%28248%20of%20275%29.jpg",
+    "caption": "BeaverHacks 2026 · Event Photos 27",
+    "alt": "BeaverHacks 2026 event photos 27",
+    "sha256": "55c8e067c3853030454a50ba836e42da6b91d371be36a92533539925d2f214dc"
+  },
+  {
+    "id": "bh-merch/1.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/1.jpg",
+    "originalPath": "bh-merch/1.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "14fa8c2e61ddfed429a3d16f5a21e591966f580f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/1.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 1",
+    "alt": "BeaverHacks 2026 merch photos 1",
+    "sha256": "be8cb7851291f32221dd553b23e3565e7e82e250b11d0e3d91c202a0d6a13212"
+  },
+  {
+    "id": "bh-merch/4.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/4.jpg",
+    "originalPath": "bh-merch/4.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "00b4ad98d6090f2180ecd46a6dced2da4cf2f6d5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/4.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 3",
+    "alt": "BeaverHacks 2026 merch photos 3",
+    "sha256": "fe9bd178e76e4f4c85555ee29a9fd7cffc5894784c39b52ff3801b9cfd74a671"
+  },
+  {
+    "id": "bh-merch/9.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/9.jpg",
+    "originalPath": "bh-merch/9.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "5da0e73fc68900628a4c3dc55bcf81b8ca0733a0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/9.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 4",
+    "alt": "BeaverHacks 2026 merch photos 4",
+    "sha256": "5042ea3c473e5db494d280acbb782047e4e20ca8365178cc5aaba06a8f20aa04"
+  },
+  {
+    "id": "bh-merch/10.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/10.JPG",
+    "originalPath": "bh-merch/10.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "077a55f1372244fd1db830bcfa65e69ac61e5278",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/10.JPG",
+    "caption": "BeaverHacks 2026 · Merch Photos 7",
+    "alt": "BeaverHacks 2026 merch photos 7",
+    "sha256": "607983a5ff085360f61c3619ac8be695d191a25f0d7215b750e09da3e5b9041c"
+  },
+  {
+    "id": "bh-merch/bh3.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/bh3.jpg",
+    "originalPath": "bh-merch/bh3.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "0c0ddc6849080fb29864dcd141b5233da004d1c9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/bh3.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 8",
+    "alt": "BeaverHacks 2026 merch photos 8",
+    "sha256": "dbd3eff0c3188ca446ad821fd63ffb80e7b513352f2521b9f53c060b91ed1506"
+  },
+  {
+    "id": "bh-merch/8.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/8.jpg",
+    "originalPath": "bh-merch/8.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e4d836de0927a1a28a9f542686704640756cf708",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/8.jpg",
+    "caption": "BeaverHacks 2026 · Merch Photos 9",
+    "alt": "BeaverHacks 2026 merch photos 9",
+    "sha256": "3159cd47f8aded1ecce88d350dfd806f9cf4b0e77d8a3a095add6ddc2c5e77d3"
+  },
+  {
+    "id": "bh-merch/11.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/11.JPG",
+    "originalPath": "bh-merch/11.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "47ecba194f8261e3ff954770a663a2d2a5bad7f7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/11.JPG",
+    "caption": "BeaverHacks 2026 · Merch Photos 10",
+    "alt": "BeaverHacks 2026 merch photos 10",
+    "sha256": "c2a6a70af72a5e647eaadb54f6ee8ec0159d740cb9c9f3a5a7bca2d60c935cf2"
+  },
+  {
+    "id": "bh-merch/12.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/12.JPG",
+    "originalPath": "bh-merch/12.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a3df098e1c27e59967984242e455ce3824efcdfb",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/12.JPG",
+    "caption": "BeaverHacks 2026 · Merch Photos 11",
+    "alt": "BeaverHacks 2026 merch photos 11",
+    "sha256": "56fc13224f08b38b414fb25f77495202360348eb6f1e6864f102246b58f61f83"
+  },
+  {
+    "id": "bh-merch/13.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/13.JPG",
+    "originalPath": "bh-merch/13.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "21d3f154a314576b8cddcae41f4e7fd5dbf32094",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/13.JPG",
+    "caption": "BeaverHacks 2026 · Merch Photos 12",
+    "alt": "BeaverHacks 2026 merch photos 12",
+    "sha256": "f96e9ae0607a2c0e42b6e465c63b2bd80e9d497afb9d4e5ef4a2a00c526f94a1"
+  },
+  {
+    "id": "bh-stickers/sticker-1-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-1-crop.png",
+    "originalPath": "bh-stickers/sticker-1-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "08f775dcc40df20301d58fbf57276bdcec7e07e9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-1-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-1-crop",
+    "alt": "BeaverHacks 2026 sticker-1-crop",
+    "sha256": "48bbbb7e64299cfeba02a127ba38a71ec2725f2eb10dddccae231ee1f09a469b"
+  },
+  {
+    "id": "bh-stickers/sticker-9-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-9-crop.png",
+    "originalPath": "bh-stickers/sticker-9-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "f96faaacacc4c920ebac2fc9910692a7f047e423",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-9-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-9-crop",
+    "alt": "BeaverHacks 2026 sticker-9-crop",
+    "sha256": "1caab2da84284f639d4537951ef744b8fefd8dca993b2fa3883df3a7bb83e176"
+  },
+  {
+    "id": "bh-stickers/sticker-10-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-10-crop.png",
+    "originalPath": "bh-stickers/sticker-10-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7946bd7b210f814dc659f0a2fab7d3adc74c8bdf",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-10-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-10-crop",
+    "alt": "BeaverHacks 2026 sticker-10-crop",
+    "sha256": "d6cbca6dc9a8573293178474d1ea81251cdd31b7022ce6fdf6b99037069f7382"
+  },
+  {
+    "id": "bh-stickers/sticker-11-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-11-crop.png",
+    "originalPath": "bh-stickers/sticker-11-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "b78176f919b7c6733ff3b1b087071ecfea862724",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-11-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-11-crop",
+    "alt": "BeaverHacks 2026 sticker-11-crop",
+    "sha256": "73c3af774ca1f5c4e1c58b54259bb2bb5689fb9f3ce5a9159fb4b14735f6bad4"
+  },
+  {
+    "id": "bh-stickers/sticker-12-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-12-crop.png",
+    "originalPath": "bh-stickers/sticker-12-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "296908bc167d1647b3c640fcf786d4a7cf036c30",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-12-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-12-crop",
+    "alt": "BeaverHacks 2026 sticker-12-crop",
+    "sha256": "f9022f9e1e5ce6ad4fcc149d0409512819c40fdf3d10ae69d6afae72d9df0854"
+  },
+  {
+    "id": "bh-stickers/sticker-13-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-13-crop.png",
+    "originalPath": "bh-stickers/sticker-13-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "2613a1331dce5b83ac1fb3ee7c1eb41586d333c3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-13-crop.png",
+    "caption": "BeaverHacks 2026 · sticker-13-crop",
+    "alt": "BeaverHacks 2026 sticker-13-crop",
+    "sha256": "fd73c11c22008d4aec69c8f4412a4c11f9596a88e13c5330bd227c4dbbfd9711"
+  },
+  {
+    "id": "innovation-26/IMG_2519.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2519.JPG",
+    "originalPath": "innovation-26/IMG_2519.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7e5704491b392dafcf3b2f9dba8aed798b0d459c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2519.JPG",
+    "caption": "Innovation Jam 2026 · Original event hero",
+    "alt": "Innovation Jam 2026 original event hero",
+    "sha256": "0c40791e30cc18d8a6fbc6642e1a11c45fa0b88055831208e5bc871e2f93311b"
+  },
+  {
+    "id": "innovation-26/IMG_2967.jpg",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2967.jpg",
+    "originalPath": "innovation-26/IMG_2967.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e445c5090db4493b1b9f04e14b91a7a527e9c27a",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2967.jpg",
+    "caption": "Innovation Jam 2026 · Event Photos 1",
+    "alt": "Innovation Jam 2026 event photos 1",
+    "sha256": "35e326f85b1c411a663e37efa64bfd6edc66d8149de9fbf68f2ab67183785537"
+  },
+  {
+    "id": "innovation-26/IMG_2520.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2520.JPG",
+    "originalPath": "innovation-26/IMG_2520.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "129b82fc64c9413c7ab30fdaddb227ab5e51b7b1",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2520.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 2",
+    "alt": "Innovation Jam 2026 event photos 2",
+    "sha256": "92ccf0b22ef1c30fae0a7b9873be8f593dd8f610e336f8a321dc02665311234e"
+  },
+  {
+    "id": "innovation-26/IMG_2521.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2521.JPG",
+    "originalPath": "innovation-26/IMG_2521.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "2eb04af2ddbef9c1271d070293f37d4b775d62ac",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2521.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 3",
+    "alt": "Innovation Jam 2026 event photos 3",
+    "sha256": "536edf79ac41985d0c2482446a529a7fb329e6785d3f5660dbef2b605d7cc50e"
+  },
+  {
+    "id": "innovation-26/IMG_2522.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2522.JPG",
+    "originalPath": "innovation-26/IMG_2522.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a7b1f69790d61dd171d2cba17c35f4753a0121f5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2522.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 4",
+    "alt": "Innovation Jam 2026 event photos 4",
+    "sha256": "f698fe8cd890b1bbf47d7f0e13f23df37ec477ddb386f183627c77f8b4c4adca"
+  },
+  {
+    "id": "innovation-26/IMG_2523.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2523.JPG",
+    "originalPath": "innovation-26/IMG_2523.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "979c45746eade25577ee39589be9db43d1bef3e0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2523.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 5",
+    "alt": "Innovation Jam 2026 event photos 5",
+    "sha256": "e1a8d410d36e34eb18ab87e6e2939f540e801d0d4fc577518d909ec9515dee55"
+  },
+  {
+    "id": "innovation-26/IMG_2955.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_2955.JPG",
+    "originalPath": "innovation-26/IMG_2955.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "11f9525deb495f580592717efe9735e9ad08c948",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_2955.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 6",
+    "alt": "Innovation Jam 2026 event photos 6",
+    "sha256": "7b817b314f3fbb55f67078cdc1e812bbe8ea218d6f05d40b9b501249de18a3db"
+  },
+  {
+    "id": "innovation-26/IMG_0247.jpg",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_0247.jpg",
+    "originalPath": "innovation-26/IMG_0247.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e68d02394ec4d3b96f1558085d264545cf6a7034",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_0247.jpg",
+    "caption": "Innovation Jam 2026 · Event Photos 8",
+    "alt": "Innovation Jam 2026 event photos 8",
+    "sha256": "451b0be5f55fa739c337dce582ca9a77ca8d7dc36fc393b2f590f43cfcb165d6"
+  },
+  {
+    "id": "innovation-26/IMG_8228.JPG",
+    "kind": "image",
+    "src": "media/innovation-26/IMG_8228.JPG",
+    "originalPath": "innovation-26/IMG_8228.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "8b99953a3aeae6fbe444784106a107555466c651",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/innovation-26/IMG_8228.JPG",
+    "caption": "Innovation Jam 2026 · Event Photos 9",
+    "alt": "Innovation Jam 2026 event photos 9",
+    "sha256": "ca464f07ee1b657d4aedf481630cd8fd194c69c8183bc13ac33c7e05fd58050c"
+  },
+  {
+    "id": "ij-stickers/lightbulb-crop.png",
+    "kind": "image",
+    "src": "media/innovation-lightbulb.png",
+    "originalPath": "ij-stickers/lightbulb-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "d2b2c30c3ddb97e5d1be2c7f5b262af7a668515f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/lightbulb-crop.png",
+    "caption": "Innovation Jam 2026 · lightbulb-crop",
+    "alt": "Innovation Jam 2026 lightbulb-crop",
+    "sha256": "53d99d7593c1e1c6367fe26b83a615e77ab91290c5fb2b26203085b468f27aca"
+  },
+  {
+    "id": "ij-stickers/airplane-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/airplane-crop.png",
+    "originalPath": "ij-stickers/airplane-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a6b5a7724e75c2ecbfc5a3163a05e56ff8ae1073",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/airplane-crop.png",
+    "caption": "Innovation Jam 2026 · airplane-crop",
+    "alt": "Innovation Jam 2026 airplane-crop",
+    "sha256": "0959d66b7848aeba79f2f017b42e07a7e9254bbf4a0dbba3b6db02d9bc67d868"
+  },
+  {
+    "id": "ij-stickers/rocket-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/rocket-crop.png",
+    "originalPath": "ij-stickers/rocket-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "115343968b4957b81f852ef8441ae73ef48ff058",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/rocket-crop.png",
+    "caption": "Innovation Jam 2026 · rocket-crop",
+    "alt": "Innovation Jam 2026 rocket-crop",
+    "sha256": "af1ad70ccdf65fd9af4b5a0407c01998e612089d143015ff1ebf15534b061742"
+  },
+  {
+    "id": "ij-stickers/star-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/star-crop.png",
+    "originalPath": "ij-stickers/star-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "7d26ab483ca1acf9bb815601b8784aba34bd08c7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/star-crop.png",
+    "caption": "Innovation Jam 2026 · star-crop",
+    "alt": "Innovation Jam 2026 star-crop",
+    "sha256": "2787a7631ccc0f287b8879e1d6d0295404e2f14e6118c175a952a67a383feba7"
+  },
+  {
+    "id": "ij-stickers/nametag-staff.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-staff.png",
+    "originalPath": "ij-stickers/nametag-staff.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "37c4bb0526814ec2d69bfa95a4dac8e3d9089c80",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-staff.png",
+    "caption": "Innovation Jam 2026 · nametag-staff",
+    "alt": "Innovation Jam 2026 nametag-staff",
+    "sha256": "d1767837f016e84eca1b7546a2ef8f025d6cdc8aa58ba542a73cfdb626a91767"
+  },
+  {
+    "id": "ij-stickers/nametag-mentor.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-mentor.png",
+    "originalPath": "ij-stickers/nametag-mentor.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ad418763cbb60f2804b951bea26053372f967530",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-mentor.png",
+    "caption": "Innovation Jam 2026 · nametag-mentor",
+    "alt": "Innovation Jam 2026 nametag-mentor",
+    "sha256": "823be678353c3e11eb5bb1c2a9fa9cece4529c68e9768e2b061837ca972b8a39"
+  },
+  {
+    "id": "ij-stickers/nametag-attendee.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-attendee.png",
+    "originalPath": "ij-stickers/nametag-attendee.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e2d9effec1e16ac3bbee32f90d2ee336d2a88f60",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-attendee.png",
+    "caption": "Innovation Jam 2026 · nametag-attendee",
+    "alt": "Innovation Jam 2026 nametag-attendee",
+    "sha256": "53cc1f23d9aa4d3c4654bda8145aaeac12d2160c5b48480e85069b9532ab0be6"
+  },
+  {
+    "id": "ij-stickers/nametag-judge.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-judge.png",
+    "originalPath": "ij-stickers/nametag-judge.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "b884275f6b17d4481e5d2e9efb5e51b870697211",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-judge.png",
+    "caption": "Innovation Jam 2026 · nametag-judge",
+    "alt": "Innovation Jam 2026 nametag-judge",
+    "sha256": "68e28a4c91abd31c84281f01173ae2bb53bf4351c7f05efd083a59d7fb161758"
+  },
+  {
+    "id": "ij-stickers/plaque-1st.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-1st.png",
+    "originalPath": "ij-stickers/plaque-1st.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ed0638b7a3bd56c4722b05d657f9af382922f52f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-1st.png",
+    "caption": "Innovation Jam 2026 · plaque-1st",
+    "alt": "Innovation Jam 2026 plaque-1st",
+    "sha256": "a2915d727365cb24302405d56104dc9ea3df8eb87d411bbdf12dff647ed92951"
+  },
+  {
+    "id": "ij-stickers/plaque-2nd.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-2nd.png",
+    "originalPath": "ij-stickers/plaque-2nd.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "6c9a272794bf43176bc4932eb46424fd44e2639f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-2nd.png",
+    "caption": "Innovation Jam 2026 · plaque-2nd",
+    "alt": "Innovation Jam 2026 plaque-2nd",
+    "sha256": "ac79841c7bf72bd15b3c755bbf373691ab2623f71fd1c434cf66ee21102a8203"
+  },
+  {
+    "id": "ij-stickers/plaque-3rd.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-3rd.png",
+    "originalPath": "ij-stickers/plaque-3rd.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ac8fea7bd4f763fb642465fd1d1337f906cbae0d",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-3rd.png",
+    "caption": "Innovation Jam 2026 · plaque-3rd",
+    "alt": "Innovation Jam 2026 plaque-3rd",
+    "sha256": "22c54c30d09095d20a9c8487a973a475f0caa1787f092e8d44ceb146387eac07"
+  },
+  {
+    "id": "ij-tote.png",
+    "kind": "image",
+    "src": "media/ij-tote.png",
+    "originalPath": "ij-tote.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "ceedeeabebebd0c02b67ea15b49f92aabad3d37f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-tote.png",
+    "caption": "Innovation Jam tote bag design",
+    "alt": "Innovation Jam tote bag design",
+    "sha256": "76a7637e468625cac7cf82b74721726c08275d55cbfb697ee97707284f98a37f"
+  },
+  {
+    "id": "eweek/IMG_8414.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8414.jpg",
+    "originalPath": "eweek/IMG_8414.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "25951f9655df59a169ff78ceec49d92d0d60d7db",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8414.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 7",
+    "alt": "Engineers' Week 2026 event photos 7",
+    "sha256": "0c32d62328ba1c22c137da402ee72dd982de728628d8f6a97e0c3601e53db49a"
+  },
+  {
+    "id": "eweek/IMG_8733.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8733.jpg",
+    "originalPath": "eweek/IMG_8733.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e601d7f7cc10450e0f7702dc8467b0337568aa17",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8733.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 1",
+    "alt": "Engineers' Week 2026 event photos 1",
+    "sha256": "f394e256e21def0c8dbf8778d87cec1251bae51fe91e322ffe1e36f8970adf89"
+  },
+  {
+    "id": "eweek/IMG_8413.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8413.jpg",
+    "originalPath": "eweek/IMG_8413.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "056fdf6b01cb143eabac947321d46051aaf21069",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8413.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 2",
+    "alt": "Engineers' Week 2026 event photos 2",
+    "sha256": "d48ea235a039d1173acdde247b159fc0086201ac72243013ea8974da2d033009"
+  },
+  {
+    "id": "eweek/IMG_8408.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8408.jpg",
+    "originalPath": "eweek/IMG_8408.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "3e1a83bef80e2f9bfb40a80f534f3bac31c96236",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8408.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 4",
+    "alt": "Engineers' Week 2026 event photos 4",
+    "sha256": "ca5fd095bd4799c1517f3450fd217f71690203569b9605cdbe3c824e93da763d"
+  },
+  {
+    "id": "eweek/IMG_8526.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8526.jpg",
+    "originalPath": "eweek/IMG_8526.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "0034d00adf6831afdc7066504977d4f7e752b674",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8526.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 5",
+    "alt": "Engineers' Week 2026 event photos 5",
+    "sha256": "7b898d23ae04b2b39210b25425a39eba360f2d7af651f736fc7f58e5b37b7d76"
+  },
+  {
+    "id": "eweek/IMG_8491.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8491.jpg",
+    "originalPath": "eweek/IMG_8491.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "354e977b65087d05cd16dfc3c217633108c3c18f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8491.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 8",
+    "alt": "Engineers' Week 2026 event photos 8",
+    "sha256": "645fcc74c134f0e642a7ac98c79d181a4743ae210be0f9cc2d84d944a9cfa46f"
+  },
+  {
+    "id": "eweek/IMG_8406.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8406.jpg",
+    "originalPath": "eweek/IMG_8406.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a71acc0d2117dde967b2d12d68331f8c00d24de3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8406.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 9",
+    "alt": "Engineers' Week 2026 event photos 9",
+    "sha256": "e356c05e5d699cc5f98e9e71f03d1a2f87736fb05ef2d1e80349ede3809f701b"
+  },
+  {
+    "id": "eweek/IMG_8432.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8432.jpg",
+    "originalPath": "eweek/IMG_8432.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "605cc5c8eebc8dfb5e981babef26e77e041670b2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8432.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 10",
+    "alt": "Engineers' Week 2026 event photos 10",
+    "sha256": "f6a8dd10b7487bed95c152e6f93916a97cba6645083f654c30c575af48b37400"
+  },
+  {
+    "id": "eweek/IMG_8412.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8412.jpg",
+    "originalPath": "eweek/IMG_8412.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "5a512551f9ff3d8d6a9d7df0f95b9a9883e2cb80",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8412.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 11",
+    "alt": "Engineers' Week 2026 event photos 11",
+    "sha256": "30f789e2ac73ebb6d94c881ef36a670b42021bdd8dc1d58502b7bb2ea07da45a"
+  },
+  {
+    "id": "eweek/IMG_8486.jpg",
+    "kind": "image",
+    "src": "media/eweek/IMG_8486.jpg",
+    "originalPath": "eweek/IMG_8486.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "f1d964282a51af721b31077a79031e3130d0c78b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek/IMG_8486.jpg",
+    "caption": "Engineers' Week 2026 · Event Photos 12",
+    "alt": "Engineers' Week 2026 event photos 12",
+    "sha256": "1e9577cb46b6d49a0ca27b6766318b663ec6129aedfb91128cb45c588be8d324"
+  },
+  {
+    "id": "eweek-stickers/E-week_Gear_Beaver.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Gear_Beaver.png",
+    "originalPath": "eweek-stickers/E-week_Gear_Beaver.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "c445baa67998b316d9599b4c50d89b0340525134",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Gear_Beaver.png",
+    "caption": "Gear Beaver Sticker",
+    "alt": "Gear Beaver Sticker",
+    "sha256": "1e5053e096eb4897f3063a54cd122db497831b06b27819a1d942b831c14d7771"
+  },
+  {
+    "id": "eweek-stickers/E-week_OSU.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_OSU.png",
+    "originalPath": "eweek-stickers/E-week_OSU.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "0b3a43e673876c82daf2d19d4da4cc82e279fec2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_OSU.png",
+    "caption": "OSU Sticker",
+    "alt": "OSU Sticker",
+    "sha256": "7b1ac0586904249245a3deb78c4c8c1afe6b8a1fe89a05a3ddde2af77ea01bc9"
+  },
+  {
+    "id": "eweek-stickers/E-week_Post_Stamp.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Post_Stamp.png",
+    "originalPath": "eweek-stickers/E-week_Post_Stamp.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "a4eb35c1c512bc586bd6dd26b4c9315930690db2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Post_Stamp.png",
+    "caption": "Post Stamp Sticker",
+    "alt": "Post Stamp Sticker",
+    "sha256": "769ffacbc5947c6ce3975c2634312997ecb327cff861f4dde487e9eb6838a9df"
+  },
+  {
+    "id": "eweek-stickers/E-week_Sleeping_Beaver.png",
+    "kind": "image",
+    "src": "media/sleeping-beaver.png",
+    "originalPath": "eweek-stickers/E-week_Sleeping_Beaver.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e4f2d3f4c771d2669abcf0f1238ca9bd5f41d137",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Sleeping_Beaver.png",
+    "caption": "Sleeping Beaver Sticker",
+    "alt": "Sleeping Beaver Sticker",
+    "sha256": "1039eed042c1aa4c655a03b9f97c05a7bfd0334a2b6fb6bcc264b481487f560b"
+  },
+  {
+    "id": "eweek-stickers/E-week_Wrench.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Wrench.png",
+    "originalPath": "eweek-stickers/E-week_Wrench.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "eweek.html"
+    },
+    "rights": "owner-local-rebuild",
+    "gitBlob": "e24b6a4eba91c3d15aaa026b9f6660ad238e2e8b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Wrench.png",
+    "caption": "Wrench Sticker",
+    "alt": "Wrench Sticker",
+    "sha256": "93c5d7bdb423bcde6784359243697d1c165828691304d339433422b59110a6e9"
+  }
+]

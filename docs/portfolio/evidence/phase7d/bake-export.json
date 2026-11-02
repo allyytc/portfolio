@@ -1,0 +1,395 @@
+{
+  "atlas": [
+    4096,
+    4096
+  ],
+  "samples": 96,
+  "seconds": 3615.4980850219727,
+  "pass": "DIFFUSE COLOR DIRECT INDIRECT",
+  "padding": 24,
+  "triangulatedBeforeBake": true,
+  "dynamic": [
+    "PrinterBody",
+    "ProjectsMonitor",
+    "ResumePaper",
+    "SoftFurnishings"
+  ],
+  "paperHiddenDuringBake": true,
+  "statistics": [
+    {
+      "node": "ProjectsMonitor",
+      "triangles": 9780,
+      "materials": 4,
+      "baked": false
+    },
+    {
+      "node": "PrinterBody",
+      "triangles": 10754,
+      "materials": 6,
+      "baked": false
+    },
+    {
+      "node": "ResumePaper",
+      "triangles": 853,
+      "materials": 3,
+      "baked": false
+    },
+    {
+      "node": "SoftFurnishings",
+      "triangles": 2764,
+      "materials": 1,
+      "baked": false
+    },
+    {
+      "node": "ProjectsSign",
+      "triangles": 19246,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "FloorBoards",
+      "triangles": 14852,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "StudioStatic",
+      "triangles": 278,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "AboutSign",
+      "triangles": 1062,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "CommunitySign",
+      "triangles": 1726,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ContactSign",
+      "triangles": 1448,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskRug",
+      "triangles": 900,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Desk",
+      "triangles": 14228,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskChair",
+      "triangles": 12856,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Keyboard",
+      "triangles": 15932,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskMouse",
+      "triangles": 71,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskLamp",
+      "triangles": 1516,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskBooks",
+      "triangles": 62,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "LeftReturnWall",
+      "triangles": 752,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DesignDesk",
+      "triangles": 1458,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "UnwrapDisplay",
+      "triangles": 4840,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "StickerBook",
+      "triangles": 2608,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Sketchbook",
+      "triangles": 1580,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "CommunityBoard",
+      "triangles": 38926,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_ESC",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_StartupHub",
+      "triangles": 378,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_DFA",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_BeaverHacks",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_AIClub",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_BeaverHacks2026",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_InnovationJam2026",
+      "triangles": 378,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_EngineersWeek",
+      "triangles": 376,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "WallShelf",
+      "triangles": 626,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "WallClock",
+      "triangles": 3136,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "WindowBench",
+      "triangles": 9512,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "NookSideTable",
+      "triangles": 96,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "NookBooks",
+      "triangles": 62,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ReadingLamp",
+      "triangles": 76,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ReadingRug",
+      "triangles": 28,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ConversationTable",
+      "triangles": 252,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ConversationBooks",
+      "triangles": 62,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ReadingArmchair",
+      "triangles": 528,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "FloorCushion",
+      "triangles": 86,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "WindowWall",
+      "triangles": 3960,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "WindowLedge",
+      "triangles": 188,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "AboutBook",
+      "triangles": 188,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "RearPlasterWall",
+      "triangles": 188,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "LoftSupports",
+      "triangles": 1504,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "LoftDeck",
+      "triangles": 3008,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "LoftRails",
+      "triangles": 1504,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Staircase",
+      "triangles": 1614,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "LoftBed",
+      "triangles": 600,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "SkillsCabinet",
+      "triangles": 912,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExperienceShelf",
+      "triangles": 416,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "SkillsVolume",
+      "triangles": 940,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExperienceVolume",
+      "triangles": 940,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExternalGitHub",
+      "triangles": 1852,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExternalLinkedIn",
+      "triangles": 488,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "EntrancePlant",
+      "triangles": 5900,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "DeskPlant",
+      "triangles": 1156,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "HangingPlants",
+      "triangles": 6816,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "FloorPlant2",
+      "triangles": 6216,
+      "materials": 1,
+      "baked": true
+    }
+  ],
+  "glbBytes": 3115248,
+  "webTextures": "JPEG 90, high quality PNG retained in Blender source",
+  "compression": "Draco level 6; position 16, normal 12, UV 14 bits",
+  "staticReductionRatio": 0.74,
+  "softAtlas": [
+    1024,
+    1024
+  ],
+  "softPass": "DIFFUSE COLOR ONLY; PBR roughness .88"
+}

@@ -1,0 +1,251 @@
+import { useEffect, useRef, useState } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const PROJECTS = [
+  {
+    id: 'ER_OVERWATCH',
+    desc: 'CV surveillance system for ER waiting rooms - fall detection, remote vitals, AI casefiles.',
+    stack: ['Next.js', 'FastAPI', 'MediaPipe', 'LiveKit'],
+    year: '2026',
+    result: '1ST PLACE · QUACKHACKS 2026',
+  },
+  {
+    id: 'COMBOCRAFT',
+    desc: 'Gesture-based browser combat game with real-time hand tracking via webcam.',
+    stack: ['JavaScript', 'Python', 'MediaPipe', 'OpenCV'],
+    year: '2025',
+    result: '1ST PLACE · QUACKHACKS 2025',
+  },
+  {
+    id: 'IMPACT_STUDIO',
+    desc: "Ground-up redesign of OSU Impact Studio's web presence.",
+    stack: ['Drupal', 'Figma'],
+    year: '2025',
+    result: '+100% TRAFFIC',
+  },
+  {
+    id: 'CDDC_SITE',
+    desc: 'Nonprofit redesign for unhoused community center - ADA compliant, 300+ daily users.',
+    stack: ['Figma', 'HTML', 'CSS'],
+    year: '2026',
+    result: 'IN PROGRESS',
+  },
+  {
+    id: "SALLYS_POS",
+    desc: 'Full-stack point-of-sale system with 5-table DB schema and loyalty points.',
+    stack: ['Node.js', 'Express', 'MySQL'],
+    year: '2025',
+    result: 'SHIPPED',
+  },
+  {
+    id: 'AFTERLIFE_METRO',
+    desc: 'Multiplayer narrative simulation game. Hall of Fame in CS 290.',
+    stack: ['Godot', 'JavaScript'],
+    year: '2024',
+    result: 'HALL OF FAME',
+  },
+  {
+    id: 'DEMENTIA_PREDICTOR',
+    desc: 'ML pipeline trained on health survey data to predict dementia risk.',
+    stack: ['Python', 'scikit-learn'],
+    year: '2025',
+    result: 'RESEARCH',
+  },
+]
+
+export default function Projects() {
+  const [active, setActive] = useState(0)
+  const sectionRef  = useRef<HTMLElement>(null)
+  const listRef     = useRef<HTMLDivElement>(null)
+  const boxRef      = useRef<HTMLDivElement>(null)
+  const itemRefs    = useRef<(HTMLButtonElement | null)[]>([])
+  const detailRef   = useRef<HTMLDivElement>(null)
+
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  useEffect(() => {
+    if (prefersReduced || !listRef.current) return
+    const items = listRef.current.querySelectorAll('.proj-item')
+    gsap.fromTo(items,
+      { x: -40, opacity: 0 },
+      {
+        x: 0, opacity: 1,
+        stagger: 0.05,
+        duration: 0.5,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 70%',
+        },
+      }
+    )
+  }, [])
+
+  useEffect(() => {
+    moveBoundingBox(active)
+  }, [active])
+
+  function moveBoundingBox(index: number) {
+    const target = itemRefs.current[index]
+    if (!target || !boxRef.current) return
+    const rect   = target.getBoundingClientRect()
+    const parent = target.offsetParent as HTMLElement
+    const pRect  = parent?.getBoundingClientRect() ?? { top: 0, left: 0 }
+
+    gsap.set(boxRef.current, {
+      top:    rect.top  - pRect.top,
+      left:   rect.left - pRect.left,
+      width:  rect.width,
+      height: rect.height,
+    })
+
+    if (!prefersReduced) {
+      gsap.fromTo(boxRef.current,
+        { scaleX: 0, scaleY: 0, transformOrigin: 'top left' },
+        { scaleX: 1, scaleY: 1, duration: 0.4, ease: 'power2.out' }
+      )
+    }
+  }
+
+  function handleSelect(index: number) {
+    if (!detailRef.current || prefersReduced) {
+      setActive(index)
+      return
+    }
+    gsap.to(detailRef.current, {
+      opacity: 0, duration: 0.15,
+      onComplete: () => {
+        setActive(index)
+        gsap.to(detailRef.current, { opacity: 1, duration: 0.2 })
+      },
+    })
+  }
+
+  const proj = PROJECTS[active]
+
+  return (
+    <section
+      ref={sectionRef}
+      id="projects"
+      style={{
+        minHeight: '100vh',
+        background: 'var(--bg)',
+        padding: 'clamp(4rem, 8vw, 8rem) clamp(1.5rem, 6vw, 6rem)',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+      }}
+    >
+      <p style={{
+        fontFamily: 'var(--font-label)',
+        fontSize: 'var(--text-label)',
+        color: 'var(--text-dim)',
+        letterSpacing: '0.2em',
+        marginBottom: 'clamp(2rem, 5vw, 4rem)',
+      }}>SELECTED WORK</p>
+
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)',
+        gap: 'clamp(2rem, 5vw, 6rem)',
+        alignItems: 'start',
+      }} className="projects-grid">
+        {/* Left: project list */}
+        <div ref={listRef} style={{ position: 'relative' }}>
+          {/* Bounding box */}
+          <div
+            ref={boxRef}
+            style={{
+              position: 'absolute',
+              border: '1px solid var(--accent)',
+              pointerEvents: 'none',
+              zIndex: 0,
+            }}
+          />
+          {PROJECTS.map((p, i) => (
+            <button
+              key={p.id}
+              ref={el => { itemRefs.current[i] = el }}
+              className="proj-item"
+              data-cursor="project"
+              onClick={() => handleSelect(i)}
+              onMouseEnter={() => moveBoundingBox(i)}
+              onMouseLeave={() => moveBoundingBox(active)}
+              style={{
+                display: 'block',
+                width: '100%',
+                textAlign: 'left',
+                background: 'none',
+                border: 'none',
+                cursor: 'none',
+                padding: 'clamp(0.6rem, 1.2vw, 1rem) 0',
+                fontFamily: 'var(--font-display)',
+                fontSize: 'var(--text-section)',
+                color: i === active ? 'var(--text-primary)' : 'var(--text-dim)',
+                transition: 'color 0.2s',
+                position: 'relative',
+                zIndex: 1,
+              }}
+            >
+              {p.id}
+            </button>
+          ))}
+        </div>
+
+        {/* Right: detail panel */}
+        <div ref={detailRef} style={{ paddingTop: 'clamp(0.5rem, 1vw, 1rem)' }}>
+          <h2 style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 'var(--text-title)',
+            color: 'var(--text-primary)',
+            lineHeight: 1,
+            marginBottom: '1.5rem',
+          }}>{proj.id}</h2>
+
+          <p style={{
+            fontFamily: 'var(--font-body)',
+            fontSize: 'var(--text-body)',
+            color: 'var(--text-primary)',
+            lineHeight: 1.6,
+            marginBottom: '1.5rem',
+            maxWidth: '40ch',
+          }}>{proj.desc}</p>
+
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1.5rem' }}>
+            {proj.stack.map(s => (
+              <span key={s} style={{
+                fontFamily: 'var(--font-label)',
+                fontSize: 'var(--text-label)',
+                color: 'var(--accent)',
+                letterSpacing: '0.1em',
+                border: '1px solid var(--accent-dim)',
+                padding: '0.2rem 0.6rem',
+              }}>{s}</span>
+            ))}
+          </div>
+
+          <div style={{
+            display: 'flex',
+            gap: '2rem',
+            fontFamily: 'var(--font-label)',
+            fontSize: 'var(--text-label)',
+            color: 'var(--text-dim)',
+            letterSpacing: '0.1em',
+          }}>
+            <span>{proj.year}</span>
+            <span style={{ color: 'var(--accent)' }}>RESULT: {proj.result}</span>
+          </div>
+        </div>
+      </div>
+
+      <style>{`
+        @media (max-width: 768px) {
+          .projects-grid { grid-template-columns: 1fr !important; }
+        }
+      `}</style>
+    </section>
+  )
+}

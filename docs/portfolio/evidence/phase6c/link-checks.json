@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://allyytc.github.io/allychen-resume2028-pm.pdf",
+    "verification": "missing-original-replaced",
+    "replacement": "public/files/allychen-resume2028.pdf",
+    "note": "Known missing original PDF; owner-supplied unchanged replacement used in UI"
+  },
+  {
+    "url": "https://allyytc.github.io/beaverhacks-2026.html",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/beaverhacks-2026.html",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://allyytc.github.io/eweek.html",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/eweek.html",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://allyytc.github.io/innovation-jam-2026.html",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/innovation-jam-2026.html",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://allyytc.github.io/projects.html#design-graphics",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/projects.html#design-graphics",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://allyytc.github.io/projects.html#project-cddc",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/projects.html#project-cddc",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://allyytc.github.io/projects.html#project-impact-studio",
+    "httpStatus": 200,
+    "finalURL": "https://allyytc.github.io/projects.html#project-impact-studio",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://github.com/allyytc",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/allyytc",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "https://linkedin.com/in/allyychen/",
+    "httpStatus": 200,
+    "finalURL": "https://linkedin.com/in/allyychen/",
+    "verification": "resolved",
+    "note": "Reachability only; source content claims not independently reverified"
+  },
+  {
+    "url": "mailto:allyten08@gmail.com",
+    "verification": "source-verified",
+    "note": "Exact original published destination retained; no message sent or telephone call made"
+  },
+  {
+    "url": "tel:5038660073",
+    "verification": "source-verified",
+    "note": "Exact original published destination retained; no message sent or telephone call made"
+  }
+]

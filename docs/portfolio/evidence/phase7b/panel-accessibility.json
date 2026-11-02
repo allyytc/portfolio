@@ -1,0 +1,1741 @@
+[
+  {
+    "hash": "",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"camera-toolbar\" aria-label=\"Camera controls\"><button disabled=\"\" aria-label=\"Zoom out\">−</button><button disabled=\"\" aria-label=\"Zoom in\">+</button><button>Reset View</button><button class=\"touch-toggle\" aria-pressed=\"false\">Touch controls off</button></div>",
+            "target": [
+              ".camera-toolbar"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "18.0pt (24px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\" class=\"wordmark\" aria-label=\"Ally Chen home\"><span class=\"leaf-mark\" aria-hidden=\"true\">❧</span> Ally Chen<span class=\"wordmark-dot\">.</span></a>",
+            "target": [
+              ".wordmark"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "nonBmp"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element content contains only non-text characters"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"leaf-mark\" aria-hidden=\"true\">❧</span>",
+            "target": [
+              ".leaf-mark"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<nav aria-label=\"Portfolio navigation\"><button>Projects</button><button>Resume</button><button class=\"contact-trigger\">Contact <span aria-hidden=\"true\">↗</span></button></nav>",
+                    "target": [
+                      "nav[aria-label=\"Portfolio navigation\"]"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button>Projects</button>",
+            "target": [
+              "nav[aria-label=\"Portfolio navigation\"] > button:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<nav aria-label=\"Portfolio navigation\"><button>Projects</button><button>Resume</button><button class=\"contact-trigger\">Contact <span aria-hidden=\"true\">↗</span></button></nav>",
+                    "target": [
+                      "nav[aria-label=\"Portfolio navigation\"]"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button>Resume</button>",
+            "target": [
+              "nav[aria-label=\"Portfolio navigation\"] > button:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<nav aria-label=\"Portfolio navigation\"><button>Projects</button><button>Resume</button><button class=\"contact-trigger\">Contact <span aria-hidden=\"true\">↗</span></button></nav>",
+                    "target": [
+                      "nav[aria-label=\"Portfolio navigation\"]"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"contact-trigger\">Contact <span aria-hidden=\"true\">↗</span></button>",
+            "target": [
+              ".contact-trigger"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow\">Developer · Designer · Product</p>",
+            "target": [
+              ".eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "7.5pt (10px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"role-label\"><span aria-hidden=\"true\"></span>Software Developer Intern @ Impact Studio</p>",
+            "target": [
+              ".role-label"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "7.5pt (10px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"stage-corner\"><span class=\"tiny-leaf\" aria-hidden=\"true\">✧</span> Midnight Spruce · Creative cabin</div>",
+            "target": [
+              ".stage-corner"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "nonBmp"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element content contains only non-text characters"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"tiny-leaf\" aria-hidden=\"true\">✧</span>",
+            "target": [
+              ".tiny-leaf"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+            "target": [
+              ":root"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "8.3pt (11px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button>Reset View</button>",
+                    "target": [
+                      ".camera-toolbar > button:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button>Reset View</button>",
+            "target": [
+              ".camera-toolbar > button:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "8.3pt (11px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-caption camera-hint\"><span>Follow a wooden sign, try the monitor, or visit the art porch.</span><button aria-label=\"Dismiss camera hint\">×</button></div>",
+                    "target": [
+                      ".scene-caption"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Follow a wooden sign, try the monitor, or visit the art porch.</span>",
+            "target": [
+              ".scene-caption > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "16.5pt (22px)",
+                  "fontWeight": "normal",
+                  "messageKey": "shortTextContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"scene-caption camera-hint\"><span>Follow a wooden sign, try the monitor, or visit the art porch.</span><button aria-label=\"Dismiss camera hint\">×</button></div>",
+                    "target": [
+                      ".scene-caption"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element content is too short to determine if it is actual text content"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-label=\"Dismiss camera hint\">×</button>",
+            "target": [
+              "button[aria-label=\"Dismiss camera hint\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "nonBmp"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element content contains only non-text characters"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span aria-hidden=\"true\">⌘</span>",
+            "target": [
+              "#studio-destinations > span[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button id=\"studio-destinations\" class=\"quick-view-trigger\" aria-expanded=\"false\" aria-controls=\"quick-view-links\">",
+                    "target": [
+                      "#studio-destinations"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"scene-loading\" role=\"status\">Opening the studio<span class=\"loading-dots\">…</span></div>",
+                    "target": [
+                      ":root"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<strong>Studio Menu</strong>",
+            "target": [
+              "#studio-destinations > strong"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"site-footer\"><span>Midnight Spruce · Ally Chen</span><a href=\"mailto:allyten08@gmail.com\">allyten08@gmail.com ↗</a><a class=\"text-portfolio-link\" href=\"/content.html\">Text portfolio</a><a class=\"credit\" href=\"/licenses/THIRD_PARTY_NOTICES.txt\">Asset credits</a></footer>",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Midnight Spruce · Ally Chen</span>",
+            "target": [
+              "footer > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"site-footer\"><span>Midnight Spruce · Ally Chen</span><a href=\"mailto:allyten08@gmail.com\">allyten08@gmail.com ↗</a><a class=\"text-portfolio-link\" href=\"/content.html\">Text portfolio</a><a class=\"credit\" href=\"/licenses/THIRD_PARTY_NOTICES.txt\">Asset credits</a></footer>",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"mailto:allyten08@gmail.com\">allyten08@gmail.com ↗</a>",
+            "target": [
+              "a[href=\"mailto:allyten08@gmail.com\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "8.3pt (11px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"site-footer\"><span>Midnight Spruce · Ally Chen</span><a href=\"mailto:allyten08@gmail.com\">allyten08@gmail.com ↗</a><a class=\"text-portfolio-link\" href=\"/content.html\">Text portfolio</a><a class=\"credit\" href=\"/licenses/THIRD_PARTY_NOTICES.txt\">Asset credits</a></footer>",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"text-portfolio-link\" href=\"/content.html\">Text portfolio</a>",
+            "target": [
+              ".text-portfolio-link"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"site-footer\"><span>Midnight Spruce · Ally Chen</span><a href=\"mailto:allyten08@gmail.com\">allyten08@gmail.com ↗</a><a class=\"text-portfolio-link\" href=\"/content.html\">Text portfolio</a><a class=\"credit\" href=\"/licenses/THIRD_PARTY_NOTICES.txt\">Asset credits</a></footer>",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"credit\" href=\"/licenses/THIRD_PARTY_NOTICES.txt\">Asset credits</a>",
+            "target": [
+              ".credit"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "passes": 20
+  },
+  {
+    "hash": "#projects",
+    "violations": [],
+    "incomplete": [],
+    "passes": 18
+  },
+  {
+    "hash": "#projects/korbit",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"screenshot-gallery\" aria-label=\"KO.rbit screenshots\">",
+            "target": [
+              ".screenshot-gallery"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"panel-link detail-back\">← Back to Projects</button>",
+                    "target": [
+                      ".detail-back"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link detail-back\">← Back to Projects</button>",
+            "target": [
+              ".detail-back"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://github.com/dubhack26/KO.rbit\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub ↗</a>",
+            "target": [
+              "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://devpost.com/software/space-battles-aei3wz\" target=\"_blank\" rel=\"noopener noreferrer\">Devpost ↗</a>",
+            "target": [
+              "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://www.youtube.com/watch?v=Ta64tj6uJc4\" target=\"_blank\" rel=\"noopener noreferrer\">Demo ↗</a>",
+            "target": [
+              ".case-links > a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "nonBmp"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element content contains only non-text characters"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span aria-hidden=\"true\">▷</span>",
+            "target": [
+              ".video-load > span[aria-hidden=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Impact Studio Website →</button>",
+            "target": [
+              ".case-related > .panel-link:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Corvallis Daytime Drop-In Center Website →</button>",
+            "target": [
+              ".case-related > .panel-link:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">ER Overwatch →</button>",
+            "target": [
+              ".panel-link:nth-child(4)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">ComboCraft →</button>",
+            "target": [
+              ".panel-link:nth-child(5)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Lantern →</button>",
+            "target": [
+              ".panel-link:nth-child(6)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Sally's Coffee Shop POS System →</button>",
+            "target": [
+              ".panel-link:nth-child(7)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Afterlife Metro →</button>",
+            "target": [
+              ".panel-link:nth-child(8)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Dementia Risk Predictor →</button>",
+            "target": [
+              ".panel-link:nth-child(9)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Unwrap →</button>",
+            "target": [
+              ".panel-link:nth-child(10)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          }
+        ]
+      }
+    ],
+    "passes": 21
+  },
+  {
+    "hash": "#about",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"mailto:allyten08@gmail.com\" target=\"_blank\" rel=\"noopener noreferrer\">allyten08@gmail.com ↗</a>",
+            "target": [
+              "a[href=\"mailto:allyten08@gmail.com\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://linkedin.com/in/allyychen/\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/allyychen ↗</a>",
+            "target": [
+              ".panel-link[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://github.com/allyytc\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/allyytc ↗</a>",
+            "target": [
+              "a[href$=\"allyytc\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          }
+        ]
+      }
+    ],
+    "passes": 19
+  },
+  {
+    "hash": "#experience",
+    "violations": [],
+    "incomplete": [],
+    "passes": 20
+  },
+  {
+    "hash": "#skills",
+    "violations": [],
+    "incomplete": [],
+    "passes": 19
+  },
+  {
+    "hash": "#community",
+    "violations": [],
+    "incomplete": [],
+    "passes": 18
+  },
+  {
+    "hash": "#events/innovationJam2026",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"screenshot-gallery\" aria-label=\"Event Photos\">",
+            "target": [
+              "div[aria-label=\"Event Photos\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          },
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"screenshot-gallery\" aria-label=\"Innovation Jam 2026 original artwork\">",
+            "target": [
+              "section[data-case-section=\"innovationJam2026-section-7\"] > .screenshot-gallery"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"panel-link detail-back\">← Back to Community</button>",
+                    "target": [
+                      ".detail-back"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link detail-back\">← Back to Community</button>",
+            "target": [
+              ".detail-back"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          }
+        ]
+      }
+    ],
+    "passes": 21
+  },
+  {
+    "hash": "#design",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"screenshot-gallery\" aria-label=\"Graphic design and event artwork\">",
+            "target": [
+              ".screenshot-gallery"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"panel-link\">Open the sticker book →</button>",
+            "target": [
+              ".dialog-body > .panel-link"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          }
+        ]
+      }
+    ],
+    "passes": 22
+  },
+  {
+    "hash": "#contact",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://linkedin.com/in/allyychen/\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/allyychen ↗</a>",
+            "target": [
+              ".panel-link[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"https://github.com/allyytc\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/allyytc ↗</a>",
+            "target": [
+              "a[href$=\"allyytc\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f0e5d2",
+                  "bgColor": "#f0e5d2",
+                  "contrastRatio": 1,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "bold",
+                  "messageKey": "equalRatio",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"dialog-body\">",
+                    "target": [
+                      ".dialog-body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has a 1:1 contrast ratio with the background"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"panel-link\" href=\"tel:5038660073\" target=\"_blank\" rel=\"noopener noreferrer\">(503) 866-0073 ↗</a>",
+            "target": [
+              "a[href=\"tel:5038660073\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+          }
+        ]
+      }
+    ],
+    "passes": 17
+  }
+]

@@ -1,0 +1,527 @@
+{
+  "file": "/Users/ally/Github/portfolio/assets/blender/studio-phase4d.blend",
+  "scene": "PortfolioLoft4D",
+  "scenes": [
+    "AssetReview4D",
+    "DeskBaked4A",
+    "LoftBaked4B",
+    "LoftBaked4C",
+    "LoftBaked4D",
+    "PortfolioDesk",
+    "PortfolioDesk4A",
+    "PortfolioLoft4B",
+    "PortfolioLoft4C",
+    "PortfolioLoft4D",
+    "RoomBlockout4A_TEMPORARY",
+    "Scene"
+  ],
+  "collections": [
+    "Entrance 4D.001",
+    "Workstation 4D.001",
+    "DesignCorner 4D.001",
+    "CommunityWall 4D.001",
+    "ReadingNook 4D.001",
+    "Loft 4D.001",
+    "Archive 4D.001",
+    "ExternalLinks 4D.001",
+    "PlantsAndDecor 4D.001",
+    "LightingAndCamera 4D.001"
+  ],
+  "objects": [
+    {
+      "name": "ProjectsSign.005",
+      "stable": "ProjectsSign",
+      "type": "EMPTY",
+      "location": [
+        -1.7000000476837158,
+        -1.7200000286102295,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "AboutSign.004",
+      "stable": "AboutSign",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CommunitySign.004",
+      "stable": "CommunitySign",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ContactSign.004",
+      "stable": "ContactSign",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StudioStatic.005",
+      "stable": "StudioStatic",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ProjectsMonitor.004",
+      "stable": "ProjectsMonitor",
+      "type": "EMPTY",
+      "location": [
+        -1.649999976158142,
+        1.25,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PrinterBody.004",
+      "stable": "PrinterBody",
+      "type": "EMPTY",
+      "location": [
+        -1.8799999952316284,
+        0.25,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ResumePaper.004",
+      "stable": "ResumePaper",
+      "type": "EMPTY",
+      "location": [
+        -0.7200000286102295,
+        0.3020000457763672,
+        0.9070000052452087
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "UnwrapDisplay.004",
+      "stable": "UnwrapDisplay",
+      "type": "EMPTY",
+      "location": [
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StickerBook.004",
+      "stable": "StickerBook",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Sketchbook.004",
+      "stable": "Sketchbook",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_ESC.004",
+      "stable": "Community_ESC",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_StartupHub.004",
+      "stable": "Community_StartupHub",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_DFA.004",
+      "stable": "Community_DFA",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_BeaverHacks.004",
+      "stable": "Community_BeaverHacks",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_AIClub.004",
+      "stable": "Community_AIClub",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_BeaverHacks2026.004",
+      "stable": "Community_BeaverHacks2026",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_InnovationJam2026.004",
+      "stable": "Community_InnovationJam2026",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Community_EngineersWeek.004",
+      "stable": "Community_EngineersWeek",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "AboutBook.004",
+      "stable": "AboutBook",
+      "type": "EMPTY",
+      "location": [
+        -0.4000000059604645,
+        -0.3449999988079071,
+        -0.17000000178813934
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SoftFurnishings",
+      "stable": "SoftFurnishings",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SkillsVolume.004",
+      "stable": "SkillsVolume",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExperienceVolume.004",
+      "stable": "ExperienceVolume",
+      "type": "EMPTY",
+      "location": [
+        -0.6499999761581421,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExternalGitHub.004",
+      "stable": "ExternalGitHub",
+      "type": "EMPTY",
+      "location": [
+        -0.6499999761581421,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExternalLinkedIn.004",
+      "stable": "ExternalLinkedIn",
+      "type": "EMPTY",
+      "location": [
+        -0.6499999761581421,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Loft isometric.004",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        9.0,
+        -13.0,
+        9.5
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_default",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        9.0,
+        -13.0,
+        9.5
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_workstation",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        6.150000095367432,
+        -11.899999618530273,
+        9.050000190734863
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_designCorner",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        7.699999809265137,
+        -13.850000381469727,
+        9.800000190734863
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_communityPinboard",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        3.4000000953674316,
+        -8.5,
+        7.849999904632568
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_readingNook",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        -2.5,
+        -11.100000381469727,
+        6.599999904632568
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_loftBedding",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        9.100000381469727,
+        -10.100000381469727,
+        10.399999618530273
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CameraView_archive",
+      "stable": null,
+      "type": "CAMERA",
+      "location": [
+        3.5999999046325684,
+        -8.899999618530273,
+        6.400000095367432
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

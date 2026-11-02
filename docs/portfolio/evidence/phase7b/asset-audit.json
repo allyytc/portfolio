@@ -1,0 +1,32 @@
+{
+  "glbBytes": 3260508,
+  "nodes": 25,
+  "meshes": 25,
+  "materials": 9,
+  "images": [
+    {
+      "name": "loft4d-static-baked",
+      "size": [
+        4096,
+        4096
+      ],
+      "encodedBytes": 1638878,
+      "estimatedRGBAWithMipmaps": 89478485
+    },
+    {
+      "name": "loft4d-soft-color",
+      "size": [
+        1024,
+        1024
+      ],
+      "encodedBytes": 87733,
+      "estimatedRGBAWithMipmaps": 5592405
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_unlit"
+  ],
+  "triangles": 223451,
+  "estimatedTextureBytes": 95070890
+}

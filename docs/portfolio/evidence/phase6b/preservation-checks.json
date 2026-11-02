@@ -1,0 +1,139 @@
+{
+  "checkpointFiles": 36,
+  "checkpointHashesValid": true,
+  "protectedFiles": [
+    {
+      "file": "src/App.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/sceneConfig.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/interactions.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/Studio.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/README.md",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/sceneBounds.json",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/modelLoader.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/StudioCamera.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/usePrinterPaper.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/cameraViews.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/korbit.ts",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "unchanged": true
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true
+    }
+  ],
+  "VideoDemoFunctionUnchanged": true,
+  "originalSourceSnapshots": [
+    {
+      "file": "eweek.html",
+      "gitBlob": "6e701d9b2104246c3ec034d2cb6bd347a187eba0",
+      "matchesPinned": true
+    },
+    {
+      "file": "beaverhacks-2026.html",
+      "gitBlob": "dbd5afca242fbadf0c9bd873956721db8e2741a8",
+      "matchesPinned": true
+    },
+    {
+      "file": "projects.html",
+      "gitBlob": "4dce71100538f7b051fe6094979d00990af02a27",
+      "matchesPinned": true
+    },
+    {
+      "file": "script.js",
+      "gitBlob": "faa23229a6505e16955406ed90d07c807f57c20b",
+      "matchesPinned": true
+    },
+    {
+      "file": "innovation-jam-2026.html",
+      "gitBlob": "a8c0cb63bad5dba6e18d2579835892bcbbded335",
+      "matchesPinned": true
+    },
+    {
+      "file": "involvement.html",
+      "gitBlob": "c79e5758dccd5046dacdb8d6007ca44dcd2c2a4f",
+      "matchesPinned": true
+    },
+    {
+      "file": "projects.js",
+      "gitBlob": "37eb1e54fb0d2da18ae395ea18ffdeed981067b2",
+      "matchesPinned": true
+    },
+    {
+      "file": "nav.js",
+      "gitBlob": "40e507bf493180ad69b11b477ac7467a0398cf8c",
+      "matchesPinned": true
+    },
+    {
+      "file": "index.html",
+      "gitBlob": "e3f2769d788c97071f4a21b54bdd5d400610da1b",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/Skills.tsx",
+      "gitBlob": "239e21661aa58d2de1d056800ee100d782666959",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/Involvement.tsx",
+      "gitBlob": "d2f66ee420c4d6788f9fe8791ad036551a354428",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/About.tsx",
+      "gitBlob": "ecc5d0beab77bfaaf77407545f9aa96517ebefc2",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/Projects.tsx",
+      "gitBlob": "de096c923c5c1bd75631e39ca7279ab877aa98ae",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/Hero.tsx",
+      "gitBlob": "08d7ab2a8e4063e9a132b9e531e621a3408fe0e2",
+      "matchesPinned": true
+    },
+    {
+      "file": "app/src/components/Contact.tsx",
+      "gitBlob": "5bcc950aefa53316ff4b8ed76d1eb836c515ba81",
+      "matchesPinned": true
+    }
+  ],
+  "phase4DArtifactsUnchanged": 21,
+  "sceneBinary": "public/models/loft-studio-v4d.glb",
+  "sceneBytes": 3260508
+}

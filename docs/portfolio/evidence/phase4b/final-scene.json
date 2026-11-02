@@ -1,0 +1,176 @@
+{
+  "source": "PortfolioLoft4B",
+  "file": "/Users/ally/Github/portfolio/assets/blender/studio-phase4b.blend",
+  "objects": 758,
+  "collections": [
+    "Entrance",
+    "Workstation",
+    "DesignCorner",
+    "CommunityWall",
+    "ReadingNook",
+    "Loft",
+    "Archive",
+    "ExternalLinks",
+    "PlantsAndDecor",
+    "LightingAndCamera"
+  ],
+  "stableIDs": [
+    "AboutBook",
+    "AboutSign",
+    "CommunitySign",
+    "Community_AIClub",
+    "Community_BeaverHacks",
+    "Community_BeaverHacks2026",
+    "Community_DFA",
+    "Community_ESC",
+    "Community_EngineersWeek",
+    "Community_InnovationJam2026",
+    "Community_StartupHub",
+    "ContactSign",
+    "ExperienceVolume",
+    "ExternalGitHub",
+    "ExternalLinkedIn",
+    "PrinterBody",
+    "ProjectsMonitor",
+    "ProjectsSign",
+    "ResumePaper",
+    "Sketchbook",
+    "SkillsVolume",
+    "StickerBook",
+    "StudioStatic",
+    "UnwrapDisplay"
+  ],
+  "chair": [
+    {
+      "source": "SageChair_chairDesk",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair cream back shell",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair padded sage back",
+      "materials": [
+        "Loft_Sage fabric"
+      ]
+    },
+    {
+      "source": "Chair back inset seam",
+      "materials": [
+        "Loft_Sage fabric"
+      ]
+    },
+    {
+      "source": "Chair cushioned seat",
+      "materials": [
+        "Loft_Sage fabric"
+      ]
+    },
+    {
+      "source": "Chair seat lower frame",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair arm upright",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair curved armrest",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair arm upright.001",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Chair curved armrest.001",
+      "materials": [
+        "Loft_Warm ivory"
+      ]
+    },
+    {
+      "source": "Twin caster wheel",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Caster hub",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Twin caster wheel.001",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Caster hub.001",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Twin caster wheel.002",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Caster hub.002",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Twin caster wheel.003",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Caster hub.003",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Twin caster wheel.004",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    },
+    {
+      "source": "Caster hub.004",
+      "materials": [
+        "Loft_Dark sage ink"
+      ]
+    }
+  ],
+  "priorScenesPreserved": true,
+  "camera": [
+    9.0,
+    -13.0,
+    9.5
+  ],
+  "cameraTarget": [
+    0,
+    0,
+    1.55
+  ]
+}

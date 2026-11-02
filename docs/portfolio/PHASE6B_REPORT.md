@@ -1,0 +1,40 @@
+# Phase 6B — projects and design migration
+
+All nine original projects are migrated through the shared case-study registry. Unwrap has a distinct, image-forward product presentation using actual local development captures, with unresolved personal and delivery claims clearly marked. The studio, camera and printer remain intact. No publication, commit, push, paid asset/service use or original-site modification occurred. Phase 6C and Phase 7 were not started.
+
+## Delivered
+
+- `src/content/case-studies/`: full original Impact Studio, CDDC, ER Overwatch, ComboCraft, Lantern, Sally’s POS, Afterlife Metro and Dementia records. The approved KO.rbit data remains byte-for-byte unchanged. Original paragraphs/lists, full technology distinctions, individual responsibilities, captions, credit, planned features and project links are preserved.
+- `catalog.ts` / `projects.ts`: one registry for shared project metadata and all original categories. Projects explorer, monitor entry and HTML Quick View reach the same case studies. Unwrap is featured and uses the same case study from Design Work. Back actions restore focus.
+- `src/content/design-work.ts` / `DesignGallery.tsx`: 11 original graphics, 15 stickers (BeaverHacks 6, Innovation Jam 4, Engineers’ Week 5), plus 20 supporting event/design/merchandise records. Filters preserve actual associations. Sticker and gallery views reference shared binaries. Original View Event links remain read-only external references; full event narratives remain Phase 6C work.
+- `PortfolioDialog.tsx`, `case-study/CaseStudy.tsx`, `Media.tsx`, `styles.css`: genuinely opaque sticky chrome, populated-section navigation with measured offsets and reduced-motion handling, software/web-UX/technical/product presentation configurations, lazy aspect-preserving galleries, keyboard/mouse lightbox with full-size/Fit for long wireframes. Important original prose remains visible. The existing click-to-load `VideoDemo` function is unchanged.
+
+## Provenance and content discrepancies
+
+Authoritative original source is pinned at `35ecfec2c43c535ea013e23720ffa6ad73108f10`; original GitHub project HTML/JS were also compared read-only with the pinned snapshots. Fifteen inert snapshots match their source Git blobs. The current 373-record [migration ledger](evidence/phase6b/migration-index.json) maps every source item and explicitly preserves incomplete Phase 6C status; the historical Phase 6A index remains unchanged.
+
+Original project gallery references previously hidden in source UI remain accessible, including Impact wireframes and the ComboCraft mixed image/video sequence. Lantern’s HackMIT participation label is recognition, not an invented award. CDDC upcoming changes remain planned. Sally’s POS and Dementia have no invented screenshot placeholders. Supporting design images without authored captions retain filename-based descriptions and event associations, without invented creative-process claims. Afterlife Metro’s original **Game art by Nour Alzahraa Alqattan** credit remains in the case study and media notice.
+
+94 unique original files, totaling 97,541,234 bytes, are copied/reused unchanged and verified against original Git blobs and SHA-256. Eight were already local. The original 23.6 MB ComboCraft MP4 is retained; videos and galleries mount only when the relevant content opens. No project/design media or iframe/video is requested on initial studio landing. No runtime source HTML/JS injection, models, generated artwork or new dependencies were introduced. See [media permissions/provenance](PHASE6B_MEDIA.md). Local rebuild authorization is not a blanket publication license for embedded third-party art/photos/models.
+
+## Unwrap — verified material and precise gaps
+
+Initial avatar-only inspection was superseded by a broader read-only discovery of `/Users/ally/Github/calhacks2026`, HEAD `0e3d7ab73e2c9a256cb831ca87814181a1391dc1`. The README, package metadata, clue-map, council-companion and contribution/proposal components support a documented gift-studio direction and specific code observations. Two visually inspected, existing `work/screens/` captures are copied unchanged; exact source paths, byte counts and checksums are in [unwrap-source.json](evidence/phase6b/unwrap-source.json). The narrow capture’s development issue indicator is retained. No concept mockups or avatar models are substituted for UI, and a filename containing “prod” is not treated as proof of deployment.
+
+The README’s map-first journey is labeled a roadmap, separately from observable development UI and component code. Unwrap’s app, services and provider calls were not run; its source-reported tests were not rerun or represented as this portfolio’s results. Payments remain pledges/future scope. Still needed: Ally’s individual role/contributions, research evidence, approved design rationale, final feature and iteration verification, approved public project/demo links, independently verified outcomes and public-use rights for embedded artwork. No awards, personal achievements or live URLs are inferred. Unwrap remains a partially verified case study, not a completed factual biography.
+
+## Validation and evidence
+
+- Strict TypeScript and Vite production build pass. The existing lazy Three/model-loader chunk remains approximately 972 KB raw; Vite reports its existing size warning. No Phase 7 optimization was attempted.
+- Browser coverage checks original source text/badge/gallery-caption parity for all nine projects, all original media bytes via HTTP, real MP4 playback, design/sticker filters and lightbox, mobile overflow and sticky positioning, section navigation, all project detail/back flows, no landing media requests, Unwrap capture integrity, and camera/object/printer regressions.
+- Separate real network verification confirmed KO.rbit’s unchanged YouTube player playing after a visible user-style click: `currentTime=1.624126`, `paused=false`, `readyState=4`. See [playback evidence](evidence/phase6b/korbit-live-player.json). Automated normal suite checks remain deterministic; this live verification is recorded separately.
+- [External link checks](evidence/phase6b/link-checks.json): 21 unique original project/demo URLs; 19 HTTP 200, 2 Devpost HTTP 403. Devpost entries are marked blocked, not declared broken or fully verified. All three original design “View Event” targets returned HTTP 200; see `evidence/phase6b/design-link-checks.json`. HTTP reachability does not independently verify external claims or future availability.
+- [Preservation checks](evidence/phase6b/preservation-checks.json): recoverable Phase 6A checkpoint, all studio code/App/package files, unchanged KO.rbit data/VideoDemo function, 15 source snapshots and all 21 Phase 4D artifacts including editable Blender and current GLB.
+
+Representative screenshots, all under `evidence/phase6b/`: `korbit-desktop.png`, `impact-studio-desktop.png`, `cddc-desktop.png`, `afterlife-metro-desktop.png`, `design-graphics-desktop.png`, `sticker-book-complete.png`, `ux-mobile-navigation.png`, `ux-mobile-overview.png`, `graphics-mobile.png`, `unwrap-desktop.png` and `unwrap-mobile.png`. Historical evidence is retained; rerun regression captures live in `phase6b/regression/`. Desktop/mobile images were inspected for readable typography, intact aspect ratios and opaque header behavior.
+
+Build passes. All 36 unique checks have passing results: the full run passed 35 with one stale Unwrap-placeholder assertion; the corrected assertion and affected gallery/mobile cases passed targeted reruns. The final gallery sizing fix also passed dedicated desktop containment, mobile, sticker and fullscreen checks. Exact commands/results are recorded in `evidence/phase6b/validation.json`.
+
+## Handoff
+
+Phase 6B source migration is complete for the original nine projects and existing design collection. Unwrap’s unresolved information and blocked Devpost checks are explicit above. Original profile/experience/community source remains preserved for Phase 6C. No original production configuration, live domain or remote repository was changed. Stop at this boundary.

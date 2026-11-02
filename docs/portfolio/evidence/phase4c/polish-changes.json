@@ -1,0 +1,18 @@
+{
+  "sourceObjects": 766,
+  "softenedSourceMeshes": [
+    "Window reading bench / benchCushion(Clone)",
+    "Reading cushion / pillow(Clone)",
+    "Reading cushion / pillow(Clone).001",
+    "Soft lounge seat / loungeChairRelax(Clone)",
+    "Floor cushion / pillow(Clone)",
+    "Bed pillow / pillow(Clone)",
+    "Bed pillow / pillow(Clone).001"
+  ],
+  "newExternalAssets": false,
+  "defaultCameraPreserved": [
+    9.0,
+    -13.0,
+    9.5
+  ]
+}

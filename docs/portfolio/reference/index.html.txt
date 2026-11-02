@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ally Chen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260627c" />
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Primary"></nav>
+  <script src="nav.js?v=9"></script>
+
+  <section class="hero" id="hero">
+    <div class="hero-img-col">
+      <img src="headshot.jpg" alt="Ally Chen" class="hero-headshot" />
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow-group">
+        <p class="hero-eyebrow">B.S. Computer Science &middot; Minor in Business Information Systems</p>
+        <p class="hero-eyebrow">Oregon State University &middot; 2028</p>
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name"><span class="hero-name-part">Ally</span><span class="hero-name-part">Chen</span></h1>
+        <p class="hero-tagline">Web Developer Intern &middot; May 2026 &ndash; Present</p>
+        <div class="hero-actions">
+          <a href="projects.html" class="hero-arrow">View Projects &rarr;</a>
+          <a href="allychen-resume2028-pm.pdf" class="hero-arrow" target="_blank" rel="noopener">Resume &rarr;</a>
+          <a href="#contact" class="hero-arrow hero-arrow-ghost">Contact &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-olive" id="about">
+    <div class="section-inner">
+      <div class="about-education about-education--mobile">
+        <span class="about-education-label">Education</span>
+        <p class="about-degree">
+          <span class="about-degree-line">B.S. Computer Science</span>
+          <span class="about-degree-line about-degree-line--minor">Minor in Business Information Systems</span>
+          <span class="about-degree-line">Oregon State University &middot; 2028</span>
+        </p>
+      </div>
+      <div class="section-label-col">
+        <span class="section-label">About Me</span>
+      </div>
+      <div class="section-body">
+        <div class="about-text-col">
+            <p>I'm a Computer Science student at Oregon State University (graduating June&nbsp;2028) with a focus in Business Information Systems. I'm looking for <strong>internship and new-grad roles</strong> in <strong>software engineering</strong>, <strong>UX/UI</strong>, <strong>product</strong>, and other tech paths where <strong>business, design, and creative work</strong> intersect - places I can ship real products, grow as a builder, and learn from working teams.</p>
+            <p>I'm currently a <strong>Web Developer Intern at OSU Impact Studio</strong>, shipping website updates in Drupal and Figma. Recent builds include <strong>award-winning hackathon projects</strong> in computer vision and real-time web apps.</p>
+            <p>I work end-to-end - from wireframes and user research to React, Python, and API integration - and I'm as comfortable in Figma as I am in a codebase. I co-founded <strong>Startup Hub at OSU</strong> and lead a <strong>Design for America</strong> team shipping a nonprofit website for 300+ daily users.</p>
+            <div class="about-links">
+              <a href="allychen-resume2028-pm.pdf" target="_blank" rel="noopener">Resume</a>
+              <a href="mailto:allyten08@gmail.com">Email</a>
+              <a href="https://linkedin.com/in/allyychen/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://github.com/allyytc" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+        <div class="about-img-col">
+          <div class="about-headshot-wrap">
+            <img src="about-photo.jpg" alt="Ally Chen" class="headshot" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="skills">
+    <div class="section-inner">
+      <div class="section-body">
+        <div class="skills-exp-layout">
+          <div class="exp-col" id="experience">
+            <h2 class="display-heading dh-light">Experience</h2>
+            <div class="exp-list exp-list-stack">
+
+              <div class="exp-item">
+                <div class="exp-meta"><span class="exp-date">May 2026 - Present</span></div>
+                <div class="exp-content">
+                  <h3>Web Developer Intern</h3>
+                  <p class="exp-org">Impact Studio &middot; Oregon State University</p>
+                  <ul>
+                    <li>Leading a full redesign of the Impact Studio website - restructuring navigation, homepage hierarchy, and content layout so visitors understand the initiative at first glance.</li>
+                    <li>Managed OSU Impact Studio's site and subdomains using Drupal, HTML, and CSS.</li>
+                    <li>Configured and launched new faculty initiative subdomains end-to-end.</li>
+                    <li>Analyzed website traffic and produced performance reports to guide UX and content strategy decisions.</li>
+                  </ul>
+                  <a href="projects.html#project-impact-studio" class="exp-work-link">View Work &rarr;</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="skills-col">
+            <h2 class="display-heading dh-light">Skills</h2>
+            <div class="skills-grid">
+              <div class="skills-group">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                  <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>C++</span><span>SQL</span><span>MySQL</span><span>MariaDB</span><span>HTML/CSS</span><span>Dart</span>
+                </div>
+              </div>
+              <div class="skills-group">
+                <h3>Frameworks &amp; Libraries</h3>
+                <div class="skill-tags">
+                  <span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>TailwindCSS</span><span>Flutter</span><span>React Native</span><span>PyTorch</span><span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>OpenCV</span>
+                </div>
+              </div>
+              <div class="skills-group">
+                <h3>Tools &amp; Platforms</h3>
+                <div class="skill-tags">
+                  <span>Git</span><span>Drupal</span><span>WordPress</span><span>phpMyAdmin</span><span>Godot</span><span>Jupyter</span><span>Chrome Extensions API</span>
+                </div>
+              </div>
+              <div class="skills-group">
+                <h3>Design</h3>
+                <div class="skill-tags">
+                  <span>UI/UX Design</span><span>Graphic Design</span><span>UX Research</span><span>Figma</span><span>Canva</span>
+                </div>
+              </div>
+              <div class="skills-group">
+                <h3>Leadership &amp; Soft Skills</h3>
+                <div class="skill-tags">
+                  <span>Project Management</span><span>Team Management</span><span>Public Speaking</span><span>Marketing</span><span>Leadership</span>
+                </div>
+              </div>
+              <div class="skills-group">
+                <h3>Other</h3>
+                <div class="skill-tags">
+                  <span>REST APIs</span><span>Data Structures &amp; Algorithms</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-contact" id="contact">
+    <div class="section-inner">
+      <div class="section-label-col">
+        <span class="section-label">Contact</span>
+      </div>
+      <div class="section-body contact-body">
+        <h2 class="display-heading">Let's<br/>Connect</h2>
+        <div class="contact-links">
+          <a href="allychen-resume2028-pm.pdf" class="contact-link" target="_blank" rel="noopener">Resume</a>
+          <a href="mailto:allyten08@gmail.com" class="contact-link">allyten08@gmail.com</a>
+          <a href="https://linkedin.com/in/allyychen/" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/allyychen</a>
+          <a href="https://github.com/allyytc" target="_blank" rel="noopener" class="contact-link">github.com/allyytc</a>
+          <a href="tel:5038660073" class="contact-link">(503) 866-0073</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-footer-bar">
+      <p>&copy; 2026 Ally Chen</p>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

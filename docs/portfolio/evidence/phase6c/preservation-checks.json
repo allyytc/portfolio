@@ -1,0 +1,124 @@
+{
+  "checkpointHashesVerified": 48,
+  "unchangedProtectedFiles": [
+    {
+      "file": "src/App.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/sceneConfig.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/interactions.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/Studio.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/README.md",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/sceneBounds.json",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/modelLoader.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/StudioCamera.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/usePrinterPaper.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/studio/cameraViews.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/identity.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/resume.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/lantern.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/cddc.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/combocraft.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/korbit.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/impact-studio.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/sallys-pos.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/er-overwatch.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/unwrap.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/afterlife-metro.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/content/case-studies/dementia.ts",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "unchanged": true
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true
+    }
+  ],
+  "unchangedPhase4DArtifacts": 21,
+  "unchangedSourceSnapshots": [
+    "eweek.html",
+    "beaverhacks-2026.html",
+    "projects.html",
+    "script.js",
+    "innovation-jam-2026.html",
+    "involvement.html",
+    "projects.js",
+    "nav.js",
+    "index.html",
+    "app/src/components/Skills.tsx",
+    "app/src/components/Involvement.tsx",
+    "app/src/components/About.tsx",
+    "app/src/components/Projects.tsx",
+    "app/src/components/Hero.tsx",
+    "app/src/components/Contact.tsx"
+  ],
+  "VideoDemoUnchanged": true,
+  "originalDisplayedMediaIntegrated": 179,
+  "unreferencedOriginalMediaRetainedInInventory": 65,
+  "originalRepositoryModified": false,
+  "deploymentPerformed": false
+}

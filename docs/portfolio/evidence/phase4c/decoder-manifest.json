@@ -1,0 +1,23 @@
+[
+  {
+    "file": "public/decoders/draco/draco_decoder.js",
+    "source": "three@0.186.1/examples/jsm/libs/draco/gltf/draco_decoder.js",
+    "license": "Apache-2.0 (Draco)",
+    "bytes": 512465,
+    "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+  },
+  {
+    "file": "public/decoders/draco/draco_decoder.wasm",
+    "source": "three@0.186.1/examples/jsm/libs/draco/gltf/draco_decoder.wasm",
+    "license": "Apache-2.0 (Draco)",
+    "bytes": 192420,
+    "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+  },
+  {
+    "file": "public/decoders/draco/draco_wasm_wrapper.js",
+    "source": "three@0.186.1/examples/jsm/libs/draco/gltf/draco_wasm_wrapper.js",
+    "license": "Apache-2.0 (Draco)",
+    "bytes": 58456,
+    "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+  }
+]

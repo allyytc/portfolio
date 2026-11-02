@@ -1,0 +1,130 @@
+{
+  "coe": {
+    "name": "Engineering Student Council",
+    "role": "Vice President of Outreach",
+    "date": "June 2025 - Present",
+    "photos": [
+      "cookies-clubs/IMG_2319.jpg",
+      "cookies-clubs/IMG_2290.jpg",
+      "cookies-clubs/IMG_2293.jpg",
+      "cookies-clubs/IMG_2301.jpg",
+      "cookies-clubs/IMG_2346.jpg",
+      "cookies-clubs/IMG_2360.jpg",
+      "cookies-clubs/IMG_2368.jpg",
+      "eweek/IMG_8728.jpg"
+    ],
+    "description": [
+      "As Vice President of Outreach for the College of Engineering Student Council, I'm the voice for 10K+ engineering students in faculty discussions and university-level decisions - from curriculum changes to tuition policy. I manage outreach and communications across 50+ student organizations and help allocate $200K+ in funding alongside the VP of Finance.",
+      "Beyond advocacy, I own all things design for ESC - creating promotional graphics, event materials, and merchandise distributed school-wide. That includes everything from Engineers' Week stickers handed out to the entire College of Engineering enrollment, to graphics and social content for events like Donuts with the Dean and Cookies & Clubs, OSU's school-wide club fair."
+    ],
+    "ctas": [
+      {
+        "href": "projects.html#design-graphics",
+        "label": "Designs →"
+      },
+      {
+        "href": "eweek.html",
+        "label": "Engineers' Week '26 →"
+      }
+    ]
+  },
+  "startup": {
+    "name": "Startup Hub",
+    "role": "Co-Founder",
+    "date": "June 2025 - Present",
+    "photos": [
+      "sh-pics/IMG_0068.JPG",
+      "sh-pics/IMG_2960.JPG",
+      "sh-pics/IMG_0217.JPG",
+      "sh-pics/IMG_0384.JPG",
+      "sh-pics/IMG_2961.JPG",
+      "sh-pics/IMG_2962.JPG",
+      "sh-pics/IMG_2963.JPG",
+      "sh-pics/IMG_2964.JPG"
+    ],
+    "description": [
+      "As Co-Founder of Startup Hub at OSU, our team built the university's only entrepreneurship community from the ground up - creating the branding kit, establishing the club structure, and connecting aspiring founders to resources that didn't exist at OSU before. We coordinate with the College of Business, Oregon Startup Center, and AI Collective to bring entrepreneurship infrastructure to 15K+ students, with programming that goes beyond the typical startup playbook - from VC guest speakers to storytelling-for-pitching workshops.",
+      "This year, we're organizing Innovation Jam '26 - one of OSU's flagship innovation events. Looking ahead, we're working toward raising funding to send members to conferences and experiences beyond Corvallis - because the best founders need exposure beyond campus."
+    ],
+    "ctas": [
+      {
+        "href": "projects.html#design-graphics",
+        "label": "Designs →"
+      },
+      {
+        "href": "innovation-jam-2026.html",
+        "label": "Innovation Jam '26 →"
+      }
+    ]
+  },
+  "dfa": {
+    "name": "Design for America",
+    "role": "Project Lead",
+    "date": "Jan 2026 - Present",
+    "photos": [
+      "dfa/IMG_4952.jpeg",
+      "dfa/DSC00506 (1).JPG",
+      "dfa/DSC00582.JPG",
+      "dfa/DSC00657.JPG",
+      "dfa/IMG_0176.jpg",
+      "dfa/IMG_0186.jpg",
+      "dfa/IMG_0193.jpg",
+      "dfa/DSC00472.JPG"
+    ],
+    "description": [
+      "As Project Lead for Design for America at OSU, I directed an 11-person cross-disciplinary team through discovery, wireframes, design iterations, and front-end development for the Corvallis Daytime Drop-In Center - a local nonprofit serving unhoused community members.",
+      "I chose this project after meeting the center's director and being moved by the passion behind their work. DFA's term has ended, but I'm continuing alongside a few teammates to see it through to deployment."
+    ],
+    "ctas": [
+      {
+        "href": "projects.html#project-cddc",
+        "label": "View Project →"
+      }
+    ]
+  },
+  "ai": {
+    "name": "Artificial Intelligence Club",
+    "role": "Project Officer",
+    "date": "June 2025 - Present",
+    "photos": [
+      "ai-club/IMG_8454.jpg",
+      "ai-club/IMG_1647.jpg",
+      "ai-club/IMG_8353.jpg",
+      "ai-club/IMG_8450.jpg",
+      "ai-club/IMG_8523.jpg",
+      "ai-club/IMG_8562.jpg",
+      "ai-club/photo2.jpg"
+    ],
+    "description": [
+      "The AI Club at OSU was revived this year and became one of the biggest launches on campus - our first meeting drew over 100 members, a clear sign of how much interest there is in AI across every major. As Project Officer, I help lead and support members through the weekly project workshop, meeting people where they are across all experience levels.",
+      "I created NumPy tutorials used by members throughout the term, and helped guide projects ranging from image classification to poker agents to Kaggle competitions. Our weekly meetings mix technical depth with community - from lectures breaking down how machine learning actually works, to interactive games that bring people together. We're building a space where anyone curious about AI can find their footing and go further. Next year, I'll be stepping into the role of Marketing Lead."
+    ],
+    "ctas": []
+  },
+  "bh": {
+    "name": "BeaverHacks",
+    "role": "Core & Marketing Team",
+    "date": "June 2025 - Present",
+    "photos": [
+      "bh-merch/3.jpg",
+      "bh-event/carousel/untitled (102 of 275).jpg",
+      "bh-event/carousel/untitled (43 of 275).jpg",
+      "bh-merch/5.jpg",
+      "bh-merch/6.jpg",
+      "bh-event/carousel/untitled (70 of 275).jpg",
+      "bh-event/carousel/untitled (59 of 275).jpg",
+      "bh-event/carousel/venue2.jpg",
+      "bh-event/gp1.JPG"
+    ],
+    "description": [
+      "Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I know how they push you to pick up new tools, move fast, and lean on teamwork under pressure. Being part of the core operations team that organizes BeaverHacks, Oregon's largest collegiate hackathon hosted at OSU, felt like a natural extension of that passion.",
+      "Across the 24-hour event drawing 500+ students from universities across the country, I contributed across marketing, design, and operations - from running social campaigns and designing stickers, to modeling merchandise, to managing volunteers and logistics on event day."
+    ],
+    "ctas": [
+      {
+        "href": "beaverhacks-2026.html",
+        "label": "BeaverHacks 2026 →"
+      }
+    ]
+  }
+}

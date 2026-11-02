@@ -1,0 +1,134 @@
+{
+  "source": "https://tinytreats.itch.io/house-plants",
+  "freeUploadId": 13347629,
+  "archiveBytes": 18766990,
+  "archiveSha256": "32d20c7079de63eebd16f95b9d683e0d8095ecc09988f26fba565374c8deb62d",
+  "files": [
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_large_potted.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_large_potted.bin",
+      "bytes": 191368,
+      "sha256": "0b9083e08be8d7ae812bdc89bc447bd56376dc49e02e25e9ec8fa4799d635507",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_large_potted.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_large_potted.gltf",
+      "bytes": 3621,
+      "sha256": "f0e6b19b57a97bd6394c1248f1f609718c1773c3c0d5d3d1ee4aac450a204545",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_medium_potted.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_medium_potted.bin",
+      "bytes": 103480,
+      "sha256": "fd6fc6b3d0919bfec8f9da76a1fc5b8c949883230ce46829e26663d528710c25",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_medium_potted.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_medium_potted.gltf",
+      "bytes": 3619,
+      "sha256": "28d3d8d13ab0064b2e2235350ab61b65db1bda55d19b6d7ec40138b478516ce1",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_small_potted.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_small_potted.bin",
+      "bytes": 42680,
+      "sha256": "da7340c802d97124f4527c20d24c70fa0703e607a9f77a5c583fd4ecf979f61a",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/monstera_plant_small_potted.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_small_potted.gltf",
+      "bytes": 3614,
+      "sha256": "59cf59e141acfee04592bbc68fe75f8b4e1782d01f55d3911ab2aad488899113",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_plant_small_potted.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_plant_small_potted.bin",
+      "bytes": 69024,
+      "sha256": "5ac66a6160c6ecea77a0f5a8d42c3aaa82468973fe4e6c7dfc0aabc900771c9a",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_plant_small_potted.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_plant_small_potted.gltf",
+      "bytes": 3612,
+      "sha256": "5fd853f05d1b70f34d5fa3fe8271fc9a3933407d0f39af1a824c145e6c2473b2",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_large_A.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_large_A.bin",
+      "bytes": 29744,
+      "sha256": "826c013895ff38f9dfe878f8d3b87188c1881bfb368b3df9e45b626c184db17b",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_large_A.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_large_A.gltf",
+      "bytes": 3584,
+      "sha256": "9b77b1bfbc549452f0667babd6040c8017843040cf9a4ece096d96449a83ee03",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_large_B.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_large_B.bin",
+      "bytes": 36304,
+      "sha256": "bc42f20f574ccf863e3f8c6d3ef5ab6e4f51b150b6ee7f14560ba7b4ccb7e8b8",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_large_B.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_large_B.gltf",
+      "bytes": 3587,
+      "sha256": "866f954a4f1b616f5792cbae4908a8dde12d7d62f2d3b4724b18290ff0d5353c",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_medium_C.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_medium_C.bin",
+      "bytes": 32112,
+      "sha256": "654ed4337c9f1b7ecb28be0e00bbe7b6aac160b38a78facee4dbdca0e988d398",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/pothos_vine_medium_C.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/pothos_vine_medium_C.gltf",
+      "bytes": 3590,
+      "sha256": "3b0677eac6ab007f1f7a69ae35bb98ade9b138683f0c38c7ce76cca087ed6940",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/tiny_treats_texture_1.png",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/tiny_treats_texture_1.png",
+      "bytes": 20974,
+      "sha256": "31e5c7c81bfba644a59797b1907519592c7728d4af98a705449975dd929482e5",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/yucca_plant_large_potted.bin",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/yucca_plant_large_potted.bin",
+      "bytes": 224000,
+      "sha256": "46423affea834c66716490d738198742fdd2a9fa9f949529b2c54f755ad07b21",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/Assets/gltf/yucca_plant_large_potted.gltf",
+      "file": "assets/source/tiny-treats-house-plants/Assets/gltf/yucca_plant_large_potted.gltf",
+      "bytes": 3613,
+      "sha256": "3916998a1b986ebd1fc76948d9f7f2999da85dbd0fae44af394c7f39a504c014",
+      "license": "CC0-1.0"
+    },
+    {
+      "archivePath": "Tiny_Treats_House_Plants_1.0_FREE/License.txt",
+      "file": "assets/source/tiny-treats-house-plants/License.txt",
+      "bytes": 879,
+      "sha256": "c7119a2df64ce5296f81d77f1517374f28bd91592291ac196431a3912f761422",
+      "license": "CC0-1.0"
+    }
+  ]
+}

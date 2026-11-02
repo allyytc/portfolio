@@ -1,0 +1,29 @@
+{
+  "sourceURL": "https://poly.pizza/m/w8ZaiYjK8C",
+  "creator": "Quaternius",
+  "license": "CC0-1.0",
+  "actualDownloadedGLBBytes": 2675812,
+  "exportBytes": 1218528,
+  "variants": [
+    {
+      "node": "Spruce0.009",
+      "source": "PineTree_1",
+      "triangles": 2128,
+      "materials": 2
+    },
+    {
+      "node": "Spruce1.009",
+      "source": "PineTree_3",
+      "triangles": 1998,
+      "materials": 2
+    },
+    {
+      "node": "Spruce2.008",
+      "source": "PineTree_5",
+      "triangles": 838,
+      "materials": 2
+    }
+  ],
+  "normalMaps": "disconnected for small forest props",
+  "maxTexture": 1024
+}

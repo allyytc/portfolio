@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/blender/desk-studio.blend",
+    "bytes": 971696,
+    "sha256": "8da6d7d8b57a122d3f296c48635a0e313809ee91758471319068ffb7a1b50a50"
+  },
+  {
+    "file": "public/models/desk-studio.glb",
+    "bytes": 3986224,
+    "sha256": "6b3db8bb4ce066d3c52f24c5be51f39b66e2c54b8b34332ea2a478f5b1b7c52c"
+  },
+  {
+    "file": "assets/blender/textures/oak-grain.png",
+    "bytes": 585439,
+    "sha256": "dc0cd370669e9a9bbb84401b54cf2b7e771c2546fe5f288fd532e4117eab55d8"
+  },
+  {
+    "file": "assets/blender/textures/desk-bake-probe.png",
+    "bytes": 876277,
+    "sha256": "a54875e132f5f56f96b1e5363709bd611fc1e429d82e4ef9268bd329540f2531"
+  },
+  {
+    "file": "public/files/allychen-resume2028.pdf",
+    "bytes": 148113,
+    "sha256": "d95810f04c322a653d3226c88484d0d82ff9f5796dc61a3ffdf99f6c23a815f9",
+    "source": "/Users/ally/Downloads/allychen-resume2028.pdf",
+    "supplied": "2026-10-27",
+    "modified": false
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "scene": "PortfolioLoft4B",
+  "objects": 728,
+  "collections": [
+    "Entrance",
+    "Workstation",
+    "DesignCorner",
+    "CommunityWall",
+    "ReadingNook",
+    "Loft",
+    "Archive",
+    "ExternalLinks",
+    "PlantsAndDecor",
+    "LightingAndCamera"
+  ],
+  "roots": {
+    "StudioStatic": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ProjectsMonitor": [
+      -1.649999976158142,
+      1.25,
+      0.0
+    ],
+    "ProjectsSign": [
+      -1.7000000476837158,
+      -1.7200000286102295,
+      0.0
+    ],
+    "PrinterBody": [
+      -1.649999976158142,
+      1.25,
+      0.0
+    ],
+    "ResumePaper": [
+      -0.49000000953674316,
+      1.3020000457763672,
+      0.9070000052452087
+    ],
+    "AboutBook": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "UnwrapDisplay": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StickerBook": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Sketchbook": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_ESC": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_StartupHub": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_DFA": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_BeaverHacks": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_AIClub": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_BeaverHacks2026": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_InnovationJam2026": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Community_EngineersWeek": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "SkillsVolume": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ExperienceVolume": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "AboutSign": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "CommunitySign": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ContactSign": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ExternalGitHub": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ExternalLinkedIn": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "camera": [
+    9.0,
+    -13.0,
+    9.5
+  ],
+  "target": [
+    0.0,
+    0.0,
+    1.5499999523162842
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "phase": "6B",
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "typecheck": "passed",
+    "warning": "Existing lazy model-loader bundle remains about 972 KB raw; Phase 7 optimization deferred"
+  },
+  "tests": {
+    "uniqueChecks": 36,
+    "status": "all checks have passing results",
+    "latestFullRun": {
+      "passed": 35,
+      "failed": 1,
+      "reason": "Earlier design test still expected missing Unwrap UI; updated to verified capture and current pending-details label."
+    },
+    "afterCorrection": {
+      "command": "npx playwright test tests/experiences.spec.ts tests/projects-migration.spec.ts --grep 'design and physical|opaque sticky|Unwrap uses'",
+      "passed": 3,
+      "failed": 0
+    },
+    "afterGallerySizingFix": {
+      "command": "npx playwright test tests/projects-migration.spec.ts tests/experiences.spec.ts --grep 'design and sticker|opaque sticky|design and physical'",
+      "passed": 3,
+      "failed": 0,
+      "note": "Includes image width containment assertion, real image decode, desktop/mobile and fullscreen checks."
+    },
+    "finalMobileEvidenceRefresh": {
+      "passed": 1,
+      "failed": 0,
+      "note": "Decoded original graphic and Unwrap images before final mobile screenshots."
+    }
+  },
+  "media": {
+    "originalUniqueFiles": 94,
+    "originalBytes": 97541234,
+    "localUnwrapCaptures": 2,
+    "originalBlobsVerified": true,
+    "sourceSnapshotsVerified": 15
+  },
+  "links": {
+    "projectAndDemoURLs": 21,
+    "resolved": 19,
+    "DevpostBlocked403": 2,
+    "designEventURLsResolved": 3
+  },
+  "liveKorbitPlaybackEvidence": "korbit-live-player.json",
+  "protectedSourceEvidence": "preservation-checks.json",
+  "originalSiteModified": false,
+  "deploymentPerformed": false
+}

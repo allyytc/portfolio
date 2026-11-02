@@ -1,0 +1,65 @@
+/* Phase 7C. The world owns the viewport; HTML stays independently usable. */
+:root{--world-spruce:#142a25;--world-pine:#263f35;--world-walnut:#6f4938;--world-brass:#c59a60;--world-parchment:#f0e5d2;--world-ink:#243c33;--world-mist:#b9c9bf;--world-edge:#c59a6045;--world-panel:#112923f2;color:var(--world-parchment);background:var(--world-spruce)}
+body{background:linear-gradient(180deg,#0d1430 0%,#2a2850 34%,#8a4a55 62%,#e0833f 88%,#f5b062 100%);min-height:100svh}
+.site-shell.midnight-cabin{max-width:none;margin:0;padding:0;min-height:100svh}
+.midnight-cabin main{min-height:100svh}
+.midnight-cabin .studio-stage{position:absolute;inset:0;width:100%;height:100svh;min-height:0;margin:0;background:none;isolation:isolate}
+.midnight-cabin .site-header{position:absolute;inset:20px 28px auto;z-index:5;height:52px;padding:0;border:0;pointer-events:none}
+.midnight-cabin .site-header>*{pointer-events:auto}
+.midnight-cabin .wordmark{font-size:24px;color:var(--world-parchment);text-shadow:0 2px 14px #0008}
+.midnight-cabin .leaf-mark,.midnight-cabin .wordmark-dot{color:var(--world-brass)}
+.midnight-cabin .site-header nav{gap:6px;padding:4px 8px;background:var(--world-panel);border:1px solid var(--world-edge);border-radius:30px;color:var(--world-parchment);font-size:13px}
+.midnight-cabin .site-header nav button{padding:8px 13px;min-height:40px}
+.midnight-cabin .site-header .contact-trigger{border:0;background:none;color:var(--world-parchment)}
+.midnight-cabin .site-header nav button:hover{color:#ffdb9d}
+.midnight-cabin .studio-meta{position:absolute;top:84px;left:30px;right:30px;z-index:3;padding:0;pointer-events:none;align-items:start}
+.midnight-cabin .studio-meta .eyebrow{font-size:9px;color:var(--world-mist)}
+.midnight-cabin .studio-meta .role-label{color:var(--world-mist);font-size:10px;text-shadow:0 1px 7px #000}
+.midnight-cabin .role-label span{background:#c59a60;border-color:#c59a6020;min-width:10px;height:10px;border-width:2px}
+.midnight-cabin .stage-corner{top:118px;left:30px;color:var(--world-brass);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.midnight-cabin .camera-toolbar{top:auto;bottom:50px;right:26px;gap:5px;z-index:4;max-width:none}
+.midnight-cabin .camera-toolbar button{background:var(--world-panel);color:var(--world-parchment);border:1px solid var(--world-edge);font-size:11px;min-height:44px;padding:9px 13px;backdrop-filter:blur(10px)}
+.midnight-cabin .camera-toolbar button:hover{background:var(--world-pine)}
+.midnight-cabin .camera-toolbar button:disabled{opacity:.55}
+.midnight-cabin .camera-hint{position:absolute;bottom:106px;left:50%;width:auto;max-width:650px;transform:translateX(-50%);background:#112923e6;color:var(--world-mist);border:1px solid #c59a6026;box-shadow:none;font-size:11px;padding:8px 12px;z-index:3}
+.midnight-cabin .camera-hint span{font-size:11px;color:var(--world-mist)}
+.midnight-cabin .camera-hint button{color:var(--world-parchment)}
+.midnight-cabin .quick-view-disclosure{position:fixed;bottom:48px;left:26px;z-index:7;width:220px;max-width:calc(100vw - 40px);margin:0;padding:0;background:none;border:0;box-shadow:none}
+.midnight-cabin .quick-view-trigger{background:var(--world-panel);color:var(--world-parchment);border:1px solid var(--world-brass);border-radius:12px;padding:12px 16px;min-height:52px;gap:10px;box-shadow:0 8px 30px #0003;font-size:13px}
+.midnight-cabin .quick-view-trigger>span:first-child{color:var(--world-brass)}
+.midnight-cabin .quick-view-description{display:none}
+.midnight-cabin .quick-view-drawer{position:absolute;bottom:64px;left:0;width:460px;max-width:calc(100vw - 40px);max-height:min(680px,calc(100svh - 170px));overflow:auto;padding:18px;background:var(--world-panel);color:var(--world-parchment);border:1px solid var(--world-edge);border-radius:16px;box-shadow:0 16px 70px #0006;backdrop-filter:blur(20px)}
+.midnight-cabin .quick-view-heading{padding:0 2px 14px;border-bottom:1px solid var(--world-edge)}
+.midnight-cabin .quick-view-heading p{color:var(--world-parchment);font:25px Georgia,serif;margin:0 0 12px}
+.midnight-cabin .quick-view-heading label{color:var(--world-mist);font-size:12px}
+.midnight-cabin .quick-view-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 0 0}
+.midnight-cabin .quick-view-grid button{position:relative;display:flex;flex-direction:column;align-items:start;padding:12px;border:1px solid #c59a6030;border-radius:8px;background:#263f3566;min-height:68px;text-align:left;color:var(--world-parchment)}
+.midnight-cabin .quick-view-grid button:hover{background:#385446;border-color:var(--world-brass)}
+.midnight-cabin .quick-view-grid button strong{font-size:13px;color:var(--world-parchment)}
+.midnight-cabin .quick-view-grid button small{font-size:10px;color:var(--world-mist);line-height:1.4;padding-right:10px}
+.midnight-cabin .quick-view-grid button>span{position:absolute;right:10px;top:10px;color:var(--world-brass)}
+.midnight-cabin .site-footer{position:absolute;bottom:0;left:0;right:0;z-index:4;display:flex;justify-content:flex-end;gap:22px;padding:12px 28px;border:0;font-size:9px;color:var(--world-mist);background:linear-gradient(transparent,#0a1e1ba8)}
+.midnight-cabin .site-footer a{color:var(--world-mist)}
+.midnight-cabin .site-footer>span{margin-right:auto}
+.midnight-cabin .scene-loading,.midnight-cabin .scene-fallback{color:var(--world-parchment);background:radial-gradient(ellipse,#263f35aa,transparent 70%);z-index:2}
+.midnight-cabin .scene-fallback{inset:22% 15%;background:var(--world-panel);border:1px solid var(--world-edge);border-radius:20px}
+.midnight-cabin .route-notice{position:fixed;top:100px;left:25%;right:25%;z-index:10;background:var(--world-panel);color:var(--world-parchment);padding:15px;border:1px solid var(--world-brass)}
+.midnight-cabin .hotspot-tooltip span{background:var(--world-panel);color:var(--world-parchment);border:1px solid var(--world-brass);box-shadow:0 8px 25px #0005}
+.midnight-cabin :is(button,a,input,select):focus-visible{outline:3px solid #ffda96;outline-offset:4px}
+/* Parchment reading surfaces stay bright and restrained within the dark world. */
+.portfolio-dialog{--experience-accent:var(--world-pine);background:var(--world-parchment);color:var(--world-ink);border:1px solid var(--world-brass);box-shadow:0 25px 100px #0009;max-height:88svh;border-radius:12px;width:min(1000px,calc(100vw - 48px))}
+.portfolio-dialog::backdrop{background:#071b18a6;backdrop-filter:blur(6px)}
+.portfolio-dialog .dialog-head,.portfolio-dialog .dialog-head .dialog-topline,.portfolio-dialog .dialog-head .dialog-navigation{background:var(--world-pine);color:var(--world-parchment);border-color:var(--world-edge)}
+.portfolio-dialog .dialog-topline .eyebrow{color:#e1c296}
+.portfolio-dialog .close-button{background:#112923;color:var(--world-parchment);border:1px solid var(--world-edge)}
+.portfolio-dialog .panel-link,.portfolio-dialog .section-picker{color:var(--world-parchment)}
+.portfolio-dialog .section-picker select{background:#173127;color:var(--world-parchment);border-color:var(--world-edge)}
+.portfolio-dialog .dialog-body{background:var(--world-parchment);border-left:5px solid var(--experience-accent);padding-top:22px}
+.portfolio-dialog.experience-design,.portfolio-dialog.experience-stickers{--experience-accent:var(--world-walnut)}
+.portfolio-dialog.experience-community{--experience-accent:#8d6c40}
+.portfolio-dialog.experience-about{--experience-accent:#a56036}
+.portfolio-dialog.experience-archive{--experience-accent:#4c6654}
+.portfolio-dialog .detail-back,.portfolio-dialog .case-section-nav{background:var(--world-parchment)}
+.portfolio-dialog :is(button,a,input,select):focus-visible{outline:3px solid #75502b;outline-offset:4px}
+@media(max-width:800px){.midnight-cabin .site-header{inset:14px 16px auto}.midnight-cabin .site-header nav{font-size:11px}.midnight-cabin .site-header nav button{padding:6px 10px}.midnight-cabin .wordmark{font-size:21px}.midnight-cabin .studio-meta{left:18px;right:18px;top:76px;gap:7px}.midnight-cabin .studio-meta .role-label{font-size:9px}.midnight-cabin .stage-corner{left:18px;top:122px;font-size:9px}.midnight-cabin .quick-view-disclosure{left:16px;bottom:76px;width:190px}.midnight-cabin .quick-view-drawer{max-height:calc(100svh - 200px)}.midnight-cabin .camera-toolbar{bottom:140px;right:16px;max-width:180px;flex-wrap:wrap}.midnight-cabin .camera-toolbar button{padding:8px 10px;font-size:10px}.midnight-cabin .camera-hint{bottom:205px;max-width:90%;width:330px}.midnight-cabin .site-footer{gap:12px;padding:12px 16px;flex-wrap:wrap;justify-content:flex-start;font-size:9px}.midnight-cabin .site-footer>span{width:100%;margin:0}.midnight-cabin .site-footer .credit{width:auto}.portfolio-dialog{width:calc(100vw - 20px);max-height:92svh}.portfolio-dialog .dialog-body{padding:18px 18px 28px}}
+@media(prefers-reduced-motion:reduce){.portfolio-dialog{animation:none}}

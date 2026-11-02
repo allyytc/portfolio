@@ -1,0 +1,17 @@
+/* DEV-ONLY cabin editor chrome (never imported in production). */
+.ce-open{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:30;padding:7px 14px;border-radius:20px;border:1px dashed #c59a60;background:#0f2420e8;color:#f0e5d2;font:600 12px/1 system-ui;cursor:pointer}
+.ce-open i,.ce-panel header i{font-style:normal;margin-left:8px;padding:2px 6px;border-radius:8px;background:#c59a60;color:#142a25;font-size:9px;letter-spacing:.08em}
+.ce-panel{position:fixed;top:82px;right:10px;bottom:10px;width:330px;z-index:30;overflow:auto;padding:12px;border-radius:14px;background:#0f2420f2;border:1px solid #c59a6066;color:#f0e5d2;font:12px/1.35 system-ui;box-shadow:0 10px 40px #0009}
+.ce-panel header{display:flex;align-items:center;gap:6px;margin-bottom:6px}.ce-panel header strong{font-size:15px}.ce-panel header button{margin-left:auto}
+.ce-panel button{background:#263f35;color:#f0e5d2;border:1px solid #c59a6055;border-radius:8px;padding:5px 9px;font:inherit;cursor:pointer}
+.ce-panel button.on,.ce-panel button.primary{background:#c59a60;color:#142a25;font-weight:700}.ce-panel button:disabled{opacity:.4;cursor:default}
+.ce-panel button:focus-visible,.ce-panel input:focus-visible,.ce-panel select:focus-visible{outline:2px solid #ffd27a;outline-offset:1px}
+.ce-row{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin:6px 0}.ce-row.small{font-size:11px}
+.ce-msg{margin:4px 0 8px;color:#b9c9bf}.ce-hint{font-size:10.5px;color:#b9c9bf}.ce-warn{margin:3px 0;color:#ff9c8f}
+.ce-detail{margin:8px 0;padding:8px;border-radius:10px;background:#1a3530}.ce-detail h3{display:flex;justify-content:space-between;margin:0 0 6px;font-size:13px}
+.ce-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px}.ce-num{display:flex;align-items:center;gap:6px}.ce-num span{width:46px;color:#b9c9bf}
+.ce-num input,.ce-search,.ce-panel select,.ce-panel textarea{background:#102420;color:#f0e5d2;border:1px solid #c59a6055;border-radius:6px;padding:4px 6px;font:inherit;min-width:0}.ce-num input{width:100%}
+.ce-search{width:100%;margin:6px 0}.ce-list h4{margin:8px 0 3px;color:#c59a60;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.ce-list button{display:block;width:100%;text-align:left;margin:2px 0}.ce-global{margin-top:10px;padding-top:8px;border-top:1px solid #c59a6044}
+.ce-panel textarea{width:100%;height:80px;margin:6px 0}.ce-panel details{margin-top:8px;color:#b9c9bf}
+.ce-panel button.danger{background:#5a2a24;border-color:#ff9c8f88}.ce-panel button.danger:hover:not(:disabled){background:#7a3228}

@@ -1,0 +1,7 @@
+# Phase 4C handoff to Phase 4D
+
+The owner supplied Phase 4D while Phase 4C validation was active. Phase 4C source/export, six camera presets, local Draco decoder and recoverable loader changes are checkpointed under `assets/checkpoints/phase4c/`. All six tests passed, including five named views, exact default reset, zoom bounds, decoder failure and retry. No visitor camera controls were added.
+
+The final Phase 4C GLB is 3,482,540 bytes / 338,976 triangles, versus Phase 4B 18,799,828 bytes / 430,591 triangles. This is approximately 81.5% smaller with 21.3% fewer triangles, before the local decoder payload. The default isometric pose remains unchanged. Source-based fabric and foliage variation, a folded nook textile, sky bay, trim and shifted social shelf were added. Source renders are clean, but black textile patches remain in the fixed-light bake even after triangulation/normal correction. This is an unresolved visual issue, not a completed fidelity claim. Phase 4D will replace weak furnishings/foliage and move affected soft surfaces to an independent shading path.
+
+Actual Blender, browser, five-view captures and diagnostic source render are in `evidence/phase4c/`. The asset register is `PHASE4C_ASSETS.md`. No original site, deployment, portfolio text migration or Phase 5 visitor controls were changed. The local path of the approved reference image was requested for a literal side-by-side; no image path has been supplied yet.

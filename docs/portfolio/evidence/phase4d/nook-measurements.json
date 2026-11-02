@@ -1,0 +1,48 @@
+{
+  "measurements": [
+    {
+      "object": "Window reading bench / benchCushion(Clone).002",
+      "material": "Loft_Honey oak.003",
+      "minZ": 0.04008882865309715,
+      "maxZ": 0.5899174213409424
+    },
+    {
+      "object": "Window reading bench / benchCushion(Clone).002",
+      "material": "Polish_Nook sage upholstery.002",
+      "minZ": 0.2635055184364319,
+      "maxZ": 0.3754061758518219
+    },
+    {
+      "object": "Soft nook cushion 0",
+      "location": [
+        2.809999942779541,
+        0.17999999225139618,
+        0.6000000238418579
+      ]
+    },
+    {
+      "object": "Soft nook cushion 1",
+      "location": [
+        2.809999942779541,
+        -0.33000001311302185,
+        0.6000000238418579
+      ]
+    },
+    {
+      "object": "Soft nook cushion 2",
+      "location": [
+        -1.149999976158142,
+        -1.9500000476837158,
+        0.03500000014901161
+      ]
+    },
+    {
+      "object": "Floor yucca",
+      "location": [
+        -0.11999999731779099,
+        1.840000033378601,
+        0.029999999329447746
+      ]
+    }
+  ]
+}

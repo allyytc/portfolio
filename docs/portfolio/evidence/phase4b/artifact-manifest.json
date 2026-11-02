@@ -1,0 +1,89 @@
+{
+  "checkpointFilesVerified": {
+    "phase3": 10,
+    "phase4a": 7
+  },
+  "prior4ABlendAndGLBUnchanged": true,
+  "artifacts": [
+    {
+      "file": "assets/blender/studio-phase4b.blend",
+      "bytes": 47177933,
+      "sha256": "fe9e90a96f87fad3e9196166a205c0b2452facd312b9209b9438a8fabed1bbe2"
+    },
+    {
+      "file": "public/models/loft-studio-v4b.glb",
+      "bytes": 18799828,
+      "sha256": "ea74e1e4c4c9335be784ba9439f4e6a9f8feac1fa94f9f92e2e167b4c8fc9601"
+    },
+    {
+      "file": "assets/blender/textures/loft4b-static-baked.png",
+      "bytes": 10158681,
+      "sha256": "8c9e5361227cec089a67006a2a7e0307c4753984311152234f94bfaefdbe315d"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/before-after-browser.png",
+      "bytes": 489795,
+      "sha256": "ac7630335a86befdd94a71547364e31d89388f0b005cc771d784b444921e3322"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/blender-browser-comparison.png",
+      "bytes": 692323,
+      "sha256": "e7e377429e8568ba0002b29447e887fc851e26c89c92353b8049ebbd798465e8"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/blender-studio.png",
+      "bytes": 2651713,
+      "sha256": "4679d8397124620ded52626328562362f8faeaaef61bf8ec96c2003b1eb8fa75"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-community-wall.png",
+      "bytes": 948706,
+      "sha256": "a3e83d4832f597ba0721844b3be044384a6436e8f44497e4e7d14b06afb9858e"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-design-corner.png",
+      "bytes": 1079163,
+      "sha256": "b0d959ba69c9c32c33e5b3d00479c90fe10e88bf270dfb643a5036fac1502bf7"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-desk.png",
+      "bytes": 1128561,
+      "sha256": "cf5a4ead3bb5b8b3b63fa056dd689e624de191f3c3c10987b4ad66bc299defae"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-desktop.png",
+      "bytes": 670930,
+      "sha256": "a9fcebca6fd422e7a1cffc539cd4c1b1eb0eca570b41aca22249ff3a1853c504"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-mobile.png",
+      "bytes": 146876,
+      "sha256": "244f88ae815788e4fde115b1f38e5c81768b1ed4398db0a2638da7c66bcc55ba"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-printing.png",
+      "bytes": 688025,
+      "sha256": "1ba416d8c2c41d9515dc17173b158026338236ae9f89150cb02c313dd58183e0"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-projects.png",
+      "bytes": 173955,
+      "sha256": "db8088f137aa9af2b33e2ef131d633a44a6390895e0e76dc801698459875b67e"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-reading-nook.png",
+      "bytes": 1054026,
+      "sha256": "c83b282b6a2702b0cbd7dd66b1d48bf0aa2fe38e47e525b7f7faff1e0afca1ec"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-resume.png",
+      "bytes": 138294,
+      "sha256": "19168a3e1389adc3fc6c2c8ba61620917465a7f3204fede806d90c2f1a17f180"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4b/browser-studio-large.png",
+      "bytes": 814861,
+      "sha256": "f95404042cf3f2ec42e6b25506c4867c4141a8fc7eb253af84729aa95cca9136"
+    }
+  ]
+}

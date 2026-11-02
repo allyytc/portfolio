@@ -1,0 +1,15 @@
+{
+  "phase4BBytes": 18799828,
+  "phase4CBytes": 3482540,
+  "modelByteReductionPercent": 81.47568158602301,
+  "allDecoderDistributionBytes": 763341,
+  "modelPlusAllDecoderBytes": 4245881,
+  "phase4BTriangles": 430591,
+  "phase4CTriangles": 338976,
+  "triangleReductionPercent": 21.27657103841,
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "nodes": 24,
+  "images": 1
+}

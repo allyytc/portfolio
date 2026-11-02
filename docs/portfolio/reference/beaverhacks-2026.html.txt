@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeaverHacks 2026 - Ally Chen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260623k" />
+  <style>
+    /* BeaverHacks 2026 - warm brown case-study theme */
+    body { background: #433020; overflow-x: hidden; }
+    .nav {
+      --nav-bg: #433020;
+      --nav-border: rgba(255,255,255,0.08);
+      --nav-link: rgba(248,245,227,0.65);
+      --nav-link-hover: #f8f5e3;
+      --nav-home: #f8f5e3;
+      --nav-dropdown-bg: #433020;
+      --nav-dropdown-border: rgba(255,255,255,0.12);
+      --nav-dropdown-link: rgba(248,245,227,0.65);
+      --nav-dropdown-link-hover: #f8f5e3;
+      --nav-dropdown-link-hover-bg: rgba(255,255,255,0.08);
+      --nav-dropdown-label: rgba(248,245,227,0.45);
+      --nav-mobile-bg: #433020;
+      --nav-mobile-border: rgba(255,255,255,0.12);
+      --nav-mobile-link: rgba(248,245,227,0.65);
+      --nav-mobile-link-hover: #f8f5e3;
+      --nav-mobile-submenu-border: rgba(255,255,255,0.12);
+      --nav-mobile-label: rgba(248,245,227,0.45);
+      --nav-toggle-bar: #f8f5e3;
+    }
+    .bh-dark { background: #433020; }
+    .bh-dark-alt { background: #f8f5e3; }
+    .bh-dark .display-heading { color: #f8f5e3; }
+    .bh-dark-alt .display-heading { color: var(--charcoal, #2d2d2d); }
+    .bh-dark .section-label { color: rgba(248,245,227,0.45); }
+    .bh-dark-alt .section-label { color: var(--olive, #7a7a59); }
+    .bh-dark .section-inner { border-top-color: rgba(248,245,227,0.12); }
+    .bh-dark-alt .section-inner { border-top-color: rgba(0,0,0,0.1); }
+    .bh-dark .exp-date { color: rgba(248,245,227,0.45); }
+    .bh-dark-alt .exp-date { color: var(--olive, #7a7a59); }
+    .bh-dark .exp-content h3 { color: #f8f5e3; }
+    .bh-dark-alt .exp-content h3 { color: var(--charcoal, #2d2d2d); }
+    .bh-dark li { color: rgba(248,245,227,0.65); }
+    .bh-dark-alt li { color: #5a5a4a; }
+    .bh-dark .exp-item { border-top-color: rgba(248,245,227,0.12); }
+    .bh-dark-alt .exp-item { border-top-color: rgba(0,0,0,0.1); }
+    .bh-dark .event-card { background: #5e4733; border-color: rgba(248,245,227,0.08); }
+    .bh-dark-alt .event-card { background: #f8f5e3; border-color: rgba(0,0,0,0.12); }
+  </style>
+</head>
+<body class="event-page">
+
+  <nav class="nav" id="nav" aria-label="Primary"></nav>
+  <script src="nav.js?v=9"></script>
+
+  <!-- Hero -->
+  <section class="section bh-dark" style="min-height: 80vh; display: flex; align-items: center; background-image: linear-gradient(rgba(20,20,20,0.55), rgba(20,20,20,0.55)), url('bh-event/gp1.JPG'); background-size: cover; background-position: center 48%;">
+    <div class="section-inner event-hero-inner" style="border-top: none; width: 100%; max-width: 100%; margin: 0; padding-top: 7rem; padding-left: clamp(2rem, 8%, 10rem); padding-bottom: 5rem;">
+      <div class="section-body">
+        <a href="involvement.html#events" style="display:inline-block; margin-bottom:1.5rem; font-size:0.9rem; color:rgba(248,245,227,0.55); text-decoration:none; letter-spacing:0.05em;">&larr; Back to Involvement</a>
+        <h1 class="display-heading dh-light" style="font-size: clamp(4rem, 9vw, 7rem);">BeaverHacks<br/>2026</h1>
+        <p style="color: rgba(248,245,227,0.92); max-width: 560px; margin-top: 1rem; font-size: 1.1rem; text-shadow: 0 1px 10px rgba(0,0,0,0.5);">Oregon's largest annual hackathon - 500+ students, 24 hours, and sponsor challenges across multiple tracks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section class="section bh-dark-alt">
+    <div class="section-inner" style="max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Overview</span>
+      </div>
+      <div class="section-body">
+        <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">About the Event</h2>
+        <p style="max-width: 720px; margin: 1rem 0 1.25rem; line-height: 1.7; font-size: 1.1rem; color: #5a5a4a;">BeaverHacks is Oregon's largest annual hackathon, hosted by Oregon State University and drawing 500+ students from universities across the country. Over 24 hours, teams of up to four tackle sponsor-based challenges across multiple tracks, building projects from scratch in a fast-paced, collaborative environment.</p>
+        <p style="max-width: 720px; line-height: 1.7; font-size: 1.1rem; color: #5a5a4a;">The event bridges the gap between university and industry, giving students direct exposure to the problems and people shaping the tech industry.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="section bh-dark-alt" style="padding-bottom: 5rem;">
+    <div class="section-inner" style="padding-bottom: 1.5rem; max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Photos</span>
+      </div>
+      <div class="section-body">
+        <div class="bh-event-header">
+          <h2 class="display-heading">Event Photos</h2>
+          <div class="bh-event-header-arrows">
+            <button class="bh-carousel-arrow bh-carousel-arrow--prev" id="bhPrev" aria-label="Previous photos">&#8592;</button>
+            <button class="bh-carousel-arrow bh-carousel-arrow--next" id="bhNext" aria-label="Next photos">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .bh-event-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+      }
+      .bh-event-header .display-heading {
+        margin-bottom: 0;
+      }
+      .bh-event-header-arrows {
+        display: flex;
+        gap: 0.75rem;
+      }
+      .bh-event-header-arrows .bh-carousel-arrow {
+        position: static;
+        transform: none;
+      }
+      .bh-carousel {
+        position: relative;
+        max-width: 98vw;
+        margin: 0 auto;
+        padding: 0 0.5rem;
+      }
+
+      .bh-carousel-viewport { overflow: hidden; }
+      .bh-carousel-track {
+        display: flex;
+        will-change: transform;
+      }
+      .bh-carousel-slide {
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 0 0.6rem;
+        overflow: visible;
+      }
+      .bh-carousel-slide-inner {
+        overflow: hidden;
+        display: inline-block;
+        height: 520px;
+      }
+      .bh-carousel-slide img {
+        height: 520px;
+        width: auto;
+        border-radius: 0;
+        display: block;
+        background: #e8e2d0;
+      }
+      @media (max-width: 1024px) {
+        .bh-carousel-slide-inner,
+        .bh-carousel-slide img { height: 420px; }
+      }
+      @media (max-width: 640px) {
+        .bh-carousel-slide-inner,
+        .bh-carousel-slide img { height: 320px; }
+      }
+      .bh-carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        border: none;
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 2;
+        transition: background 0.2s;
+      }
+      .bh-carousel-arrow:hover { background: rgba(0,0,0,0.55); }
+      .bh-carousel-arrow--prev { left: 0; }
+      .bh-carousel-arrow--next { right: 0; }
+    </style>
+    <div class="bh-carousel" id="bhCarousel">
+      <div class="bh-carousel-viewport">
+        <div class="bh-carousel-track" id="bhTrack"></div>
+      </div>
+    </div>
+    <script>
+      function initBhCarousel(root, photos, opts) {
+        opts = opts || {};
+        var secondsPerPhoto = opts.secondsPerPhoto || 6; // continuous drift pace
+        var alt = opts.alt || 'Photo';
+        var filters = opts.filters || {};
+        var classes = opts.classes || {}; // src -> extra class name for the slide
+
+        var N = photos.length;
+        var rendered = photos.concat(photos); // two copies for a seamless continuous loop
+
+        var viewport = root.querySelector('.bh-carousel-viewport');
+        var track = root.querySelector('.bh-carousel-track');
+        var prevBtn = opts.prevBtn || root.querySelector('.bh-carousel-arrow--prev');
+        var nextBtn = opts.nextBtn || root.querySelector('.bh-carousel-arrow--next');
+
+        rendered.forEach(function(src) {
+          var slide = document.createElement('div');
+          slide.className = 'bh-carousel-slide';
+          if (classes[src]) slide.classList.add(classes[src]);
+          var inner = document.createElement('div');
+          inner.className = 'bh-carousel-slide-inner';
+          var img = document.createElement('img');
+          img.src = src;
+          img.alt = alt;
+          img.loading = 'lazy';
+          if (filters[src]) img.style.filter = filters[src];
+          inner.appendChild(img);
+          slide.appendChild(inner);
+          track.appendChild(slide);
+        });
+
+        var widths = []; // per-slide widths for one set (index 0..N-1), in px
+        var cumulative = [0]; // prefix sums of widths, length N+1
+        var singleSetWidth = 0;
+        var speed = 0; // px per ms
+        var offset = 0; // current translateX, in (-singleSetWidth, 0]
+        var hovering = false; // mouse is over the photos or arrows
+        var jumping = false; // an arrow jump is settling
+        var paused = false;
+        var lastTime = null;
+
+        function updatePaused() {
+          paused = hovering || jumping;
+        }
+
+        function measure() {
+          widths = [];
+          cumulative = [0];
+          for (var i = 0; i < N; i++) {
+            var w = track.children[i].getBoundingClientRect().width;
+            widths.push(w);
+            cumulative.push(cumulative[i] + w);
+          }
+          singleSetWidth = cumulative[N];
+          speed = singleSetWidth / (N * secondsPerPhoto * 1000);
+        }
+
+        function setTransform() {
+          track.style.transform = 'translateX(' + offset + 'px)';
+        }
+
+        // Used for jumps (arrows/settle), where we need to toggle the
+        // transition on/off without it animating the wrong change.
+        function applyTransform(withTransition) {
+          track.style.transition = withTransition ? 'transform 0.4s ease' : 'none';
+          setTransform();
+          if (!withTransition) track.getBoundingClientRect(); // force reflow
+        }
+
+        function settle() {
+          jumping = false;
+          updatePaused();
+          if (offset <= -singleSetWidth) offset += singleSetWidth;
+          if (offset > 0) offset -= singleSetWidth;
+          applyTransform(false);
+        }
+
+        // Index of the slide currently sitting at (or just past) the viewport's left edge.
+        function currentIndex() {
+          var pos = ((-offset) % singleSetWidth + singleSetWidth) % singleSetWidth;
+          for (var i = 0; i < N; i++) {
+            if (pos < cumulative[i + 1] - 0.5) return i;
+          }
+          return 0;
+        }
+
+        function nudge(direction) {
+          jumping = true;
+          updatePaused();
+          var i = currentIndex();
+          if (direction > 0) {
+            offset -= widths[i];
+          } else {
+            offset += widths[(i - 1 + N) % N];
+          }
+          applyTransform(true);
+          setTimeout(settle, 420);
+        }
+
+        function tick(now) {
+          if (lastTime === null) lastTime = now;
+          var dt = now - lastTime;
+          lastTime = now;
+          if (!paused) {
+            offset -= speed * dt;
+            if (offset <= -singleSetWidth) offset += singleSetWidth;
+            setTransform();
+          }
+          requestAnimationFrame(tick);
+        }
+
+        prevBtn.addEventListener('click', function() { nudge(-1); });
+        nextBtn.addEventListener('click', function() { nudge(1); });
+
+        // Only pause for hover over the photos or the arrow buttons.
+        [viewport, prevBtn, nextBtn].forEach(function(el) {
+          el.addEventListener('mouseenter', function() { hovering = true; updatePaused(); });
+          el.addEventListener('mouseleave', function() { hovering = false; updatePaused(); });
+        });
+
+        window.addEventListener('resize', function() {
+          var old = singleSetWidth;
+          measure();
+          if (old) offset = offset * (singleSetWidth / old);
+          applyTransform(false);
+        });
+
+        // Wait for first-set images so width: auto resolves before measuring speed.
+        var firstSetImgs = [];
+        for (var fi = 0; fi < N; fi++) {
+          var firstImg = track.children[fi].querySelector('img');
+          firstImg.loading = 'eager';
+          firstSetImgs.push(firstImg);
+        }
+        function remeasureFromLoads() {
+          measure();
+          applyTransform(false);
+        }
+        firstSetImgs.forEach(function(img) {
+          if (img.complete && img.naturalWidth > 0) remeasureFromLoads();
+          else {
+            img.addEventListener('load', remeasureFromLoads);
+            img.addEventListener('error', remeasureFromLoads);
+          }
+        });
+
+        measure();
+        applyTransform(false);
+        requestAnimationFrame(tick);
+      }
+    </script>
+    <script>
+      (function() {
+        var photos = [
+          'bh-event/carousel/untitled (189 of 275).jpg',
+          'bh-event/carousel/untitled (19 of 275).jpg',
+          'bh-event/carousel/IMG_7646.jpg',
+          'bh-event/carousel/untitled (70 of 275).jpg',
+          'bh-event/carousel/venue.jpg',
+          'bh-event/carousel/untitled (268 of 275).jpg',
+          'bh-event/carousel/untitled (57 of 275).jpg',
+          'bh-event/carousel/untitled (181 of 275).jpg',
+          'bh-event/carousel/top.jpg',
+          'bh-event/carousel/untitled (230 of 275).jpg',
+          'bh-event/carousel/untitled (43 of 275).jpg',
+          'bh-event/carousel/IMG_7744.jpg',
+          'bh-event/carousel/untitled (102 of 275).jpg',
+          'bh-event/carousel/venue2.jpg',
+          'bh-event/carousel/untitled (196 of 275).jpg',
+          'bh-event/carousel/untitled (275 of 275).jpg',
+          'bh-event/carousel/untitled (60 of 275).jpg',
+          'bh-event/carousel/untitled (32 of 275).jpg',
+          'bh-event/carousel/untitled (249 of 275).jpg',
+          'bh-event/carousel/untitled (187 of 275).jpg',
+          'bh-event/carousel/untitled (52 of 275).jpg',
+          'bh-event/carousel/DSCF6276.jpg',
+          'bh-event/carousel/untitled (89 of 275).jpg',
+          'bh-event/carousel/untitled (217 of 275).jpg',
+          'bh-event/carousel/untitled (11 of 275).jpg',
+          'bh-event/carousel/untitled (158 of 275).jpg',
+          'bh-event/carousel/untitled (248 of 275).jpg',
+          'bh-event/carousel/untitled (59 of 275).jpg'
+        ];
+
+        initBhCarousel(document.getElementById('bhCarousel'), photos, {
+          alt: 'BeaverHacks 2026 event photo',
+          prevBtn: document.getElementById('bhPrev'),
+          nextBtn: document.getElementById('bhNext')
+        });
+      })();
+    </script>
+  </section>
+
+  <!-- Details -->
+  <section class="section bh-dark-alt">
+    <div class="section-inner" style="max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Details</span>
+      </div>
+      <div class="section-body">
+        <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">My Role</h2>
+        <p style="max-width: 680px; margin: 1rem 0 2rem; color: #5a5a4a; line-height: 1.7; font-size: 1.1rem;">Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I love how they push you to pick up new tools, move fast, and get very comfortable with git and merge conflicts.</p>
+        <div class="event-role-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem;">
+          <div>
+            <div style="font-size: 0.9rem; color: var(--olive, #7a7a59); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Marketing</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: var(--charcoal, #2d2d2d); margin-bottom: 1rem; letter-spacing: 0.04em;">Marketing &amp; Outreach</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: #5a5a4a; line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Managed marketing campaigns to drive student participation across 30+ universities.</li>
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Created promotional content across social media platforms ahead of registration.</li>
+              <li style="padding: 0.35rem 0;">Coordinated with sponsors to amplify visibility through co-branded announcements.</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: var(--olive, #7a7a59); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Design</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: var(--charcoal, #2d2d2d); margin-bottom: 1rem; letter-spacing: 0.04em;">Merch &amp; Design</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: #5a5a4a; line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Designed event stickers distributed to all 500+ attendees.</li>
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Modeled and promoted official BeaverHacks hoodies and merchandise on social media.</li>
+              <li style="padding: 0.35rem 0;">Drove merch sales through promotional posts and content creation.</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: var(--olive, #7a7a59); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Operations</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.75rem; color: var(--charcoal, #2d2d2d); margin-bottom: 1rem; letter-spacing: 0.04em;">Volunteer Coordination</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; color: #5a5a4a; line-height: 1.7; font-size: 1.05rem;">
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Led and coordinated volunteers throughout the 24-hour event.</li>
+              <li style="padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.06);">Managed check-in, logistics, and attendee guidance across multiple event spaces.</li>
+              <li style="padding: 0.35rem 0;">Supported team leads in real-time problem solving during the event day.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticker Designs Section -->
+  <section class="section bh-dark">
+    <div class="section-inner" style="max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Design</span>
+      </div>
+      <div class="section-body">
+        <div class="event-sticker-layout" style="display: flex; align-items: center; gap: 3rem;">
+          <!-- Sticker carousel -->
+          <div class="event-sticker-panel" style="display: flex; align-items: center; gap: 1.25rem; flex-shrink: 0;">
+            <button id="stickerPrev" onclick="stickerCarousel(-1)" aria-label="Previous sticker" style="flex-shrink:0; background: rgba(248,245,227,0.12); border: none; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f5e3; font-size: 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,245,227,0.22)'" onmouseout="this.style.background='rgba(248,245,227,0.12)'">&#8592;</button>
+            <div class="event-sticker-card" style="width: 500px; background: #f8f5e3; border-radius: 1rem; padding: 1.5rem 1.5rem 1rem; display: flex; flex-direction: column; align-items: center;">
+              <div id="stickerTrack" style="display: flex; align-items: center; justify-content: center;">
+                <img id="stickerImg" src="bh-stickers/sticker-1-crop.png" alt="BeaverHacks sticker" style="max-height: 380px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;" />
+              </div>
+              <div style="margin-top: 1rem; font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: #a0917e;">
+                <span id="stickerCurrent">1</span> / <span id="stickerTotal">6</span>
+              </div>
+            </div>
+            <button id="stickerNext" onclick="stickerCarousel(1)" aria-label="Next sticker" style="flex-shrink:0; background: rgba(248,245,227,0.12); border: none; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #f8f5e3; font-size: 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgba(248,245,227,0.22)'" onmouseout="this.style.background='rgba(248,245,227,0.12)'">&#8594;</button>
+          </div>
+          <div style="flex: 1;">
+            <h2 class="display-heading" style="font-size: clamp(3.5rem, 8vw, 6.5rem);">Sticker Designs</h2>
+            <p style="margin-top: 0.75rem; color: rgba(248,245,227,0.6); font-size: 1.1rem;">Designed the full sticker collection for BeaverHacks 2026 - including stickers distributed to all 500+ attendees, an exclusive design for volunteers, and two limited designs for team members only. Also managed the end-to-end logistics of getting them produced through the manufacturer.</p>
+          </div>
+        </div>
+        <script>
+          (function() {
+            var stickers = [
+              { src: 'bh-stickers/sticker-1-crop.png',  rot: '-3deg' },
+              { src: 'bh-stickers/sticker-9-crop.png',  rot:  '2deg' },
+              { src: 'bh-stickers/sticker-10-crop.png', rot: '-2deg' },
+              { src: 'bh-stickers/sticker-11-crop.png', rot:  '3deg' },
+              { src: 'bh-stickers/sticker-12-crop.png', rot: '-1deg' },
+              { src: 'bh-stickers/sticker-13-crop.png', rot:  '2deg' },
+            ];
+            var idx = 0;
+            var img = document.getElementById('stickerImg');
+            var cur = document.getElementById('stickerCurrent');
+            window.stickerCarousel = function(dir) {
+              idx = (idx + dir + stickers.length) % stickers.length;
+              img.style.opacity = '0';
+              img.style.transform = 'rotate(0deg) scale(0.92)';
+              setTimeout(function() {
+                img.src = stickers[idx].src;
+                img.alt = 'BeaverHacks sticker ' + (idx + 1);
+                img.style.transform = 'rotate(' + stickers[idx].rot + ') scale(1)';
+                img.style.opacity = '1';
+                cur.textContent = idx + 1;
+              }, 180);
+            };
+            img.style.transform = 'rotate(' + stickers[0].rot + ') scale(1)';
+          })();
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Merch Photos Section -->
+  <section class="section bh-dark-alt">
+    <div class="section-inner" style="padding-bottom: 1.5rem; max-width: 1400px;">
+      <div class="section-label-col">
+        <span class="section-label">Merch</span>
+      </div>
+      <div class="section-body">
+        <div class="bh-merch-header">
+          <h2 class="display-heading">Merch Photos</h2>
+          <div class="bh-merch-header-arrows">
+            <button class="bh-carousel-arrow bh-carousel-arrow--prev" id="bhMerchPrev" aria-label="Previous photos">&#8592;</button>
+            <button class="bh-carousel-arrow bh-carousel-arrow--next" id="bhMerchNext" aria-label="Next photos">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="event-carousel-wrap" style="max-width: 98vw; margin: 0 auto; padding: 0 2rem 5rem;">
+      <style>
+        .bh-merch-header {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+          margin-bottom: 2.5rem;
+        }
+        .bh-merch-header .display-heading {
+          margin-bottom: 0;
+        }
+        .bh-merch-header-arrows {
+          display: flex;
+          gap: 0.75rem;
+        }
+        .bh-merch-header-arrows .bh-carousel-arrow {
+          position: static;
+          transform: none;
+        }
+        .bh-carousel--portrait { --bh-photo-h: 620px; padding: 0 0.5rem; }
+        @media (max-width: 1024px) { .bh-carousel--portrait { --bh-photo-h: 480px; padding: 0 0.5rem; } }
+        @media (max-width: 640px)  { .bh-carousel--portrait { --bh-photo-h: 360px; padding: 0 0.5rem; } }
+        .bh-carousel--portrait .bh-carousel-slide {
+          flex: 0 0 auto;
+        }
+        .bh-carousel--portrait .bh-carousel-slide-inner {
+          height: var(--bh-photo-h);
+        }
+        .bh-carousel--portrait .bh-carousel-slide img {
+          width: auto;
+          height: var(--bh-photo-h);
+          aspect-ratio: 3 / 4;
+          object-fit: cover;
+          object-position: top;
+        }
+        .bh-carousel--portrait .bh-carousel-slide--landscape img {
+          aspect-ratio: 3 / 2;
+          object-position: center;
+        }
+      </style>
+      <div class="bh-carousel bh-carousel--portrait" id="bhMerchCarousel">
+        <div class="bh-carousel-viewport">
+          <div class="bh-carousel-track"></div>
+        </div>
+      </div>
+      <script>
+        (function() {
+          var photos = [
+            'bh-merch/1.jpg',
+            'bh-merch/3.jpg',
+            'bh-merch/4.jpg',
+            'bh-merch/9.jpg',
+            'bh-merch/5.jpg',
+            'bh-merch/6.jpg',
+            'bh-merch/10.JPG',
+            'bh-merch/bh3.jpg',
+            'bh-merch/8.jpg',
+            'bh-merch/11.JPG',
+            'bh-merch/12.JPG',
+            'bh-merch/13.JPG'
+          ];
+          initBhCarousel(document.getElementById('bhMerchCarousel'), photos, {
+            alt: 'BeaverHacks 2026 merch photo',
+            prevBtn: document.getElementById('bhMerchPrev'),
+            nextBtn: document.getElementById('bhMerchNext'),
+            filters: { 'bh-merch/13.JPG': 'contrast(1.15) saturate(1.25) brightness(1.35)' },
+            classes: {
+              'bh-merch/9.jpg': 'bh-carousel-slide--landscape',
+              'bh-merch/10.JPG': 'bh-carousel-slide--landscape',
+              'bh-merch/11.JPG': 'bh-carousel-slide--landscape'
+            }
+          });
+        })();
+      </script>
+    </div>
+  </section>
+
+  <section class="section section-contact section-contact--beaverhacks" id="contact">
+    <div class="section-inner">
+      <div class="section-label-col">
+        <span class="section-label">Contact</span>
+      </div>
+      <div class="section-body contact-body">
+        <h2 class="display-heading">Let's<br/>Connect</h2>
+        <div class="contact-links">
+          <a href="allychen-resume2028-pm.pdf" class="contact-link" target="_blank" rel="noopener">Resume</a>
+          <a href="mailto:allyten08@gmail.com" class="contact-link">allyten08@gmail.com</a>
+          <a href="https://linkedin.com/in/allyychen/" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/allyychen</a>
+          <a href="https://github.com/allyytc" target="_blank" rel="noopener" class="contact-link">github.com/allyytc</a>
+          <a href="tel:5038660073" class="contact-link">(503) 866-0073</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-footer-bar">
+      <p>&copy; 2026 Ally Chen</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

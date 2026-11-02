@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "impact-live/home-desktop.webp",
+    "kind": "image",
+    "src": "media/impact-live/home-desktop.webp",
+    "originalPath": "impact-live/home-desktop.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Full-page screenshot of the live Impact Studio homepage on a desktop browser",
+    "alt": "Full-page screenshot of the live Impact Studio homepage on a desktop browser",
+    "gitBlob": "9eb4218816b9d8d28a4df2a79e67aeb3fd847a56",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-live/home-desktop.webp",
+    "sha256": "16136595f12127944368da9e64c29cb7149df4321f365405b25330b7c3d1460a"
+  },
+  {
+    "id": "impact-live/about-desktop.webp",
+    "kind": "image",
+    "src": "media/impact-live/about-desktop.webp",
+    "originalPath": "impact-live/about-desktop.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Full-page screenshot of the live Impact Studio About page on a desktop browser",
+    "alt": "Full-page screenshot of the live Impact Studio About page on a desktop browser",
+    "gitBlob": "e73d646a80ef6217e2a773484b59306788f5a5ab",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-live/about-desktop.webp",
+    "sha256": "853b38449bac46e96c23b5e4f05049107ab6e21632bf4ba1f9848c4151ebdc31"
+  },
+  {
+    "id": "impact-live/portfolio-desktop.webp",
+    "kind": "image",
+    "src": "media/impact-live/portfolio-desktop.webp",
+    "originalPath": "impact-live/portfolio-desktop.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Full-page screenshot of the live Impact Studio portfolio page on a desktop browser",
+    "alt": "Full-page screenshot of the live Impact Studio portfolio page on a desktop browser",
+    "gitBlob": "daa075cf36c4f65bff51ad466340e8ca0f62549e",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-live/portfolio-desktop.webp",
+    "sha256": "26dd0b0e3c0e68bd2b729910d85407efc86dc158ee1e5796bdbc0108cc7d5076"
+  },
+  {
+    "id": "impact-live/home-mobile.webp",
+    "kind": "image",
+    "src": "media/impact-live/home-mobile.webp",
+    "originalPath": "impact-live/home-mobile.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Full-page screenshot of the live Impact Studio homepage at a mobile width",
+    "alt": "Full-page screenshot of the live Impact Studio homepage at a mobile width",
+    "gitBlob": "25db244953d3befd5f92a4aa8df3fc824e003073",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-live/home-mobile.webp",
+    "sha256": "eb6e473e582680cc304fc07675f9eca3cfd94a69e4d8458f3414069a36d858b0"
+  },
+  {
+    "id": "impact-wireframe/mock 3.png",
+    "kind": "image",
+    "src": "media/impact-wireframe/mock 3.png",
+    "originalPath": "impact-wireframe/mock 3.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Homepage redesign - hero, approach, and lifecycle process",
+    "alt": "Homepage redesign - hero, approach, and lifecycle process",
+    "gitBlob": "ec802ddb176a6509407d50a98d5d7e193083caf7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-wireframe/mock%203.png",
+    "sha256": "6698260d47aa1afd68f19f560bee2581c5a1b6e2a0f8166b6604870ad1b40091"
+  },
+  {
+    "id": "impact-wireframe/mock 1.png",
+    "kind": "image",
+    "src": "media/impact-wireframe/mock 1.png",
+    "originalPath": "impact-wireframe/mock 1.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "About Us page - mission and team directory",
+    "alt": "About Us page - mission and team directory",
+    "gitBlob": "87c7b211a3136d80aafd41c6b13d8e24e6ea701c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/impact-wireframe/mock%201.png",
+    "sha256": "e48f5d84cb3902ee9b7a9bf267a2aa63359d0bf46d3e4d23bb2f04a830dc2c5d"
+  },
+  {
+    "id": "cddc-wireframes/home.png",
+    "kind": "image",
+    "src": "media/cddc-wireframes/home.png",
+    "originalPath": "cddc-wireframes/home.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Homepage wireframe",
+    "alt": "Homepage wireframe",
+    "gitBlob": "e25f6766ea79dd9751731e163bbc7ae314d3209f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cddc-wireframes/home.png",
+    "sha256": "10a4e231440e53b1234205277f0049fc6b716a3af20054330252031676a67704"
+  },
+  {
+    "id": "cddc-wireframes/get-help.png",
+    "kind": "image",
+    "src": "media/cddc-wireframes/get-help.png",
+    "originalPath": "cddc-wireframes/get-help.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Get Help page wireframe",
+    "alt": "Get Help page wireframe",
+    "gitBlob": "be336fc23210dfd9ecdd6bf11acb6e78793c018e",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cddc-wireframes/get-help.png",
+    "sha256": "f06c7bfbdcf9b986c8087e7c01edacbbd2811f3c7cd7aa99dfe4315338d043f4"
+  },
+  {
+    "id": "cddc-wireframes/contact.png",
+    "kind": "image",
+    "src": "media/cddc-wireframes/contact.png",
+    "originalPath": "cddc-wireframes/contact.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Contact Us page wireframe",
+    "alt": "Contact Us page wireframe",
+    "gitBlob": "d7a9cde5f5f6b3561c0ac183cccb1db8329f1df6",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cddc-wireframes/contact.png",
+    "sha256": "709616cc0c04fae9e000dc02b7f235fb46a0d6fc8f7d0c8d70bdef4bcf59952e"
+  },
+  {
+    "id": "cddc-wireframes/about.png",
+    "kind": "image",
+    "src": "media/cddc-wireframes/about.png",
+    "originalPath": "cddc-wireframes/about.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "About Us page wireframe",
+    "alt": "About Us page wireframe",
+    "gitBlob": "a9f9cc24c93407f8b62b8b03026264cf64b3584c",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cddc-wireframes/about.png",
+    "sha256": "d45daf9925374492ef00dfe11f8cb3fefc7180ab9e92f6dbfa997a412d3543da"
+  },
+  {
+    "id": "cddc-wireframes/donate.png",
+    "kind": "image",
+    "src": "media/cddc-wireframes/donate.png",
+    "originalPath": "cddc-wireframes/donate.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Donate page wireframe",
+    "alt": "Donate page wireframe",
+    "gitBlob": "ef1cb58a9decae38a07f49e175fe79464d6e63da",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/cddc-wireframes/donate.png",
+    "sha256": "cb91d509865a238d7b7b7b78da60c50d051f5c33143b14e76b37b696de0a0866"
+  },
+  {
+    "id": "korbit-gal/title.webp",
+    "kind": "image",
+    "src": "media/korbit-gal/title.webp",
+    "originalPath": "korbit-gal/title.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "KO.rbit title screen on a starfield, with the prompt to begin a run",
+    "alt": "KO.rbit title screen on a starfield, with the prompt to begin a run",
+    "gitBlob": "832ca5882377fe15c854f171f11a87e1af2db879",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/korbit-gal/title.webp",
+    "sha256": "988a86d674d7e5dcb186828d3726126a6dbdcc19e12cf727b69f17e164029b3d"
+  },
+  {
+    "id": "korbit-gal/cockpit.webp",
+    "kind": "image",
+    "src": "media/korbit-gal/cockpit.webp",
+    "originalPath": "korbit-gal/cockpit.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "KO.rbit 3D cockpit lobby, with a pilot at the console and a radar of nearby ships",
+    "alt": "KO.rbit 3D cockpit lobby, with a pilot at the console and a radar of nearby ships",
+    "gitBlob": "37bb97e82ef6d82a9124755056a3adcff45f10b7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/korbit-gal/cockpit.webp",
+    "sha256": "ad08810eb1f2f7d1df83c9f429a880f2f6191b57e8a15e0af4ef71697e0577a9"
+  },
+  {
+    "id": "korbit-gal/duel.webp",
+    "kind": "image",
+    "src": "media/korbit-gal/duel.webp",
+    "originalPath": "korbit-gal/duel.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "KO.rbit saber duel in a rocky arena, with health and stamina on the battle HUD",
+    "alt": "KO.rbit saber duel in a rocky arena, with health and stamina on the battle HUD",
+    "gitBlob": "0defc3dbe4bac0731726152f9fd6b12e5c76c3ba",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/korbit-gal/duel.webp",
+    "sha256": "bcb9a773f9996293bed6b695cb2d737d7b698bc1e371ab24191b48e06abef252"
+  },
+  {
+    "id": "korbit-gal/mars-arena.webp",
+    "kind": "image",
+    "src": "media/korbit-gal/mars-arena.webp",
+    "originalPath": "korbit-gal/mars-arena.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "KO.rbit Mars arena at Jezero Crater, with a landed ship and two pilots on the terrain",
+    "alt": "KO.rbit Mars arena at Jezero Crater, with a landed ship and two pilots on the terrain",
+    "gitBlob": "bf1285454d5f02aee56fde4f611d4f9b1a06e4c7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/korbit-gal/mars-arena.webp",
+    "sha256": "d61afa6a7890d141c7454668699e074cd82de1bffe53a9a509163de6f102ed30"
+  },
+  {
+    "id": "korbit-gal/solar-view.webp",
+    "kind": "image",
+    "src": "media/korbit-gal/solar-view.webp",
+    "originalPath": "korbit-gal/solar-view.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "KO.rbit solar view of a banded planet, with the navigation menu open",
+    "alt": "KO.rbit solar view of a banded planet, with the navigation menu open",
+    "gitBlob": "019325be9fb7c755e0bf886dd3ff690d73e79340",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/korbit-gal/solar-view.webp",
+    "sha256": "ca49fb1214e587db9a8a3b4240923285c9e0ea297ceafa8b8f96bf0a1a29beb1"
+  },
+  {
+    "id": "ero-gal/image-02.webp",
+    "kind": "image",
+    "src": "media/ero-gal/image-02.webp",
+    "originalPath": "ero-gal/image-02.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "System workflow diagram",
+    "alt": "System workflow diagram",
+    "gitBlob": "9f652e2d0250a6724752f5005f94fa77af789d64",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/image-02.webp",
+    "sha256": "42aae1bdc2992899b37f542aa8f4c9cb0d0e3797b0676b7f53ec14271a4a935d"
+  },
+  {
+    "id": "ero-gal/nursedash.webp",
+    "kind": "image",
+    "src": "media/ero-gal/nursedash.webp",
+    "originalPath": "ero-gal/nursedash.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Nurse dashboard - live patient queue and alerts",
+    "alt": "Nurse dashboard - live patient queue and alerts",
+    "gitBlob": "d30d0e97dece4352523bae5cdb300146f6bc8395",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/nursedash.webp",
+    "sha256": "adf99cc27c07a87499f58e66a25c4805d1777ca809e2eb52e367f3067eef5973"
+  },
+  {
+    "id": "ero-gal/fall-alert.webp",
+    "kind": "image",
+    "src": "media/ero-gal/fall-alert.webp",
+    "originalPath": "ero-gal/fall-alert.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Fall detection alert - critical emergency modal",
+    "alt": "Fall detection alert - critical emergency modal",
+    "gitBlob": "3ba387c58e6e86ac3d85aa57d62386bb1a1b99a3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/fall-alert.webp",
+    "sha256": "5a0943db027c2d33019586da7331b4c809590dd61bc7595e6fe9aa2e5e2281ef"
+  },
+  {
+    "id": "ero-gal/patient.webp",
+    "kind": "image",
+    "src": "media/ero-gal/patient.webp",
+    "originalPath": "ero-gal/patient.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Patient wait portal - queue position and ER status",
+    "alt": "Patient wait portal - queue position and ER status",
+    "gitBlob": "25a3b7a194eef3c8a79a7c1a9c647ea84a8acfb2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/patient.webp",
+    "sha256": "5fae3993fcaed23cd0f3a1d5a2ecb9c6c2edb06f5404751e5e30b907a8f54f4a"
+  },
+  {
+    "id": "ero-gal/qr.webp",
+    "kind": "image",
+    "src": "media/ero-gal/qr.webp",
+    "originalPath": "ero-gal/qr.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Patient check-in flow",
+    "alt": "Patient check-in flow",
+    "gitBlob": "ecdb9ce67918c35fba56e4471005b3c73f694fc5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/qr.webp",
+    "sha256": "50b891aa56c0bb0f81e88478adf112f27ad912d6f8b5b129c99d0f5bee202619"
+  },
+  {
+    "id": "ero-gal/awards/IMG_2647.WEBP",
+    "kind": "image",
+    "src": "media/ero-gal/awards/IMG_2647.WEBP",
+    "originalPath": "ero-gal/awards/IMG_2647.WEBP",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Team on stage at QuackHacks 3",
+    "alt": "Team on stage at QuackHacks 3",
+    "gitBlob": "352a1358a68caec0a84ccc4182db9f1bc290f341",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/awards/IMG_2647.WEBP",
+    "sha256": "555a970a3fc3dbbd6d47aa5e10806f43661d0d0eafc19188683590ac977d25bf"
+  },
+  {
+    "id": "ero-gal/awards/IMG_2654.WEBP",
+    "kind": "image",
+    "src": "media/ero-gal/awards/IMG_2654.WEBP",
+    "originalPath": "ero-gal/awards/IMG_2654.WEBP",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "QuackHacks 3 - judging",
+    "alt": "QuackHacks 3 - judging",
+    "gitBlob": "54ce954c29ddbf6bda71efdfc1fa8b93a171c21b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ero-gal/awards/IMG_2654.WEBP",
+    "sha256": "d301ba6eb2d2b01098d0d27c4f1ef571ad230edaf1734571bf7dc2dd00535661"
+  },
+  {
+    "id": "combo-game/gallery (6).jpg",
+    "kind": "image",
+    "src": "media/combo-game/gallery (6).jpg",
+    "originalPath": "combo-game/gallery (6).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Main menu - Enter the Inferno",
+    "alt": "Main menu - Enter the Inferno",
+    "gitBlob": "eb047f548f47df5005fa7eb4ec20a510f2391194",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combo-game/gallery%20%286%29.jpg",
+    "sha256": "e099e85400ed21eed711d5c199b12e089f78fef3de436d20356c2cff4e7dbb41"
+  },
+  {
+    "id": "combo-game/gallery (5).jpg",
+    "kind": "image",
+    "src": "media/combo-game/gallery (5).jpg",
+    "originalPath": "combo-game/gallery (5).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "How to Play - gesture tutorial and battle tips",
+    "alt": "How to Play - gesture tutorial and battle tips",
+    "gitBlob": "cd7d4e10682ad803a18739a3101286811440b906",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combo-game/gallery%20%285%29.jpg",
+    "sha256": "019ed2b2e88b08a015e75a92eef8d7dc279af81cf7a116e8bdbdd1fa25b561d7"
+  },
+  {
+    "id": "combo-game/gallery (1).jpg",
+    "kind": "image",
+    "src": "media/combo-game/gallery (1).jpg",
+    "originalPath": "combo-game/gallery (1).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Boss fight - MediaPipe hand tracking and spell casting",
+    "alt": "Boss fight - MediaPipe hand tracking and spell casting",
+    "gitBlob": "8bcd07c0c296ac3241ba6ea9835830f04b2669cf",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combo-game/gallery%20%281%29.jpg",
+    "sha256": "983bb7bb09cabd96d57769f0df2e119eeb5b66d66baab358463926829d9522d4"
+  },
+  {
+    "id": "combo-game/gallery (4).jpg",
+    "kind": "image",
+    "src": "media/combo-game/gallery (4).jpg",
+    "originalPath": "combo-game/gallery (4).jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Defeat Bosses - enemy selection screen",
+    "alt": "Defeat Bosses - enemy selection screen",
+    "gitBlob": "c895369f81c6333b6fc2e37e664a17631ebec2a0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combo-game/gallery%20%284%29.jpg",
+    "sha256": "aeeb58f861295afab013d67f680f43fea31178040a5a07a922cb01145c7a6450"
+  },
+  {
+    "id": "combo-game/gallery.jpg",
+    "kind": "image",
+    "src": "media/combo-game/gallery.jpg",
+    "originalPath": "combo-game/gallery.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Victory screen - combo stats and final boss HP",
+    "alt": "Victory screen - combo stats and final boss HP",
+    "gitBlob": "e322c17e69381a1ca72b737c5d003c4ccb98f8b5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combo-game/gallery.jpg",
+    "sha256": "80bf5d0da8d67a395cb3169c5570afe9287a83f78968fd411b8ebd460157f9f3"
+  },
+  {
+    "id": "combocraft-event/DSC01945.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/DSC01945.JPG",
+    "originalPath": "combocraft-event/DSC01945.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "1st Place Overall - QuackHacks 2025",
+    "alt": "1st Place Overall - QuackHacks 2025",
+    "gitBlob": "75ec76dc3d8684909a131027c0edf2a64dea647d",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/DSC01945.JPG",
+    "sha256": "dbf95d517d836f78b28f2811c0eda510fa8aa787730759f17a8c997b2e44ccf9"
+  },
+  {
+    "id": "combocraft-event/MAH01763.MP4",
+    "kind": "video",
+    "src": "media/combocraft-event/MAH01763.MP4",
+    "originalPath": "combocraft-event/MAH01763.MP4",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "ComboCraft at QuackHacks 2025 - event footage",
+    "title": "ComboCraft at QuackHacks 2025 - event footage",
+    "gitBlob": "0ac309adc489bf91494a0c7ab0c7e0baf9960ba2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/MAH01763.MP4",
+    "sha256": "7c7ce5eaa7dc0e1ee1f451e052c9b3103c6975343d07c9928276c0ad1a04ca8c",
+    "mime": "video/mp4"
+  },
+  {
+    "id": "combocraft-event/DSC01841.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/DSC01841.JPG",
+    "originalPath": "combocraft-event/DSC01841.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Final judging stage - presentation and live demo",
+    "alt": "Final judging stage - presentation and live demo",
+    "gitBlob": "33ba59800c8280d2f7465c37c03be6955ea98bc2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/DSC01841.JPG",
+    "sha256": "73ecb81a604370dd95af733502994177f3b794b94f74c4c090e4377c72b30745"
+  },
+  {
+    "id": "combocraft-event/DSC01844.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/DSC01844.JPG",
+    "originalPath": "combocraft-event/DSC01844.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Final judging stage - presentation and live demo",
+    "alt": "Final judging stage - presentation and live demo",
+    "gitBlob": "2821f345353e05764ea63adb9c219115a8eb1795",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/DSC01844.JPG",
+    "sha256": "708b5cf15b1d6459e60a91ac5324c372741ae4a349ead93ea99a7dda9623f086"
+  },
+  {
+    "id": "combocraft-event/DSC01845.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/DSC01845.JPG",
+    "originalPath": "combocraft-event/DSC01845.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Final judging stage - presentation and live demo",
+    "alt": "Final judging stage - presentation and live demo",
+    "gitBlob": "de8e1c403ab26c53617a80fbeb0b83eee2e85a4a",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/DSC01845.JPG",
+    "sha256": "d602fcdfc3a256289d1faded490f961be2c574b644bb03016debcbf10f5cf868"
+  },
+  {
+    "id": "combocraft-event/DSC01846.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/DSC01846.JPG",
+    "originalPath": "combocraft-event/DSC01846.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Final judging stage - presentation and live demo",
+    "alt": "Final judging stage - presentation and live demo",
+    "gitBlob": "158aea33b51ab08e708b9672e4ee681584376cf6",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/DSC01846.JPG",
+    "sha256": "1e0bc7773f38be9abb7d2867f0823abd1e34a32961ed9395fd14fc9a487a5803"
+  },
+  {
+    "id": "combocraft-event/IMG_2987.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/IMG_2987.JPG",
+    "originalPath": "combocraft-event/IMG_2987.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Judging stage - Pipeworks judges",
+    "alt": "Judging stage - Pipeworks judges",
+    "gitBlob": "5b8aebd5bc414cdf32bb8f1eb2385b3672775d7b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/IMG_2987.JPG",
+    "sha256": "07347c8eee96d7b527943e6db0266dc9200524b196b1440e37a59c2a2039404f"
+  },
+  {
+    "id": "combocraft-event/IMG_2988.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/IMG_2988.JPG",
+    "originalPath": "combocraft-event/IMG_2988.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Judging stage - Pipeworks judges",
+    "alt": "Judging stage - Pipeworks judges",
+    "gitBlob": "87c72eaaebdc69cc76f33a55524de0eb4b4f6720",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/IMG_2988.JPG",
+    "sha256": "a0dc51fd38ba67d28b80ac88647216f567b535f50d450d911dbc94a7a1da1696"
+  },
+  {
+    "id": "combocraft-event/IMG_2986.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/IMG_2986.JPG",
+    "originalPath": "combocraft-event/IMG_2986.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Judging stage - Pipeworks judges",
+    "alt": "Judging stage - Pipeworks judges",
+    "gitBlob": "e25cc6da0679333913bf094edb6592958be1c61d",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/IMG_2986.JPG",
+    "sha256": "3e09c3fa1632793024ca62b648103b0393135fc185053c453a00e9c99e811bd4"
+  },
+  {
+    "id": "combocraft-event/IMG_2989.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/IMG_2989.JPG",
+    "originalPath": "combocraft-event/IMG_2989.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Project fair - staff stopped by to play",
+    "alt": "Project fair - staff stopped by to play",
+    "gitBlob": "daff985de7afa8018c336eb2fbf8720b1380e795",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/IMG_2989.JPG",
+    "sha256": "485ab81e8dc88975bb7cb26aa6fc8e0050d5b51b90987bf2b4c983a9a3d3e493"
+  },
+  {
+    "id": "combocraft-event/IMG_2990.JPG",
+    "kind": "image",
+    "src": "media/combocraft-event/IMG_2990.JPG",
+    "originalPath": "combocraft-event/IMG_2990.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Project fair - staff stopped by to play",
+    "alt": "Project fair - staff stopped by to play",
+    "gitBlob": "523b328016bfabc4e248509e48a987a099e0da90",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/combocraft-event/IMG_2990.JPG",
+    "sha256": "6d4b6bfd9fe398610f8154976279f1c48463dec77e4ed7b8dabec539d886c452"
+  },
+  {
+    "id": "afterlife-metro/split-screen.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/split-screen.webp",
+    "originalPath": "afterlife-metro/split-screen.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Split-screen in the Afterlife Metro browser game (Godot 4.5 web build). The Human’s view is on the left and the Ghost’s view is on the right. The Ghost sees puzzle objects the Human can’t. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Split-screen in the Afterlife Metro browser game (Godot 4.5 web build). The Human’s view is on the left and the Ghost’s view is on the right. The Ghost sees puzzle objects the Human can’t. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "ad80a81b80eea4a7fbfedd8c05f6dfe5de89febb",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/split-screen.webp",
+    "sha256": "c8765387d7006311e0274801bca56e301ca5ebd46713c1039878a845a952d9a7",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/puzzle-room.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/puzzle-room.webp",
+    "originalPath": "afterlife-metro/puzzle-room.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Exploring a puzzle room in Afterlife Metro, a Godot 4.5 browser game. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Exploring a puzzle room in Afterlife Metro, a Godot 4.5 browser game. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "a7f69202dff632c1ff12fa2f57e14be65b5778d9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/puzzle-room.webp",
+    "sha256": "d2f4ee400e256d341492adb18174de0aba52137444b012166fb6e19baf7e5322",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/home.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/home.webp",
+    "originalPath": "afterlife-metro/home.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Afterlife Metro home screen in the Godot 4.5 web build. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Afterlife Metro home screen in the Godot 4.5 web build. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "0d1091f2ae43961be03deb4c1297f3d307511cc3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/home.webp",
+    "sha256": "464064f5a8a6b59dd212a1b256adc21152fc8219d47fac86bb6b1ee70d53ef75",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/intro-memory.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/intro-memory.webp",
+    "originalPath": "afterlife-metro/intro-memory.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Intro in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above a memory-fragment passage about Hugh slipping or being pushed, then waking on an empty bench. The pixel-art scene shows a bench and a ghost figure. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Intro in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above a memory-fragment passage about Hugh slipping or being pushed, then waking on an empty bench. The pixel-art scene shows a bench and a ghost figure. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "192e58f390b17474508b6b090b01b298d8b34186",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/intro-memory.webp",
+    "sha256": "d5d740ba66d74798f7e11f309a7249fc2e053224af9529e82cfb113c09d7ea86",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/story-dialogue.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/story-dialogue.webp",
+    "originalPath": "afterlife-metro/story-dialogue.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Story dialogue in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above text of Violet speaking to Hugh in a dark tunnel. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Story dialogue in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above text of Violet speaking to Hugh in a dark tunnel. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "35ecb2ec289c6cc55093fe849c1e4618baad1074",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/story-dialogue.webp",
+    "sha256": "3b187834874e6656247250c746bb36ec8f39ac292483e0445650cf3649187331",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/instructions.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/instructions.webp",
+    "originalPath": "afterlife-metro/instructions.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Afterlife Metro instructions page, at the overview. It describes a 2D pixel-art co-op adventure where you play as a human or a ghost. Ghost moves with the arrow keys, and Player moves with WASD. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Afterlife Metro instructions page, at the overview. It describes a 2D pixel-art co-op adventure where you play as a human or a ghost. Ghost moves with the arrow keys, and Player moves with WASD. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "e051bd09fe96ba17efb7a40c505abe75d285f296",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/instructions.webp",
+    "sha256": "09cb5b788bffee7b27c5767c4b81b916d6a20227e1fa5903e8f5045f19317ee9",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/instructions-scrolled.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/instructions-scrolled.webp",
+    "originalPath": "afterlife-metro/instructions-scrolled.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Afterlife Metro instructions page, scrolled to the gameplay tips and Starting the Game. The tips mention the timer and the leaderboard, and the page says to click Start Game on the homepage. A Back to Home button is at the bottom. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Afterlife Metro instructions page, scrolled to the gameplay tips and Starting the Game. The tips mention the timer and the leaderboard, and the page says to click Start Game on the homepage. A Back to Home button is at the bottom. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "7cedbb33d9c64adc3721598236d66ec5b9434b2e",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/instructions-scrolled.webp",
+    "sha256": "895f9480becb18c8fe8e73d5f9dfe9ec02ed05b1c107bd0812087d311440984f",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "afterlife-metro/leaderboard.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/leaderboard.webp",
+    "originalPath": "afterlife-metro/leaderboard.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Afterlife Metro leaderboard from the Express server. The listed names are test entries: testing, hello world, and losing.",
+    "alt": "Afterlife Metro leaderboard from the Express server. The listed names are test entries: testing, hello world, and losing.",
+    "gitBlob": "4edaf7b2b9e3bd27d8f256aeeed86122b841b3a5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/leaderboard.webp",
+    "sha256": "48bd9a8c451a8362405cc35fd06958e48dd9aa46a3d5e2528733b910af2ae692"
+  },
+  {
+    "id": "afterlife-metro/pause-menu.webp",
+    "kind": "image",
+    "src": "media/afterlife-metro/pause-menu.webp",
+    "originalPath": "afterlife-metro/pause-menu.webp",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Pause menu in the Afterlife Metro browser game (Godot 4.5 web build), over a pixel-art scene. The menu is titled Paused and has Resume and Quit buttons. Game art by Nour Alzahraa Alqattan.",
+    "alt": "Pause menu in the Afterlife Metro browser game (Godot 4.5 web build), over a pixel-art scene. The menu is titled Paused and has Resume and Quit buttons. Game art by Nour Alzahraa Alqattan.",
+    "gitBlob": "1403c176c4e4dbe88f5fa20941b11035fd047522",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/afterlife-metro/pause-menu.webp",
+    "sha256": "d48157fb822262b738fd6232ab8162b219a180b3872d50de9cfdb1fa20da5b21",
+    "credits": [
+      "Game art by Nour Alzahraa Alqattan."
+    ]
+  },
+  {
+    "id": "graphic-designs/Cookies & Clubs 2025 Flyer.png",
+    "kind": "image",
+    "src": "media/graphic-designs/Cookies & Clubs 2025 Flyer.png",
+    "originalPath": "graphic-designs/Cookies & Clubs 2025 Flyer.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Event Flyer · COE Student Council",
+    "alt": "Cookies and Clubs 2025 event flyer",
+    "gitBlob": "d6a4a900f7b98bcec9b6ffc2b4cab4a101f43aa4",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Cookies%20%26%20Clubs%202025%20Flyer.png",
+    "sha256": "1a9e043c6216d3fa271a6508b4f870eec05ac1e606f8618beb45fb266ddd0711"
+  },
+  {
+    "id": "graphic-designs/Instagram post.png",
+    "kind": "image",
+    "src": "media/graphic-designs/Instagram post.png",
+    "originalPath": "graphic-designs/Instagram post.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Social Promo · COE Student Council",
+    "alt": "Cookies and Clubs Instagram promo",
+    "gitBlob": "45cd384c6533f624b690fe77a708216c58e606bc",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Instagram%20post.png",
+    "sha256": "f2b6cfc35e125b240334fe02c31007f59ae505536185122d5e322973fe982f69"
+  },
+  {
+    "id": "graphic-designs/Final.png",
+    "kind": "image",
+    "src": "media/graphic-designs/Final.png",
+    "originalPath": "graphic-designs/Final.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Event Flyer · COE Student Council",
+    "alt": "Donuts with the Dean event flyer",
+    "gitBlob": "2406abe31748bb8900a9f9f020b383888a254db4",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Final.png",
+    "sha256": "c91a854c08c51d4b8e6f66815c7263dbc1a8ef59773205a735c9a0db977e83de"
+  },
+  {
+    "id": "graphic-designs/dwd draft 2 (Instagram Post (45)).png",
+    "kind": "image",
+    "src": "media/graphic-designs/dwd draft 2 (Instagram Post (45)).png",
+    "originalPath": "graphic-designs/dwd draft 2 (Instagram Post (45)).png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Social Promo · COE Student Council",
+    "alt": "Donuts with the Dean Instagram promo",
+    "gitBlob": "c3d4d6897b3a7e9cbff09387673f5d3060c7d2ab",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/dwd%20draft%202%20%28Instagram%20Post%20%2845%29%29.png",
+    "sha256": "fd9a0cd3c97db1a2f0357f73959ea3b01f7522c2577823bcef3c83ceb84464a0"
+  },
+  {
+    "id": "graphic-designs/FReps flyer.png",
+    "kind": "image",
+    "src": "media/graphic-designs/FReps flyer.png",
+    "originalPath": "graphic-designs/FReps flyer.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Recruitment Flyer · COE Student Council",
+    "alt": "First-Year Representatives recruitment flyer",
+    "gitBlob": "c5ff75a35ab4bf0f554817347389844d59ff8586",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/FReps%20flyer.png",
+    "sha256": "587758be2fd8f3fa43949f534886aafd7e12f0e55e6c4354a42c62b85364d303"
+  },
+  {
+    "id": "graphic-designs/Dam Proud.png",
+    "kind": "image",
+    "src": "media/graphic-designs/Dam Proud.png",
+    "originalPath": "graphic-designs/Dam Proud.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Collage · COE Student Council",
+    "alt": "Dam Proud Day collage",
+    "gitBlob": "6ea3a58ae5b0ff38d016ee5304fb9085f8ceecf3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Dam%20Proud.png",
+    "sha256": "2c22467638a40bb372fe9a9a03e6d83cf8cb6ab532ac6f485a1fda68d3b7638a"
+  },
+  {
+    "id": "graphic-designs/letting off steam (Instagram Post (45)).png",
+    "kind": "image",
+    "src": "media/graphic-designs/letting off steam (Instagram Post (45)).png",
+    "originalPath": "graphic-designs/letting off steam (Instagram Post (45)).png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Event Flyer · Engineers' Week",
+    "alt": "Letting Off Steam Engineers' Week event flyer",
+    "gitBlob": "a897e82b34138a940a7a32a20bbdfd1cad32ed10",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/letting%20off%20steam%20%28Instagram%20Post%20%2845%29%29.png",
+    "sha256": "ce99f7a3651b9494ef7eb3bc4bac9644a9127f8dd86b497a953afff02b5b80de"
+  },
+  {
+    "id": "graphic-designs/Startup Hub - insta drafts.png",
+    "kind": "image",
+    "src": "media/startup-hub.png",
+    "originalPath": "graphic-designs/Startup Hub - insta drafts.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Social Promo · Startup Hub",
+    "alt": "Startup Hub kickoff Instagram promo",
+    "gitBlob": "4ee954fe695177f4e5bccaa0d198125eef073cbc",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Startup%20Hub%20-%20insta%20drafts.png",
+    "sha256": "36b7ff27b416d663f4e68308c3625ee2ed4667956ce39f0af189e9dddf1615eb"
+  },
+  {
+    "id": "graphic-designs/maybe a flier design.png",
+    "kind": "image",
+    "src": "media/graphic-designs/maybe a flier design.png",
+    "originalPath": "graphic-designs/maybe a flier design.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Event Flyer · Startup Hub",
+    "alt": "Startup Hub kickoff event flyer",
+    "gitBlob": "d5a8fe31c3f6b97734325ef9944c732b28e49dad",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/maybe%20a%20flier%20design.png",
+    "sha256": "157a7f25ce7ad07810eb8961ab25a5879158494b584f1a52777741eb6f16ef92"
+  },
+  {
+    "id": "graphic-designs/Graphic Designer.png",
+    "kind": "image",
+    "src": "media/graphic-designs/Graphic Designer.png",
+    "originalPath": "graphic-designs/Graphic Designer.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Recruitment · Startup Hub",
+    "alt": "Graphic Designer recruitment post",
+    "gitBlob": "3448c925f0b69a3574bedfbe6a87b8d6ff6b1655",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Graphic%20Designer.png",
+    "sha256": "588e17a39fe2ecdc90694a318cf222e9a04d2bea086ff12bffa1c46cb4e8e8b5"
+  },
+  {
+    "id": "graphic-designs/startup hub TV draft .png",
+    "kind": "image",
+    "src": "media/graphic-designs/startup hub TV draft .png",
+    "originalPath": "graphic-designs/startup hub TV draft .png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Display Draft · Startup Hub",
+    "alt": "Startup Hub MU TV display draft",
+    "gitBlob": "9420b3c99ff3f43631ca5ee24fdc666f1d931a7b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/startup%20hub%20TV%20draft%20.png",
+    "sha256": "fe4701a3625d738f7bc32f5290a15c12891378df44be66863b6afc4976b2cf4e"
+  },
+  {
+    "id": "eweek-stickers/E-week_Gear_Beaver.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Gear_Beaver.png",
+    "originalPath": "eweek-stickers/E-week_Gear_Beaver.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Engineers’ Week 2026 · Gear Beaver",
+    "alt": "Engineers’ Week Gear Beaver sticker",
+    "gitBlob": "c445baa67998b316d9599b4c50d89b0340525134",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Gear_Beaver.png",
+    "sha256": "1e5053e096eb4897f3063a54cd122db497831b06b27819a1d942b831c14d7771"
+  },
+  {
+    "id": "eweek-stickers/E-week_OSU.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_OSU.png",
+    "originalPath": "eweek-stickers/E-week_OSU.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Engineers’ Week 2026 · OSU",
+    "alt": "Engineers’ Week OSU sticker",
+    "gitBlob": "0b3a43e673876c82daf2d19d4da4cc82e279fec2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_OSU.png",
+    "sha256": "7b1ac0586904249245a3deb78c4c8c1afe6b8a1fe89a05a3ddde2af77ea01bc9"
+  },
+  {
+    "id": "eweek-stickers/E-week_Post_Stamp.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Post_Stamp.png",
+    "originalPath": "eweek-stickers/E-week_Post_Stamp.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Engineers’ Week 2026 · Post Stamp",
+    "alt": "Engineers’ Week Post Stamp sticker",
+    "gitBlob": "a4eb35c1c512bc586bd6dd26b4c9315930690db2",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Post_Stamp.png",
+    "sha256": "769ffacbc5947c6ce3975c2634312997ecb327cff861f4dde487e9eb6838a9df"
+  },
+  {
+    "id": "eweek-stickers/E-week_Sleeping_Beaver.png",
+    "kind": "image",
+    "src": "media/sleeping-beaver.png",
+    "originalPath": "eweek-stickers/E-week_Sleeping_Beaver.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Engineers’ Week 2026 · Sleeping Beaver",
+    "alt": "Engineers’ Week Sleeping Beaver sticker",
+    "gitBlob": "e4f2d3f4c771d2669abcf0f1238ca9bd5f41d137",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Sleeping_Beaver.png",
+    "sha256": "1039eed042c1aa4c655a03b9f97c05a7bfd0334a2b6fb6bcc264b481487f560b"
+  },
+  {
+    "id": "eweek-stickers/E-week_Wrench.png",
+    "kind": "image",
+    "src": "media/eweek-stickers/E-week_Wrench.png",
+    "originalPath": "eweek-stickers/E-week_Wrench.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Engineers’ Week 2026 · Wrench",
+    "alt": "Engineers’ Week Wrench sticker",
+    "gitBlob": "e24b6a4eba91c3d15aaa026b9f6660ad238e2e8b",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Wrench.png",
+    "sha256": "93c5d7bdb423bcde6784359243697d1c165828691304d339433422b59110a6e9"
+  },
+  {
+    "id": "ij-stickers/lightbulb-crop.png",
+    "kind": "image",
+    "src": "media/innovation-lightbulb.png",
+    "originalPath": "ij-stickers/lightbulb-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam 2026 · Lightbulb",
+    "alt": "Innovation Jam Lightbulb sticker",
+    "gitBlob": "d2b2c30c3ddb97e5d1be2c7f5b262af7a668515f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/lightbulb-crop.png",
+    "sha256": "53d99d7593c1e1c6367fe26b83a615e77ab91290c5fb2b26203085b468f27aca"
+  },
+  {
+    "id": "ij-stickers/airplane-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/airplane-crop.png",
+    "originalPath": "ij-stickers/airplane-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam 2026 · Airplane",
+    "alt": "Innovation Jam Airplane sticker",
+    "gitBlob": "a6b5a7724e75c2ecbfc5a3163a05e56ff8ae1073",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/airplane-crop.png",
+    "sha256": "0959d66b7848aeba79f2f017b42e07a7e9254bbf4a0dbba3b6db02d9bc67d868"
+  },
+  {
+    "id": "ij-stickers/rocket-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/rocket-crop.png",
+    "originalPath": "ij-stickers/rocket-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam 2026 · Rocket",
+    "alt": "Innovation Jam Rocket sticker",
+    "gitBlob": "115343968b4957b81f852ef8441ae73ef48ff058",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/rocket-crop.png",
+    "sha256": "af1ad70ccdf65fd9af4b5a0407c01998e612089d143015ff1ebf15534b061742"
+  },
+  {
+    "id": "ij-stickers/star-crop.png",
+    "kind": "image",
+    "src": "media/ij-stickers/star-crop.png",
+    "originalPath": "ij-stickers/star-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam 2026 · Star",
+    "alt": "Innovation Jam Star sticker",
+    "gitBlob": "7d26ab483ca1acf9bb815601b8784aba34bd08c7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/star-crop.png",
+    "sha256": "2787a7631ccc0f287b8879e1d6d0295404e2f14e6118c175a952a67a383feba7"
+  },
+  {
+    "id": "bh-stickers/sticker-1-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-1-crop.png",
+    "originalPath": "bh-stickers/sticker-1-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Attendee Design",
+    "alt": "BeaverHacks Attendee Design sticker",
+    "gitBlob": "08f775dcc40df20301d58fbf57276bdcec7e07e9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-1-crop.png",
+    "sha256": "48bbbb7e64299cfeba02a127ba38a71ec2725f2eb10dddccae231ee1f09a469b"
+  },
+  {
+    "id": "bh-stickers/sticker-9-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-9-crop.png",
+    "originalPath": "bh-stickers/sticker-9-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Attendee Design",
+    "alt": "BeaverHacks Attendee Design sticker",
+    "gitBlob": "f96faaacacc4c920ebac2fc9910692a7f047e423",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-9-crop.png",
+    "sha256": "1caab2da84284f639d4537951ef744b8fefd8dca993b2fa3883df3a7bb83e176"
+  },
+  {
+    "id": "bh-stickers/sticker-10-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-10-crop.png",
+    "originalPath": "bh-stickers/sticker-10-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Attendee Design",
+    "alt": "BeaverHacks Attendee Design sticker",
+    "gitBlob": "7946bd7b210f814dc659f0a2fab7d3adc74c8bdf",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-10-crop.png",
+    "sha256": "d6cbca6dc9a8573293178474d1ea81251cdd31b7022ce6fdf6b99037069f7382"
+  },
+  {
+    "id": "bh-stickers/sticker-11-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-11-crop.png",
+    "originalPath": "bh-stickers/sticker-11-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Volunteer Design",
+    "alt": "BeaverHacks Volunteer Design sticker",
+    "gitBlob": "b78176f919b7c6733ff3b1b087071ecfea862724",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-11-crop.png",
+    "sha256": "73c3af774ca1f5c4e1c58b54259bb2bb5689fb9f3ce5a9159fb4b14735f6bad4"
+  },
+  {
+    "id": "bh-stickers/sticker-12-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-12-crop.png",
+    "originalPath": "bh-stickers/sticker-12-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Team Design",
+    "alt": "BeaverHacks Team Design sticker",
+    "gitBlob": "296908bc167d1647b3c640fcf786d4a7cf036c30",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-12-crop.png",
+    "sha256": "f9022f9e1e5ce6ad4fcc149d0409512819c40fdf3d10ae69d6afae72d9df0854"
+  },
+  {
+    "id": "bh-stickers/sticker-13-crop.png",
+    "kind": "image",
+    "src": "media/bh-stickers/sticker-13-crop.png",
+    "originalPath": "bh-stickers/sticker-13-crop.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "projects.js"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks 2026 · Team Design",
+    "alt": "BeaverHacks Team Design sticker",
+    "gitBlob": "2613a1331dce5b83ac1fb3ee7c1eb41586d333c3",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-stickers/sticker-13-crop.png",
+    "sha256": "fd73c11c22008d4aec69c8f4412a4c11f9596a88e13c5330bd227c4dbbfd9711"
+  },
+  {
+    "id": "ij-stickers/nametag-staff.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-staff.png",
+    "originalPath": "ij-stickers/nametag-staff.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · nametag staff",
+    "alt": "Innovation Jam nametag staff",
+    "gitBlob": "37c4bb0526814ec2d69bfa95a4dac8e3d9089c80",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-staff.png",
+    "sha256": "d1767837f016e84eca1b7546a2ef8f025d6cdc8aa58ba542a73cfdb626a91767"
+  },
+  {
+    "id": "ij-stickers/plaque-1st.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-1st.png",
+    "originalPath": "ij-stickers/plaque-1st.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · plaque 1st",
+    "alt": "Innovation Jam plaque 1st",
+    "gitBlob": "ed0638b7a3bd56c4722b05d657f9af382922f52f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-1st.png",
+    "sha256": "a2915d727365cb24302405d56104dc9ea3df8eb87d411bbdf12dff647ed92951"
+  },
+  {
+    "id": "ij-tote.png",
+    "kind": "image",
+    "src": "media/ij-tote.png",
+    "originalPath": "ij-tote.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · ij tote",
+    "alt": "Innovation Jam ij tote",
+    "gitBlob": "ceedeeabebebd0c02b67ea15b49f92aabad3d37f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-tote.png",
+    "sha256": "76a7637e468625cac7cf82b74721726c08275d55cbfb697ee97707284f98a37f"
+  },
+  {
+    "id": "ij-stickers/nametag-mentor.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-mentor.png",
+    "originalPath": "ij-stickers/nametag-mentor.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · nametag mentor",
+    "alt": "Innovation Jam nametag mentor",
+    "gitBlob": "ad418763cbb60f2804b951bea26053372f967530",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-mentor.png",
+    "sha256": "823be678353c3e11eb5bb1c2a9fa9cece4529c68e9768e2b061837ca972b8a39"
+  },
+  {
+    "id": "ij-stickers/nametag-attendee.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-attendee.png",
+    "originalPath": "ij-stickers/nametag-attendee.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · nametag attendee",
+    "alt": "Innovation Jam nametag attendee",
+    "gitBlob": "e2d9effec1e16ac3bbee32f90d2ee336d2a88f60",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-attendee.png",
+    "sha256": "53cc1f23d9aa4d3c4654bda8145aaeac12d2160c5b48480e85069b9532ab0be6"
+  },
+  {
+    "id": "ij-stickers/nametag-judge.png",
+    "kind": "image",
+    "src": "media/ij-stickers/nametag-judge.png",
+    "originalPath": "ij-stickers/nametag-judge.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · nametag judge",
+    "alt": "Innovation Jam nametag judge",
+    "gitBlob": "b884275f6b17d4481e5d2e9efb5e51b870697211",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/nametag-judge.png",
+    "sha256": "68e28a4c91abd31c84281f01173ae2bb53bf4351c7f05efd083a59d7fb161758"
+  },
+  {
+    "id": "ij-stickers/plaque-2nd.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-2nd.png",
+    "originalPath": "ij-stickers/plaque-2nd.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · plaque 2nd",
+    "alt": "Innovation Jam plaque 2nd",
+    "gitBlob": "6c9a272794bf43176bc4932eb46424fd44e2639f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-2nd.png",
+    "sha256": "ac79841c7bf72bd15b3c755bbf373691ab2623f71fd1c434cf66ee21102a8203"
+  },
+  {
+    "id": "ij-stickers/plaque-3rd.png",
+    "kind": "image",
+    "src": "media/ij-stickers/plaque-3rd.png",
+    "originalPath": "ij-stickers/plaque-3rd.png",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "innovation-jam-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "Innovation Jam · plaque 3rd",
+    "alt": "Innovation Jam plaque 3rd",
+    "gitBlob": "ac8fea7bd4f763fb642465fd1d1337f906cbae0d",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/plaque-3rd.png",
+    "sha256": "22c54c30d09095d20a9c8487a973a475f0caa1787f092e8d44ceb146387eac07"
+  },
+  {
+    "id": "bh-merch/1.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/1.jpg",
+    "originalPath": "bh-merch/1.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 1",
+    "alt": "BeaverHacks 1",
+    "gitBlob": "14fa8c2e61ddfed429a3d16f5a21e591966f580f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/1.jpg",
+    "sha256": "be8cb7851291f32221dd553b23e3565e7e82e250b11d0e3d91c202a0d6a13212"
+  },
+  {
+    "id": "bh-merch/3.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/3.jpg",
+    "originalPath": "bh-merch/3.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 3",
+    "alt": "BeaverHacks 3",
+    "gitBlob": "176d82cf57ff85587f1f9ecbb00af5f9ffb856c1",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/3.jpg",
+    "sha256": "b2cf13139757c9c32b429b21e597af112be8e94200f833c2235ec3e584f1325c"
+  },
+  {
+    "id": "bh-merch/4.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/4.jpg",
+    "originalPath": "bh-merch/4.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 4",
+    "alt": "BeaverHacks 4",
+    "gitBlob": "00b4ad98d6090f2180ecd46a6dced2da4cf2f6d5",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/4.jpg",
+    "sha256": "fe9bd178e76e4f4c85555ee29a9fd7cffc5894784c39b52ff3801b9cfd74a671"
+  },
+  {
+    "id": "bh-merch/9.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/9.jpg",
+    "originalPath": "bh-merch/9.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 9",
+    "alt": "BeaverHacks 9",
+    "gitBlob": "5da0e73fc68900628a4c3dc55bcf81b8ca0733a0",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/9.jpg",
+    "sha256": "5042ea3c473e5db494d280acbb782047e4e20ca8365178cc5aaba06a8f20aa04"
+  },
+  {
+    "id": "bh-merch/5.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/5.jpg",
+    "originalPath": "bh-merch/5.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 5",
+    "alt": "BeaverHacks 5",
+    "gitBlob": "5ea7b27f1624590aafab6c9bc03d8ef36fb93b39",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/5.jpg",
+    "sha256": "5fbef221fd117fb3044d971c5e41440747625f38719e61a2cb388b79cb32b3db"
+  },
+  {
+    "id": "bh-merch/6.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/6.jpg",
+    "originalPath": "bh-merch/6.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 6",
+    "alt": "BeaverHacks 6",
+    "gitBlob": "66e02f50f15589a443214bac0cbba52ffb241a8f",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/6.jpg",
+    "sha256": "76a7431a2d1821fa40435506f9df921185f913687ff1dbb061753ed592bc7977"
+  },
+  {
+    "id": "bh-merch/10.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/10.JPG",
+    "originalPath": "bh-merch/10.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 10",
+    "alt": "BeaverHacks 10",
+    "gitBlob": "077a55f1372244fd1db830bcfa65e69ac61e5278",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/10.JPG",
+    "sha256": "607983a5ff085360f61c3619ac8be695d191a25f0d7215b750e09da3e5b9041c"
+  },
+  {
+    "id": "bh-merch/bh3.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/bh3.jpg",
+    "originalPath": "bh-merch/bh3.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · bh3",
+    "alt": "BeaverHacks bh3",
+    "gitBlob": "0c0ddc6849080fb29864dcd141b5233da004d1c9",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/bh3.jpg",
+    "sha256": "dbd3eff0c3188ca446ad821fd63ffb80e7b513352f2521b9f53c060b91ed1506"
+  },
+  {
+    "id": "bh-merch/8.jpg",
+    "kind": "image",
+    "src": "media/bh-merch/8.jpg",
+    "originalPath": "bh-merch/8.jpg",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 8",
+    "alt": "BeaverHacks 8",
+    "gitBlob": "e4d836de0927a1a28a9f542686704640756cf708",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/8.jpg",
+    "sha256": "3159cd47f8aded1ecce88d350dfd806f9cf4b0e77d8a3a095add6ddc2c5e77d3"
+  },
+  {
+    "id": "bh-merch/11.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/11.JPG",
+    "originalPath": "bh-merch/11.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 11",
+    "alt": "BeaverHacks 11",
+    "gitBlob": "47ecba194f8261e3ff954770a663a2d2a5bad7f7",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/11.JPG",
+    "sha256": "c2a6a70af72a5e647eaadb54f6ee8ec0159d740cb9c9f3a5a7bca2d60c935cf2"
+  },
+  {
+    "id": "bh-merch/12.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/12.JPG",
+    "originalPath": "bh-merch/12.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 12",
+    "alt": "BeaverHacks 12",
+    "gitBlob": "a3df098e1c27e59967984242e455ce3824efcdfb",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/12.JPG",
+    "sha256": "56fc13224f08b38b414fb25f77495202360348eb6f1e6864f102246b58f61f83"
+  },
+  {
+    "id": "bh-merch/13.JPG",
+    "kind": "image",
+    "src": "media/bh-merch/13.JPG",
+    "originalPath": "bh-merch/13.JPG",
+    "source": {
+      "repository": "allyytc/allyytc.github.io",
+      "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+      "path": "beaverhacks-2026.html"
+    },
+    "rights": "owner-local-rebuild",
+    "caption": "BeaverHacks · 13",
+    "alt": "BeaverHacks 13",
+    "gitBlob": "21d3f154a314576b8cddcae41f4e7fd5dbf32094",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/bh-merch/13.JPG",
+    "sha256": "f96e9ae0607a2c0e42b6e465c63b2bd80e9d497afb9d4e5ef4a2a00c526f94a1"
+  }
+]

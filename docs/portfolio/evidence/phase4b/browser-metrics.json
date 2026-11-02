@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "calls": 48,
+    "triangles": 470141,
+    "peakCalls": 48,
+    "peakTriangles": 470141,
+    "textures": 6,
+    "geometries": 35,
+    "activeFrameMs": 16.72776617954382,
+    "frames": 479,
+    "paperProgress": 1.3809411355974469e-8
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "renderer": "isolated headless Chrome on host laptop; not a physical mobile benchmark",
+  "runtimeErrors": []
+}

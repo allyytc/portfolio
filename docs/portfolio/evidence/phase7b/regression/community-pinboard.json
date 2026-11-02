@@ -1,0 +1,32 @@
+{
+  "camera": {
+    "view": "communityPinboard",
+    "position": [
+      -0.45000005364418016,
+      6.350000083446503,
+      8.548750042915344
+    ],
+    "target": [
+      -2.0500000536441805,
+      1.8500000834465027,
+      -2.4512499570846558
+    ],
+    "zoom": 303.03030303030306,
+    "azimuth": 0.144441578374644,
+    "polar": 1.1861324027005276,
+    "minZoom": 272.72727272727275,
+    "maxZoom": 378.7878787878788,
+    "transitioning": false
+  },
+  "metrics": {
+    "calls": 1,
+    "triangles": 2,
+    "peakCalls": 241,
+    "peakTriangles": 307827,
+    "textures": 24,
+    "geometries": 167,
+    "activeFrameMs": 13.5,
+    "frames": 2,
+    "paperProgress": 0
+  }
+}

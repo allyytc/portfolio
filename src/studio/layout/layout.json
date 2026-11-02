@@ -1,0 +1,557 @@
+{
+  "version": 1,
+  "objects": {
+    "benchCushions": {
+      "position": [
+        0.225,
+        -0.1241,
+        -2.2325
+      ],
+      "rotation": [
+        0,
+        15,
+        0
+      ],
+      "scale": 1
+    },
+    "communityAi": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityBeaverHacks": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityBh26": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityBoard": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityDfa": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityEsc": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityEw": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityIj": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "communityStartup": {
+      "position": [
+        0.25,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "conversationBooks": {
+      "position": [
+        0.58,
+        -0.99,
+        0.54
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "designDesk": {
+      "position": [
+        -0.3196,
+        0,
+        -3.6955
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "desk": {
+      "position": [
+        0.17,
+        0,
+        -0.5672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskBooks": {
+      "position": [
+        0.34,
+        0.015,
+        -0.58
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskChair": {
+      "position": [
+        0.13,
+        0,
+        -1.111
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskLamp": {
+      "position": [
+        0.3,
+        0.02,
+        -0.58
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskMouse": {
+      "position": [
+        0.4,
+        0.012,
+        -0.61
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskPlant": {
+      "position": [
+        5.3667,
+        0,
+        3.6051
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "deskRug": {
+      "position": [
+        0,
+        0,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "entrancePlant": {
+      "position": [
+        0,
+        0,
+        2.1264
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "experienceShelf": {
+      "position": [
+        2.05,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "experienceVolume": {
+      "position": [
+        2.4,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "floorBoards": {
+      "position": [
+        0,
+        0,
+        0.0075
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "floorCushion": {
+      "position": [
+        0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "floorPlant2": {
+      "position": [
+        -0.2083,
+        -0.03,
+        -0.063
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "github": {
+      "position": [
+        2.16,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "hangingPlants": {
+      "position": [
+        -0.0295,
+        -0.05,
+        -0.2679
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "keyboard": {
+      "position": [
+        0.48,
+        0,
+        -0.5995
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "linkedin": {
+      "position": [
+        2.11,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "monitor": {
+      "position": [
+        0.46,
+        0,
+        -0.5957
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "nookBooks": {
+      "position": [
+        1.05,
+        -0.03,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "nookSideTable": {
+      "position": [
+        1.05,
+        0,
+        -0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "printer": {
+      "position": [
+        0.18,
+        0.02,
+        -0.5552
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "readingLamp": {
+      "position": [
+        -0.05,
+        0,
+        -1.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hidden": true
+    },
+    "readingRug": {
+      "position": [
+        0,
+        0,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "signpost": {
+      "position": [
+        6.8099,
+        -0.05,
+        -6.1668
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "sketchbook": {
+      "position": [
+        -2.9695,
+        -0.291,
+        -0.63
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "stickerBook": {
+      "position": [
+        -2.5195,
+        -0.191,
+        -0.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "unwrapDisplay": {
+      "position": [
+        -0.67,
+        0.741,
+        -4.27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "wallClock": {
+      "position": [
+        3.7,
+        -0.07,
+        -0.0782
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "wallShelf": {
+      "position": [
+        4.38,
+        -2.06,
+        0.0125
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "windowBench": {
+      "position": [
+        0.24,
+        -0.0401,
+        -1.93
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": 1
+    }
+  }
+}

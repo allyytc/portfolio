@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Involvement - Ally Chen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260623k" />
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Primary"></nav>
+  <script src="nav.js?v=9"></script>
+
+  <section class="section section-olive page-hero">
+    <div class="section-inner page-hero-inner">
+      <div class="section-body">
+        <div class="involvement-hero-layout involvement-hero-layout--labeled">
+          <div class="involvement-hero-side-label-col">
+            <span class="section-label involvement-hero-side-label">Involvement</span>
+          </div>
+          <div class="involvement-hero-media">
+            <img src="DSC00612.JPG" alt="Ally Chen speaking in a classroom" class="involvement-hero-photo" />
+          </div>
+          <div class="involvement-hero-copy">
+            <h1 class="display-heading dh-light">Campus &amp;<br/>Community</h1>
+            <p>Through student leadership roles across engineering, entrepreneurship, and hackathons, I've helped run campus-wide events for 500+ attendees, advocate for 10K+ engineering students, and ship real projects with cross-functional teams.</p>
+            <p class="involvement-hero-lead">Here are a few highlights from events, clubs, and collaborative projects I have led and helped organize!</p>
+            <div class="page-hero-actions">
+              <a href="#events" class="page-hero-btn page-hero-btn--primary">See Events</a>
+              <a href="#clubs" class="page-hero-btn page-hero-btn--secondary">See Clubs &amp; Organizations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="clubs">
+        <style>
+          .org-layout {
+            display: grid;
+            grid-template-columns: minmax(280px, max-content) minmax(380px, 1fr);
+            gap: 2.5rem;
+            align-items: start;
+          }
+          .org-tab-list { display: grid; grid-template-columns: max-content; gap: 0.4rem; }
+          .org-tab {
+            display: block;
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            border-radius: 0.6rem;
+            padding: 1.1rem 1.4rem;
+            cursor: pointer;
+            font-family: inherit;
+            transition: background 0.2s ease;
+          }
+          .org-tab:hover { background: #7a7a59; }
+          .org-tab:hover h3 { color: var(--cream); }
+          .org-tab:hover .org-tab-role { color: rgba(232,220,197,0.85); }
+          .org-tab:hover .org-tab-date { color: rgba(232,220,197,0.5); }
+          .org-tab.active { background: var(--dark-bg); }
+          .org-tab h3 { font-family: var(--font-display); font-size: 1.4rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--text); margin-bottom: 0.4rem; transition: color 0.2s ease; }
+          .org-tab.active h3 { color: var(--cream); }
+          .org-tab-meta { display: flex; flex-direction: column; gap: 0.3rem; }
+          .org-tab-role { font-size: 0.85rem; color: var(--walnut); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600; transition: color 0.2s ease; }
+          .org-tab.active .org-tab-role { color: rgba(232,220,197,0.85); }
+          .org-tab-date { font-size: 0.78rem; color: var(--text-light); letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; transition: color 0.2s ease; }
+          .org-tab.active .org-tab-date { color: rgba(232,220,197,0.5); }
+
+          .org-panel { background: var(--dark-bg); border-radius: 0.75rem; padding: 1.5rem; margin-top: 1rem; margin-left: 4rem; max-width: 100%; justify-self: start; }
+          .org-photo-row { display: flex; gap: 1.5rem; align-items: center; }
+          .org-photo-frame {
+            position: relative;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            background: rgba(255,255,255,0.06);
+            flex: 0 0 auto;
+            align-self: center;
+            width: clamp(320px, 42vw, 480px);
+            max-width: min(480px, 100%);
+            aspect-ratio: 3 / 4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .org-photo-frame.landscape { background: none; align-items: center; justify-content: center; }
+          .org-photo-frame.landscape img { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; object-position: center; border-radius: 0.5rem; display: block; }
+          .org-photo-frame.landscape img[src$="IMG_2963.JPG"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: 75% center; }
+          .org-photo-frame.landscape img[src$="IMG_2960.JPG"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="untitled (43 of 275).jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="untitled (60 of 275).jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center 30%; }
+          .org-photo-frame.landscape img[src$="photo2.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; transform: scale(1.25); }
+          .org-photo-frame img[src$="IMG_8454.jpg"] { transform: scale(1.25); }
+          .org-photo-frame.landscape img[src$="IMG_1647.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="IMG_8353.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="IMG_8450.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="IMG_8523.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="IMG_8555.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame.landscape img[src$="IMG_8562.jpg"] { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; object-position: center; }
+          .org-photo-frame img[src$="IMG_0068.JPG"] { transform: scale(1.35); transform-origin: center 70%; }
+          .org-panel-desc-col { display: flex; flex-direction: column; flex: 1; min-width: 0; padding: 0 0 0 0.5rem; }
+          .org-panel-title { font-family: var(--font-display); font-size: 2.4rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--cream); margin: 0 0 0.5rem; }
+          .org-panel-meta { display: flex; flex-direction: column; gap: 0.2rem; margin-bottom: 1rem; }
+          .org-panel-role { font-size: 0.85rem; color: rgba(232,220,197,0.85); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600; }
+          .org-panel-date { font-size: 0.78rem; color: rgba(232,220,197,0.5); letter-spacing: 0.1em; text-transform: uppercase; }
+          .org-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+          .org-photo-frame:not(.landscape) #orgPhotoDisplay img { object-fit: cover; object-position: center; }
+          #orgPhotoDisplay { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex: 1; }
+          .org-photo-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: rgba(232,220,197,0.4); font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; padding: 2rem; }
+          .org-photo-arrow {
+            position: absolute;
+            bottom: 0.75rem;
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.55);
+            border: 1px solid rgba(248,245,227,0.5);
+            color: #f8f5e3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.25rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            transition: background 0.2s ease, transform 0.2s ease;
+            z-index: 2;
+          }
+          .org-photo-arrow:hover { background: rgba(0,0,0,0.75); transform: scale(1.08); }
+          .org-photo-arrow--prev { left: calc(50% - 2.95rem); }
+          .org-photo-arrow--next { left: calc(50% + 0.2rem); }
+          .org-photo-counter { position: absolute; bottom: 0.75rem; right: 0.9rem; font-size: 0.7rem; letter-spacing: 0.12em; color: rgba(248,245,227,0.75); background: rgba(0,0,0,0.35); padding: 0.25rem 0.65rem; border-radius: 1rem; }
+          .org-panel-desc { margin: 0.25rem 0 0; font-size: 1.1rem; color: rgba(232,220,197,0.82); line-height: 1.7; }
+          .org-panel-desc p { margin: 0 0 0.9em; }
+          .org-panel-desc p:last-child { margin-bottom: 0; }
+
+          @media (max-width: 1280px) {
+            .org-panel { margin-left: 0; }
+            .org-panel-title { font-size: 2rem; }
+            .org-photo-row { align-items: center; }
+            .org-photo-frame {
+              width: clamp(300px, 48%, 440px);
+              max-width: min(440px, 100%);
+              align-self: center;
+            }
+          }
+
+          @media (min-width: 1025px) {
+            .org-photo-row { align-items: center; }
+            .org-photo-frame { align-self: center; }
+          }
+
+          @media (max-width: 1024px) {
+            .org-layout { grid-template-columns: 1fr; gap: 1.5rem; }
+            .org-photo-row { flex-direction: column; align-items: stretch; }
+            .org-photo-frame {
+              width: min(100%, 560px);
+              max-width: 560px;
+              margin: 0 auto;
+            }
+            .org-panel-desc-col { padding: 0; }
+            .org-panel { max-width: 100%; margin-left: 0; }
+          }
+
+          @media (max-width: 768px) {
+            .org-layout { gap: 0.75rem; }
+            .org-tab { padding: 0.65rem 0.85rem; }
+            .org-tab h3 { font-size: clamp(0.95rem, 4.2vw, 1.15rem); margin-bottom: 0.3rem; }
+            .org-tab-role { font-size: 0.72rem; }
+            .org-tab-date { font-size: 0.62rem; }
+            .org-panel { padding: 0.85rem 1rem; margin-top: 0.5rem; }
+            .org-panel-title { font-size: clamp(1.22rem, 5.6vw, 1.52rem); margin-bottom: 0.4rem; }
+            .org-panel-role { font-size: 0.72rem; }
+            .org-panel-date { font-size: 0.62rem; }
+            .org-panel-desc { font-size: 0.64rem; line-height: 1.55; }
+            .org-panel-desc p { margin-bottom: 0.65rem; }
+            .org-left-col .display-heading { margin-bottom: 1rem; }
+            .org-photo-frame {
+              width: 100%;
+              max-width: 100%;
+              margin: 0;
+            }
+          }
+        </style>
+        <div class="section-inner org-section-inner" style="position: relative; padding-bottom: 4rem; max-width: 100%; margin: 0;">
+          <div class="section-label-col" style="position: absolute; left: 0; top: 0; bottom: 0;">
+            <span class="section-label section-label-lt">Clubs</span>
+          </div>
+          <div class="section-body">
+            <div class="org-layout">
+              <div class="org-left-col">
+              <h2 class="display-heading">Clubs &amp;<br/>Organizations</h2>
+              <div class="org-tab-list" id="orgTabList">
+                <button class="org-tab active" id="clubs-coe" data-org="coe" onclick="selectOrg('coe')">
+                  <h3>College of Engineering Student Council</h3>
+                  <div class="org-tab-meta">
+                    <span class="org-tab-role">Vice President of Outreach</span>
+                  </div>
+                </button>
+                <button class="org-tab" id="clubs-startup" data-org="startup" onclick="selectOrg('startup')">
+                  <h3>Startup Hub</h3>
+                  <div class="org-tab-meta">
+                    <span class="org-tab-role">Co-Founder</span>
+                  </div>
+                </button>
+                <button class="org-tab" id="clubs-dfa" data-org="dfa" onclick="selectOrg('dfa')">
+                  <h3>Design for America</h3>
+                  <div class="org-tab-meta">
+                    <span class="org-tab-role">Project Lead</span>
+                  </div>
+                </button>
+                <button class="org-tab" id="clubs-bh" data-org="bh" onclick="selectOrg('bh')">
+                  <h3>BeaverHacks</h3>
+                  <div class="org-tab-meta">
+                    <span class="org-tab-role">Core & Marketing Team</span>
+                  </div>
+                </button>
+                <button class="org-tab" id="clubs-ai" data-org="ai" onclick="selectOrg('ai')">
+                  <h3>Artificial Intelligence Club</h3>
+                  <div class="org-tab-meta">
+                    <span class="org-tab-role">Project Officer</span>
+                  </div>
+                </button>
+              </div>
+              </div>
+
+              <div class="org-panel">
+                <div class="org-photo-row">
+                  <div class="org-photo-frame">
+                    <button class="org-photo-arrow org-photo-arrow--prev" id="orgPhotoPrev" onclick="orgCarouselNav('photos', -1)" aria-label="Previous photo">&#8592;</button>
+                    <div id="orgPhotoDisplay"></div>
+                    <button class="org-photo-arrow org-photo-arrow--next" id="orgPhotoNext" onclick="orgCarouselNav('photos', 1)" aria-label="Next photo">&#8594;</button>
+                    <div class="org-photo-counter" id="orgPhotoCounter" style="display: none;"><span id="orgPhotoCurrent">1</span> / <span id="orgPhotoTotal">1</span></div>
+                  </div>
+                  <div class="org-panel-desc-col">
+                    <h3 class="org-panel-title" id="orgPanelTitle"></h3>
+                    <div class="org-panel-meta">
+                      <span class="org-panel-role" id="orgPanelRole"></span>
+                      <span class="org-panel-date" id="orgPanelDate"></span>
+                    </div>
+                    <div class="org-panel-desc" id="orgPanelDesc"></div>
+                    <div class="org-panel-ctas" id="orgPanelCtas"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="section section-olive events-section-olive" id="events">
+      <div class="events-section-head">
+        <h2 class="display-heading dh-light">Events</h2>
+      </div>
+      <div class="event-card-grid">
+
+          <a href="beaverhacks-2026.html" class="event-card" id="beaverhacks2026" style="text-decoration: none; color: inherit;">
+            <div class="event-card-img-wrap">
+              <img src="bh4.JPG" alt="BeaverHacks 2026" class="event-card-img" style="object-position: 70% 65%; transform: scale(1.25); transform-origin: 70% 65%;" />
+            </div>
+            <div class="event-card-body">
+              <h3 class="event-card-title">BeaverHacks 2026</h3>
+              <p class="event-card-desc">Oregon's largest annual hackathon - 500+ students, 24 hours, multiple sponsor tracks. Build, compete, and connect with industry.</p>
+              <span class="event-card-btn" style="margin-top: auto;">Learn More &rarr;</span>
+            </div>
+          </a>
+
+          <a href="innovation-jam-2026.html" class="event-card" id="innovationjam" style="text-decoration: none; color: inherit;">
+            <div class="event-card-img-wrap">
+              <img src="innovation-26/IMG_2965.JPG" alt="Innovation Jam 2026" class="event-card-img" style="object-position: center 80%; transform: scale(1.05); transform-origin: center 80%;" />
+            </div>
+            <div class="event-card-body">
+              <h3 class="event-card-title">Innovation Jam 2026</h3>
+              <p class="event-card-desc">OSU's flagship innovation &amp; entrepreneurship event - organized by Startup Hub for the Willamette Valley.</p>
+              <span class="event-card-btn" style="margin-top: auto;">Learn More &rarr;</span>
+            </div>
+          </a>
+
+          <a href="eweek.html" class="event-card" id="eweek2026" style="text-decoration: none; color: inherit;">
+            <div class="event-card-img-wrap">
+              <img src="eweek/IMG_8479.jpg" alt="Engineers' Week" class="event-card-img" />
+            </div>
+            <div class="event-card-body">
+              <h3 class="event-card-title">Engineers' Week 2026</h3>
+              <p class="event-card-desc">National Engineers Week at OSU - a full week of events, workshops, and community for engineering students.</p>
+              <span class="event-card-btn" style="margin-top: auto;">Learn More &rarr;</span>
+            </div>
+          </a>
+
+        </div>
+    </section>
+
+
+
+  <section class="section section-contact" id="contact">
+    <div class="section-inner">
+      <div class="section-label-col">
+        <span class="section-label">Contact</span>
+      </div>
+      <div class="section-body contact-body">
+        <h2 class="display-heading">Let's<br/>Connect</h2>
+        <div class="contact-links">
+          <a href="allychen-resume2028-pm.pdf" class="contact-link" target="_blank" rel="noopener">Resume</a>
+          <a href="mailto:allyten08@gmail.com" class="contact-link">allyten08@gmail.com</a>
+          <a href="https://linkedin.com/in/allyychen/" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/allyychen</a>
+          <a href="https://github.com/allyytc" target="_blank" rel="noopener" class="contact-link">github.com/allyytc</a>
+          <a href="tel:5038660073" class="contact-link">(503) 866-0073</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-footer-bar">
+      <p>&copy; 2026 Ally Chen</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    var orgsData = {
+      coe: {
+        name: 'Engineering Student Council',
+        role: 'Vice President of Outreach',
+        date: 'June 2025 - Present',
+        photos: [
+          'cookies-clubs/IMG_2319.jpg',
+          'cookies-clubs/IMG_2290.jpg',
+          'cookies-clubs/IMG_2293.jpg',
+          'cookies-clubs/IMG_2301.jpg',
+          'cookies-clubs/IMG_2346.jpg',
+          'cookies-clubs/IMG_2360.jpg',
+          'cookies-clubs/IMG_2368.jpg',
+          'eweek/IMG_8728.jpg'
+        ],
+        description: [
+          "As Vice President of Outreach for the College of Engineering Student Council, I'm the voice for 10K+ engineering students in faculty discussions and university-level decisions - from curriculum changes to tuition policy. I manage outreach and communications across 50+ student organizations and help allocate $200K+ in funding alongside the VP of Finance.",
+          "Beyond advocacy, I own all things design for ESC - creating promotional graphics, event materials, and merchandise distributed school-wide. That includes everything from Engineers' Week stickers handed out to the entire College of Engineering enrollment, to graphics and social content for events like Donuts with the Dean and Cookies & Clubs, OSU's school-wide club fair."
+        ],
+        ctas: [
+          { href: 'projects.html#design-graphics', label: 'Designs →' },
+          { href: 'eweek.html', label: "Engineers' Week '26 →" }
+        ]
+      },
+      startup: {
+        name: 'Startup Hub',
+        role: 'Co-Founder',
+        date: 'June 2025 - Present',
+        photos: [
+          'sh-pics/IMG_0068.JPG',
+          'sh-pics/IMG_2960.JPG',
+          'sh-pics/IMG_0217.JPG',
+          'sh-pics/IMG_0384.JPG',
+          'sh-pics/IMG_2961.JPG',
+          'sh-pics/IMG_2962.JPG',
+          'sh-pics/IMG_2963.JPG',
+          'sh-pics/IMG_2964.JPG'
+        ],
+        description: [
+          "As Co-Founder of Startup Hub at OSU, our team built the university's only entrepreneurship community from the ground up - creating the branding kit, establishing the club structure, and connecting aspiring founders to resources that didn't exist at OSU before. We coordinate with the College of Business, Oregon Startup Center, and AI Collective to bring entrepreneurship infrastructure to 15K+ students, with programming that goes beyond the typical startup playbook - from VC guest speakers to storytelling-for-pitching workshops.",
+          "This year, we're organizing Innovation Jam '26 - one of OSU's flagship innovation events. Looking ahead, we're working toward raising funding to send members to conferences and experiences beyond Corvallis - because the best founders need exposure beyond campus."
+        ],
+        ctas: [
+          { href: 'projects.html#design-graphics', label: 'Designs →' },
+          { href: 'innovation-jam-2026.html', label: "Innovation Jam '26 →" }
+        ]
+      },
+      dfa: {
+        name: 'Design for America',
+        role: 'Project Lead',
+        date: 'Jan 2026 - Present',
+        photos: [
+          'dfa/IMG_4952.jpeg',
+          'dfa/DSC00506 (1).JPG',
+          'dfa/DSC00582.JPG',
+          'dfa/DSC00657.JPG',
+          'dfa/IMG_0176.jpg',
+          'dfa/IMG_0186.jpg',
+          'dfa/IMG_0193.jpg',
+          'dfa/DSC00472.JPG'
+        ],
+        description: [
+          "As Project Lead for Design for America at OSU, I directed an 11-person cross-disciplinary team through discovery, wireframes, design iterations, and front-end development for the Corvallis Daytime Drop-In Center - a local nonprofit serving unhoused community members.",
+          "I chose this project after meeting the center's director and being moved by the passion behind their work. DFA's term has ended, but I'm continuing alongside a few teammates to see it through to deployment."
+        ],
+        ctas: [
+          { href: 'projects.html#project-cddc', label: 'View Project →' }
+        ]
+      },
+      ai: {
+        name: 'Artificial Intelligence Club',
+        role: 'Project Officer',
+        date: 'June 2025 - Present',
+        photos: [
+          'ai-club/IMG_8454.jpg',
+          'ai-club/IMG_1647.jpg',
+          'ai-club/IMG_8353.jpg',
+          'ai-club/IMG_8450.jpg',
+          'ai-club/IMG_8523.jpg',
+          'ai-club/IMG_8562.jpg',
+          'ai-club/photo2.jpg'
+        ],
+        description: [
+          "The AI Club at OSU was revived this year and became one of the biggest launches on campus - our first meeting drew over 100 members, a clear sign of how much interest there is in AI across every major. As Project Officer, I help lead and support members through the weekly project workshop, meeting people where they are across all experience levels.",
+          "I created NumPy tutorials used by members throughout the term, and helped guide projects ranging from image classification to poker agents to Kaggle competitions. Our weekly meetings mix technical depth with community - from lectures breaking down how machine learning actually works, to interactive games that bring people together. We're building a space where anyone curious about AI can find their footing and go further. Next year, I'll be stepping into the role of Marketing Lead."
+        ]
+      },
+      bh: {
+        name: 'BeaverHacks',
+        role: 'Core & Marketing Team',
+        date: 'June 2025 - Present',
+        photos: [
+          'bh-merch/3.jpg',
+          'bh-event/carousel/untitled (102 of 275).jpg',
+          'bh-event/carousel/untitled (43 of 275).jpg',
+          'bh-merch/5.jpg',
+          'bh-merch/6.jpg',
+          'bh-event/carousel/untitled (70 of 275).jpg',
+          'bh-event/carousel/untitled (59 of 275).jpg',
+          'bh-event/carousel/venue2.jpg',
+          'bh-event/gp1.JPG'
+        ],
+        description: [
+          "Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I know how they push you to pick up new tools, move fast, and lean on teamwork under pressure. Being part of the core operations team that organizes BeaverHacks, Oregon's largest collegiate hackathon hosted at OSU, felt like a natural extension of that passion.",
+          "Across the 24-hour event drawing 500+ students from universities across the country, I contributed across marketing, design, and operations - from running social campaigns and designing stickers, to modeling merchandise, to managing volunteers and logistics on event day."
+        ],
+        ctas: [
+          { href: 'beaverhacks-2026.html', label: 'BeaverHacks 2026 →' }
+        ]
+      }
+    };
+
+    var currentOrg = 'coe';
+    var currentPhoto = 0;
+    var orgPhotoCache = {};
+    var orgPhotoDisplayedSrc = '';
+
+    function preloadOrgPhotos(photos) {
+      photos.forEach(function (src) {
+        if (orgPhotoCache[src]) return;
+        var img = new Image();
+        img.decoding = 'async';
+        img.src = src;
+        orgPhotoCache[src] = img;
+      });
+    }
+
+    function selectOrg(id) {
+      currentOrg = id;
+      currentPhoto = 0;
+      orgPhotoDisplayedSrc = '';
+      document.querySelectorAll('.org-tab').forEach(function (tab) {
+        tab.classList.toggle('active', tab.dataset.org === id);
+      });
+      preloadOrgPhotos(orgsData[id].photos);
+      renderOrgPanel();
+    }
+
+    function initOrgFromHash() {
+      var hash = window.location.hash;
+      if (hash === '#events') {
+        var events = document.getElementById('events');
+        if (events) {
+          setTimeout(function () {
+            events.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 100);
+        }
+        return;
+      }
+      if (!hash.startsWith('#clubs-')) return;
+      var id = hash.slice(7);
+      if (!orgsData[id]) return;
+      selectOrg(id);
+      var tab = document.getElementById('clubs-' + id);
+      if (tab) {
+        setTimeout(function () {
+          tab.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
+    }
+
+    window.addEventListener('hashchange', initOrgFromHash);
+
+    function orgCarouselNav(key, dir) {
+      var photos = orgsData[currentOrg].photos;
+      if (photos.length < 2) return;
+      currentPhoto = (currentPhoto + dir + photos.length) % photos.length;
+      renderOrgPhoto();
+    }
+
+    function renderOrgPhoto() {
+      var data = orgsData[currentOrg];
+      var display = document.getElementById('orgPhotoDisplay');
+      var counter = document.getElementById('orgPhotoCounter');
+      var prevBtn = document.getElementById('orgPhotoPrev');
+      var nextBtn = document.getElementById('orgPhotoNext');
+      var hasMultiple = data.photos.length > 1;
+      prevBtn.style.display = hasMultiple ? '' : 'none';
+      nextBtn.style.display = hasMultiple ? '' : 'none';
+      var frame = display.parentElement;
+      frame.classList.remove('landscape');
+      if (data.photos.length) {
+        var src = data.photos[currentPhoto];
+        var img = display.querySelector('img');
+        if (!img) {
+          display.innerHTML = '';
+          img = document.createElement('img');
+          img.alt = '';
+          img.decoding = 'async';
+          display.appendChild(img);
+        }
+        counter.style.display = hasMultiple ? '' : 'none';
+        if (hasMultiple) {
+          document.getElementById('orgPhotoCurrent').textContent = currentPhoto + 1;
+          document.getElementById('orgPhotoTotal').textContent = data.photos.length;
+        }
+        var applyOrientation = function () {
+          frame.classList.toggle('landscape', img.naturalWidth > img.naturalHeight);
+        };
+        if (orgPhotoDisplayedSrc !== src) {
+          orgPhotoDisplayedSrc = src;
+          img.onload = applyOrientation;
+          img.src = src;
+          if (img.complete && img.naturalWidth) applyOrientation();
+        } else if (img.complete && img.naturalWidth) {
+          applyOrientation();
+        }
+      } else {
+        orgPhotoDisplayedSrc = '';
+        display.innerHTML = '<div class="org-photo-placeholder">Photos coming soon</div>';
+        counter.style.display = 'none';
+      }
+    }
+
+    function renderOrgPanel() {
+      renderOrgPhoto();
+      var data = orgsData[currentOrg];
+      document.getElementById('orgPanelTitle').textContent = data.role;
+      document.getElementById('orgPanelRole').textContent = data.name;
+      document.getElementById('orgPanelDate').textContent = data.date;
+      var desc = document.getElementById('orgPanelDesc');
+      desc.innerHTML = '';
+      data.description.forEach(function (paragraph) {
+        var p = document.createElement('p');
+        p.textContent = paragraph;
+        desc.appendChild(p);
+      });
+      var ctas = document.getElementById('orgPanelCtas');
+      ctas.innerHTML = '';
+      (data.ctas || []).forEach(function (cta) {
+        var a = document.createElement('a');
+        a.className = 'org-panel-cta';
+        a.href = cta.href;
+        a.textContent = cta.label;
+        ctas.appendChild(a);
+      });
+    }
+
+    preloadOrgPhotos(orgsData.coe.photos);
+    renderOrgPanel();
+    initOrgFromHash();
+  </script>
+</body>
+</html>

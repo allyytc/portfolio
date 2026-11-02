@@ -1,0 +1,7 @@
+# Phase 7B derived assets and audit tools
+
+No new third-party model or artwork is acquired. The current `public/models/loft-studio-v4d.glb` and editable Blender files remain unchanged. The planned phone export `public/models/loft-studio-v4d-compact.glb` derives from that existing approved room, resizing only the embedded 4096×4096 baked JPEG to 2048×2048 with macOS `sips`. Geometry/Draco bytes, materials, UVs/normals, transforms and separately named interactive objects must remain identical. Existing original model licenses and credits continue to apply unchanged. Exact input/output hashes, texture dimensions and structural comparisons will be recorded in `evidence/phase7b/compact-model.json`. The detailed original remains the desktop default and recovery source.
+
+A social preview may reuse the existing owner-authored Blender room render `docs/portfolio/evidence/phase4d/blender-studio.png`, unmodified, as `public/social/studio-preview.png`. This is a derived preview of the approved scene, with the same underlying asset notices; no new artwork/license is inferred. No original website asset is rewritten.
+
+Audit-only tools: axe-core 4.11.1 (Mozilla Public License 2.0, npm package `https://registry.npmjs.org/axe-core/-/axe-core-4.11.1.tgz`, pinned audit-only devDependency, with LICENSE in the installed package) and Lighthouse 13.6.0 (Apache-2.0, official npm package). They run locally and are not imported into production. npm cache/tool files are excluded from repository publication. No paid tool/service is used.

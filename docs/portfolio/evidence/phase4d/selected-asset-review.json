@@ -1,0 +1,22 @@
+[
+  {
+    "file": "/Users/ally/Github/portfolio/assets/source/kaykit-furniture-bits/Assets/gltf/bed_double_B.gltf",
+    "meshes": 1,
+    "triangles": 600
+  },
+  {
+    "file": "/Users/ally/Github/portfolio/assets/source/kaykit-furniture-bits/Assets/gltf/armchair.gltf",
+    "meshes": 1,
+    "triangles": 528
+  },
+  {
+    "file": "/Users/ally/Github/portfolio/assets/source/tiny-treats-house-plants/Assets/gltf/monstera_plant_large_potted.gltf",
+    "meshes": 1,
+    "triangles": 5900
+  },
+  {
+    "file": "/Users/ally/Github/portfolio/assets/source/tiny-treats-house-plants/Assets/gltf/pothos_plant_small_potted.gltf",
+    "meshes": 1,
+    "triangles": 1792
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "camera": {
+    "view": "printer",
+    "position": [
+      6.279979813010007,
+      8.029967960743699,
+      11.636674456930297
+    ],
+    "target": [
+      -0.7200000137090683,
+      1.0299741923809052,
+      -0.36330683529376984
+    ],
+    "zoom": 318.51831712931215,
+    "azimuth": 0.5280744484263596,
+    "polar": 1.1040566949637058,
+    "minZoom": 286.66666666666663,
+    "maxZoom": 398.1481481481481,
+    "transitioning": false
+  },
+  "metrics": {
+    "calls": 37,
+    "triangles": 205406,
+    "peakCalls": 50,
+    "peakTriangles": 265302,
+    "textures": 7,
+    "geometries": 62,
+    "activeFrameMs": 17.166083150997725,
+    "frames": 457,
+    "paperProgress": 0.9999991742716569
+  }
+}

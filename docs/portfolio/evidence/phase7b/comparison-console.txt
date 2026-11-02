@@ -1,0 +1,178 @@
+{
+  "baseline": {
+    "entryJavaScript": {
+      "name": "index-D0REOj27.js",
+      "bytes": 498871,
+      "gzip": 126605
+    },
+    "devices": {
+      "desktop": {
+        "runs": 3,
+        "roomDrawReadyMedianMs": 1058.4,
+        "initialEncodedResourceMedianBytes": 4024406,
+        "initialEncodedJavaScriptMedianBytes": 415319,
+        "idleDrawCallsPer500ms": [
+          0,
+          0,
+          0
+        ],
+        "drawnFrameMedianCalls": 50.0,
+        "drawnFrameMedianTriangles": 265302.0,
+        "activeRafFrameIntervalMedianMs": 16.7,
+        "activeRafFrameIntervalP95Ms": 16.7,
+        "activeRafFPSFromMedian": 59.88,
+        "backing": {
+          "width": 1935,
+          "height": 1290
+        },
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+      },
+      "mobile": {
+        "runs": 3,
+        "roomDrawReadyMedianMs": 1040.2,
+        "initialEncodedResourceMedianBytes": 4024406,
+        "initialEncodedJavaScriptMedianBytes": 415319,
+        "idleDrawCallsPer500ms": [
+          0,
+          0,
+          0
+        ],
+        "drawnFrameMedianCalls": 50,
+        "drawnFrameMedianTriangles": 265302,
+        "activeRafFrameIntervalMedianMs": 16.7,
+        "activeRafFrameIntervalP95Ms": 16.8,
+        "activeRafFPSFromMedian": 59.88,
+        "backing": {
+          "width": 566,
+          "height": 708
+        },
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+      }
+    },
+    "lighthouse": {
+      "runs": 3,
+      "scoresMedian": {
+        "performance": 72.0,
+        "accessibility": 96.0,
+        "seo": 60.0
+      },
+      "metricsMedian": {
+        "first-contentful-paint": 767.13,
+        "largest-contentful-paint": 767.13,
+        "total-blocking-time": 1943.5,
+        "cumulative-layout-shift": 0.0
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    }
+  },
+  "after": {
+    "entryJavaScript": {
+      "name": "index-Bxu6EGnx.js",
+      "bytes": 242493,
+      "gzip": 75030
+    },
+    "devices": {
+      "desktop": {
+        "runs": 3,
+        "roomDrawReadyMedianMs": 1055,
+        "initialEncodedResourceMedianBytes": 3973473,
+        "initialEncodedJavaScriptMedianBytes": 364255,
+        "idleDrawCallsPer500ms": [
+          0,
+          0,
+          0
+        ],
+        "drawnFrameMedianCalls": 50.0,
+        "drawnFrameMedianTriangles": 265302.0,
+        "activeRafFrameIntervalMedianMs": 16.7,
+        "activeRafFrameIntervalP95Ms": 16.7,
+        "activeRafFPSFromMedian": 59.88,
+        "backing": {
+          "width": 1935,
+          "height": 1290
+        },
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+      },
+      "mobile": {
+        "runs": 3,
+        "roomDrawReadyMedianMs": 864.6,
+        "initialEncodedResourceMedianBytes": 3422345,
+        "initialEncodedJavaScriptMedianBytes": 364255,
+        "idleDrawCallsPer500ms": [
+          0,
+          0,
+          0
+        ],
+        "drawnFrameMedianCalls": 50,
+        "drawnFrameMedianTriangles": 265302,
+        "activeRafFrameIntervalMedianMs": 16.7,
+        "activeRafFrameIntervalP95Ms": 16.8,
+        "activeRafFPSFromMedian": 59.88,
+        "backing": {
+          "width": 471,
+          "height": 590
+        },
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+      }
+    },
+    "lighthouse": {
+      "runs": 3,
+      "scoresMedian": {
+        "performance": 94.0,
+        "accessibility": 100,
+        "seo": 60.0
+      },
+      "metricsMedian": {
+        "first-contentful-paint": 762.69,
+        "largest-contentful-paint": 762.69,
+        "total-blocking-time": 279.5,
+        "cumulative-layout-shift": 0.0
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Production local gzip servers, cold browser contexts, same installed Chrome/host. Browser rendering: three runs each at desktop 1440x1000/DPR2 and phone 390x844/DPR2; phone camera opted in for the active gesture sample.",
+    "Baseline and optimized browser samples and six Lighthouse runs executed sequentially, not alongside regression browsers. Shared host scheduling, power state, driver caches and user activity are not hardware-isolated.",
+    "Drawn frames use requestAnimationFrame timestamps, not GPU execution timings; idle FPS is not meaningful for demand rendering. Texture memory is an RGBA+mipmap estimate, excluding render targets/driver overhead.",
+    "Lighthouse mobile simulation is not a real phone. Canvas content is not a reliable DOM LCP proxy; separate room-draw-ready timing is recorded. Scores are local medians, not a launch or WCAG certification."
+  ]
+}

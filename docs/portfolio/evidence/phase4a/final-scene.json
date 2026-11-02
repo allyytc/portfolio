@@ -1,0 +1,134 @@
+{
+  "file": "/Users/ally/Github/portfolio/assets/blender/studio-phase4a.blend",
+  "scenes": [
+    "DeskBaked4A",
+    "PortfolioDesk",
+    "PortfolioDesk4A",
+    "RoomBlockout4A_TEMPORARY",
+    "Scene"
+  ],
+  "chair": [
+    {
+      "object": "SageChair_chairDesk",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Chair cream back shell",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Chair padded sage back",
+      "materials": [
+        "4A_Black woven upholstery"
+      ]
+    },
+    {
+      "object": "Chair back inset seam",
+      "materials": [
+        "4A_Black woven upholstery"
+      ]
+    },
+    {
+      "object": "Chair cushioned seat",
+      "materials": [
+        "4A_Black woven upholstery"
+      ]
+    },
+    {
+      "object": "Chair seat lower frame",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    },
+    {
+      "object": "Chair arm upright",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Chair curved armrest",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Chair arm upright.001",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Chair curved armrest.001",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Twin caster wheel",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Caster hub",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    },
+    {
+      "object": "Twin caster wheel.001",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Caster hub.001",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    },
+    {
+      "object": "Twin caster wheel.002",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Caster hub.002",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    },
+    {
+      "object": "Twin caster wheel.003",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Caster hub.003",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    },
+    {
+      "object": "Twin caster wheel.004",
+      "materials": [
+        "4A_Black satin polymer"
+      ]
+    },
+    {
+      "object": "Caster hub.004",
+      "materials": [
+        "4A_Black powder coated metal"
+      ]
+    }
+  ],
+  "originalScenePreserved": true,
+  "blockoutSeparate": true
+}

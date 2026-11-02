@@ -1,0 +1,111 @@
+import { useEffect, useRef, useState } from 'react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import gsap from 'gsap'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const LINES = [
+  { text: '> SCANNING ALLY_CHEN.EXE...', accent: false },
+  { text: '> LANGUAGES DETECTED:    Python · TypeScript · JavaScript · C++ · SQL · Dart', accent: false },
+  { text: '> FRAMEWORKS DETECTED:   React · Next.js · Node.js · Flutter · PyTorch · OpenCV', accent: false },
+  { text: '> TOOLS DETECTED:        Git · Figma · Drupal · Godot · Jupyter', accent: false },
+  { text: '> DESIGN STACK:          UI/UX · Figma · Canva · Motion Design', accent: false },
+  { text: '> CONFIDENCE:            HIGH', accent: false },
+  { text: '> STATUS:                AVAILABLE FOR HIRE · JUNE 2027', accent: true },
+]
+
+export default function Skills() {
+  const sectionRef = useRef<HTMLElement>(null)
+  const [visibleLines, setVisibleLines] = useState<number>(-1)
+  const [currentChar, setCurrentChar]   = useState(0)
+  const [blink, setBlink]               = useState(true)
+  const triggered = useRef(false)
+
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  useEffect(() => {
+    if (prefersReduced) { setVisibleLines(LINES.length - 1); setCurrentChar(9999); return }
+
+    ScrollTrigger.create({
+      trigger: sectionRef.current,
+      start: 'top 65%',
+      once: true,
+      onEnter: () => {
+        if (triggered.current) return
+        triggered.current = true
+        typeLines(0, 0)
+      },
+    })
+
+    const blinkTimer = setInterval(() => setBlink(b => !b), 500)
+    return () => { clearInterval(blinkTimer); ScrollTrigger.getAll().forEach(t => t.kill()) }
+  }, [])
+
+  function typeLines(lineIdx: number, charIdx: number) {
+    if (lineIdx >= LINES.length) return
+
+    setVisibleLines(lineIdx)
+    setCurrentChar(charIdx)
+
+    const line = LINES[lineIdx].text
+    if (charIdx < line.length) {
+      setTimeout(() => typeLines(lineIdx, charIdx + 1), 22)
+    } else {
+      setTimeout(() => typeLines(lineIdx + 1, 0), 80)
+    }
+  }
+
+  return (
+    <section
+      ref={sectionRef}
+      id="skills"
+      style={{
+        background: 'var(--bg)',
+        padding: 'clamp(4rem, 8vw, 8rem) clamp(1.5rem, 6vw, 6rem)',
+      }}
+    >
+      <p style={{
+        fontFamily: 'var(--font-label)',
+        fontSize: 'var(--text-label)',
+        color: 'var(--text-dim)',
+        letterSpacing: '0.2em',
+        marginBottom: 'clamp(2rem, 4vw, 3rem)',
+      }}>SYSTEM SCAN</p>
+
+      <pre style={{
+        fontFamily: 'var(--font-label)',
+        fontSize: 'clamp(0.75rem, 1.1vw, 0.9rem)',
+        color: 'var(--text-primary)',
+        lineHeight: 2,
+        margin: 0,
+        background: 'var(--surface)',
+        border: '1px solid var(--border-col)',
+        padding: 'clamp(1.5rem, 3vw, 3rem)',
+        overflow: 'auto',
+        whiteSpace: 'pre-wrap',
+        wordBreak: 'break-word',
+      }}>
+        <code>
+          {LINES.map((line, i) => {
+            if (i > visibleLines) return null
+            const isLast = i === visibleLines
+            const displayText = isLast ? line.text.slice(0, currentChar) : line.text
+            const showCursor  = isLast && currentChar < line.text.length
+
+            return (
+              <span key={i} style={{ display: 'block', color: line.accent ? 'var(--accent)' : undefined }}>
+                {displayText}
+                {showCursor && (
+                  <span style={{ opacity: blink ? 1 : 0, color: 'var(--accent)' }}>█</span>
+                )}
+              </span>
+            )
+          })}
+          {visibleLines >= LINES.length - 1 && currentChar >= LINES[LINES.length - 1].text.length && (
+            <span style={{ display: 'block', opacity: blink ? 1 : 0, color: 'var(--accent)' }}>█</span>
+          )}
+        </code>
+      </pre>
+    </section>
+  )
+}

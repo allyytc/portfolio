@@ -1,0 +1,50 @@
+[
+  {
+    "path": "index.html",
+    "url": "https://allyytc.github.io/",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "e18d4ddbf3a4fe759c88e62084a51323dd6064f9d5910bcefc18c55a6c7a9b4b",
+    "operation": "GET only"
+  },
+  {
+    "path": "projects.html",
+    "url": "https://allyytc.github.io/projects.html",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "80d7c05d08476496246c2ce76e995dced0ba638360f64cbacbbce53af4c95bc5",
+    "operation": "GET only"
+  },
+  {
+    "path": "involvement.html",
+    "url": "https://allyytc.github.io/involvement.html",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "31b527df021bdb3d58216f738f3800dff3748833a7f2f8c1e2cf1f1222d0cbc3",
+    "operation": "GET only"
+  },
+  {
+    "path": "beaverhacks-2026.html",
+    "url": "https://allyytc.github.io/beaverhacks-2026.html",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "87429636cc518c63466cd6c7817ff5ac75d250fbb0608d03d7c7a1f0f811ad55",
+    "operation": "GET only"
+  },
+  {
+    "path": "innovation-jam-2026.html",
+    "url": "https://allyytc.github.io/innovation-jam-2026.html",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "d687394e18f9a80a58585df6fb52b3e25b32cdd942fccb8af144f0657c726658",
+    "operation": "GET only"
+  },
+  {
+    "path": "eweek.html",
+    "url": "https://allyytc.github.io/eweek.html",
+    "httpStatus": 200,
+    "matchesPinnedApartFromTrailingWhitespace": true,
+    "sha256": "67b3772510019ce21f21d975312215ed6a3908ebbe002ad23ac73fcf96997178",
+    "operation": "GET only"
+  }
+]

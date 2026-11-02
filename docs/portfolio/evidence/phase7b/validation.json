@@ -1,0 +1,139 @@
+{
+  "phase": "7B",
+  "date": "2026-10-29",
+  "baseline": {
+    "buildPassed": true,
+    "existingTestsPassed": 53,
+    "checkpointFiles": 109
+  },
+  "finalBuild": {
+    "passed": true,
+    "strictTypeScriptPassed": true,
+    "lint": "No existing lint script/config; not claimed",
+    "log": "build.log",
+    "warnings": [
+      "Large lazy Three/model-loader chunk retained",
+      "Future Vite native-config import-extension warning; current bundled config builds"
+    ]
+  },
+  "fullRegression": {
+    "passed": 59,
+    "failed": 0,
+    "duration": "3.1m",
+    "log": "tests-final.log"
+  },
+  "finalTechnicalFollowup": {
+    "passed": 6,
+    "failed": 0,
+    "log": "technical-post-fallback.log",
+    "covers": [
+      "Final fallback contrast",
+      "Content script failure recovery",
+      "Skip-link and hash navigation",
+      "Phone/light rendering",
+      "Production server/subpath",
+      "Corrupt embedded texture"
+    ]
+  },
+  "staticTextFollowup": {
+    "passed": 1,
+    "failed": 0,
+    "log": "static-final.log",
+    "sourceRecognitionAndCategoriesPreserved": true
+  },
+  "automatedAccessibility": {
+    "selectedPanelStates": 10,
+    "violations": 0,
+    "formalWCAGCertification": false,
+    "contextLossFallbackAlsoAudited": true
+  },
+  "liveVideo": {
+    "url": "https://www.youtube.com/embed/Ta64tj6uJc4",
+    "checkedIn": "Phase 7B",
+    "playbackConfirmed": true,
+    "method": "Native visible player click after iframe UI loads",
+    "currentTime": 1.879426,
+    "paused": false,
+    "readyState": 4
+  },
+  "measurements": "comparison.json",
+  "measurementCounts": {
+    "coldBrowserRunsPerBuild": 6,
+    "LighthouseRunsPerBuild": 3
+  },
+  "finalEntryMatchesMeasuredBuild": true,
+  "runtimeDependenciesUnchanged": true,
+  "newAuditDevDependency": "axe-core 4.11.1",
+  "preservation": "preservation-checks.json",
+  "screenshots": [
+    {
+      "file": "after-desktop.png",
+      "width": 2880,
+      "height": 2238,
+      "sha256": "527bbc8b5285bb26236d020e90d6ee0fcdd93edbd42627e330c43f5703fe95a9"
+    },
+    {
+      "file": "after-mobile.png",
+      "width": 780,
+      "height": 1688,
+      "sha256": "4b59b14fd98574bafcdf19141cc33f3bbdd9001a5b4358f630348d88d662bbf1"
+    },
+    {
+      "file": "baseline-desktop.png",
+      "width": 2880,
+      "height": 2236,
+      "sha256": "e6c9728f14019c093ee0f9bf9a6bb8fcde7f7ffd3009efde932acf1bf6844bba"
+    },
+    {
+      "file": "baseline-mobile.png",
+      "width": 780,
+      "height": 1688,
+      "sha256": "484e747f4484f396e46a873552a054719467a83d90c7c47f57402fd6d331eadb"
+    },
+    {
+      "file": "live-video.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "632e1274f174f33f1bb6e006415926fcac137a210fc225fe363573b30481d52a"
+    },
+    {
+      "file": "missing-texture-fallback.png",
+      "width": 1440,
+      "height": 1119,
+      "sha256": "fc1f520c52ad0fc569313822786c783dfb2fd551017ffb9d55d71eea9c20791d"
+    },
+    {
+      "file": "mobile-lighter.png",
+      "width": 780,
+      "height": 1688,
+      "sha256": "1ace585399ba4ff23f1867f790a14769b90818b21f68dff6384f2c7ad716837c"
+    },
+    {
+      "file": "mobile-standard.png",
+      "width": 780,
+      "height": 1688,
+      "sha256": "ffd3c11018243a0478e9ba334b6975d08450b3aac5b219a9d9d54960b9844c5d"
+    },
+    {
+      "file": "subpath-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "615b28faa51b7ea83cda53255b8f157e6cba7983e6c1cca1a016fd5f098507b3"
+    },
+    {
+      "file": "webgl-context-loss.png",
+      "width": 1440,
+      "height": 1119,
+      "sha256": "42495a79ff6a4c732947201ccee2466a6889f4d3deadd16d983cf21ac4ec2077"
+    }
+  ],
+  "launchRestrictions": [
+    "No deployment performed",
+    "Development noindex retained",
+    "No canonical/absolute social URL chosen",
+    "Independent Phase 8 final audit and explicit owner approval required"
+  ],
+  "originalRepositoryModified": false,
+  "temporaryAuditServersStopped": true,
+  "developmentSiteRetained": "http://127.0.0.1:5173"
+}

@@ -1,0 +1,152 @@
+{
+  "checkpointFilesVerified": 26,
+  "sourceSnapshots": [
+    {
+      "source": "eweek.html",
+      "gitBlob": "6e701d9b2104246c3ec034d2cb6bd347a187eba0",
+      "matchesPinned": true
+    },
+    {
+      "source": "beaverhacks-2026.html",
+      "gitBlob": "dbd5afca242fbadf0c9bd873956721db8e2741a8",
+      "matchesPinned": true
+    },
+    {
+      "source": "projects.html",
+      "gitBlob": "4dce71100538f7b051fe6094979d00990af02a27",
+      "matchesPinned": true
+    },
+    {
+      "source": "script.js",
+      "gitBlob": "faa23229a6505e16955406ed90d07c807f57c20b",
+      "matchesPinned": true
+    },
+    {
+      "source": "innovation-jam-2026.html",
+      "gitBlob": "a8c0cb63bad5dba6e18d2579835892bcbbded335",
+      "matchesPinned": true
+    },
+    {
+      "source": "involvement.html",
+      "gitBlob": "c79e5758dccd5046dacdb8d6007ca44dcd2c2a4f",
+      "matchesPinned": true
+    },
+    {
+      "source": "projects.js",
+      "gitBlob": "37eb1e54fb0d2da18ae395ea18ffdeed981067b2",
+      "matchesPinned": true
+    },
+    {
+      "source": "nav.js",
+      "gitBlob": "40e507bf493180ad69b11b477ac7467a0398cf8c",
+      "matchesPinned": true
+    },
+    {
+      "source": "index.html",
+      "gitBlob": "e3f2769d788c97071f4a21b54bdd5d400610da1b",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/Skills.tsx",
+      "gitBlob": "239e21661aa58d2de1d056800ee100d782666959",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/Involvement.tsx",
+      "gitBlob": "d2f66ee420c4d6788f9fe8791ad036551a354428",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/About.tsx",
+      "gitBlob": "ecc5d0beab77bfaaf77407545f9aa96517ebefc2",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/Projects.tsx",
+      "gitBlob": "de096c923c5c1bd75631e39ca7279ab877aa98ae",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/Hero.tsx",
+      "gitBlob": "08d7ab2a8e4063e9a132b9e531e621a3408fe0e2",
+      "matchesPinned": true
+    },
+    {
+      "source": "app/src/components/Contact.tsx",
+      "gitBlob": "5bcc950aefa53316ff4b8ed76d1eb836c515ba81",
+      "matchesPinned": true
+    }
+  ],
+  "phase4dArtifactsVerifiedUnchanged": 21,
+  "unchangedSourceFiles": [
+    {
+      "file": "src/studio/Studio.tsx",
+      "sha256": "6041f853fa1b1a929f82fc13daf6c7be809b2ff0c9bc78fc0af6d1ebdd25eed7"
+    },
+    {
+      "file": "src/studio/StudioCamera.tsx",
+      "sha256": "d07d203faa7a190a282300c6b3dd7a8558773a6484f235de0d793c7ce8228baf"
+    },
+    {
+      "file": "src/studio/cameraViews.ts",
+      "sha256": "de1a615916a3e8f707174859c6f6e1f86a14d55b27794847411f0a9558158de3"
+    },
+    {
+      "file": "src/studio/sceneConfig.ts",
+      "sha256": "7f7b46c24d2710ad043eb976b8cc00a228b403a0641a74b054c0eac340ab71ff"
+    },
+    {
+      "file": "src/studio/sceneBounds.json",
+      "sha256": "cc25556d0b802f1c5a09f950b5744bb6faeeed06793666387d2b10578a98181a"
+    },
+    {
+      "file": "src/studio/interactions.ts",
+      "sha256": "8195efb535f96f2aed2946bb804f4deadb1eabc7f7bf19b790f92f1eeb47c80c"
+    },
+    {
+      "file": "src/studio/usePrinterPaper.ts",
+      "sha256": "bec797a23fccc4661130a347f531762e45a90c979624784c77570ad15f2bd327"
+    },
+    {
+      "file": "src/App.tsx",
+      "sha256": "496ec268adbb0e44e365f8caad953322387b9e205aa5b4c458fd339cf59e534f"
+    },
+    {
+      "file": "package.json",
+      "sha256": "3942872021373a2193b8c9ce00f20c2860f7b05bbb16b54a78616b5e3234816a"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "c2cfbdc1e99b59a62de6631db2686517a5eb0da62c71ba00b77946e0defd6445"
+    }
+  ],
+  "blender": {
+    "file": "assets/blender/studio-phase4d.blend",
+    "sha256": "c93c7a7a84bca2418bd8f94cc0af37c35f7bfdec287225f16daefb175c500ea3"
+  },
+  "glb": {
+    "file": "public/models/loft-studio-v4d.glb",
+    "sha256": "fc929605d92181e76dad9d4907cc01b3f0adb3e22aa3350363c67bfe8b2a98f2"
+  },
+  "migrationRecords": 338,
+  "onlyCompleteProject": "KO.rbit",
+  "originalMediaTracked": 244,
+  "newImageBytes": 183108,
+  "validation": {
+    "build": "passed",
+    "fullSuite": "22 passed (1.5m)",
+    "caseStudyParity": {
+      "sourceTextUnits": 20,
+      "originalTechnologyTags": 10,
+      "originalRoleItems": 6,
+      "originalFeatureItems": 6,
+      "galleryImages": 5,
+      "allTextPreserved": true,
+      "allCaptionsPreserved": true,
+      "allLocalImageHashesVerified": true
+    }
+  },
+  "originalOperations": "Read-only GitHub fetch and HTTP GET; no mutations",
+  "productionChanges": false,
+  "deployment": false
+}

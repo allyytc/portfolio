@@ -1,0 +1,147 @@
+[
+  {
+    "url": "https://2026.quackhacks.org/projects/winners/er-overwatch",
+    "httpStatus": 200,
+    "finalURL": "https://2026.quackhacks.org/projects/winners/er-overwatch",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://bit.ly/afterlife-metro",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/osu-cs290-f25/project-afterlife-metro",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://corvallisddc.org/en/",
+    "httpStatus": 200,
+    "finalURL": "https://corvallisddc.org/en/",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://devpost.com/software/combocraft-azuynr",
+    "httpStatus": 403,
+    "verification": "blocked",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://devpost.com/software/space-battles-aei3wz",
+    "httpStatus": 403,
+    "verification": "blocked",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://eroverwatch.tech",
+    "httpStatus": 200,
+    "finalURL": "https://patient.eroverwatch.tech/",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/Jonjlim/Quack3-AJAE",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/Jonjlim/Quack3-AJAE",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/allyytc/Sallys-POS",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/allyytc/Sallys-POS",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/allyytc/dementia-detector",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/allyytc/dementia-detector",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/alwxngn/ComboCraft",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/alwxngn/ComboCraft",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/alwxngn/Lantern-HackMIT2026",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/alwxngn/Lantern-HackMIT2026",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/dubhack26/KO.rbit",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/dubhack26/KO.rbit",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://github.com/osu-cs290-f25/project-afterlife-metro",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/osu-cs290-f25/project-afterlife-metro",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://impactstudio.oregonstate.edu/",
+    "httpStatus": 200,
+    "finalURL": "https://impactstudio.oregonstate.edu/",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://plume.hackmit.org/project/krpqx-lffop-wpuom-ttmme",
+    "httpStatus": 200,
+    "finalURL": "https://plume.hackmit.org/project/krpqx-lffop-wpuom-ttmme",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/embed/7biBbQWCngY",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/embed/7biBbQWCngY",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/embed/Ta64tj6uJc4",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/embed/Ta64tj6uJc4",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/embed/UiwDwaL6978",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/embed/UiwDwaL6978",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/embed/xNuD9hViZFQ",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/embed/xNuD9hViZFQ",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ta64tj6uJc4",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/watch?v=Ta64tj6uJc4",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=UiwDwaL6978",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/watch?v=UiwDwaL6978",
+    "verification": "resolved",
+    "note": "HTTP reachability, not independent claim verification or playback guarantee"
+  }
+]

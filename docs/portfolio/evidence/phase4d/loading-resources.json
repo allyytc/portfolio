@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/models/loft-studio-v4d.glb",
+    "transferSize": 3260808,
+    "encodedBodySize": 3260508,
+    "durationMs": 55.899999998509884
+  },
+  {
+    "path": "/decoders/draco/draco_wasm_wrapper.js",
+    "transferSize": 58756,
+    "encodedBodySize": 58456,
+    "durationMs": 2.599999997764826
+  },
+  {
+    "path": "/decoders/draco/draco_decoder.wasm",
+    "transferSize": 192720,
+    "encodedBodySize": 192420,
+    "durationMs": 3
+  }
+]

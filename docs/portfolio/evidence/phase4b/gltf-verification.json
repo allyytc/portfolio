@@ -1,0 +1,258 @@
+{
+  "bytes": 18799828,
+  "nodes": 24,
+  "stableIDs": [
+    "AboutBook",
+    "AboutSign",
+    "CommunitySign",
+    "Community_AIClub",
+    "Community_BeaverHacks",
+    "Community_BeaverHacks2026",
+    "Community_DFA",
+    "Community_ESC",
+    "Community_EngineersWeek",
+    "Community_InnovationJam2026",
+    "Community_StartupHub",
+    "ContactSign",
+    "ExperienceVolume",
+    "ExternalGitHub",
+    "ExternalLinkedIn",
+    "PrinterBody",
+    "ProjectsMonitor",
+    "ProjectsSign",
+    "ResumePaper",
+    "Sketchbook",
+    "SkillsVolume",
+    "StickerBook",
+    "StudioStatic",
+    "UnwrapDisplay"
+  ],
+  "unlitMaterials": [
+    0
+  ],
+  "images": 1,
+  "extensions": [
+    "KHR_materials_unlit"
+  ],
+  "nodesWithExtras": [
+    {
+      "extras": {
+        "stable_id": "AboutBook",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 0,
+      "name": "AboutBook.001"
+    },
+    {
+      "extras": {
+        "stable_id": "AboutSign",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 1,
+      "name": "AboutSign.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_AIClub",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 2,
+      "name": "Community_AIClub.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_BeaverHacks2026",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 3,
+      "name": "Community_BeaverHacks2026.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_BeaverHacks",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 4,
+      "name": "Community_BeaverHacks.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_DFA",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 5,
+      "name": "Community_DFA.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_EngineersWeek",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 6,
+      "name": "Community_EngineersWeek.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_ESC",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 7,
+      "name": "Community_ESC.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_InnovationJam2026",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 8,
+      "name": "Community_InnovationJam2026.001"
+    },
+    {
+      "extras": {
+        "stable_id": "Community_StartupHub",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 9,
+      "name": "Community_StartupHub.001"
+    },
+    {
+      "extras": {
+        "stable_id": "CommunitySign",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 10,
+      "name": "CommunitySign.001"
+    },
+    {
+      "extras": {
+        "stable_id": "ContactSign",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 11,
+      "name": "ContactSign.001"
+    },
+    {
+      "extras": {
+        "stable_id": "ExperienceVolume",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 12,
+      "name": "ExperienceVolume.001"
+    },
+    {
+      "extras": {
+        "stable_id": "ExternalGitHub",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 13,
+      "name": "ExternalGitHub.001"
+    },
+    {
+      "extras": {
+        "stable_id": "ExternalLinkedIn",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 14,
+      "name": "ExternalLinkedIn.001"
+    },
+    {
+      "extras": {
+        "source_name": "Printer lower chassis",
+        "phase4a_source_name": "Printer lower chassis",
+        "stable_id": "PrinterBody",
+        "action": "resume"
+      },
+      "mesh": 15,
+      "name": "PrinterBody.003"
+    },
+    {
+      "extras": {
+        "source_name": "MonitorHousing_computerScreen",
+        "phase4a_source_name": "MonitorHousing_computerScreen",
+        "stable_id": "ProjectsMonitor",
+        "action": "projects"
+      },
+      "mesh": 16,
+      "name": "ProjectsMonitor.003"
+    },
+    {
+      "extras": {
+        "stable_id": "ProjectsSign",
+        "baked": true,
+        "action": "projects"
+      },
+      "mesh": 17,
+      "name": "ProjectsSign.002"
+    },
+    {
+      "extras": {
+        "source_name": "resume_sheet",
+        "phase4a_source_name": "resume_sheet",
+        "stable_id": "ResumePaper",
+        "action": "resume"
+      },
+      "mesh": 18,
+      "name": "ResumePaper.003"
+    },
+    {
+      "extras": {
+        "stable_id": "Sketchbook",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 19,
+      "name": "Sketchbook.001"
+    },
+    {
+      "extras": {
+        "stable_id": "SkillsVolume",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 20,
+      "name": "SkillsVolume.001"
+    },
+    {
+      "extras": {
+        "stable_id": "StickerBook",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 21,
+      "name": "StickerBook.001"
+    },
+    {
+      "extras": {
+        "stable_id": "StudioStatic",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 22,
+      "name": "StudioStatic.002"
+    },
+    {
+      "extras": {
+        "stable_id": "UnwrapDisplay",
+        "baked": true,
+        "phase5_target": true
+      },
+      "mesh": 23,
+      "name": "UnwrapDisplay.001"
+    }
+  ]
+}

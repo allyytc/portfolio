@@ -1,0 +1,159 @@
+import { useEffect, useRef } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import ParticleField from '../three/ParticleField'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const isMobile = () => window.innerWidth < 768
+
+export default function Contact() {
+  const sectionRef  = useRef<HTMLElement>(null)
+  const initiateRef = useRef<HTMLSpanElement>(null)
+  const contactRef  = useRef<HTMLSpanElement>(null)
+  const linksRef    = useRef<HTMLDivElement>(null)
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  useEffect(() => {
+    if (prefersReduced || !sectionRef.current) return
+
+    gsap.fromTo([initiateRef.current, contactRef.current],
+      { x: (_i, el) => el === initiateRef.current ? '-100%' : '100%', opacity: 0 },
+      {
+        x: '0%', opacity: 1, duration: 0.9, ease: 'power4.out',
+        stagger: 0,
+        scrollTrigger: { trigger: sectionRef.current, start: 'top 70%' },
+      }
+    )
+
+    gsap.fromTo(linksRef.current,
+      { opacity: 0 },
+      {
+        opacity: 1, duration: 0.5, delay: 0.4,
+        scrollTrigger: { trigger: sectionRef.current, start: 'top 60%' },
+      }
+    )
+  }, [])
+
+  return (
+    <section
+      ref={sectionRef}
+      id="contact"
+      style={{
+        position: 'relative',
+        minHeight: '100vh',
+        background: 'var(--bg)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+      }}
+    >
+      {!isMobile() && <ParticleField />}
+
+      <div style={{
+        textAlign: 'center',
+        position: 'relative',
+        zIndex: 1,
+        lineHeight: 0.9,
+      }}>
+        <div style={{ overflow: 'hidden' }}>
+          <span
+            ref={initiateRef}
+            style={{
+              display: 'block',
+              fontFamily: 'var(--font-display)',
+              fontSize: 'var(--text-hero)',
+              color: 'var(--text-primary)',
+              fontWeight: 400,
+              letterSpacing: '-0.02em',
+            }}
+          >INITIATE</span>
+        </div>
+        <div style={{ overflow: 'hidden' }}>
+          <span
+            ref={contactRef}
+            style={{
+              display: 'block',
+              fontFamily: 'var(--font-display)',
+              fontSize: 'var(--text-hero)',
+              color: 'var(--text-primary)',
+              fontWeight: 400,
+              letterSpacing: '-0.02em',
+            }}
+          >CONTACT.</span>
+        </div>
+      </div>
+
+      <div
+        ref={linksRef}
+        style={{
+          display: 'flex',
+          gap: 'clamp(1.5rem, 4vw, 4rem)',
+          marginTop: '3rem',
+          position: 'relative',
+          zIndex: 1,
+          opacity: 0,
+        }}
+      >
+        {[
+          { label: 'EMAIL',    href: 'mailto:allyten08@gmail.com', cursor: 'email' },
+          { label: 'LINKEDIN', href: 'https://linkedin.com/in/allychen',  cursor: 'linkedin' },
+          { label: 'GITHUB',   href: 'https://github.com/allyytc',        cursor: 'github' },
+        ].map(link => (
+          <a
+            key={link.label}
+            href={link.href}
+            data-cursor={link.cursor}
+            target={link.label !== 'EMAIL' ? '_blank' : undefined}
+            rel={link.label !== 'EMAIL' ? 'noopener noreferrer' : undefined}
+            style={{
+              fontFamily: 'var(--font-label)',
+              fontSize: 'var(--text-label)',
+              color: 'var(--text-primary)',
+              textDecoration: 'none',
+              letterSpacing: '0.2em',
+              position: 'relative',
+              cursor: 'none',
+            }}
+            onMouseEnter={e => {
+              const el = e.currentTarget
+              if (!el.querySelector('.link-line')) {
+                const line = document.createElement('span')
+                line.className = 'link-line'
+                Object.assign(line.style, {
+                  position: 'absolute', bottom: -3, left: 0, right: 0,
+                  height: '1px', background: 'var(--accent)',
+                  transform: 'scaleX(0)', transformOrigin: 'left',
+                  transition: 'transform 0.25s ease',
+                })
+                el.appendChild(line)
+              }
+              const line = el.querySelector('.link-line') as HTMLElement
+              requestAnimationFrame(() => { line.style.transform = 'scaleX(1)' })
+            }}
+            onMouseLeave={e => {
+              const line = e.currentTarget.querySelector('.link-line') as HTMLElement | null
+              if (line) line.style.transform = 'scaleX(0)'
+            }}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <p style={{
+        position: 'absolute',
+        bottom: 24,
+        fontFamily: 'var(--font-label)',
+        fontSize: 'var(--text-label)',
+        color: 'var(--text-dim)',
+        letterSpacing: '0.12em',
+        zIndex: 1,
+      }}>
+        © ALLY CHEN 2027 · BUILT WITH REACT + THREE.JS + GSAP
+      </p>
+    </section>
+  )
+}

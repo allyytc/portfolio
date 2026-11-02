@@ -1,0 +1,221 @@
+import { useEffect, useRef } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const ORGS = [
+  {
+    name: 'ENGINEERING\nSTUDENT COUNCIL',
+    role: 'VP of Outreach',
+    stat: '$200K+ funding secured',
+    detail: 'Voice for 10K+ students',
+  },
+  {
+    name: 'STARTUP\nHUB OSU',
+    role: 'Co-Founder',
+    stat: 'Innovation Jam \'26',
+    detail: 'Built from scratch',
+  },
+  {
+    name: 'DESIGN\nFOR AMERICA',
+    role: 'Project Lead',
+    stat: '300+ daily users',
+    detail: 'ADA compliant',
+  },
+  {
+    name: 'BEAVERHACKS',
+    role: 'Marketing & Design',
+    stat: '500+ students',
+    detail: 'Oregon\'s largest collegiate hackathon',
+  },
+  {
+    name: 'AI CLUB\nOSU',
+    role: 'Project Officer',
+    stat: '100+ at revival meeting',
+    detail: 'NumPy tutorials',
+  },
+]
+
+export default function Involvement() {
+  const sectionRef  = useRef<HTMLElement>(null)
+  const trackRef    = useRef<HTMLDivElement>(null)
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  useEffect(() => {
+    if (prefersReduced || !trackRef.current) return
+    const cards = trackRef.current.querySelectorAll('.inv-card')
+
+    gsap.fromTo(cards,
+      { x: 60, opacity: 0 },
+      {
+        x: 0, opacity: 1,
+        stagger: 0.08, duration: 0.6, ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 70%',
+        },
+      }
+    )
+
+    // Count-up for stat numbers
+    cards.forEach((card) => {
+      const numEl = card.querySelector('.stat-num') as HTMLElement | null
+      if (!numEl) return
+      const text = numEl.dataset.value ?? ''
+      const match = text.match(/\d+/)
+      if (!match) return
+      const target = parseInt(match[0])
+      const prefix = text.slice(0, match.index)
+      const suffix = text.slice((match.index ?? 0) + match[0].length)
+
+      ScrollTrigger.create({
+        trigger: card,
+        start: 'top 80%',
+        once: true,
+        onEnter: () => {
+          gsap.fromTo({ val: 0 }, { val: target },
+            {
+              duration: 1.2,
+              ease: 'power2.out',
+              onUpdate: function() {
+                numEl.textContent = prefix + Math.round(this.targets()[0].val) + suffix
+              },
+            }
+          )
+        },
+      })
+    })
+  }, [])
+
+  // Drag scroll
+  useEffect(() => {
+    const track = trackRef.current
+    if (!track) return
+    let isDragging = false, startX = 0, scrollLeft = 0
+
+    const onDown = (e: MouseEvent) => {
+      isDragging = true
+      startX = e.pageX - track.offsetLeft
+      scrollLeft = track.scrollLeft
+      track.style.cursor = 'grabbing'
+    }
+    const onUp   = () => { isDragging = false; track.style.cursor = 'grab' }
+    const onMove = (e: MouseEvent) => {
+      if (!isDragging) return
+      e.preventDefault()
+      track.scrollLeft = scrollLeft - (e.pageX - track.offsetLeft - startX)
+    }
+
+    track.addEventListener('mousedown', onDown)
+    window.addEventListener('mouseup', onUp)
+    track.addEventListener('mousemove', onMove)
+
+    return () => {
+      track.removeEventListener('mousedown', onDown)
+      window.removeEventListener('mouseup', onUp)
+      track.removeEventListener('mousemove', onMove)
+    }
+  }, [])
+
+  return (
+    <section
+      ref={sectionRef}
+      id="involvement"
+      style={{
+        background: 'var(--bg)',
+        padding: 'clamp(4rem, 8vw, 8rem) 0',
+      }}
+    >
+      <p style={{
+        fontFamily: 'var(--font-label)',
+        fontSize: 'var(--text-label)',
+        color: 'var(--text-dim)',
+        letterSpacing: '0.2em',
+        marginBottom: 'clamp(2rem, 4vw, 3rem)',
+        paddingLeft: 'clamp(1.5rem, 6vw, 6rem)',
+      }}>INVOLVEMENT</p>
+
+      <div
+        ref={trackRef}
+        style={{
+          display: 'flex',
+          gap: 'clamp(1rem, 2vw, 1.5rem)',
+          overflowX: 'auto',
+          paddingLeft: 'clamp(1.5rem, 6vw, 6rem)',
+          paddingRight: 'clamp(1.5rem, 6vw, 6rem)',
+          paddingBottom: '1rem',
+          cursor: 'grab',
+          scrollbarWidth: 'none',
+          WebkitOverflowScrolling: 'touch',
+        } as React.CSSProperties}
+        className="inv-track"
+      >
+        {ORGS.map((org) => (
+          <div
+            key={org.name}
+            className="inv-card"
+            style={{
+              flexShrink: 0,
+              width: 'clamp(240px, 28vw, 320px)',
+              background: 'var(--surface)',
+              border: '1px solid var(--border-col)',
+              padding: 'clamp(1.5rem, 3vw, 2.5rem)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              gap: '1.5rem',
+              transition: 'border-color 0.2s',
+              minHeight: 220,
+            }}
+            onMouseEnter={e => (e.currentTarget.style.borderColor = 'var(--accent)')}
+            onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--border-col)')}
+          >
+            <div>
+              <h3 style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'var(--text-section)',
+                color: 'var(--text-primary)',
+                lineHeight: 1.1,
+                whiteSpace: 'pre-line',
+                marginBottom: '0.5rem',
+              }}>{org.name}</h3>
+              <p style={{
+                fontFamily: 'var(--font-label)',
+                fontSize: 'var(--text-label)',
+                color: 'var(--text-dim)',
+                letterSpacing: '0.1em',
+              }}>{org.role}</p>
+            </div>
+            <div>
+              <p
+                className="stat-num"
+                data-value={org.stat}
+                style={{
+                  fontFamily: 'var(--font-label)',
+                  fontSize: 'var(--text-label)',
+                  color: 'var(--accent)',
+                  letterSpacing: '0.1em',
+                  marginBottom: '0.25rem',
+                }}
+              >{org.stat}</p>
+              <p style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: 'var(--text-label)',
+                color: 'var(--text-dim)',
+              }}>{org.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <style>{`
+        .inv-track::-webkit-scrollbar { display: none; }
+        @media (max-width: 768px) {
+          .inv-track { flex-direction: column !important; cursor: default !important; }
+          .inv-card  { width: 100% !important; }
+        }
+      `}</style>
+    </section>
+  )
+}

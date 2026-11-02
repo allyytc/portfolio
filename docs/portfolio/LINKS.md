@@ -1,0 +1,51 @@
+# Preserved source links
+
+Exact unique HTML href values and quoted external URLs from the saved content sources. This records source values, including prototype differences and template expressions; it does not assert all targets are valid. Relative paths resolve against the original website. URL encoding is preserved.
+
+- `#clubs` — `involvement.html`
+- `#contact` — `index.html`
+- `#design-work` — `projects.html`
+- `#events` — `involvement.html`
+- `#hackathons` — `projects.html`
+- `#in-progress` — `projects.html`
+- `#past-projects` — `projects.html`
+- `allychen-resume2028-pm.pdf` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `beaverhacks-2026.html` — `involvement.html`, `projects.html`
+- `eweek.html` — `involvement.html`, `projects.html`
+- `https://2026.quackhacks.org/projects/winners/er-overwatch` — `projects.html`
+- `https://bit.ly/afterlife-metro` — `projects.html`
+- `https://corvallisddc.org/en/` — `projects.html`
+- `https://devpost.com/software/combocraft-azuynr` — `projects.html`
+- `https://devpost.com/software/space-battles-aei3wz` — `projects.html`
+- `https://eroverwatch.tech` — `projects.html`
+- `https://fonts.googleapis.com` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `https://fonts.gstatic.com` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `https://github.com/Jonjlim/Quack3-AJAE` — `projects.html`
+- `https://github.com/allyytc` — `app/src/components/Contact.tsx`, `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `https://github.com/allyytc/Sallys-POS` — `projects.html`
+- `https://github.com/allyytc/dementia-detector` — `projects.html`
+- `https://github.com/alwxngn/ComboCraft` — `projects.html`
+- `https://github.com/alwxngn/Lantern-HackMIT2026` — `projects.html`
+- `https://github.com/dubhack26/KO.rbit` — `projects.html`
+- `https://github.com/osu-cs290-f25/project-afterlife-metro` — `projects.html`
+- `https://impactstudio.oregonstate.edu/` — `projects.html`
+- `https://linkedin.com/in/allychen` — `app/src/components/Contact.tsx`
+- `https://linkedin.com/in/allyychen/` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `https://plume.hackmit.org/project/krpqx-lffop-wpuom-ttmme` — `projects.html`
+- `https://www.youtube.com/embed/7biBbQWCngY` — `projects.js`
+- `https://www.youtube.com/embed/Ta64tj6uJc4` — `projects.js`
+- `https://www.youtube.com/embed/UiwDwaL6978` — `projects.js`
+- `https://www.youtube.com/embed/xNuD9hViZFQ` — `projects.js`
+- `https://www.youtube.com/watch?v=Ta64tj6uJc4` — `projects.html`
+- `https://www.youtube.com/watch?v=UiwDwaL6978` — `projects.html`
+- `innovation-jam-2026.html` — `involvement.html`, `projects.html`
+- `involvement.html#events` — `beaverhacks-2026.html`, `eweek.html`, `innovation-jam-2026.html`
+- `mailto:allyten08@gmail.com` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`
+- `projects.html` — `index.html`
+- `projects.html#project-impact-studio` — `index.html`
+- `style.css?v=20260623k` — `beaverhacks-2026.html`, `innovation-jam-2026.html`, `involvement.html`
+- `style.css?v=20260624k` — `eweek.html`
+- `style.css?v=20260627c` — `index.html`
+- `style.css?v=20261020d` — `projects.html`
+- `tel:5038660073` — `beaverhacks-2026.html`, `eweek.html`, `index.html`, `innovation-jam-2026.html`, `involvement.html`, `projects.html`

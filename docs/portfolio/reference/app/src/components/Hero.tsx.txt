@@ -1,0 +1,186 @@
+import { useEffect, useRef, useState } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import ParticleField from '../three/ParticleField'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const isMobile = () => window.innerWidth < 768
+const prefersReduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+export default function Hero() {
+  const allyRef    = useRef<HTMLSpanElement>(null)
+  const chenRef    = useRef<HTMLSpanElement>(null)
+  const subRef     = useRef<HTMLParagraphElement>(null)
+  const readoutRef = useRef<HTMLDivElement>(null)
+  const sectionRef = useRef<HTMLElement>(null)
+  const [, setCursorReadout] = useState('')
+
+  useEffect(() => {
+    if (prefersReduced()) return
+    const tl = gsap.timeline({ delay: 0.1 })
+
+    tl.fromTo(allyRef.current,
+      { x: '-120%', opacity: 0 },
+      { x: '0%', opacity: 1, duration: 0.9, ease: 'power4.out' }
+    )
+    .fromTo(chenRef.current,
+      { x: '120%', opacity: 0 },
+      { x: '0%', opacity: 1, duration: 0.9, ease: 'power4.out' },
+      '<'
+    )
+    .fromTo(subRef.current,
+      { opacity: 0, letterSpacing: '0.05em' },
+      { opacity: 1, letterSpacing: '0.15em', duration: 0.6, ease: 'power2.out' },
+      '-=0.4'
+    )
+
+    // Cursor readout type-in
+    const text = 'CURSOR TRACKING ACTIVE · CONFIDENCE: 0.97'
+    let i = 0
+    const typeTimer = setInterval(() => {
+      i++
+      setCursorReadout(text.slice(0, i))
+      if (i >= text.length) clearInterval(typeTimer)
+    }, 30)
+
+    return () => clearInterval(typeTimer)
+  }, [])
+
+  useEffect(() => {
+    if (prefersReduced()) return
+    const section = sectionRef.current
+    if (!section) return
+
+    const headline = section.querySelector('.hero-headline') as HTMLElement
+    ScrollTrigger.create({
+      trigger: section,
+      start: 'top top',
+      end: 'bottom top',
+      scrub: true,
+      onUpdate: (self) => {
+        const p = self.progress
+        gsap.set(headline, {
+          scale: 1 - p * 0.4,
+          y: -p * 80,
+        })
+        gsap.set(readoutRef.current, { opacity: 1 - p * 3 })
+      },
+    })
+
+    return () => { ScrollTrigger.getAll().forEach(t => t.kill()) }
+  }, [])
+
+  // Live cursor readout
+  useEffect(() => {
+    if (isMobile()) return
+    const update = (e: MouseEvent) => {
+      const x = e.clientX
+      const y = e.clientY
+      const conf = (0.90 + Math.random() * 0.09).toFixed(2)
+      if (readoutRef.current) {
+        readoutRef.current.textContent = `CURSOR: [x: ${x}, y: ${y}] · CONFIDENCE: ${conf}`
+      }
+    }
+    window.addEventListener('mousemove', update)
+    return () => window.removeEventListener('mousemove', update)
+  }, [])
+
+  return (
+    <section
+      ref={sectionRef}
+      id="hero"
+      style={{
+        position: 'relative',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        overflow: 'hidden',
+        background: 'var(--bg)',
+      }}
+    >
+      {!isMobile() && <ParticleField />}
+
+      <span style={{
+        position: 'absolute', top: 24, left: 24,
+        fontFamily: 'var(--font-label)',
+        fontSize: 'var(--text-label)',
+        color: 'var(--text-dim)',
+        letterSpacing: '0.15em',
+      }}>[AC]</span>
+
+      <div
+        className="hero-headline"
+        style={{
+          textAlign: 'center',
+          position: 'relative',
+          zIndex: 1,
+          lineHeight: 0.9,
+          overflow: 'hidden',
+        }}
+      >
+        <div style={{ overflow: 'hidden' }}>
+          <span
+            ref={allyRef}
+            style={{
+              display: 'block',
+              fontFamily: 'var(--font-display)',
+              fontSize: 'var(--text-hero)',
+              color: 'var(--text-primary)',
+              fontWeight: 400,
+              letterSpacing: '-0.02em',
+            }}
+          >ALLY</span>
+        </div>
+        <div style={{ overflow: 'hidden' }}>
+          <span
+            ref={chenRef}
+            style={{
+              display: 'block',
+              fontFamily: 'var(--font-display)',
+              fontSize: 'var(--text-hero)',
+              color: 'var(--text-primary)',
+              fontWeight: 400,
+              letterSpacing: '-0.02em',
+            }}
+          >CHEN</span>
+        </div>
+      </div>
+
+      <p
+        ref={subRef}
+        style={{
+          fontFamily: 'var(--font-label)',
+          fontSize: 'var(--text-label)',
+          color: 'var(--text-dim)',
+          letterSpacing: '0.15em',
+          marginTop: '2rem',
+          textTransform: 'uppercase',
+          opacity: 0,
+          position: 'relative',
+          zIndex: 1,
+        }}
+      >
+        Computer Science · Oregon State · 2027
+      </p>
+
+      {!isMobile() && (
+        <div
+          ref={readoutRef}
+          style={{
+            position: 'absolute',
+            bottom: 24, right: 24,
+            fontFamily: 'var(--font-label)',
+            fontSize: 'var(--text-label)',
+            color: 'var(--accent)',
+            opacity: 0.7,
+            letterSpacing: '0.08em',
+            zIndex: 1,
+          }}
+        />
+      )}
+    </section>
+  )
+}

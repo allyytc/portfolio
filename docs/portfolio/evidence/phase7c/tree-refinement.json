@@ -1,0 +1,20 @@
+[
+  {
+    "source": "tree_pineRoundA",
+    "webNode": "Spruce0.001",
+    "triangles": 1836,
+    "sourceRefinement": "subdivided irregular bough contours, vertex palette; no alpha textures"
+  },
+  {
+    "source": "tree_pineDefaultB",
+    "webNode": "Spruce1.001",
+    "triangles": 2214,
+    "sourceRefinement": "subdivided irregular bough contours, vertex palette; no alpha textures"
+  },
+  {
+    "source": "tree_pineTallA_detailed",
+    "webNode": "Spruce2.001",
+    "triangles": 1206,
+    "sourceRefinement": "subdivided irregular bough contours, vertex palette; no alpha textures"
+  }
+]

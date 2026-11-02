@@ -1,0 +1,19 @@
+Owner portfolio artwork — local rebuild use
+
+The three images below are existing owner portfolio design work, reused under the owner-requested local rebuild. No general CC0 or third-party artwork license is claimed. Organization marks retain their respective rights. Nothing is published by this task.
+
+startup-hub.png
+https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Startup%20Hub%20-%20insta%20drafts.png
+SHA-256: 36b7ff27b416d663f4e68308c3625ee2ed4667956ce39f0af189e9dddf1615eb
+
+sleeping-beaver.png
+https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Sleeping_Beaver.png
+SHA-256: 1039eed042c1aa4c655a03b9f97c05a7bfd0334a2b6fb6bcc264b481487f560b
+
+innovation-lightbulb.png
+https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/lightbulb-crop.png
+SHA-256: 53d99d7593c1e1c6367fe26b83a615e77ab91290c5fb2b26203085b468f27aca
+
+Phase 6B: original portfolio project screenshots, graphics, stickers and event/merchandise artwork are preserved for the owner-requested local rebuild. Exact original paths and hashes: docs/portfolio/evidence/phase6b/required-media.json and media-acquisition.json. Afterlife Metro game art: Nour Alzahraa Alqattan. No general third-party publication license is inferred. Two Unwrap existing development UI captures originate in the owner's local calhacks2026 worktree; underlying artwork/model rights require separate review. See docs/portfolio/PHASE6B_MEDIA.md and unwrap-source.json.
+
+Phase 6C: original profile, organization, event photography and design/artwork are preserved unchanged for the owner-requested local migration. Exact source URLs, file paths, hashes and reuse status: docs/portfolio/evidence/phase6c/required-media.json and media-acquisition.json. Captions and source associations are preserved; uncaptioned photos use neutral event/organization and sequence descriptions. Underlying photo/artwork/organization mark rights remain with their respective owners; no blanket public redistribution license is asserted. See docs/portfolio/PHASE6C_MEDIA.md.

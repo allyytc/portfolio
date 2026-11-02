@@ -1,0 +1,1993 @@
+{
+  "repository": "allyytc/allyytc.github.io",
+  "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+  "inspectionDate": "2026-10-26",
+  "truncated": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "size": 10
+    },
+    {
+      "path": "DSC00612.JPG",
+      "sha": "6b797104d3f8eb8f4d11aeda16f3c60cb1bbba26",
+      "size": 2138892
+    },
+    {
+      "path": "about-photo.jpg",
+      "sha": "1637a95d8fc310357ecaf1baafe0c8d6d9d57127",
+      "size": 766544
+    },
+    {
+      "path": "afterlife-metro/home.webp",
+      "sha": "0d1091f2ae43961be03deb4c1297f3d307511cc3",
+      "size": 33506
+    },
+    {
+      "path": "afterlife-metro/instructions-scrolled.webp",
+      "sha": "7cedbb33d9c64adc3721598236d66ec5b9434b2e",
+      "size": 75194
+    },
+    {
+      "path": "afterlife-metro/instructions.webp",
+      "sha": "e051bd09fe96ba17efb7a40c505abe75d285f296",
+      "size": 72894
+    },
+    {
+      "path": "afterlife-metro/intro-memory.webp",
+      "sha": "192e58f390b17474508b6b090b01b298d8b34186",
+      "size": 3636
+    },
+    {
+      "path": "afterlife-metro/leaderboard.webp",
+      "sha": "4edaf7b2b9e3bd27d8f256aeeed86122b841b3a5",
+      "size": 32638
+    },
+    {
+      "path": "afterlife-metro/pause-menu.webp",
+      "sha": "1403c176c4e4dbe88f5fa20941b11035fd047522",
+      "size": 45714
+    },
+    {
+      "path": "afterlife-metro/puzzle-room.webp",
+      "sha": "a7f69202dff632c1ff12fa2f57e14be65b5778d9",
+      "size": 48700
+    },
+    {
+      "path": "afterlife-metro/split-screen.webp",
+      "sha": "ad80a81b80eea4a7fbfedd8c05f6dfe5de89febb",
+      "size": 23672
+    },
+    {
+      "path": "afterlife-metro/story-dialogue.webp",
+      "sha": "35ecb2ec289c6cc55093fe849c1e4618baad1074",
+      "size": 4992
+    },
+    {
+      "path": "ai-club/IMG_1647.HEIC",
+      "sha": "2a28d69f820a283cc285e41617cc5d3d3e81ad75",
+      "size": 1158615
+    },
+    {
+      "path": "ai-club/IMG_1647.jpg",
+      "sha": "966aff305fad3bcf44c66fedd07925f3bf9c803c",
+      "size": 1888485
+    },
+    {
+      "path": "ai-club/IMG_8353.HEIC",
+      "sha": "0473b4bc4f2a898a0644e61d06568f58551df6a6",
+      "size": 1721790
+    },
+    {
+      "path": "ai-club/IMG_8353.jpg",
+      "sha": "a397f6aa24b6de504c66bfabb6ffe159b346867c",
+      "size": 2308621
+    },
+    {
+      "path": "ai-club/IMG_8450.HEIC",
+      "sha": "482c824ac4daf2e55c18125f3f3d02077cf7673a",
+      "size": 1556787
+    },
+    {
+      "path": "ai-club/IMG_8450.jpg",
+      "sha": "998714e5fb27c65499a3321ca7bab837af09c2e3",
+      "size": 2208737
+    },
+    {
+      "path": "ai-club/IMG_8454.HEIC",
+      "sha": "9fa22e9db3c16d4a632024e9046d0467e8f57142",
+      "size": 2089374
+    },
+    {
+      "path": "ai-club/IMG_8454.jpg",
+      "sha": "962a27b563c5d5c78c60188da440ad40f93e1a86",
+      "size": 2697102
+    },
+    {
+      "path": "ai-club/IMG_8523.HEIC",
+      "sha": "b1ff4b82526393182433156340e098a9220d4c48",
+      "size": 915800
+    },
+    {
+      "path": "ai-club/IMG_8523.jpg",
+      "sha": "2dfff2f906b296e4c1ae49fb9be9777d771896cd",
+      "size": 1322971
+    },
+    {
+      "path": "ai-club/IMG_8555.HEIC",
+      "sha": "339bea205738cef8ef850cf2a5782f5e00635c17",
+      "size": 1703324
+    },
+    {
+      "path": "ai-club/IMG_8555.jpg",
+      "sha": "f15c6406963fa43d1c2058be904aa049a5837e04",
+      "size": 2283503
+    },
+    {
+      "path": "ai-club/IMG_8562.HEIC",
+      "sha": "a345805313add2d75a3c944aad153b1bcd957b4d",
+      "size": 1721276
+    },
+    {
+      "path": "ai-club/IMG_8562.jpg",
+      "sha": "4df8bcf898d8b4a6a6cb09534aa4764e9a83bdb0",
+      "size": 2451751
+    },
+    {
+      "path": "ai-club/photo2.jpg",
+      "sha": "3b6f6c9a446bd8b5b4e14622bc691955e50dc873",
+      "size": 2950146
+    },
+    {
+      "path": "app/.gitignore",
+      "sha": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+      "size": 253
+    },
+    {
+      "path": "app/.oxlintrc.json",
+      "sha": "6fa991dad24b57eb19c9cefba8ea12fd1870ed07",
+      "size": 245
+    },
+    {
+      "path": "app/README.md",
+      "sha": "d6af7e39ffac6183b891838d6ab1d6eb7ac70dda",
+      "size": 1278
+    },
+    {
+      "path": "app/components.json",
+      "sha": "15addee81fadab3e2f43e23425168d57f800bd8f",
+      "size": 515
+    },
+    {
+      "path": "app/index.html",
+      "sha": "7604e76c47ca2f24ed23b93958331ba8e3af0a9f",
+      "size": 355
+    },
+    {
+      "path": "app/package-lock.json",
+      "sha": "248262299faf408021c977b0dc826b78f0b17c1a",
+      "size": 242702
+    },
+    {
+      "path": "app/package.json",
+      "sha": "04164c6f10d8cf5acdf3aa140842f82e63bbdada",
+      "size": 1204
+    },
+    {
+      "path": "app/public/favicon.svg",
+      "sha": "6893eb13237060adc0c968a690149a49faa2d7d3",
+      "size": 9522
+    },
+    {
+      "path": "app/public/headshot.jpg",
+      "sha": "cb2630c438b5fea2c1792a43f6db70bdcf3c54cd",
+      "size": 777110
+    },
+    {
+      "path": "app/public/icons.svg",
+      "sha": "e9522193d9f796a9748e9ad8c952a5df73c87db9",
+      "size": 5031
+    },
+    {
+      "path": "app/src/App.css",
+      "sha": "f90339d8f765fa2c69d9a341959a8ddb9fff5720",
+      "size": 2891
+    },
+    {
+      "path": "app/src/App.tsx",
+      "sha": "ae99a4fb9916886070326d7a86c3f49b058f8be4",
+      "size": 887
+    },
+    {
+      "path": "app/src/assets/hero.png",
+      "sha": "02251f4b956c55af2d76fd0788124d7eee2b45eb",
+      "size": 13057
+    },
+    {
+      "path": "app/src/assets/react.svg",
+      "sha": "6c87de9bb3358469122cc991d5cf578927246184",
+      "size": 4126
+    },
+    {
+      "path": "app/src/assets/vite.svg",
+      "sha": "5101b674df391399da71c767aa5c976426c9dc7a",
+      "size": 8709
+    },
+    {
+      "path": "app/src/components/About.tsx",
+      "sha": "ecc5d0beab77bfaaf77407545f9aa96517ebefc2",
+      "size": 5031
+    },
+    {
+      "path": "app/src/components/Contact.tsx",
+      "sha": "5bcc950aefa53316ff4b8ed76d1eb836c515ba81",
+      "size": 5043
+    },
+    {
+      "path": "app/src/components/Cursor.tsx",
+      "sha": "e75ad8445994c698c7b12b7a9e449fa320edef8c",
+      "size": 4559
+    },
+    {
+      "path": "app/src/components/Hero.tsx",
+      "sha": "08d7ab2a8e4063e9a132b9e531e621a3408fe0e2",
+      "size": 5157
+    },
+    {
+      "path": "app/src/components/Involvement.tsx",
+      "sha": "d2f66ee420c4d6788f9fe8791ad036551a354428",
+      "size": 6562
+    },
+    {
+      "path": "app/src/components/LoadingScreen.tsx",
+      "sha": "41f81710148aa4b93efa9f8c62bae54f9adb8b9d",
+      "size": 4147
+    },
+    {
+      "path": "app/src/components/Projects.tsx",
+      "sha": "de096c923c5c1bd75631e39ca7279ab877aa98ae",
+      "size": 7556
+    },
+    {
+      "path": "app/src/components/Skills.tsx",
+      "sha": "239e21661aa58d2de1d056800ee100d782666959",
+      "size": 3858
+    },
+    {
+      "path": "app/src/components/ui/button.tsx",
+      "sha": "ac472bb0d4d0d7a2edf837ef6423292b72f12c5a",
+      "size": 1837
+    },
+    {
+      "path": "app/src/components/ui/input.tsx",
+      "sha": "a921025cebb25ff51b5f61d9ff4165e85d6f9073",
+      "size": 845
+    },
+    {
+      "path": "app/src/components/ui/label.tsx",
+      "sha": "afde56386f9569b8369ba563004a26cb1eb429fe",
+      "size": 725
+    },
+    {
+      "path": "app/src/components/ui/myna-hero.tsx",
+      "sha": "16b6ad0958511eb1bcb71d6cad719a9126e659f4",
+      "size": 8658
+    },
+    {
+      "path": "app/src/components/ui/sheet.tsx",
+      "sha": "7894fd12960ad5e7ebc5175d25748bd37deba383",
+      "size": 4285
+    },
+    {
+      "path": "app/src/hooks/useCursorPosition.ts",
+      "sha": "3a3c9d43287d341005190e84c1880fbb74489944",
+      "size": 467
+    },
+    {
+      "path": "app/src/hooks/useLenis.ts",
+      "sha": "b053dba85341f81623d56bb89fdf27b751918a85",
+      "size": 811
+    },
+    {
+      "path": "app/src/index.css",
+      "sha": "993a8bf78445bfeef2d7b6f796df45d0ec3b115a",
+      "size": 4683
+    },
+    {
+      "path": "app/src/lib/utils.ts",
+      "sha": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+      "size": 166
+    },
+    {
+      "path": "app/src/main.tsx",
+      "sha": "bef5202a32cbd0632c43de40f6e908532903fd42",
+      "size": 230
+    },
+    {
+      "path": "app/src/styles/tokens.css",
+      "sha": "0b805b09ff8d30bfe8d5bafd6f7bf93771e19f9b",
+      "size": 612
+    },
+    {
+      "path": "app/src/three/ParticleField.tsx",
+      "sha": "6a13b72cae499e7886655247d625d6f3e1323813",
+      "size": 1377
+    },
+    {
+      "path": "app/tsconfig.app.json",
+      "sha": "3a013d1bf6597a00144f4f4a68f17a13dec7980d",
+      "size": 664
+    },
+    {
+      "path": "app/tsconfig.json",
+      "sha": "1ffef600d959ec9e396d5a260bd3f5b927b2cef8",
+      "size": 119
+    },
+    {
+      "path": "app/tsconfig.node.json",
+      "sha": "8455dcbc2c947322adef8783a42741878edaea9c",
+      "size": 558
+    },
+    {
+      "path": "app/vite.config.ts",
+      "sha": "92dd4e1a8b541ff978751c673b06f8a3f0ecdb40",
+      "size": 327
+    },
+    {
+      "path": "beaverhacks-2026.html",
+      "sha": "dbd5afca242fbadf0c9bd873956721db8e2741a8",
+      "size": 28185
+    },
+    {
+      "path": "bh-event/DSCF6272.JPG",
+      "sha": "881535f4e6520ee6fd0f6f634e7fb8712b57c5b2",
+      "size": 11718239
+    },
+    {
+      "path": "bh-event/carousel/DSCF6276.jpg",
+      "sha": "622d9fe18ac627b939ec3f697b9ebfcd2ca618a9",
+      "size": 68427
+    },
+    {
+      "path": "bh-event/carousel/IMG_7646.jpg",
+      "sha": "40c756b8fc7a90bedf49ce4f1f94098c417c5dad",
+      "size": 68368
+    },
+    {
+      "path": "bh-event/carousel/IMG_7744.jpg",
+      "sha": "6c79d514e1fa69727b477cd92e3fe625a5736606",
+      "size": 69798
+    },
+    {
+      "path": "bh-event/carousel/top.jpg",
+      "sha": "52026cf3ab6d0868d6c124e9f7e0dc8c34b425ff",
+      "size": 138412
+    },
+    {
+      "path": "bh-event/carousel/untitled (102 of 275).jpg",
+      "sha": "456136ff4d663f7afa88e5a2f555988832d57f44",
+      "size": 73262
+    },
+    {
+      "path": "bh-event/carousel/untitled (11 of 275).jpg",
+      "sha": "ba7ffb832c69eac8815feb520d318f2933f96b8c",
+      "size": 143991
+    },
+    {
+      "path": "bh-event/carousel/untitled (158 of 275).jpg",
+      "sha": "86b2714d8c484b507fb1827929be1efa724dd55c",
+      "size": 123684
+    },
+    {
+      "path": "bh-event/carousel/untitled (181 of 275).jpg",
+      "sha": "f0127809b5b0c87049d23355192961315a480986",
+      "size": 98008
+    },
+    {
+      "path": "bh-event/carousel/untitled (187 of 275).jpg",
+      "sha": "bfc00bb2cb55223e83e45834ac99ec3bb861c056",
+      "size": 127797
+    },
+    {
+      "path": "bh-event/carousel/untitled (189 of 275).jpg",
+      "sha": "12aa88a5525b0bcec02a75367287d3be6e479e7a",
+      "size": 114426
+    },
+    {
+      "path": "bh-event/carousel/untitled (19 of 275).jpg",
+      "sha": "fb27918a57e8e6d250edd6fa981c0db8520f32c3",
+      "size": 108273
+    },
+    {
+      "path": "bh-event/carousel/untitled (196 of 275).jpg",
+      "sha": "9c2238cd2c81b84bb3e0d15c211bbad5fa9a03eb",
+      "size": 132621
+    },
+    {
+      "path": "bh-event/carousel/untitled (217 of 275).jpg",
+      "sha": "d1d91300408fd1798e23472a0870db27f2c5592e",
+      "size": 125194
+    },
+    {
+      "path": "bh-event/carousel/untitled (230 of 275).jpg",
+      "sha": "8776b45879a915f7e9d01beb34330d66a50459c9",
+      "size": 83433
+    },
+    {
+      "path": "bh-event/carousel/untitled (248 of 275).jpg",
+      "sha": "ba85f5850d06d5af7b9e63bc8929f8989a8c02f2",
+      "size": 88623
+    },
+    {
+      "path": "bh-event/carousel/untitled (249 of 275).jpg",
+      "sha": "c029d686e1d7a68149f2356e493e9bd6e5e4eb5b",
+      "size": 116048
+    },
+    {
+      "path": "bh-event/carousel/untitled (268 of 275).jpg",
+      "sha": "6e4bd945bf6632f92bdb1beafdafe42f3f272ac7",
+      "size": 93377
+    },
+    {
+      "path": "bh-event/carousel/untitled (275 of 275).jpg",
+      "sha": "a56f1d770d90b41bb59ce3253d0de85c8d6bd94d",
+      "size": 127278
+    },
+    {
+      "path": "bh-event/carousel/untitled (32 of 275).jpg",
+      "sha": "9db5349fefafac18b787ea9125ae0696c504379c",
+      "size": 59398
+    },
+    {
+      "path": "bh-event/carousel/untitled (43 of 275).jpg",
+      "sha": "0276cfa951b1fe7aa2b48b5fc96f6b75eb04daaf",
+      "size": 115404
+    },
+    {
+      "path": "bh-event/carousel/untitled (52 of 275).jpg",
+      "sha": "caee0f26098902b9b24b56f24875f732000c8084",
+      "size": 91613
+    },
+    {
+      "path": "bh-event/carousel/untitled (57 of 275).jpg",
+      "sha": "31d598fc360a6ed24d3399c19aa5d3c6841ebec8",
+      "size": 102057
+    },
+    {
+      "path": "bh-event/carousel/untitled (59 of 275).jpg",
+      "sha": "ce7d80fea38c0433ba1cccfa98f7f899eec4c2ed",
+      "size": 112545
+    },
+    {
+      "path": "bh-event/carousel/untitled (60 of 275).jpg",
+      "sha": "284db2a26e3fe45e3fae3ee4ad56b579c59dd847",
+      "size": 87121
+    },
+    {
+      "path": "bh-event/carousel/untitled (70 of 275).jpg",
+      "sha": "88170757d3115bec3779bde20afd9ff643d74010",
+      "size": 114062
+    },
+    {
+      "path": "bh-event/carousel/untitled (89 of 275).jpg",
+      "sha": "e12cd430c11296f42ef19046d35e3fafbf69a229",
+      "size": 99516
+    },
+    {
+      "path": "bh-event/carousel/venue.jpg",
+      "sha": "7be7109396590731a8bd1be0a35e13fc42837931",
+      "size": 153469
+    },
+    {
+      "path": "bh-event/carousel/venue2.jpg",
+      "sha": "dc968b72ebabc4ecca16456c9d0aa97d783c06db",
+      "size": 61295
+    },
+    {
+      "path": "bh-event/gp1.JPG",
+      "sha": "1520bc17c708394c60ecb950b8959126a7f57eef",
+      "size": 11943600
+    },
+    {
+      "path": "bh-event/gp2.JPG",
+      "sha": "ca9e580a29d8c59659dc3048562e8cac62ba2537",
+      "size": 11917383
+    },
+    {
+      "path": "bh-event/top.jpg",
+      "sha": "1b8c69e801cc07362a4e154042ae02c9cbf3267e",
+      "size": 12688242
+    },
+    {
+      "path": "bh-event/untitled (102 of 275).jpg",
+      "sha": "64ef690c0a538fa4a8204f5687b86b75e419d6f5",
+      "size": 12534096
+    },
+    {
+      "path": "bh-event/untitled (181 of 275).jpg",
+      "sha": "3755d83aca89b8d12eebf2bffd556101e0a39be1",
+      "size": 13944238
+    },
+    {
+      "path": "bh-event/untitled (187 of 275).jpg",
+      "sha": "91bdfbe71fdffaedc1f830f56e4a6e213c47dd09",
+      "size": 11764278
+    },
+    {
+      "path": "bh-event/untitled (189 of 275).jpg",
+      "sha": "5a0f362e7afa3fbb5f23abb9938b07e4ae6df0b4",
+      "size": 12677314
+    },
+    {
+      "path": "bh-event/untitled (43 of 275).jpg",
+      "sha": "b344fe8084c44236a62af79137de673cf9b952a0",
+      "size": 14022382
+    },
+    {
+      "path": "bh-event/untitled (52 of 275).jpg",
+      "sha": "1c84e871ef7a47d95946faab06573b4c7e75a4a3",
+      "size": 11348611
+    },
+    {
+      "path": "bh-event/untitled (59 of 275).jpg",
+      "sha": "ccac1eea21a53b5271b3b7ee30f34d23c0f231d4",
+      "size": 12364628
+    },
+    {
+      "path": "bh-event/untitled (60 of 275).jpg",
+      "sha": "a64c27790b968db30523f7f9264e5617256edb54",
+      "size": 11297828
+    },
+    {
+      "path": "bh-event/untitled (70 of 275).jpg",
+      "sha": "6bc6173a3c1be02a98eb8017dd7f982e5e881860",
+      "size": 12774189
+    },
+    {
+      "path": "bh-event/untitled (89 of 275).jpg",
+      "sha": "81335829a3e4ea713766049605b7a5a233b8ec02",
+      "size": 12513205
+    },
+    {
+      "path": "bh-event/venue.jpg",
+      "sha": "68946385bb8276fa1d7e276fec78fb74c378a797",
+      "size": 14010437
+    },
+    {
+      "path": "bh-event/venue2.jpg",
+      "sha": "d6b82bef47cf50c8d2663b31771c27698d73aa07",
+      "size": 14419186
+    },
+    {
+      "path": "bh-merch/1.jpg",
+      "sha": "14fa8c2e61ddfed429a3d16f5a21e591966f580f",
+      "size": 147210
+    },
+    {
+      "path": "bh-merch/10.JPG",
+      "sha": "077a55f1372244fd1db830bcfa65e69ac61e5278",
+      "size": 276376
+    },
+    {
+      "path": "bh-merch/11.JPG",
+      "sha": "47ecba194f8261e3ff954770a663a2d2a5bad7f7",
+      "size": 178241
+    },
+    {
+      "path": "bh-merch/12.JPG",
+      "sha": "a3df098e1c27e59967984242e455ce3824efcdfb",
+      "size": 130376
+    },
+    {
+      "path": "bh-merch/13.JPG",
+      "sha": "21d3f154a314576b8cddcae41f4e7fd5dbf32094",
+      "size": 165456
+    },
+    {
+      "path": "bh-merch/3.jpg",
+      "sha": "176d82cf57ff85587f1f9ecbb00af5f9ffb856c1",
+      "size": 156356
+    },
+    {
+      "path": "bh-merch/4.jpg",
+      "sha": "00b4ad98d6090f2180ecd46a6dced2da4cf2f6d5",
+      "size": 166474
+    },
+    {
+      "path": "bh-merch/5.jpg",
+      "sha": "5ea7b27f1624590aafab6c9bc03d8ef36fb93b39",
+      "size": 241151
+    },
+    {
+      "path": "bh-merch/6.jpg",
+      "sha": "66e02f50f15589a443214bac0cbba52ffb241a8f",
+      "size": 233912
+    },
+    {
+      "path": "bh-merch/8.jpg",
+      "sha": "e4d836de0927a1a28a9f542686704640756cf708",
+      "size": 184040
+    },
+    {
+      "path": "bh-merch/9.jpg",
+      "sha": "5da0e73fc68900628a4c3dc55bcf81b8ca0733a0",
+      "size": 135197
+    },
+    {
+      "path": "bh-merch/bh2.jpg",
+      "sha": "28f9510f3c82270f6b3201feaf2f62c3e3920af2",
+      "size": 157337
+    },
+    {
+      "path": "bh-merch/bh3.jpg",
+      "sha": "0c0ddc6849080fb29864dcd141b5233da004d1c9",
+      "size": 220720
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 1.png",
+      "sha": "52d29da4e0ac2d164f02866784669ec5a186a014",
+      "size": 843650
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 10.png",
+      "sha": "71429d85011c487b1a86c172fe41615cea26079a",
+      "size": 465324
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 11.png",
+      "sha": "6f8ff8d6b54659c9b354af2cfabbc4f52f7a39a2",
+      "size": 1087196
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 12.png",
+      "sha": "cbe36b35c2ca43883686c2df39dbc3486a4ea64d",
+      "size": 789572
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 13.png",
+      "sha": "a7ad9975d998e7fa77650aa5f8eb57e4e39de262",
+      "size": 534814
+    },
+    {
+      "path": "bh-stickers/Untitled_Artwork 9.png",
+      "sha": "4c1d371d9240564d101c0cdcc7fad9d4a3cdbbe8",
+      "size": 524267
+    },
+    {
+      "path": "bh-stickers/sticker-1-crop.png",
+      "sha": "08f775dcc40df20301d58fbf57276bdcec7e07e9",
+      "size": 648878
+    },
+    {
+      "path": "bh-stickers/sticker-10-crop.png",
+      "sha": "7946bd7b210f814dc659f0a2fab7d3adc74c8bdf",
+      "size": 319673
+    },
+    {
+      "path": "bh-stickers/sticker-11-crop.png",
+      "sha": "b78176f919b7c6733ff3b1b087071ecfea862724",
+      "size": 857922
+    },
+    {
+      "path": "bh-stickers/sticker-12-crop.png",
+      "sha": "296908bc167d1647b3c640fcf786d4a7cf036c30",
+      "size": 594179
+    },
+    {
+      "path": "bh-stickers/sticker-13-crop.png",
+      "sha": "2613a1331dce5b83ac1fb3ee7c1eb41586d333c3",
+      "size": 369214
+    },
+    {
+      "path": "bh-stickers/sticker-9-crop.png",
+      "sha": "f96faaacacc4c920ebac2fc9910692a7f047e423",
+      "size": 367220
+    },
+    {
+      "path": "bh1.jpg",
+      "sha": "c40f159973d783423c6aa74978ecedf5e2afff38",
+      "size": 1471523
+    },
+    {
+      "path": "bh4.JPG",
+      "sha": "5b9e961bcae8159d03885e022272a002b94ab991",
+      "size": 5308416
+    },
+    {
+      "path": "cddc-wireframes/about.png",
+      "sha": "a9f9cc24c93407f8b62b8b03026264cf64b3584c",
+      "size": 3915483
+    },
+    {
+      "path": "cddc-wireframes/contact.png",
+      "sha": "d7a9cde5f5f6b3561c0ac183cccb1db8329f1df6",
+      "size": 4028022
+    },
+    {
+      "path": "cddc-wireframes/donate.png",
+      "sha": "ef1cb58a9decae38a07f49e175fe79464d6e63da",
+      "size": 987771
+    },
+    {
+      "path": "cddc-wireframes/get-help.png",
+      "sha": "be336fc23210dfd9ecdd6bf11acb6e78793c018e",
+      "size": 4406948
+    },
+    {
+      "path": "cddc-wireframes/home.png",
+      "sha": "e25f6766ea79dd9751731e163bbc7ae314d3209f",
+      "size": 3092698
+    },
+    {
+      "path": "combo-game/gallery (1).jpg",
+      "sha": "8bcd07c0c296ac3241ba6ea9835830f04b2669cf",
+      "size": 87758
+    },
+    {
+      "path": "combo-game/gallery (2).jpg",
+      "sha": "cb4025097ac0cfba64ff3abaff1f6345a9729483",
+      "size": 85926
+    },
+    {
+      "path": "combo-game/gallery (3).jpg",
+      "sha": "7bb84ac37c630f426af2da1cd21b3557e368ba9a",
+      "size": 70064
+    },
+    {
+      "path": "combo-game/gallery (4).jpg",
+      "sha": "c895369f81c6333b6fc2e37e664a17631ebec2a0",
+      "size": 82033
+    },
+    {
+      "path": "combo-game/gallery (5).jpg",
+      "sha": "cd7d4e10682ad803a18739a3101286811440b906",
+      "size": 82775
+    },
+    {
+      "path": "combo-game/gallery (6).jpg",
+      "sha": "eb047f548f47df5005fa7eb4ec20a510f2391194",
+      "size": 63856
+    },
+    {
+      "path": "combo-game/gallery (7).jpg",
+      "sha": "32a4da53bf1a90eae52d98da0a8a868bce82b61a",
+      "size": 74738
+    },
+    {
+      "path": "combo-game/gallery.jpg",
+      "sha": "e322c17e69381a1ca72b737c5d003c4ccb98f8b5",
+      "size": 35632
+    },
+    {
+      "path": "combocraft-event/DSC01841.JPG",
+      "sha": "33ba59800c8280d2f7465c37c03be6955ea98bc2",
+      "size": 5701632
+    },
+    {
+      "path": "combocraft-event/DSC01844.JPG",
+      "sha": "2821f345353e05764ea63adb9c219115a8eb1795",
+      "size": 6029312
+    },
+    {
+      "path": "combocraft-event/DSC01845.JPG",
+      "sha": "de8e1c403ab26c53617a80fbeb0b83eee2e85a4a",
+      "size": 6029312
+    },
+    {
+      "path": "combocraft-event/DSC01846.JPG",
+      "sha": "158aea33b51ab08e708b9672e4ee681584376cf6",
+      "size": 6062080
+    },
+    {
+      "path": "combocraft-event/DSC01847.JPG",
+      "sha": "af0457d1cafec0fa62db24e1540d3163de6c5ecc",
+      "size": 6062080
+    },
+    {
+      "path": "combocraft-event/DSC01945.JPG",
+      "sha": "75ec76dc3d8684909a131027c0edf2a64dea647d",
+      "size": 6160384
+    },
+    {
+      "path": "combocraft-event/DSC01950.JPG",
+      "sha": "fe4f1b70573c86f47d73637b1ef55a09f8aa3ee3",
+      "size": 6619136
+    },
+    {
+      "path": "combocraft-event/IMG_2986.JPG",
+      "sha": "e25cc6da0679333913bf094edb6592958be1c61d",
+      "size": 74901
+    },
+    {
+      "path": "combocraft-event/IMG_2987.JPG",
+      "sha": "5b8aebd5bc414cdf32bb8f1eb2385b3672775d7b",
+      "size": 78985
+    },
+    {
+      "path": "combocraft-event/IMG_2988.JPG",
+      "sha": "87c72eaaebdc69cc76f33a55524de0eb4b4f6720",
+      "size": 78636
+    },
+    {
+      "path": "combocraft-event/IMG_2989.JPG",
+      "sha": "daff985de7afa8018c336eb2fbf8720b1380e795",
+      "size": 89559
+    },
+    {
+      "path": "combocraft-event/IMG_2990.JPG",
+      "sha": "523b328016bfabc4e248509e48a987a099e0da90",
+      "size": 72507
+    },
+    {
+      "path": "combocraft-event/MAH01763.MP4",
+      "sha": "0ac309adc489bf91494a0c7ab0c7e0baf9960ba2",
+      "size": 23624963
+    },
+    {
+      "path": "cookies-clubs/IMG_2290.jpg",
+      "sha": "0d364310f2ec459983a544a166c95613701692a4",
+      "size": 491267
+    },
+    {
+      "path": "cookies-clubs/IMG_2293.jpg",
+      "sha": "6274b8e0b8e9a688a3f40d6cf8fcf01527b3de97",
+      "size": 483891
+    },
+    {
+      "path": "cookies-clubs/IMG_2301.jpg",
+      "sha": "7a3236586fd36d5b0cf5de6421b5fa3a94c5b686",
+      "size": 417172
+    },
+    {
+      "path": "cookies-clubs/IMG_2319.jpg",
+      "sha": "712532edc3dfb00ca13f778f8af292592e17a485",
+      "size": 453146
+    },
+    {
+      "path": "cookies-clubs/IMG_2346.jpg",
+      "sha": "8ba683df555b8cf2af0dc240cf9c677de9ed97d1",
+      "size": 520114
+    },
+    {
+      "path": "cookies-clubs/IMG_2360.jpg",
+      "sha": "1106c18d88fee6f2dda62ba620d6714df9999a44",
+      "size": 435048
+    },
+    {
+      "path": "cookies-clubs/IMG_2368.jpg",
+      "sha": "fde1d99e563a12428155ec8a58655c698ca9131b",
+      "size": 469636
+    },
+    {
+      "path": "dfa/DSC00472.JPG",
+      "sha": "41fabfbbd6f6b2f09cd3cfd167aed447d91df102",
+      "size": 6914048
+    },
+    {
+      "path": "dfa/DSC00506 (1).JPG",
+      "sha": "79b154592990d22eb35a7e33619824d538799e64",
+      "size": 7274496
+    },
+    {
+      "path": "dfa/DSC00582.JPG",
+      "sha": "c4aa67707313e34630293d20f12136e70b775986",
+      "size": 193783
+    },
+    {
+      "path": "dfa/DSC00657.JPG",
+      "sha": "44cb881aa74a14a0534f882e5ca6f9d72a499a9b",
+      "size": 206120
+    },
+    {
+      "path": "dfa/IMG_0176.heic",
+      "sha": "ab9336dec659b9de609c39153841a76495b82af2",
+      "size": 2588250
+    },
+    {
+      "path": "dfa/IMG_0176.jpg",
+      "sha": "53439dd1357106985047a305739b5ad07419fdba",
+      "size": 4038346
+    },
+    {
+      "path": "dfa/IMG_0186.heic",
+      "sha": "7d37e3466a23ad438c682c02e1e31a2989cb884c",
+      "size": 2398813
+    },
+    {
+      "path": "dfa/IMG_0186.jpg",
+      "sha": "b629f6806e423ad79ab60c530da095d3649db623",
+      "size": 3836192
+    },
+    {
+      "path": "dfa/IMG_0193.heic",
+      "sha": "3635894fa7bbf70422b4531ae7664762fd2c5f80",
+      "size": 2436010
+    },
+    {
+      "path": "dfa/IMG_0193.jpg",
+      "sha": "6bf7a058bdcf640e4e514f9fb9b4e4f3ab069278",
+      "size": 3633745
+    },
+    {
+      "path": "dfa/IMG_4952.jpeg",
+      "sha": "25a89009282dc3530985ead187d6bae5bab8ef33",
+      "size": 3994548
+    },
+    {
+      "path": "ero-award/IMG_2647.WEBP",
+      "sha": "352a1358a68caec0a84ccc4182db9f1bc290f341",
+      "size": 36680
+    },
+    {
+      "path": "ero-award/IMG_2654.WEBP",
+      "sha": "54ce954c29ddbf6bda71efdfc1fa8b93a171c21b",
+      "size": 152250
+    },
+    {
+      "path": "ero-gal/awards/IMG_2647.WEBP",
+      "sha": "352a1358a68caec0a84ccc4182db9f1bc290f341",
+      "size": 36680
+    },
+    {
+      "path": "ero-gal/awards/IMG_2654.WEBP",
+      "sha": "54ce954c29ddbf6bda71efdfc1fa8b93a171c21b",
+      "size": 152250
+    },
+    {
+      "path": "ero-gal/fall-alert.webp",
+      "sha": "3ba387c58e6e86ac3d85aa57d62386bb1a1b99a3",
+      "size": 17520
+    },
+    {
+      "path": "ero-gal/image-02.webp",
+      "sha": "9f652e2d0250a6724752f5005f94fa77af789d64",
+      "size": 31788
+    },
+    {
+      "path": "ero-gal/nursedash.webp",
+      "sha": "d30d0e97dece4352523bae5cdb300146f6bc8395",
+      "size": 60556
+    },
+    {
+      "path": "ero-gal/patient.webp",
+      "sha": "25a3b7a194eef3c8a79a7c1a9c647ea84a8acfb2",
+      "size": 3570
+    },
+    {
+      "path": "ero-gal/qr.webp",
+      "sha": "ecdb9ce67918c35fba56e4471005b3c73f694fc5",
+      "size": 47446
+    },
+    {
+      "path": "ero-gal/thumbnail.webp",
+      "sha": "0d7730319c1ac8d65d445b12b9faa241b7fb981f",
+      "size": 4308
+    },
+    {
+      "path": "eweek-stickers/E-week_Gear_Beaver.png",
+      "sha": "c445baa67998b316d9599b4c50d89b0340525134",
+      "size": 128809
+    },
+    {
+      "path": "eweek-stickers/E-week_OSU.png",
+      "sha": "0b3a43e673876c82daf2d19d4da4cc82e279fec2",
+      "size": 283421
+    },
+    {
+      "path": "eweek-stickers/E-week_Post_Stamp.png",
+      "sha": "a4eb35c1c512bc586bd6dd26b4c9315930690db2",
+      "size": 175589
+    },
+    {
+      "path": "eweek-stickers/E-week_Sleeping_Beaver.png",
+      "sha": "e4f2d3f4c771d2669abcf0f1238ca9bd5f41d137",
+      "size": 112086
+    },
+    {
+      "path": "eweek-stickers/E-week_Wrench.png",
+      "sha": "e24b6a4eba91c3d15aaa026b9f6660ad238e2e8b",
+      "size": 46451
+    },
+    {
+      "path": "eweek.html",
+      "sha": "6e701d9b2104246c3ec034d2cb6bd347a187eba0",
+      "size": 22178
+    },
+    {
+      "path": "eweek/IMG_8406.HEIC",
+      "sha": "b3f6863fac2b1d0258dddad348d3563320a9672b",
+      "size": 998993
+    },
+    {
+      "path": "eweek/IMG_8406.jpg",
+      "sha": "a71acc0d2117dde967b2d12d68331f8c00d24de3",
+      "size": 1788138
+    },
+    {
+      "path": "eweek/IMG_8408.HEIC",
+      "sha": "381d536e449f4bd966acc1e64a8e67c8d8a8cbe1",
+      "size": 1787355
+    },
+    {
+      "path": "eweek/IMG_8408.jpg",
+      "sha": "3e1a83bef80e2f9bfb40a80f534f3bac31c96236",
+      "size": 2207192
+    },
+    {
+      "path": "eweek/IMG_8412.HEIC",
+      "sha": "fa1067bc818fcb1af919417d73231963e0734577",
+      "size": 1759789
+    },
+    {
+      "path": "eweek/IMG_8412.jpg",
+      "sha": "5a512551f9ff3d8d6a9d7df0f95b9a9883e2cb80",
+      "size": 1975840
+    },
+    {
+      "path": "eweek/IMG_8413.HEIC",
+      "sha": "04f3ddad8561c72c7647f7f68c4134a238f039d0",
+      "size": 1985918
+    },
+    {
+      "path": "eweek/IMG_8413.jpg",
+      "sha": "056fdf6b01cb143eabac947321d46051aaf21069",
+      "size": 2320454
+    },
+    {
+      "path": "eweek/IMG_8414.HEIC",
+      "sha": "e02c695fa9aa2813ee62b3718229e80bc53c1754",
+      "size": 1766949
+    },
+    {
+      "path": "eweek/IMG_8414.jpg",
+      "sha": "25951f9655df59a169ff78ceec49d92d0d60d7db",
+      "size": 2105001
+    },
+    {
+      "path": "eweek/IMG_8432.HEIC",
+      "sha": "14195199620d4e7db2af1342a43ffeaf669c16c6",
+      "size": 1864984
+    },
+    {
+      "path": "eweek/IMG_8432.jpg",
+      "sha": "605cc5c8eebc8dfb5e981babef26e77e041670b2",
+      "size": 2320158
+    },
+    {
+      "path": "eweek/IMG_8479.HEIC",
+      "sha": "6977ec2ba807c06f70247eb46d31efafc7ad4e81",
+      "size": 1666705
+    },
+    {
+      "path": "eweek/IMG_8479.jpg",
+      "sha": "37601c500027d2e1eec38b8403ca10db11f4e261",
+      "size": 3058305
+    },
+    {
+      "path": "eweek/IMG_8486.HEIC",
+      "sha": "85901f6508b19516f514400156b9d8c92ac36c21",
+      "size": 1489688
+    },
+    {
+      "path": "eweek/IMG_8486.jpg",
+      "sha": "f1d964282a51af721b31077a79031e3130d0c78b",
+      "size": 2247432
+    },
+    {
+      "path": "eweek/IMG_8491.HEIC",
+      "sha": "e83edd253818677c448f1d39c3e557bd343aefce",
+      "size": 1463619
+    },
+    {
+      "path": "eweek/IMG_8491.jpg",
+      "sha": "354e977b65087d05cd16dfc3c217633108c3c18f",
+      "size": 1990051
+    },
+    {
+      "path": "eweek/IMG_8526.HEIC",
+      "sha": "3eba090a0cd9d8ff056d765216dac6536af1b63d",
+      "size": 1316564
+    },
+    {
+      "path": "eweek/IMG_8526.jpg",
+      "sha": "0034d00adf6831afdc7066504977d4f7e752b674",
+      "size": 2026609
+    },
+    {
+      "path": "eweek/IMG_8728.jpg",
+      "sha": "3c5dfec59f6ac2506c5943a35cae086f34244c15",
+      "size": 280197
+    },
+    {
+      "path": "eweek/IMG_8733.HEIC",
+      "sha": "61230547e4a1d23233e086a71778a4d9b36202f3",
+      "size": 2064304
+    },
+    {
+      "path": "eweek/IMG_8733.jpg",
+      "sha": "e601d7f7cc10450e0f7702dc8467b0337568aa17",
+      "size": 3325714
+    },
+    {
+      "path": "graphic-designs/Cookies & Clubs 2025 Flyer.png",
+      "sha": "d6a4a900f7b98bcec9b6ffc2b4cab4a101f43aa4",
+      "size": 1096664
+    },
+    {
+      "path": "graphic-designs/Dam Proud.png",
+      "sha": "6ea3a58ae5b0ff38d016ee5304fb9085f8ceecf3",
+      "size": 2929411
+    },
+    {
+      "path": "graphic-designs/FReps flyer.png",
+      "sha": "c5ff75a35ab4bf0f554817347389844d59ff8586",
+      "size": 266596
+    },
+    {
+      "path": "graphic-designs/Final.png",
+      "sha": "2406abe31748bb8900a9f9f020b383888a254db4",
+      "size": 405121
+    },
+    {
+      "path": "graphic-designs/Graphic Designer.png",
+      "sha": "3448c925f0b69a3574bedfbe6a87b8d6ff6b1655",
+      "size": 152623
+    },
+    {
+      "path": "graphic-designs/Instagram post.png",
+      "sha": "45cd384c6533f624b690fe77a708216c58e606bc",
+      "size": 1205681
+    },
+    {
+      "path": "graphic-designs/Startup Hub - insta drafts.png",
+      "sha": "4ee954fe695177f4e5bccaa0d198125eef073cbc",
+      "size": 113399
+    },
+    {
+      "path": "graphic-designs/dwd draft 2 (Instagram Post (45)).png",
+      "sha": "c3d4d6897b3a7e9cbff09387673f5d3060c7d2ab",
+      "size": 518267
+    },
+    {
+      "path": "graphic-designs/letting off steam (Instagram Post (45)).png",
+      "sha": "a897e82b34138a940a7a32a20bbdfd1cad32ed10",
+      "size": 216753
+    },
+    {
+      "path": "graphic-designs/maybe a flier design.png",
+      "sha": "d5a8fe31c3f6b97734325ef9944c732b28e49dad",
+      "size": 137048
+    },
+    {
+      "path": "graphic-designs/startup hub TV draft .png",
+      "sha": "9420b3c99ff3f43631ca5ee24fdc666f1d931a7b",
+      "size": 999175
+    },
+    {
+      "path": "graphify-out/GRAPH_REPORT.md",
+      "sha": "a7795ecc0fcc51b875e25f59615841301affc327",
+      "size": 7122
+    },
+    {
+      "path": "graphify-out/cache/ast/v0.8.50/a7c97fbbc7ead0fce1a9aa468fbf5a9badd2d908774c0c515b659513841f9e1a.json",
+      "sha": "ca479ef6f7de8ac614983b4c0398339814131582",
+      "size": 74
+    },
+    {
+      "path": "graphify-out/cache/semantic/1589e31788adee65834d1c9b4fd3c1ff8c046fe79a281f509224662e64b444d3.json",
+      "sha": "77d8211f9685e0853fbac6776a325437da5a6e7d",
+      "size": 2975
+    },
+    {
+      "path": "graphify-out/cache/semantic/3461488cf99084b86b53071323e6feab1766e53dccc78b449bc2923f0e66f5fb.json",
+      "sha": "c14435b0689f5d58c16306eb9ffa2e43cb8114cc",
+      "size": 274
+    },
+    {
+      "path": "graphify-out/cache/semantic/3ea4aee37aa5f07578d68f0b54db91fcef3aa071b39877b73a57a9e2296055a0.json",
+      "sha": "ac68286ed0f3d4ebf70b591d7e018a09c09c2c27",
+      "size": 1280
+    },
+    {
+      "path": "graphify-out/cache/semantic/519b0f31f38648568b8c86215159284c5e288f1df45a8893c68d44ed48a463e3.json",
+      "sha": "aa4d63ee0f295dc74ccff3a2f6e0ef0d8b0007b1",
+      "size": 2530
+    },
+    {
+      "path": "graphify-out/cache/semantic/645f8d9bfa5917eec73e8e15df3f453e36590f93e6f86ed2b8d0d72c71c3d14c.json",
+      "sha": "3646e76662567b992168f04b012f94b141b43845",
+      "size": 3339
+    },
+    {
+      "path": "graphify-out/cache/semantic/7f613bd5f0a05b610e31d38f4eb6d5b88e624e8c770fb05ed56d5c031cff8fdb.json",
+      "sha": "7fb7213dce293e3e99b1e338ba07c4db083f5bb8",
+      "size": 6194
+    },
+    {
+      "path": "graphify-out/cache/semantic/95e39852ec3f9793449281b67c50441e8ca83175878f5801dfedd7ee09d54c60.json",
+      "sha": "cdb704aa6cf56b76fa234dd3aaa55ccf73d22ca2",
+      "size": 274
+    },
+    {
+      "path": "graphify-out/cache/semantic/98350724b5119cacebdc6a0e2a778ed2d22a94a18aa4547564b96b30c7f970ce.json",
+      "sha": "03aafef9fe169b3b09b0028085e72300fa9e7376",
+      "size": 1967
+    },
+    {
+      "path": "graphify-out/cache/semantic/a2c2b7bceaea55d61f21ba9f6b26e753c49a159c44d1b8e81910c5e419669263.json",
+      "sha": "925477aefec0abfba7380ab9e514cf453b8c1e86",
+      "size": 2235
+    },
+    {
+      "path": "graphify-out/cache/semantic/a502c581a2a73354a9ebe91253ee900384967df13899a958c3d1b08a6c72e789.json",
+      "sha": "85412587c56a040b65d9a895051218391d57e670",
+      "size": 532
+    },
+    {
+      "path": "graphify-out/cache/semantic/cbe6ec6b791b80ebdf36768ea956022db821a4c1505ad4538150d1089e4710c7.json",
+      "sha": "4932a8372f1cfc3b8b6de9d53cd64172d26d89d3",
+      "size": 1387
+    },
+    {
+      "path": "graphify-out/cache/stat-index.json",
+      "sha": "fa39204eb874c504a45664236b0659043034c932",
+      "size": 2221
+    },
+    {
+      "path": "graphify-out/cost.json",
+      "sha": "e507ac8e7a1b657d45a82c84180859c727f47084",
+      "size": 205
+    },
+    {
+      "path": "graphify-out/graph.html",
+      "sha": "a524eccd8723bf3ace9f304fd539d868b988f609",
+      "size": 58023
+    },
+    {
+      "path": "graphify-out/graph.json",
+      "sha": "3034ca31c7dacd10175eb408cbd6bc01c32adf29",
+      "size": 44736
+    },
+    {
+      "path": "graphify-out/manifest.json",
+      "sha": "7e2ad4fd61579018546c8076e54058e074a6c178",
+      "size": 2591
+    },
+    {
+      "path": "graphify-out/obsidian/.obsidian/graph.json",
+      "sha": "4c9a1f52a41fb5397aa55b4abef46a1726f8728e",
+      "size": 2390
+    },
+    {
+      "path": "graphify-out/obsidian/About Me section.md",
+      "sha": "408d222a59f5f862fe2c3106638b1d59c1a7c81b",
+      "size": 447
+    },
+    {
+      "path": "graphify-out/obsidian/Afterlife Metro project card.md",
+      "sha": "e355db2459a4c7b3a46140d2c4fba08eb968a1bf",
+      "size": 307
+    },
+    {
+      "path": "graphify-out/obsidian/Ally Chen Resume 2027 (PDF).md",
+      "sha": "a06fe43adab4f0a5048645bc43766a5ad3da017e",
+      "size": 394
+    },
+    {
+      "path": "graphify-out/obsidian/BeaverHacks 2026 event case-study page.md",
+      "sha": "467069a7773ba7be63eb10b7a829ecec4572095d",
+      "size": 573
+    },
+    {
+      "path": "graphify-out/obsidian/BeaverHacks event photo carousel instance.md",
+      "sha": "53e587df920aa95ee5d1463f7f0f2e1cc4ebbf60",
+      "size": 378
+    },
+    {
+      "path": "graphify-out/obsidian/BeaverHacks merch photo carousel instance.md",
+      "sha": "5bcacf6976d8dc3b9beeeff2e928f69c988d0406",
+      "size": 378
+    },
+    {
+      "path": "graphify-out/obsidian/Clubs & Organizations section with org tabs.md",
+      "sha": "4217932259bc4baa1496193f982eb411b2449b29",
+      "size": 304
+    },
+    {
+      "path": "graphify-out/obsidian/ComboCraft project card.md",
+      "sha": "c9eff9d5cee824511d03c38ef0cbc40c9fa78ff8",
+      "size": 459
+    },
+    {
+      "path": "graphify-out/obsidian/Contact section.md",
+      "sha": "59580a6a190f73ab6021d94d5c9e49b4516c95aa",
+      "size": 267
+    },
+    {
+      "path": "graphify-out/obsidian/Corvallis Daytime Drop-In Center Website project card.md",
+      "sha": "be2ace99d954046dc4ca6bc655d7fea0d1656e29",
+      "size": 495
+    },
+    {
+      "path": "graphify-out/obsidian/Dementia Risk Predictor project card.md",
+      "sha": "fb1e7b0cf9d6eacbc4ec877b71da6707ca649512",
+      "size": 339
+    },
+    {
+      "path": "graphify-out/obsidian/Design Work section (Graphics + Stickers subsections).md",
+      "sha": "1ad65db081e3bcea6b5e556f50fdf12a9c99abe8",
+      "size": 629
+    },
+    {
+      "path": "graphify-out/obsidian/ER Overwatch project card.md",
+      "sha": "e20d8a645f8bcf6eb85d3d73442b5ea12e3fc3c4",
+      "size": 372
+    },
+    {
+      "path": "graphify-out/obsidian/Engineers' Week 2026 event case-study page.md",
+      "sha": "66c8d914cce74f6a9d7ac7bb6d1507c1960246eb",
+      "size": 566
+    },
+    {
+      "path": "graphify-out/obsidian/Events section (BeaverHacks, Innovation Jam, Engineers' Week cards).md",
+      "sha": "90f0666d156038fa99255c72c17b8548ff008975",
+      "size": 589
+    },
+    {
+      "path": "graphify-out/obsidian/Full-screen gallery modal (galleryModal).md",
+      "sha": "170dbb6f694897598d5b3e646061878dc3729240",
+      "size": 437
+    },
+    {
+      "path": "graphify-out/obsidian/Hero section.md",
+      "sha": "75a96bc089ee6bcac5ceb2c705e3e3162884e136",
+      "size": 253
+    },
+    {
+      "path": "graphify-out/obsidian/Impact Studio Website project card.md",
+      "sha": "b04a035db2dc16f7f4adbcba263a75f34c401566",
+      "size": 528
+    },
+    {
+      "path": "graphify-out/obsidian/Innovation Jam 2026 event case-study page.md",
+      "sha": "8d6944ad1b211c5fe3d50fa18bf0347e648a5045",
+      "size": 579
+    },
+    {
+      "path": "graphify-out/obsidian/MAH01763.MP4 (ComboCraft QuackHacks 2025 event footage).md",
+      "sha": "1642866582b27b453a6495a567c0d710dd56f27c",
+      "size": 439
+    },
+    {
+      "path": "graphify-out/obsidian/Primary nav element (nav).md",
+      "sha": "60b53d9d15f06633ec55b9a78810aa3e2b0552d5",
+      "size": 370
+    },
+    {
+      "path": "graphify-out/obsidian/RESUME_URL constant.md",
+      "sha": "b7b49ea8b172268c3ae6292257ebc0610a0ccab5",
+      "size": 386
+    },
+    {
+      "path": "graphify-out/obsidian/Sally's Coffee Shop POS System project card.md",
+      "sha": "b2b175f4b9df59a8768c28c9374a202cdc90e898",
+      "size": 307
+    },
+    {
+      "path": "graphify-out/obsidian/Scroll-in fade IntersectionObserver.md",
+      "sha": "a332ea50ad094031626b6371c3d3bb723483040e",
+      "size": 286
+    },
+    {
+      "path": "graphify-out/obsidian/Skills section.md",
+      "sha": "98d7caaee8b4f1ad5b67b3d01761b3db39bb2f79",
+      "size": 262
+    },
+    {
+      "path": "graphify-out/obsidian/Web Developer Intern experience entry (Impact Studio).md",
+      "sha": "08a6277d5a8d1e0ab3647925719771fb90c3234e",
+      "size": 405
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_About Me & Resume.md",
+      "sha": "a6db613e6a4b1a709d9b95c24d3301dbda992408",
+      "size": 673
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Afterlife Metro Project.md",
+      "sha": "08ccd9539a31da0c4a7df88a23047f865e23b335",
+      "size": 354
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Clubs & Orgs Tabs.md",
+      "sha": "5454cac67bd50cf2de0cd176de4d4434b694d25b",
+      "size": 359
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Contact Section.md",
+      "sha": "4e551fd369346bf75d8ef7f9e573b3e5e6b1eb9e",
+      "size": 322
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Dementia Risk Predictor Project.md",
+      "sha": "e6da755f452fbe2665076eedc7a2cf2601092431",
+      "size": 378
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Design Panel Refresh.md",
+      "sha": "d6b0ed2a8e06f667c11dd481134b8ef3867ae0ae",
+      "size": 341
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Event Photo Carousels.md",
+      "sha": "7705e200714a1351105c6bf336c23890146f800f",
+      "size": 624
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Hero Section.md",
+      "sha": "bf5d487265d8f4febf6ef44b83ccb1829a4570a9",
+      "size": 313
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Impact Studio Project.md",
+      "sha": "d66d20ae92b7f292e57a24784a8b5ce0c627a911",
+      "size": 913
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Nav Bar Script.md",
+      "sha": "3ea777bcd4cca421187c3f80157bffec8384a2d4",
+      "size": 455
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Project Gallery Modal.md",
+      "sha": "2336a006332af5971988253e0342b304418584b9",
+      "size": 1235
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Projects Gallery Logic.md",
+      "sha": "85a300f0962204ab7c48e981a4c66cbe4dff7af6",
+      "size": 934
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Sallys POS Project.md",
+      "sha": "3db73b748b0b7429838356b38fdd0d76cfc3e6c5",
+      "size": 359
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Scroll Fade Animation.md",
+      "sha": "198cff9a89c45efadc9090a10b232e1be39f45e6",
+      "size": 357
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Scroll Fade Observer.md",
+      "sha": "2001441f507b25b7f6b39f42315fb6486e8768d8",
+      "size": 347
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Site Navigation & Events.md",
+      "sha": "f896347076a12e34db68702255f22aa1595c58ab",
+      "size": 1689
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Skills Section.md",
+      "sha": "fd47b782713e765ff4cda10bd1f966ea79e0756e",
+      "size": 319
+    },
+    {
+      "path": "graphify-out/obsidian/_COMMUNITY_Sticker Design Carousels.md",
+      "sha": "dbcca1799aa964d5b3c25bd3a970456de0ec1699",
+      "size": 797
+    },
+    {
+      "path": "graphify-out/obsidian/buildNavPaths function.md",
+      "sha": "b5bf72210998c5cbf07e22ad07ae704ef8a415c6",
+      "size": 397
+    },
+    {
+      "path": "graphify-out/obsidian/buildNavPaths().md",
+      "sha": "77125ecabcc9083e5a0a5e41e1eb4fc06bd08134",
+      "size": 383
+    },
+    {
+      "path": "graphify-out/obsidian/buildSlide function.md",
+      "sha": "dc206f04a4f35aa6dad00f75063d473401bfaea6",
+      "size": 343
+    },
+    {
+      "path": "graphify-out/obsidian/buildSlide().md",
+      "sha": "5867584e2e78e2ad8312ade5e93f33d48711e595",
+      "size": 329
+    },
+    {
+      "path": "graphify-out/obsidian/closeModal function.md",
+      "sha": "89ccc497a7f12c8a422bc3c1d6e3545d0598b2c9",
+      "size": 368
+    },
+    {
+      "path": "graphify-out/obsidian/closeModal().md",
+      "sha": "840db8170953e78ff12c42b87449bff0f0fdc428",
+      "size": 329
+    },
+    {
+      "path": "graphify-out/obsidian/designItems.md",
+      "sha": "5f7d477540253153a7d6915a5e87650a4763cd37",
+      "size": 328
+    },
+    {
+      "path": "graphify-out/obsidian/ewDesignCarousel function (Engineers' Week sticker designs).md",
+      "sha": "7f9c889f52ca009422327f6fb06ab1ffbf1fb028",
+      "size": 505
+    },
+    {
+      "path": "graphify-out/obsidian/galleryData object.md",
+      "sha": "88ebfb1b2250010e3fd5bf0ce7106a1646510949",
+      "size": 737
+    },
+    {
+      "path": "graphify-out/obsidian/galleryData.md",
+      "sha": "31ff2e18ef6f5773b1e2442041866992fe0d8840",
+      "size": 328
+    },
+    {
+      "path": "graphify-out/obsidian/getPageFile function.md",
+      "sha": "602e44f8fad30d107b4bcee590973a9f97810326",
+      "size": 344
+    },
+    {
+      "path": "graphify-out/obsidian/getPageFile().md",
+      "sha": "bd5b3e9c6455a191d2c83d2b096d9cf4583bfb58",
+      "size": 338
+    },
+    {
+      "path": "graphify-out/obsidian/graph.canvas",
+      "sha": "453c60d0d4db25c2f095b5d38f26e8c9267a41be",
+      "size": 31236
+    },
+    {
+      "path": "graphify-out/obsidian/ijCarousel function (stickernametagplaque design groups).md",
+      "sha": "cc4d2e83833df2074fad1e1bc3ec38b67d713a43",
+      "size": 425
+    },
+    {
+      "path": "graphify-out/obsidian/initBhCarousel function.md",
+      "sha": "654d059a90349abc05e602413a078714734936c1",
+      "size": 586
+    },
+    {
+      "path": "graphify-out/obsidian/initEwCarousel function.md",
+      "sha": "068673d9617d130eaaeae76c8d650c5de2ffaa19",
+      "size": 364
+    },
+    {
+      "path": "graphify-out/obsidian/initIjCarousel function.md",
+      "sha": "e1cbe69cf752219c2beb71b26fed544772103d45",
+      "size": 378
+    },
+    {
+      "path": "graphify-out/obsidian/initNavBehavior function.md",
+      "sha": "f2a86b6129e325c093c707b203e92b5e34ec8fe3",
+      "size": 352
+    },
+    {
+      "path": "graphify-out/obsidian/initNavBehavior().md",
+      "sha": "df5b3c7ee14da213f7495036ee3f4338648efc14",
+      "size": 344
+    },
+    {
+      "path": "graphify-out/obsidian/initOrgFromHash function.md",
+      "sha": "7404d5a8725c2c66acb9016f35b166073bd4884f",
+      "size": 358
+    },
+    {
+      "path": "graphify-out/obsidian/initProjectsFromHash function.md",
+      "sha": "783b50f4a1458f35f2599bca76c76738b4f65aa1",
+      "size": 577
+    },
+    {
+      "path": "graphify-out/obsidian/initProjectsFromHash().md",
+      "sha": "6858185bc0a7fbb3534ba19fa0b131c3143beed5",
+      "size": 433
+    },
+    {
+      "path": "graphify-out/obsidian/markDesignSlideOrientation function.md",
+      "sha": "d7ca431770a8bcd5520b1ae8310574869292304e",
+      "size": 359
+    },
+    {
+      "path": "graphify-out/obsidian/markDesignSlideOrientation().md",
+      "sha": "a796a1168dafc7a4546b252a4f46b51a66b02416",
+      "size": 345
+    },
+    {
+      "path": "graphify-out/obsidian/modal.md",
+      "sha": "6d58e4168d43b7ac88be821be687e704543c8800",
+      "size": 322
+    },
+    {
+      "path": "graphify-out/obsidian/modalClose.md",
+      "sha": "8e1531048a4939a65982be2f8e04740f7bc9204a",
+      "size": 327
+    },
+    {
+      "path": "graphify-out/obsidian/modalContent.md",
+      "sha": "5520e9c7ffe2b7c03096ccdb5ce85e5fa579188b",
+      "size": 329
+    },
+    {
+      "path": "graphify-out/obsidian/nav.js.md",
+      "sha": "a5a197a6ccb45f0d2ed501e4c9a5a3de64a5ed31",
+      "size": 437
+    },
+    {
+      "path": "graphify-out/obsidian/observer.md",
+      "sha": "1a79ad2130cc06a7c3bd794df5c0a27e2213a599",
+      "size": 316
+    },
+    {
+      "path": "graphify-out/obsidian/openDesignSubsection function.md",
+      "sha": "97c23b35763b5ed182fecb1aad25b6a56638ef1c",
+      "size": 362
+    },
+    {
+      "path": "graphify-out/obsidian/openDesignSubsection().md",
+      "sha": "44bff4874893948b939ef5399c6b3ca4d32e85e4",
+      "size": 390
+    },
+    {
+      "path": "graphify-out/obsidian/openGallery function.md",
+      "sha": "d9bd29f541bb812c41d0659e61b08dc42713cd93",
+      "size": 539
+    },
+    {
+      "path": "graphify-out/obsidian/openGallery().md",
+      "sha": "87c54542caf770406a3636fe885939f4457e117a",
+      "size": 330
+    },
+    {
+      "path": "graphify-out/obsidian/openProjCard function.md",
+      "sha": "2f9390a627e3006aa9bddb75fca0aca3329df99c",
+      "size": 354
+    },
+    {
+      "path": "graphify-out/obsidian/openProjCard().md",
+      "sha": "a996c5bc792b3e6f052a79a86aa2f5facfe58dac",
+      "size": 382
+    },
+    {
+      "path": "graphify-out/obsidian/orgsData object (COE, Startup Hub, DFA, AI Club, BeaverHacks).md",
+      "sha": "260ef47e5ee8311b8c41e717a4e20ebe9b8cd5a4",
+      "size": 883
+    },
+    {
+      "path": "graphify-out/obsidian/projects.js.md",
+      "sha": "d4c752f3c5a24c3dac46bf1e489b3666cdcbb92a",
+      "size": 942
+    },
+    {
+      "path": "graphify-out/obsidian/refreshDesignPanel function.md",
+      "sha": "f91369d57d9342bf1686dc77a480a06540be5242",
+      "size": 281
+    },
+    {
+      "path": "graphify-out/obsidian/refreshDesignPanel().md",
+      "sha": "96af8f5ca90dd763d7fe77c5bc73c2b2ed1d1eca",
+      "size": 336
+    },
+    {
+      "path": "graphify-out/obsidian/renderSiteNav function.md",
+      "sha": "5ec99903a97e8ef83b9c0e152f11f07380460319",
+      "size": 824
+    },
+    {
+      "path": "graphify-out/obsidian/renderSiteNav().md",
+      "sha": "b7e5fee5e6bbb1fbf6b14cb337dd40126f3675e7",
+      "size": 387
+    },
+    {
+      "path": "graphify-out/obsidian/script.js.md",
+      "sha": "4eb8833395771f11bc361df24700f6858966c2ed",
+      "size": 316
+    },
+    {
+      "path": "graphify-out/obsidian/selectOrg function.md",
+      "sha": "043cabc21c1e830316972728bba8da88891b7ea2",
+      "size": 459
+    },
+    {
+      "path": "graphify-out/obsidian/stickerCarousel function (BeaverHacks stickers).md",
+      "sha": "59b34c91ca1775a88296b623b5d93ffb636483a2",
+      "size": 516
+    },
+    {
+      "path": "graphify-out/obsidian/stickerCarouselData object.md",
+      "sha": "ba2919946c2abe997c4cdee654d8f702269d677c",
+      "size": 699
+    },
+    {
+      "path": "graphify-out/obsidian/stickerCarouselData.md",
+      "sha": "c4cf87d25baa331930da1f0e18d8ca00e0f5cb6a",
+      "size": 335
+    },
+    {
+      "path": "headshot.jpg",
+      "sha": "cb2630c438b5fea2c1792a43f6db70bdcf3c54cd",
+      "size": 777110
+    },
+    {
+      "path": "ij-stickers/Airplane.png",
+      "sha": "03cd3b2966abad26cfdc07b98b9d239163da034e",
+      "size": 272830
+    },
+    {
+      "path": "ij-stickers/Lightbulb.png",
+      "sha": "2caf40eb2ca072f7f8c801e15d74b5b28d7f1b96",
+      "size": 184933
+    },
+    {
+      "path": "ij-stickers/Rocket.png",
+      "sha": "cb0b364c94f976be218df4b40eb446c655b08e78",
+      "size": 268753
+    },
+    {
+      "path": "ij-stickers/Star.png",
+      "sha": "16b6e16876485c95cb2e8726e18c45748cf9346f",
+      "size": 165347
+    },
+    {
+      "path": "ij-stickers/airplane-crop.png",
+      "sha": "a6b5a7724e75c2ecbfc5a3163a05e56ff8ae1073",
+      "size": 148941
+    },
+    {
+      "path": "ij-stickers/lightbulb-crop.png",
+      "sha": "d2b2c30c3ddb97e5d1be2c7f5b262af7a668515f",
+      "size": 68343
+    },
+    {
+      "path": "ij-stickers/nametag-attendee.png",
+      "sha": "e2d9effec1e16ac3bbee32f90d2ee336d2a88f60",
+      "size": 71421
+    },
+    {
+      "path": "ij-stickers/nametag-judge.png",
+      "sha": "b884275f6b17d4481e5d2e9efb5e51b870697211",
+      "size": 72151
+    },
+    {
+      "path": "ij-stickers/nametag-mentor.png",
+      "sha": "ad418763cbb60f2804b951bea26053372f967530",
+      "size": 73284
+    },
+    {
+      "path": "ij-stickers/nametag-staff.png",
+      "sha": "37c4bb0526814ec2d69bfa95a4dac8e3d9089c80",
+      "size": 71050
+    },
+    {
+      "path": "ij-stickers/plaque-1st.png",
+      "sha": "ed0638b7a3bd56c4722b05d657f9af382922f52f",
+      "size": 544492
+    },
+    {
+      "path": "ij-stickers/plaque-2nd.png",
+      "sha": "6c9a272794bf43176bc4932eb46424fd44e2639f",
+      "size": 545456
+    },
+    {
+      "path": "ij-stickers/plaque-3rd.png",
+      "sha": "ac8fea7bd4f763fb642465fd1d1337f906cbae0d",
+      "size": 545674
+    },
+    {
+      "path": "ij-stickers/rocket-crop.png",
+      "sha": "115343968b4957b81f852ef8441ae73ef48ff058",
+      "size": 136317
+    },
+    {
+      "path": "ij-stickers/star-crop.png",
+      "sha": "7d26ab483ca1acf9bb815601b8784aba34bd08c7",
+      "size": 52045
+    },
+    {
+      "path": "ij-tote.png",
+      "sha": "ceedeeabebebd0c02b67ea15b49f92aabad3d37f",
+      "size": 135213
+    },
+    {
+      "path": "impact-live/about-desktop.webp",
+      "sha": "e73d646a80ef6217e2a773484b59306788f5a5ab",
+      "size": 183844
+    },
+    {
+      "path": "impact-live/home-desktop.webp",
+      "sha": "9eb4218816b9d8d28a4df2a79e67aeb3fd847a56",
+      "size": 263024
+    },
+    {
+      "path": "impact-live/home-mobile.webp",
+      "sha": "25db244953d3befd5f92a4aa8df3fc824e003073",
+      "size": 292666
+    },
+    {
+      "path": "impact-live/portfolio-desktop.webp",
+      "sha": "daa075cf36c4f65bff51ad466340e8ca0f62549e",
+      "size": 133630
+    },
+    {
+      "path": "impact-wireframe/mock 1.png",
+      "sha": "87c7b211a3136d80aafd41c6b13d8e24e6ea701c",
+      "size": 6001697
+    },
+    {
+      "path": "impact-wireframe/mock 3.png",
+      "sha": "ec802ddb176a6509407d50a98d5d7e193083caf7",
+      "size": 2363186
+    },
+    {
+      "path": "index.html",
+      "sha": "e3f2769d788c97071f4a21b54bdd5d400610da1b",
+      "size": 8721
+    },
+    {
+      "path": "innovation-26/IMG_0247.jpg",
+      "sha": "e68d02394ec4d3b96f1558085d264545cf6a7034",
+      "size": 686374
+    },
+    {
+      "path": "innovation-26/IMG_2519.JPG",
+      "sha": "7e5704491b392dafcf3b2f9dba8aed798b0d459c",
+      "size": 587430
+    },
+    {
+      "path": "innovation-26/IMG_2520.JPG",
+      "sha": "129b82fc64c9413c7ab30fdaddb227ab5e51b7b1",
+      "size": 878146
+    },
+    {
+      "path": "innovation-26/IMG_2521.JPG",
+      "sha": "2eb04af2ddbef9c1271d070293f37d4b775d62ac",
+      "size": 1095908
+    },
+    {
+      "path": "innovation-26/IMG_2522.JPG",
+      "sha": "a7b1f69790d61dd171d2cba17c35f4753a0121f5",
+      "size": 852864
+    },
+    {
+      "path": "innovation-26/IMG_2523.JPG",
+      "sha": "979c45746eade25577ee39589be9db43d1bef3e0",
+      "size": 988104
+    },
+    {
+      "path": "innovation-26/IMG_2955.JPG",
+      "sha": "11f9525deb495f580592717efe9735e9ad08c948",
+      "size": 930512
+    },
+    {
+      "path": "innovation-26/IMG_2965.JPG",
+      "sha": "334e90ceabcd602e9324eed7e9a674f099fcc284",
+      "size": 828264
+    },
+    {
+      "path": "innovation-26/IMG_2967.jpg",
+      "sha": "e445c5090db4493b1b9f04e14b91a7a527e9c27a",
+      "size": 341835
+    },
+    {
+      "path": "innovation-26/IMG_8228.JPG",
+      "sha": "8b99953a3aeae6fbe444784106a107555466c651",
+      "size": 916201
+    },
+    {
+      "path": "innovation-jam-2026.html",
+      "sha": "a8c0cb63bad5dba6e18d2579835892bcbbded335",
+      "size": 29269
+    },
+    {
+      "path": "involvement-photo-crop-test.jpg",
+      "sha": "a7bf0d6180ea7186d59f25c329b199e4f3859181",
+      "size": 1558264
+    },
+    {
+      "path": "involvement-photo-original.jpg",
+      "sha": "d4a05f42c03da2a70bf100e585ea421b4562a7bf",
+      "size": 5668864
+    },
+    {
+      "path": "involvement.html",
+      "sha": "c79e5758dccd5046dacdb8d6007ca44dcd2c2a4f",
+      "size": 29831
+    },
+    {
+      "path": "korbit-gal/cockpit.webp",
+      "sha": "37bb97e82ef6d82a9124755056a3adcff45f10b7",
+      "size": 54726
+    },
+    {
+      "path": "korbit-gal/duel.webp",
+      "sha": "0defc3dbe4bac0731726152f9fd6b12e5c76c3ba",
+      "size": 32148
+    },
+    {
+      "path": "korbit-gal/mars-arena.webp",
+      "sha": "bf1285454d5f02aee56fde4f611d4f9b1a06e4c7",
+      "size": 28066
+    },
+    {
+      "path": "korbit-gal/solar-view.webp",
+      "sha": "019325be9fb7c755e0bf886dd3ff690d73e79340",
+      "size": 49512
+    },
+    {
+      "path": "korbit-gal/title.webp",
+      "sha": "832ca5882377fe15c854f171f11a87e1af2db879",
+      "size": 18656
+    },
+    {
+      "path": "nav.js",
+      "sha": "40e507bf493180ad69b11b477ac7467a0398cf8c",
+      "size": 7439
+    },
+    {
+      "path": "projects.html",
+      "sha": "4dce71100538f7b051fe6094979d00990af02a27",
+      "size": 51941
+    },
+    {
+      "path": "projects.js",
+      "sha": "37eb1e54fb0d2da18ae395ea18ffdeed981067b2",
+      "size": 20514
+    },
+    {
+      "path": "script.js",
+      "sha": "faa23229a6505e16955406ed90d07c807f57c20b",
+      "size": 412
+    },
+    {
+      "path": "sh-pics/IMG_0068.JPG",
+      "sha": "7cc8e89f302edf6cc447294e1b033469ba68c5f6",
+      "size": 230956
+    },
+    {
+      "path": "sh-pics/IMG_0217.JPG",
+      "sha": "bfe0117c1ccf7942510f1101004d219ba91abd05",
+      "size": 274493
+    },
+    {
+      "path": "sh-pics/IMG_0384.JPG",
+      "sha": "d29b0d27bf7063edbf8e7432d52f11565da1896f",
+      "size": 270845
+    },
+    {
+      "path": "sh-pics/IMG_2960.JPG",
+      "sha": "d0fa6de40d13007ca3257d8bf0e0be95030fdbe8",
+      "size": 238549
+    },
+    {
+      "path": "sh-pics/IMG_2961.JPG",
+      "sha": "20e77bc2e61468fa1ae8967ebcca479ebfeb7161",
+      "size": 266527
+    },
+    {
+      "path": "sh-pics/IMG_2962.JPG",
+      "sha": "4eec6c28ddb7c5030baf09f1599baa9e4b47b9ec",
+      "size": 221955
+    },
+    {
+      "path": "sh-pics/IMG_2963.JPG",
+      "sha": "6250abeaa9be10428113cbb1d7352578ca0ccba0",
+      "size": 317032
+    },
+    {
+      "path": "sh-pics/IMG_2964.JPG",
+      "sha": "d806da8ab2e8c44d6a4e18691454e474edb0cf54",
+      "size": 336654
+    },
+    {
+      "path": "style.css",
+      "sha": "fdae6c461ef97674dd66705ffefa6c7db0b9ba4c",
+      "size": 86030
+    }
+  ]
+}

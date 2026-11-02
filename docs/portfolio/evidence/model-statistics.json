@@ -1,0 +1,27 @@
+[
+  {
+    "node": "StudioStatic",
+    "triangles": 51265,
+    "materials": 12
+  },
+  {
+    "node": "ProjectsMonitor",
+    "triangles": 19912,
+    "materials": 4
+  },
+  {
+    "node": "ProjectsSign",
+    "triangles": 14766,
+    "materials": 5
+  },
+  {
+    "node": "PrinterBody",
+    "triangles": 4986,
+    "materials": 5
+  },
+  {
+    "node": "ResumePaper",
+    "triangles": 1450,
+    "materials": 3
+  }
+]

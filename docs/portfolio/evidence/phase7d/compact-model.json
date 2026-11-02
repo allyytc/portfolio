@@ -1,0 +1,21 @@
+{
+  "source": "public/models/loft-studio-v7d.glb",
+  "sourceBytes": 3180688,
+  "sourceSHA256": "df8b4add191388b249715f0b0b18c7b1ffa24e3ed91c41f71c7de53ebcc501e5",
+  "destination": "public/models/loft-studio-v7d-compact.glb",
+  "bytes": 2564148,
+  "sha256": "f8d0248757a1a24befbf2d8eb733e09d41c5ef149ee5d66dadcc17cffa3ffea5",
+  "unchangedGeometryBufferViews": 72,
+  "onlyModifiedBufferView": 1,
+  "originalBakedSize": [
+    4096,
+    4096
+  ],
+  "phoneBakedSize": [
+    2048,
+    2048
+  ],
+  "nodesMeshesMaterialsAccessorsIdentical": true,
+  "estimatedOriginalTextureRGBAWithMipmaps": 95070890,
+  "estimatedCompactTextureRGBAWithMipmaps": 27962027
+}

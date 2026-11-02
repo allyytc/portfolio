@@ -1,0 +1,83 @@
+{
+  "checkpointFilesVerified": 23,
+  "priorPhase4dArtifactsVerifiedUnchanged": 21,
+  "unchangedFiles": [
+    {
+      "file": "src/studio/StudioCamera.tsx",
+      "sha256": "d07d203faa7a190a282300c6b3dd7a8558773a6484f235de0d793c7ce8228baf"
+    },
+    {
+      "file": "src/studio/cameraViews.ts",
+      "sha256": "de1a615916a3e8f707174859c6f6e1f86a14d55b27794847411f0a9558158de3"
+    },
+    {
+      "file": "src/studio/sceneBounds.json",
+      "sha256": "cc25556d0b802f1c5a09f950b5744bb6faeeed06793666387d2b10578a98181a"
+    },
+    {
+      "file": "src/studio/sceneConfig.ts",
+      "sha256": "7f7b46c24d2710ad043eb976b8cc00a228b403a0641a74b054c0eac340ab71ff"
+    },
+    {
+      "file": "package.json",
+      "sha256": "3942872021373a2193b8c9ce00f20c2860f7b05bbb16b54a78616b5e3234816a"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "c2cfbdc1e99b59a62de6631db2686517a5eb0da62c71ba00b77946e0defd6445"
+    }
+  ],
+  "glb": {
+    "file": "public/models/loft-studio-v4d.glb",
+    "bytes": 3260508,
+    "sha256": "fc929605d92181e76dad9d4907cc01b3f0adb3e22aa3350363c67bfe8b2a98f2"
+  },
+  "blender": {
+    "file": "assets/blender/studio-phase4d.blend",
+    "sha256": "c93c7a7a84bca2418bd8f94cc0af37c35f7bfdec287225f16daefb175c500ea3"
+  },
+  "stickerBookNode": {
+    "extras": {
+      "stable_id": "StickerBook",
+      "baked": true,
+      "phase5_target": true
+    },
+    "mesh": 22,
+    "name": "StickerBook.005"
+  },
+  "mediaCopies": [
+    {
+      "file": "public/media/startup-hub.png",
+      "sha256": "36b7ff27b416d663f4e68308c3625ee2ed4667956ce39f0af189e9dddf1615eb",
+      "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Startup%20Hub%20-%20insta%20drafts.png",
+      "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred",
+      "bytes": 113399
+    },
+    {
+      "file": "public/media/sleeping-beaver.png",
+      "sha256": "1039eed042c1aa4c655a03b9f97c05a7bfd0334a2b6fb6bcc264b481487f560b",
+      "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Sleeping_Beaver.png",
+      "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred",
+      "bytes": 112086
+    },
+    {
+      "file": "public/media/innovation-lightbulb.png",
+      "sha256": "53d99d7593c1e1c6367fe26b83a615e77ab91290c5fb2b26203085b468f27aca",
+      "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/lightbulb-crop.png",
+      "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred",
+      "bytes": 68343
+    }
+  ],
+  "validation": {
+    "fullSuite": "17 passed (1.4m)",
+    "afterTextContrastAdjustment": "7 experience checks passed (33.1s)",
+    "build": "passed",
+    "lastRun": {
+      "status": "passed",
+      "failedTests": []
+    }
+  },
+  "dependenciesAdded": false,
+  "downloadedAssets": false,
+  "publication": false
+}

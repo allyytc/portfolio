@@ -1,0 +1,42 @@
+[
+  {
+    "name": "A Survival timber frame",
+    "file": "assets/source/phase7c/survival-kit/Models/GLB format/structure.glb",
+    "triangles": 80
+  },
+  {
+    "name": "A Survival roof",
+    "file": "assets/source/phase7c/survival-kit/Models/GLB format/structure-roof.glb",
+    "triangles": 188
+  },
+  {
+    "name": "B Timber window",
+    "file": "assets/source/phase7c/fantasy-town-kit/Models/GLB format/wall-wood-window-small.glb",
+    "triangles": 134
+  },
+  {
+    "name": "B Town roof",
+    "file": "assets/source/phase7c/fantasy-town-kit/Models/GLB format/roof.glb",
+    "triangles": 64
+  },
+  {
+    "name": "C Urban modular",
+    "file": "assets/source/phase7c/modular-buildings/Models/GLB format/building-sample-house-a.glb",
+    "triangles": 312
+  },
+  {
+    "name": "Tree 1",
+    "file": "assets/source/phase7c/nature-kit/Models/GLTF format/tree_pineTallA_detailed.glb",
+    "triangles": 134
+  },
+  {
+    "name": "Tree 2",
+    "file": "assets/source/phase7c/nature-kit/Models/GLTF format/tree_pineRoundA.glb",
+    "triangles": 204
+  },
+  {
+    "name": "Tree 3",
+    "file": "assets/source/phase7c/nature-kit/Models/GLTF format/tree_pineDefaultB.glb",
+    "triangles": 246
+  }
+]

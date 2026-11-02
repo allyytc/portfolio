@@ -1,0 +1,113 @@
+{
+  "priorCheckpointsVerified": true,
+  "prior4BAnd4CSourceAndModelsUnchanged": true,
+  "servedModelBytesMatch": true,
+  "captureRuntimeErrors": 0,
+  "artifacts": [
+    {
+      "file": "assets/blender/studio-phase4d.blend",
+      "bytes": 105072253,
+      "sha256": "c93c7a7a84bca2418bd8f94cc0af37c35f7bfdec287225f16daefb175c500ea3"
+    },
+    {
+      "file": "public/models/loft-studio-v4d.glb",
+      "bytes": 3260508,
+      "sha256": "fc929605d92181e76dad9d4907cc01b3f0adb3e22aa3350363c67bfe8b2a98f2"
+    },
+    {
+      "file": "assets/blender/textures/loft4d-static-baked.png",
+      "bytes": 10220584,
+      "sha256": "0951f4923b6b2458509a8f344f6ff490f0325c5d29566b64c58b683fad064296"
+    },
+    {
+      "file": "assets/blender/textures/loft4d-soft-color.png",
+      "bytes": 354502,
+      "sha256": "6e5d48efece3bfe5a2a7f7c5b45b7a7670c1e0e801a717282f151a8347d8a4fd"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/before-after-browser.png",
+      "bytes": 589062,
+      "sha256": "e6be057ab0c80648759827b2337b74cc3f392d475755b26a5f5cb8450e61a7c5"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/blender-browser-comparison.png",
+      "bytes": 818292,
+      "sha256": "2afd14d2917f60999b1e2da121b9b54d1e1346a72bde83ffcf35340a304b401b"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/blender-studio.png",
+      "bytes": 2735161,
+      "sha256": "98aa1b4e4a95f3550f50da2cdc4fccc8e1404e965230cb405da5cca35ff41027"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-archive.png",
+      "bytes": 1187590,
+      "sha256": "de126efde1f17375f7aa328c344985ca242bf7607bf42b882487d7fe9ab9e06d"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-communityPinboard.png",
+      "bytes": 1153118,
+      "sha256": "68247680bb37b83ab68dc1d283802f3e863cbfb8f436773592e287ebf6950e5b"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-default-large.png",
+      "bytes": 1122376,
+      "sha256": "5a80490e356845f7134b934ead5a96631c90d47a899dda6059a54f20451eb994"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-designCorner.png",
+      "bytes": 1243851,
+      "sha256": "7290b9a6bd9980d9ce9738eef00499587a0558476c462b3fcbc8dce5245ffbe8"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-desktop.png",
+      "bytes": 873066,
+      "sha256": "2930135711ff746b6966b76d65779bc2cd89d9e314374e41ccfa3727f199e1a8"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-loftBedding.png",
+      "bytes": 960465,
+      "sha256": "ecbc50b853c84bff1c253b3795d8d3ac1d1d3479bd5c5bc89c4d27d485be3879"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-mobile.png",
+      "bytes": 159226,
+      "sha256": "303b18759ed4394bd2d75e608bcae270e39a7ca478f13cb3c5b4ba587177823d"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-printing.png",
+      "bytes": 895011,
+      "sha256": "72cce55971b70f55ea3a46fcffd05ac74653f0ef83c8dfe5f1f22838e6ddacf8"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-projects.png",
+      "bytes": 250706,
+      "sha256": "9a79be85a51fcb481b41b8e976cddb0404b06ebbd6872fa35a9c2980de6a302f"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-readingNook.png",
+      "bytes": 1268525,
+      "sha256": "62fa1f6556d82164e2d3b90c75773e4b2f5b5a1c0cfc954af04039087d13e6ed"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-resume.png",
+      "bytes": 244888,
+      "sha256": "49bc46c33dd9d72fc7582dedd36e6352be6c2eef61f7e1267eba84a00bf739b0"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-studio-large.png",
+      "bytes": 1120910,
+      "sha256": "7a6008967daba9bea4fb674ffee6ba0b55eebcdec5e30a59790d34f50b5df488"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/browser-workstation.png",
+      "bytes": 1358120,
+      "sha256": "e41d3df3ae9059d8872443f67f66fce5f49a711c24d23ba86f80d127ad79731d"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4d/selected-asset-review.png",
+      "bytes": 690471,
+      "sha256": "3c2095697802eab163ea47592cfb832d984be88f9b39fd3ce9a88aafc61ad04e"
+    }
+  ]
+}

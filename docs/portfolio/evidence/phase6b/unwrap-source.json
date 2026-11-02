@@ -1,0 +1,49 @@
+{
+  "repository": "local calhacks2026 worktree",
+  "head": "0e3d7ab73e2c9a256cb831ca87814181a1391dc1",
+  "verification": "Read-only source review; app not run. Captures are existing development screenshots, not proof of public deployment or end-to-end provider behavior.",
+  "records": [
+    {
+      "source": "/Users/ally/Github/calhacks2026/README.md",
+      "sha256": "8ba8066c413b21b820b518ec64c492fc7c328abfe43ddaf62aa55e81589c9b39",
+      "bytes": 8357,
+      "destination": null
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/package.json",
+      "sha256": "387fba98d282f03fd9c052d7e9287e92d31de5938734eb0aa4af79bb40faebd2",
+      "bytes": 1869,
+      "destination": null
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/components/map/GiftMap.tsx",
+      "sha256": "a4c05079d5997649826948ef7ddbc9fc94f8b838a60974ebe2c04d6d5f09a1ae",
+      "bytes": 1751,
+      "destination": null
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/components/proposal/ProposalPanel.tsx",
+      "sha256": "65c123586e8731585f0db119d08ff94fb215fb024b23e6e67d3ced3580789478",
+      "bytes": 8900,
+      "destination": null
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/components/world/room/CouncilFamiliars.tsx",
+      "sha256": "d648b5409292b73e0ae0b284dd2038a2a7e499c0b1fd952fc32b1632c50f0d3a",
+      "bytes": 32456,
+      "destination": null
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/work/screens/council-prod-final.png",
+      "sha256": "02c0caac2c634d1b687ba75cc540b3bcd698bf1bc0a8d417963a3d21e2dccd65",
+      "bytes": 822599,
+      "destination": "public/media/unwrap/council-prod-final.png"
+    },
+    {
+      "source": "/Users/ally/Github/calhacks2026/work/screens/robots-map-narrow-dock.png",
+      "sha256": "b901fe1054bc66dc1640130f7dd8a64c714cd32814436e091a0f486bbb58ea48",
+      "bytes": 218299,
+      "destination": "public/media/unwrap/robots-map-narrow-dock.png"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "archivePath": "Models/GLTF format/bedDouble.glb",
+    "destination": "assets/source/kenney-furniture-kit/bedDouble.glb",
+    "bytes": 23368,
+    "sha256": "c49b33e7d797d2ba1111895587dba7ff63b17a712eb9b4ceeb40a598f73e476c",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/benchCushion.glb",
+    "destination": "assets/source/kenney-furniture-kit/benchCushion.glb",
+    "bytes": 12500,
+    "sha256": "5186ad938f8b9eff255361fd1fdc48a81f08c318161cde27c93753ab95a2d354",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/bookcaseOpen.glb",
+    "destination": "assets/source/kenney-furniture-kit/bookcaseOpen.glb",
+    "bytes": 18020,
+    "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/bookcaseOpenLow.glb",
+    "destination": "assets/source/kenney-furniture-kit/bookcaseOpenLow.glb",
+    "bytes": 11520,
+    "sha256": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/cabinetBedDrawer.glb",
+    "destination": "assets/source/kenney-furniture-kit/cabinetBedDrawer.glb",
+    "bytes": 16088,
+    "sha256": "e3dfd2e120af3d4d29b66509e317452cd15bd3f57ac8945575462c582adc6de8",
+    "license": "CC0-1.0",
+    "status": "downloaded selection candidate; not integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/pillow.glb",
+    "destination": "assets/source/kenney-furniture-kit/pillow.glb",
+    "bytes": 5044,
+    "sha256": "6fae7c190d0b676ef3efd35e5178cef21dffb5c80e1257d8b537ad424da0e5f6",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/pillowLong.glb",
+    "destination": "assets/source/kenney-furniture-kit/pillowLong.glb",
+    "bytes": 5072,
+    "sha256": "d8490ae920413fd04c85a2164ef384d67a1ca257f761dec1cc7f06fa2c027283",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/loungeChairRelax.glb",
+    "destination": "assets/source/kenney-furniture-kit/loungeChairRelax.glb",
+    "bytes": 13904,
+    "sha256": "def698179e44de6cd17f4cfc2730273da54dd25458a29b079fbf4468abe5d98e",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/tableCoffee.glb",
+    "destination": "assets/source/kenney-furniture-kit/tableCoffee.glb",
+    "bytes": 8256,
+    "sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/tableRound.glb",
+    "destination": "assets/source/kenney-furniture-kit/tableRound.glb",
+    "bytes": 6444,
+    "sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/sideTable.glb",
+    "destination": "assets/source/kenney-furniture-kit/sideTable.glb",
+    "bytes": 8800,
+    "sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+    "license": "CC0-1.0",
+    "status": "downloaded selection candidate; not integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/laptop.glb",
+    "destination": "assets/source/kenney-furniture-kit/laptop.glb",
+    "bytes": 5540,
+    "sha256": "5fa8a1f4a71ab8d82ef64da77a6973ffd350c6d4557516069a4ffd4bb8d808af",
+    "license": "CC0-1.0",
+    "status": "downloaded selection candidate; not integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/lampRoundFloor.glb",
+    "destination": "assets/source/kenney-furniture-kit/lampRoundFloor.glb",
+    "bytes": 6600,
+    "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/lampWall.glb",
+    "destination": "assets/source/kenney-furniture-kit/lampWall.glb",
+    "bytes": 4828,
+    "sha256": "a9679ecd3be05731846f22ade97c37069598ca7a06dd9319f50230e63a1ea83c",
+    "license": "CC0-1.0",
+    "status": "downloaded selection candidate; not integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/plantSmall1.glb",
+    "destination": "assets/source/kenney-furniture-kit/plantSmall1.glb",
+    "bytes": 8224,
+    "sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/plantSmall3.glb",
+    "destination": "assets/source/kenney-furniture-kit/plantSmall3.glb",
+    "bytes": 8424,
+    "sha256": "1aa38b1b22bd19fa4f9f3abd8c4cbf50da2d6fa721cf1f9aa4d80bb89b1bef94",
+    "license": "CC0-1.0",
+    "status": "downloaded selection candidate; not integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/cardboardBoxClosed.glb",
+    "destination": "assets/source/kenney-furniture-kit/cardboardBoxClosed.glb",
+    "bytes": 5400,
+    "sha256": "4af079dca52960912764574950f0549ff2ae1224b3db1528718629473a2d5d81",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/stairsOpen.glb",
+    "destination": "assets/source/kenney-furniture-kit/stairsOpen.glb",
+    "bytes": 39924,
+    "sha256": "cbfe1dc9fd66f1375f9c79ccff7069923655238fdf49c7c366653d17632453a5",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  },
+  {
+    "archivePath": "Models/GLTF format/rugRectangle.glb",
+    "destination": "assets/source/kenney-furniture-kit/rugRectangle.glb",
+    "bytes": 3188,
+    "sha256": "a989d2d59c04e3071e0c90388b113a9a8f339ce1814ef984c51cb6dcd7c8e0eb",
+    "license": "CC0-1.0",
+    "status": "downloaded and integrated"
+  }
+]

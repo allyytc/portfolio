@@ -1,0 +1,50 @@
+{
+  "inspectionDate": "2026-10-28",
+  "method": "Read-only GitHub connector fetch of current main; comparisons to inert pinned snapshots",
+  "repository": "allyytc/allyytc.github.io",
+  "pinnedRef": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+  "files": [
+    {
+      "path": "index.html",
+      "currentBytes": 8721,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "projects.html",
+      "currentBytes": 51941,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "projects.js",
+      "currentBytes": 20514,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "involvement.html",
+      "currentBytes": 29819,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "beaverhacks-2026.html",
+      "currentBytes": 28185,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "innovation-jam-2026.html",
+      "currentBytes": 29269,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    },
+    {
+      "path": "eweek.html",
+      "currentBytes": 22178,
+      "comparison": "Exact source text apart from trailing whitespace removed by connector",
+      "matchesPinned": true
+    }
+  ]
+}

@@ -1,0 +1,2621 @@
+{
+  "conditions": "Local gzip server; cold isolated contexts; Chromium software/hardware renderer recorded; 3 runs per viewport, DPR2; instruments WebGL calls without forcing R3F frames. Frames use requestAnimationFrame timestamps, with calls/triangles counted per drawn frame; no forced render loop and no GPU execution timer.",
+  "records": [
+    {
+      "device": "desktop",
+      "run": 0,
+      "readyMs": 1138.5,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 23.899999998509884
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 24.799999997019768
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 3.7000000029802322
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 44.29999999701977
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 35.20000000298023
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 31.899999998509884
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 36.5
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 3.2999999970197678
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 19.100000001490116
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 88
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 160
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 3503.002,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3519.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3536.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3553,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3569.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3586.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3603,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3619.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3636.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3653,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3669.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3686.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3703,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3719.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3736.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3753,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3769.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3786.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3803,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3819.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3836.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3852.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3869.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3886.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3903,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3919.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3936.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3953,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3969.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3986.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4002.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4019.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4036.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4053,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4069.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4086.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4103,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4119.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4136.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4153,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4169.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4186.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4202.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4219.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4236.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4253,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4269.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4286.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4302.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4319.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4336.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4353,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4369.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4386.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4402.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4419.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4436.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4452.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4469.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4486.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4503,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4519.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4536.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4552.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4569.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4586.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4602.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 4619.6,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 1935,
+        "height": 1290
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "device": "desktop",
+      "run": 1,
+      "readyMs": 1058.3999999985099,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 19.5
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 19.69999999552965
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 3.600000001490116
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 36.600000001490116
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 29.19999999552965
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 28.5
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 24.5
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 2.5
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 17.299999997019768
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 92
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 2587.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2604,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2620.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2637.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2654,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2670.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2687.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2704,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2720.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2737.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2754,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2770.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2787.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2803.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2820.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2837.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2853.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2870.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2887.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2903.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2920.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2937.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2953.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2970.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2987.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3004,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3020.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3037.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3054,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3070.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3087.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3103.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3120.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3137.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3153.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3170.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3187.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3204,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3220.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3237.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3254,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3270.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3287.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3304,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3320.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3337.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3353.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3370.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3387.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3403.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3420.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3437.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3453.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3470.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3487.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3503.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3520.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3537.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3553.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3570.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3587.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3603.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3620.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3637.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3653.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3670.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3687.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3703.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3720.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3737.2,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 1935,
+        "height": 1290
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "device": "desktop",
+      "run": 2,
+      "readyMs": 1043,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 19
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 21.900000005960464
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 5.299999997019768
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 40.29999999701977
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 32.5
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 31.600000001490116
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 23.5
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 2.100000001490116
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 15
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 92
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 2572.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2588.866,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2605.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2622.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2638.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2655.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2672.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2688.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2705.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2722.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2738.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2755.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2772.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2788.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2805.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2822.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2838.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2855.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2872.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2888.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2905.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2922.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2938.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2955.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2972.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2988.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3005.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3022.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3038.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3055.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3072.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3088.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3105.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3122.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3138.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3155.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3172.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3188.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3205.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3222.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3238.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3255.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3272.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3288.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3305.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3322.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3338.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3355.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3372.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3388.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3405.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3422.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3438.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3455.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3472.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3488.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3505.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3522.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3538.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3555.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3572.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3588.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3605.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3622.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3638.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3655.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3672.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3688.8,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3705.5,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3722.2,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 1935,
+        "height": 1290
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "device": "mobile",
+      "run": 0,
+      "readyMs": 1048.5,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 19.899999998509884
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 20.799999997019768
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 3.5
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 37.599999994039536
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 30.100000001490116
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 8.700000002980232
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 24.399999998509884
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 2.3000000044703484
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 16.5
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 100
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 2770.966,
+          "calls": 103,
+          "triangles": 530610
+        },
+        {
+          "start": 2804.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2837.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2854.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2871,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2887.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2904.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2921,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2937.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2954.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2971,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2987.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3004.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3021,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3037.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3054.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3070.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3087.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3104.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3121,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3137.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3154.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3170.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3187.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3204.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3221,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3237.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3254.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3270.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3287.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3304.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3321,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3337.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3354.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3370.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3387.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3404.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3421,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3437.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3454.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3471,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3487.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3504.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3521,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3537.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3554.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3570.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3587.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3604.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3620.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3637.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3654.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3670.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3687.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3704.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3720.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3737.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3754.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3770.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3787.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3804.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3820.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3837.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3854.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3870.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3887.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3904.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3921,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3937.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3954.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3970.9,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 566,
+        "height": 708
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "device": "mobile",
+      "run": 1,
+      "readyMs": 1031.6000000014901,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 19.5
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 19.5
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 3.3000000044703484
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 37.70000000298023
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 30.5
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 29.700000002980232
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 22.700000002980232
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 2.100000001490116
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 14.899999998509884
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 92
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 2588.366,
+          "calls": 103,
+          "triangles": 530610
+        },
+        {
+          "start": 2621.698,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2655,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2671.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2688.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2704.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2721.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2738.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2755,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2771.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2788.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2805,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2821.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2838.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2854.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2871.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2888.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2905,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2921.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2938.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2955,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2971.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2988.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3005,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3021.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3038.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3055,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3071.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3088.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3105,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3121.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3138.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3154.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3171.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3188.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3205,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3221.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3238.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3255,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3271.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3288.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3304.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3321.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3338.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3355,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3371.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3388.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3404.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3421.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3438.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3455,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3471.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3488.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3504.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3521.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3538.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3555,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3571.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3588.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3605,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3621.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3638.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3655,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3671.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3688.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3704.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3721.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3738.2,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3754.9,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3771.6,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 566,
+        "height": 708
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "device": "mobile",
+      "run": 2,
+      "readyMs": 1040.2000000029802,
+      "idleDraws": 0,
+      "resources": [
+        {
+          "name": "/assets/index-D0REOj27.js",
+          "bytes": 126605,
+          "transfer": 126905,
+          "ms": 18.600000001490116
+        },
+        {
+          "name": "/assets/index-DfhLT25c.css",
+          "bytes": 8029,
+          "transfer": 8329,
+          "ms": 24.399999998509884
+        },
+        {
+          "name": "/assets/Studio-DfbOocfg.js",
+          "bytes": 19756,
+          "transfer": 20056,
+          "ms": 3.2999999970197678
+        },
+        {
+          "name": "/assets/modelLoader-DaHn0M0D.js",
+          "bytes": 257270,
+          "transfer": 257570,
+          "ms": 36.5
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 211,
+          "transfer": 511,
+          "ms": 29
+        },
+        {
+          "name": "/fonts/Nunito.ttf",
+          "bytes": 276932,
+          "transfer": 277232,
+          "ms": 28.799999997019768
+        },
+        {
+          "name": "/models/loft-studio-v4d.glb",
+          "bytes": 3260508,
+          "transfer": 3260808,
+          "ms": 23.100000001490116
+        },
+        {
+          "name": "/decoders/draco/draco_wasm_wrapper.js",
+          "bytes": 11688,
+          "transfer": 11988,
+          "ms": 2.100000001490116
+        },
+        {
+          "name": "/decoders/draco/draco_decoder.wasm",
+          "bytes": 63407,
+          "transfer": 63707,
+          "ms": 14.699999995529652
+        }
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 60
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 92
+        }
+      ],
+      "drawFrames": [
+        {
+          "start": 2588.366,
+          "calls": 103,
+          "triangles": 530610
+        },
+        {
+          "start": 2621.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2655.066,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2671.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2688.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2705,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2721.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2738.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2755,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2771.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2788.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2805,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2821.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2838.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2855,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2871.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2888.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2905,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2921.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2938.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2955,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2971.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 2988.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3005.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3021.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3038.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3055.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3071.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3088.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3105,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3121.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3138.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3155,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3171.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3188.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3205,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3221.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3238.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3255,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3271.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3288.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3305,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3321.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3338.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3355,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3371.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3388.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3405.1,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3421.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3438.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3455,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3471.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3488.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3505,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3521.7,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3538.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3555,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3571.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3588.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3605,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3621.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3638.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3655,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3671.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3688.4,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3705,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3721.6,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3738.3,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3755,
+          "calls": 50,
+          "triangles": 265302
+        },
+        {
+          "start": 3771.6,
+          "calls": 50,
+          "triangles": 265302
+        }
+      ],
+      "backing": {
+        "width": 566,
+        "height": 708
+      },
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "Studio-DfbOocfg.js",
+      "bytes": 71339,
+      "gzip": 19756
+    },
+    {
+      "name": "draco_decoder-C32yEggz.wasm",
+      "bytes": 285747,
+      "gzip": 88504
+    },
+    {
+      "name": "draco_decoder-Z1_iN-Ht.wasm",
+      "bytes": 192420,
+      "gzip": 63407
+    },
+    {
+      "name": "draco_decoder-fzg4nYZr.js",
+      "bytes": 719410,
+      "gzip": 149808
+    },
+    {
+      "name": "draco_wasm_wrapper-DxJM36Ib.js",
+      "bytes": 58763,
+      "gzip": 11842
+    },
+    {
+      "name": "draco_wasm_wrapper-fZCQGLGb.js",
+      "bytes": 58456,
+      "gzip": 11688
+    },
+    {
+      "name": "index-D0REOj27.js",
+      "bytes": 498871,
+      "gzip": 126605
+    },
+    {
+      "name": "index-DfhLT25c.css",
+      "bytes": 34010,
+      "gzip": 8029
+    },
+    {
+      "name": "modelLoader-DaHn0M0D.js",
+      "bytes": 971785,
+      "gzip": 257270
+    }
+  ]
+}

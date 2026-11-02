@@ -1,0 +1,87 @@
+{
+  "file": "/Users/ally/Github/portfolio/assets/blender/desk-studio.blend",
+  "version": "5.2.1 LTS",
+  "scenes": [
+    "PortfolioDesk",
+    "Scene"
+  ],
+  "targetPresent": true,
+  "objects": 172,
+  "engine": "CYCLES",
+  "viewTransform": "AgX",
+  "look": "None",
+  "exposure": 0.0,
+  "camera": [
+    4.0,
+    -6.0,
+    4.25
+  ],
+  "orthoScale": 5.25,
+  "meshObjects": 143,
+  "materials": [
+    "Studio_Brass.004",
+    "Studio_Cream.004",
+    "Studio_Ink.004",
+    "Studio_Ivory.004",
+    "Studio_Leaf.004",
+    "Studio_Linen.004",
+    "Studio_Oak.005",
+    "Studio_OakEdge.004",
+    "Studio_Paper.004",
+    "Studio_Rubber.004",
+    "Studio_Sage.004",
+    "Studio_Screen.004",
+    "Studio_Soil.004",
+    "Studio_Terracotta.004"
+  ],
+  "uvExamples": [
+    {
+      "name": "Oak plinth",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 00",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 01",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 02",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 03",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 04",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 05",
+      "uv": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "Inset oak floorboard 06",
+      "uv": [
+        "UVMap"
+      ]
+    }
+  ]
+}

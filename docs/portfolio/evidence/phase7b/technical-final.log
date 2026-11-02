@@ -1,0 +1,13 @@
+
+Running 6 tests using 1 worker
+
+(node:38117) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/technical-optimization.spec.ts:6:1 › hash deep links refresh, share, go back/forward and return to studio on static hosting (7.3s)
+  ✓  2 tests/technical-optimization.spec.ts:15:1 › slow model, graphics context loss, recovery and failed media retain essential navigation (2.9s)
+  ✓  3 tests/technical-optimization.spec.ts:20:1 › lighthouse/axe findings are reviewed across actual HTML destinations (4.8s)
+  ✓  4 tests/technical-optimization.spec.ts:28:1 › production subpath URLs, static text content and compact model load without root-path assumptions (2.7s)
+  ✓  5 tests/technical-optimization.spec.ts:33:1 › phone rendering uses the compact export and lighter mode lowers backing resolution without losing content (3.2s)
+  ✓  6 tests/technical-optimization.spec.ts:37:1 › corrupted embedded baked texture produces the HTML fallback instead of an unfinished white room (1.4s)
+
+  6 passed (25.5s)

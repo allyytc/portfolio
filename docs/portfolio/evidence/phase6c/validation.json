@@ -1,0 +1,52 @@
+{
+  "phase": "6C",
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "strictTypeScript": "passed",
+    "warning": "Existing approximately 972 KB raw lazy model-loader chunk; Phase 7 optimization deferred"
+  },
+  "tests": {
+    "command": "caffeinate -dimsu npm test",
+    "passed": 48,
+    "failed": 0,
+    "workers": 1,
+    "duration": "2.3m",
+    "newMigrationChecks": 12,
+    "preservedRegressionChecks": 36
+  },
+  "content": {
+    "aboutParagraphs": 3,
+    "professionalRoles": 1,
+    "skillCategories": 6,
+    "skills": 40,
+    "organizations": 5,
+    "events": 3,
+    "officialRole": "Web Developer Intern",
+    "preferredVisibleRole": "Software Developer Intern @ Impact Studio"
+  },
+  "media": {
+    "phase6cUniqueFiles": 120,
+    "reused": 35,
+    "additionalFiles": 85,
+    "associatedSourceBytes": 117532505,
+    "allGitBlobsVerified": true,
+    "browserServedBlobsVerified": 120,
+    "allPhasesOriginalReferencedFiles": 179,
+    "unreferencedOriginalInventoryFiles": 65,
+    "initialLandingMediaRequests": 0
+  },
+  "links": {
+    "uniqueOriginalDestinations": 11,
+    "HTTP200": 8,
+    "sourceVerifiedMailTel": 2,
+    "missingOriginalResumeReplacedByOwnerPDF": 1
+  },
+  "preservation": "preservation-checks.json",
+  "originalRepositoryModified": false,
+  "deploymentPerformed": false,
+  "outstanding": [
+    "Unwrap individual role/research/delivery claims remain pending (unchanged Phase 6B).",
+    "Two original project Devpost checks remain HTTP 403 in Phase 6B link evidence."
+  ]
+}

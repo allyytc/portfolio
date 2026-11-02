@@ -1,0 +1,163 @@
+{
+  "atlas": [
+    4096,
+    4096
+  ],
+  "samples": 48,
+  "seconds": 89.27714085578918,
+  "pass": "DIFFUSE COLOR DIRECT INDIRECT",
+  "dynamic": [
+    "PrinterBody",
+    "ProjectsMonitor",
+    "ResumePaper"
+  ],
+  "paperHiddenDuringBake": true,
+  "statistics": [
+    {
+      "node": "ProjectsMonitor",
+      "triangles": 26032,
+      "materials": 4,
+      "baked": false
+    },
+    {
+      "node": "PrinterBody",
+      "triangles": 12066,
+      "materials": 6,
+      "baked": false
+    },
+    {
+      "node": "ResumePaper",
+      "triangles": 1450,
+      "materials": 3,
+      "baked": false
+    },
+    {
+      "node": "ProjectsSign",
+      "triangles": 35746,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "StudioStatic",
+      "triangles": 290589,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "AboutSign",
+      "triangles": 1062,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "CommunitySign",
+      "triangles": 1726,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ContactSign",
+      "triangles": 1448,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "UnwrapDisplay",
+      "triangles": 4840,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "StickerBook",
+      "triangles": 2608,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Sketchbook",
+      "triangles": 1580,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_ESC",
+      "triangles": 4802,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_StartupHub",
+      "triangles": 5042,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_DFA",
+      "triangles": 6266,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_BeaverHacks",
+      "triangles": 5296,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_AIClub",
+      "triangles": 3822,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_BeaverHacks2026",
+      "triangles": 6252,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_InnovationJam2026",
+      "triangles": 6266,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "Community_EngineersWeek",
+      "triangles": 5782,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "AboutBook",
+      "triangles": 874,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "SkillsVolume",
+      "triangles": 2026,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExperienceVolume",
+      "triangles": 2676,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExternalGitHub",
+      "triangles": 1852,
+      "materials": 1,
+      "baked": true
+    },
+    {
+      "node": "ExternalLinkedIn",
+      "triangles": 488,
+      "materials": 1,
+      "baked": true
+    }
+  ],
+  "glbBytes": 18799828,
+  "webTextures": "JPEG 90, high quality PNG retained in Blender source"
+}

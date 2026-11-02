@@ -1,0 +1,70 @@
+{
+  "phase3CheckpointVerified": 10,
+  "artifacts": [
+    {
+      "file": "assets/blender/studio-phase4a.blend",
+      "bytes": 15288529,
+      "sha256": "f96f1ed0f74f00dce47c9a7a7e33402643e8fc3c1dec426ee70874a544180aba"
+    },
+    {
+      "file": "public/models/desk-studio.glb",
+      "bytes": 10947768,
+      "sha256": "915b29217f5fed6684cac633a0c8d19d198a0449c7d3cf28e3e00696f06d15fe"
+    },
+    {
+      "file": "assets/blender/textures/studio4a-static-baked.png",
+      "bytes": 3256428,
+      "sha256": "c93747d7d804fd0734fe105a5aa305771718ab4b6e1e467af7c72bd0dc059b3a"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/blender-desk.png",
+      "bytes": 1343514,
+      "sha256": "f5b84e670422837a4f5ee66b8b2f665d4c251951d126c94692039bd17b38a778"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/room-blockout.png",
+      "bytes": 1756156,
+      "sha256": "c60e03f851110a51ece7a5e97610f0c94de8b1ea58b29b50a0952d58e24dcbdd"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/browser-resume.png",
+      "bytes": 149823,
+      "sha256": "31f2c9eca0c5a1a1e8c32c194f2f4892d45a2c129a7878963d6f7eaa834f269b"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/browser-mobile.png",
+      "bytes": 122744,
+      "sha256": "13cd6176aba4788aa1720e5d47318330e473b9492e27f6830c44f243d1912518"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/browser-desktop.png",
+      "bytes": 555427,
+      "sha256": "4185588ef07ceaac17addfcc7069a943822f95f49d975a47c456571c4a926dfe"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/browser-printing.png",
+      "bytes": 581156,
+      "sha256": "fafd393cfb5fa4a14afad8fb423c6cd6f9fa6bc073291d6909d2d9dc4752d5f4"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/before-after-blender.png",
+      "bytes": 587845,
+      "sha256": "8caee708ece9c7c33449a35f5e8207210a1a45aa63a7d48ba2139b7d72b1e0d1"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/browser-projects.png",
+      "bytes": 189337,
+      "sha256": "c87e19e0e11cbd144b81852ef6c94f6292f6b69e0c4cae554f8d6d64c51abf61"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/blender-browser-comparison.png",
+      "bytes": 573544,
+      "sha256": "6b207ecee47a280d2a2d8f1e6ebb7ede8625cabd0bd034ce90d10deb941b34a5"
+    },
+    {
+      "file": "docs/portfolio/evidence/phase4a/before-after-browser.png",
+      "bytes": 481569,
+      "sha256": "3e5bdaade364d4235e71e7c74c17466e0d1dd276b5d61a60f18dbd3d5245c07c"
+    }
+  ]
+}

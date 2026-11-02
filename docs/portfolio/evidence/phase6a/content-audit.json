@@ -1,0 +1,2477 @@
+{
+  "repository": "allyytc/allyytc.github.io",
+  "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+  "pages": [
+    {
+      "path": "index.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "index.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "AllyChen"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Experience"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Web Developer Intern"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Skills"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Languages"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Frameworks & Libraries"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Tools & Platforms"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Design"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Leadership & Soft Skills"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Other"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "B.S. Computer Science · Minor in Business Information Systems"
+        },
+        {
+          "tag": "p",
+          "text": "Oregon State University · 2028"
+        },
+        {
+          "tag": "p",
+          "text": "Web Developer Intern · May 2026 – Present"
+        },
+        {
+          "tag": "p",
+          "text": "B.S. Computer Science Minor in Business Information Systems Oregon State University · 2028"
+        },
+        {
+          "tag": "p",
+          "text": "I'm a Computer Science student at Oregon State University (graduating June 2028) with a focus in Business Information Systems. I'm looking for internship and new-grad roles in software engineering, UX/UI, product, and other tech paths where business, design, and creative work intersect - places I can ship real products, grow as a builder, and learn from working teams."
+        },
+        {
+          "tag": "p",
+          "text": "I'm currently a Web Developer Intern at OSU Impact Studio, shipping website updates in Drupal and Figma. Recent builds include award-winning hackathon projects in computer vision and real-time web apps."
+        },
+        {
+          "tag": "p",
+          "text": "I work end-to-end - from wireframes and user research to React, Python, and API integration - and I'm as comfortable in Figma as I am in a codebase. I co-founded Startup Hub at OSU and lead a Design for America team shipping a nonprofit website for 300+ daily users."
+        },
+        {
+          "tag": "p",
+          "text": "Impact Studio · Oregon State University"
+        },
+        {
+          "tag": "li",
+          "text": "Leading a full redesign of the Impact Studio website - restructuring navigation, homepage hierarchy, and content layout so visitors understand the initiative at first glance."
+        },
+        {
+          "tag": "li",
+          "text": "Managed OSU Impact Studio's site and subdomains using Drupal, HTML, and CSS."
+        },
+        {
+          "tag": "li",
+          "text": "Configured and launched new faculty initiative subdomains end-to-end."
+        },
+        {
+          "tag": "li",
+          "text": "Analyzed website traffic and produced performance reports to guide UX and content strategy decisions."
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20260627c"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "img",
+          "src": "headshot.jpg",
+          "alt": "Ally Chen",
+          "class": "hero-headshot"
+        },
+        {
+          "tag": "a",
+          "href": "projects.html",
+          "class": "hero-arrow"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "hero-arrow",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "#contact",
+          "class": "hero-arrow hero-arrow-ghost"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "img",
+          "src": "about-photo.jpg",
+          "alt": "Ally Chen",
+          "class": "headshot"
+        },
+        {
+          "tag": "a",
+          "href": "projects.html#project-impact-studio",
+          "class": "exp-work-link"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        }
+      ],
+      "embeddedScripts": []
+    },
+    {
+      "path": "projects.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "projects.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "What I've BeenBuilding"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "In Progress"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Impact Studio Website"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Problem"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Corvallis Daytime Drop-In Center Website"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Problem"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Design Process"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Upcoming Changes"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Hackathon Projects"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "KO.rbit"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Features"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "ER Overwatch"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Features"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "ComboCraft"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Features"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Lantern"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "What we built"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Past Projects"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Sally's Coffee Shop POS System"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Afterlife Metro"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Dementia Risk Predictor"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Description"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h4",
+          "text": "Tech Stack"
+        },
+        {
+          "id": null,
+          "level": "h1",
+          "text": "Design Work"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Graphics"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Stickers"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Engineers' Week"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Innovation Jam"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "BeaverHacks"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "A mix of active builds, hackathon projects, class projects, and design work - spanning full-stack web apps, computer vision, and UI/UX design."
+        },
+        {
+          "tag": "p",
+          "text": "Click a card to see the full breakdown, current status, and early previews."
+        },
+        {
+          "tag": "p",
+          "text": "Active builds I'm currently designing and developing."
+        },
+        {
+          "tag": "p",
+          "text": "Ground-up redesign of OSU Impact Studio's web presence - new navigation, homepage hierarchy, and content structure in Figma and Drupal."
+        },
+        {
+          "tag": "p",
+          "text": "A ground-up redesign introducing a clear homepage hero, streamlined navigation, and structured content sections - including a lifecycle process visualization, team directory, and portfolio pages for faculty, students, and partners."
+        },
+        {
+          "tag": "p",
+          "text": "As Web Developer Intern, I'm the bridge between a cross-disciplinary team of marketers, graphic designers, and web contributors - translating creative visions from people across different disciplines into technical implementations. Day to day that means Figma wireframes, mood boards, and iterative mockups, running designs through the team and stakeholders, and navigating the tension of being both the designer and developer in the room."
+        },
+        {
+          "tag": "p",
+          "text": "The old Impact Studio site buries its mission behind jargon-heavy copy, repeated information across pages, and no clear visual hierarchy. Font sizes are inconsistently small, spacing feels unbalanced, and a first-time visitor has to dig through multiple pages just to understand what Impact Studio actually does and who it serves."
+        },
+        {
+          "tag": "p",
+          "text": "Redesigning the Corvallis Daytime Drop-In Center's website to make critical resources instantly accessible to the community members who need them most."
+        },
+        {
+          "tag": "p",
+          "text": "The redesign is deeply audience-driven - built for two distinct users with two distinct needs. For guests, the site is warm, welcoming, and easy to navigate on a phone with no prior tech experience. The navigation is priority-based - Get Help comes first, followed by Contact Us, About Us, and Donate - because that's what matters most to someone walking through the door for the first time. For donors, the donation page shifts tone entirely: clean, professional, and trust-building, without losing the center's humanity."
+        },
+        {
+          "tag": "p",
+          "text": "Accessibility is non-negotiable. The redesign prioritizes ADA compliance, multilingual support, and a mobile-first layout - because most guests will only ever access this site from a phone."
+        },
+        {
+          "tag": "p",
+          "text": "Project Lead for Design for America, directing an 11-member cross-disciplinary team through discovery, wireframing, design iterations, and front-end development. I meet directly with the CDDC team, translate their requirements into technical specifications, and handle both the design and the code myself. The site serves 300+ daily users. When the DFA term ended, I kept going - continuing the project alongside a few team members because the work isn't finished."
+        },
+        {
+          "tag": "p",
+          "text": "The Corvallis Daytime Drop-In Center - a nonprofit providing basic needs resources, peer support, and social services to unhoused community members in Benton County - has a website that makes critical information hard to find. For guests who may only have a few minutes on a phone, a site that's difficult to navigate isn't just inconvenient, it's a barrier to getting help."
+        },
+        {
+          "tag": "p",
+          "text": "Every feedback session is collaborative. We don't come in with a finished design and ask for approval - we build alongside the nonprofit. Early sessions focused on discovery: understanding who their guests actually are, what they need the moment they land on the site, and what the staff wished the old site had done better. From there we defined two distinct audiences and two distinct design directions, which shaped every decision that followed."
+        },
+        {
+          "tag": "p",
+          "text": "Wireframes went through multiple rounds, each one presented back to the CDDC team, marked up, and revised based on their feedback. When something didn't feel right for their guests, we changed it. The dual-tone approach for the donation page came directly out of one of those sessions."
+        },
+        {
+          "tag": "p",
+          "text": "Following our most recent meeting with the center, the next phase of development includes:"
+        },
+        {
+          "tag": "li",
+          "text": "Updated homepage video - replacing the current 2020 promo with new footage that reflects who CDDC is today"
+        },
+        {
+          "tag": "li",
+          "text": "Monthly services calendar - an interactive calendar showing rotating services like dental visits and community events"
+        },
+        {
+          "tag": "li",
+          "text": "Interactive digital storyline - an immersive history of the center for guests and donors to explore"
+        },
+        {
+          "tag": "li",
+          "text": "Community connections page - an art gallery celebrating work created by community members"
+        },
+        {
+          "tag": "li",
+          "text": "Full mobile redesign - rebuilt from the ground up for phone-first access, since most guests will never use a desktop"
+        },
+        {
+          "tag": "li",
+          "text": "Expanded \"Your Impact in Action\" section - donation-page breakdown showing where contributions go"
+        },
+        {
+          "tag": "li",
+          "text": "ADA compliance audit - ongoing accessibility review and fixes to meet ADA standards site-wide"
+        },
+        {
+          "tag": "p",
+          "text": "A real-time two-player lightsaber duel with no controller. A laptop webcam tracks your full body with MediaPipe Pose, and your phone becomes the saber."
+        },
+        {
+          "tag": "p",
+          "text": "KO.rbit is a real-time, two-player lightsaber duel with no controller, built by our four-person team at DubHacks 2026. A laptop webcam tracks your full body with MediaPipe Pose, and your phone’s motion sensors become the saber. Before the fight, we fly a 3D cockpit through a universe of real catalogued objects. Planetary roulette then sends the match to Mars or Neptune."
+        },
+        {
+          "tag": "li",
+          "text": "3D cockpit lobby - the hub a pilot drops into, with the radar and ship console"
+        },
+        {
+          "tag": "li",
+          "text": "Avatar creator - the pilot’s avatar"
+        },
+        {
+          "tag": "li",
+          "text": "Battle HUD - the overlay on the live duel"
+        },
+        {
+          "tag": "li",
+          "text": "Mars arena - the Jezero Crater fight floor, built on NASA MOLA terrain"
+        },
+        {
+          "tag": "li",
+          "text": "Neptune arena - the duel scene modeled on Neptune’s atmosphere, since Neptune has no solid ground"
+        },
+        {
+          "tag": "li",
+          "text": "Planetary roulette - the spin that picks Mars or Neptune, then flies the match in"
+        },
+        {
+          "tag": "p",
+          "text": "React, TypeScript, JavaScript, Vite, Three.js, React Three Fiber, WebGL, MediaPipe Pose, Node.js, Socket.IO, Perceptron, and Python importers for NASA, JPL, CelesTrak, and HYG catalogs. We also use xAI Grok Voice for LYRA, the in-game voice copilot."
+        },
+        {
+          "tag": "li",
+          "text": "Full-body duel - MediaPipe Pose on the laptop and the phone as the saber, paired by QR code"
+        },
+        {
+          "tag": "li",
+          "text": "Server-owned hits - a Node and Socket.IO server decides health, stamina, guards, and every hit"
+        },
+        {
+          "tag": "li",
+          "text": "Cockpit and roulette - a 3D lobby, then a planetary roulette handoff into the Mars or Neptune arena"
+        },
+        {
+          "tag": "li",
+          "text": "Real Mars terrain - the Mars floor is a NASA MOLA crop of Jezero Crater"
+        },
+        {
+          "tag": "li",
+          "text": "Catalog explorer - we search real stars, exoplanets, galaxies, satellites, and spacecraft and open a fact card on each"
+        },
+        {
+          "tag": "li",
+          "text": "KO replay - an opt-in clip, with Perceptron picking highlights and the replay ending on the server-confirmed finishing blow"
+        },
+        {
+          "tag": "p",
+          "text": "A computer vision wide-angle surveillance platform that helps understaffed ERs monitor waiting-room patients - detecting collapses via fall detection, tracking vitals, and building AI casefiles for the doctor while they wait."
+        },
+        {
+          "tag": "p",
+          "text": "Across the world, over 1,000 people die each year just waiting for medical care inside an emergency room lobby. Most arrive with symptoms that are survivable on their own - concussions, chest pain, bruising, spasms - but over the many hours spent waiting for a room to open up, those same conditions can escalate into strokes, heart attacks, and organ failure. In a crowded ER, someone could collapse and lose consciousness with no one noticing for minutes."
+        },
+        {
+          "tag": "p",
+          "text": "ER Overwatch connects live waiting-room footage to automated collapse detection and a nurse dashboard - giving understaffed ERs real-time alerts and structured patient context before a doctor is available."
+        },
+        {
+          "tag": "li",
+          "text": "Frontend development - led the nurse dashboard where staff sign patients in, monitor vitals, and receive real-time alerts"
+        },
+        {
+          "tag": "li",
+          "text": "Fall detection - explored an OpenCV-based approach before moving to Gemini video processing for collapse and loss-of-consciousness detection"
+        },
+        {
+          "tag": "p",
+          "text": "Getting fast, reliable results meant iterating on how we batch and send footage: overlapping clip windows to catch events at clip boundaries, and working around Gemini token limits as frame volume scaled up."
+        },
+        {
+          "tag": "p",
+          "text": "Next.js, React, TypeScript, Vite, Tailwind CSS, FastAPI, Python, MediaPipe, LiveKit, Gemini API, REST API, WebSockets, Computer Vision, rPPG, Machine Learning"
+        },
+        {
+          "tag": "li",
+          "text": "Nurse dashboard - sign patients in, monitor vitals, and receive real-time collapse alerts"
+        },
+        {
+          "tag": "li",
+          "text": "Fall & collapse detection - Gemini video processing and OpenCV movement analysis on live waiting-room footage"
+        },
+        {
+          "tag": "li",
+          "text": "Remote vitals (rPPG) - heart rate monitoring streamed from the patient’s camera to the nurse view"
+        },
+        {
+          "tag": "li",
+          "text": "AI patient chatbot - chats with waiting patients and builds structured casefiles for staff"
+        },
+        {
+          "tag": "li",
+          "text": "Patient wait portal - checked-in patients can view their ER data and estimated wait time"
+        },
+        {
+          "tag": "p",
+          "text": "A gesture-based browser combat game where webcam hand motions cast elemental spells in real time against a multi-phase Demon Boss."
+        },
+        {
+          "tag": "p",
+          "text": "ComboCraft started as a late-night “what if we could fight on screen with our hands?” idea and grew into a full browser game set in the Inferno Realm. A fist casts a fireball, an open hand summons an ice shard, a pointed finger calls lightning, and chaining gestures builds combo attacks."
+        },
+        {
+          "tag": "p",
+          "text": "Players face a Demon Boss whose behavior evolves across phases as its health drops. Three difficulty settings scale the encounter from easy to hard."
+        },
+        {
+          "tag": "li",
+          "text": "How-to / instructions page - built the in-game guide covering each gesture, spell stats, and battle tips"
+        },
+        {
+          "tag": "li",
+          "text": "Computer vision overlay - developed the player feed composited onto the game canvas; early prototypes used the raw webcam with the full background before moving to MediaPipe Selfie Segmentation to strip the background and isolate the player"
+        },
+        {
+          "tag": "li",
+          "text": "Gesture classification - helped train a custom sklearn model on hand-gesture samples to improve spell recognition alongside MediaPipe Hands"
+        },
+        {
+          "tag": "li",
+          "text": "Game engine - built core JavaScript canvas systems for boss phases, spell rendering, combo attacks, and UI effects"
+        },
+        {
+          "tag": "p",
+          "text": "Getting the overlay to feel natural meant iterating on segmentation quality and frame timing so the cut-out player read clearly against the boss fight without dragging down gameplay."
+        },
+        {
+          "tag": "p",
+          "text": "Tuning gesture timing meant redesigning the classifier when early motions overlapped, and replacing 60 FPS backend polling with a smoother command pipeline so spells felt responsive in the browser."
+        },
+        {
+          "tag": "p",
+          "text": "JavaScript, HTML/CSS, Python, Flask, OpenCV, MediaPipe Hands, MediaPipe Selfie Segmentation, scikit-learn"
+        },
+        {
+          "tag": "li",
+          "text": "Gesture spellcasting - real-time hand motions trigger fire, ice, and lightning spells with dual-hand casting"
+        },
+        {
+          "tag": "li",
+          "text": "Combo system - chain gestures into multi-step attacks for higher damage"
+        },
+        {
+          "tag": "li",
+          "text": "Multi-phase Demon Boss - evolving animations, attacks, and behavior as health drops"
+        },
+        {
+          "tag": "li",
+          "text": "Mana & orb system - collect boss energy fragments to restore mana mid-fight"
+        },
+        {
+          "tag": "li",
+          "text": "Tutorial & UI - how-to-play guide, difficulty select, and pixel-art menus"
+        },
+        {
+          "tag": "p",
+          "text": "A Unitree Go2 companion for someone living with dementia, with a caregiver app for voice check-ins, Night Watch alerts, and a map of the home. We built it at HackMIT 2026."
+        },
+        {
+          "tag": "p",
+          "text": "Lantern is a robot companion for someone living with dementia, and a link for the family members who look after them. We built the prototype in 24 hours at HackMIT 2026 (September 19–20). The idea came from a teammate’s grandmother. After the family dog was no longer at home, she was alone for much of the day, and she did not want to wear a location tracker."
+        },
+        {
+          "tag": "p",
+          "text": "The phone is the microphone and speaker. She talks to Lantern instead of using a screen. For the family, a web app shows how she is doing, plays check-ins aloud, and sends alerts if she moves into a place the caregivers marked as dangerous."
+        },
+        {
+          "tag": "li",
+          "text": "Caregiver portal - onboarding, check-ins, a daily routine, Night Watch, a zone map, alerts, and an activity timeline"
+        },
+        {
+          "tag": "li",
+          "text": "Paired phone - QR pairing, ElevenLabs playback of a check-in, and a short reply transcribed with Deepgram"
+        },
+        {
+          "tag": "li",
+          "text": "Robot requests - spoken phrases can walk, follow, return home, or play a fixed set of Go2 actions when DimOS and the robot bridges are running"
+        },
+        {
+          "tag": "li",
+          "text": "Night Watch - caregivers paint zones, and alerts can escalate to Twilio SMS and phone calls"
+        },
+        {
+          "tag": "p",
+          "text": "React, TypeScript, Vite, Tailwind CSS, FastAPI, Python, Deepgram, ElevenLabs, Twilio, and DimOS on a Unitree Go2. The phone does not talk to the robot directly. It goes through our cloud app and the bus."
+        },
+        {
+          "tag": "p",
+          "text": "A full-stack point-of-sale web app with a 5-table relational database, REST API, and a loyalty points system."
+        },
+        {
+          "tag": "p",
+          "text": "A full-stack point-of-sale web app with a 5-table relational database. Features 8+ REST API endpoints for full CRUD, 4 stored procedures for order workflows, and a loyalty points system tracking customer rewards and redemptions."
+        },
+        {
+          "tag": "p",
+          "text": "Designed the database schema and built the full back end for a class project, including all REST endpoints and stored procedures."
+        },
+        {
+          "tag": "p",
+          "text": "Node.js, Express, MySQL, REST API, phpMyAdmin"
+        },
+        {
+          "tag": "p",
+          "text": "A multiplayer narrative simulation game with dynamic event systems and player-driven storytelling."
+        },
+        {
+          "tag": "p",
+          "text": "A multiplayer narrative simulation game with dynamic event systems and player-driven storytelling. Built 5+ modular systems (character tracking, branching event logic, leaderboard) using JSON-based data models over 3 months."
+        },
+        {
+          "tag": "p",
+          "text": "Designed and implemented the event and character systems as part of a team project over 3 months."
+        },
+        {
+          "tag": "p",
+          "text": "JavaScript, HTML/CSS, Godot, JSON"
+        },
+        {
+          "tag": "p",
+          "text": "Game art by Nour Alzahraa Alqattan."
+        },
+        {
+          "tag": "p",
+          "text": "A machine learning model that predicts dementia risk from health survey data, exploring feature importance for early screening."
+        },
+        {
+          "tag": "p",
+          "text": "A machine learning pipeline that predicts dementia risk from health and lifestyle survey data, comparing multiple classification models and identifying the strongest predictive features for early-stage screening."
+        },
+        {
+          "tag": "p",
+          "text": "Cleaned and preprocessed survey data, trained and evaluated multiple classification models, and analyzed feature importance."
+        },
+        {
+          "tag": "p",
+          "text": "Python, scikit-learn, Pandas, NumPy, Jupyter"
+        },
+        {
+          "tag": "p",
+          "text": "These are some of the flyers, stickers, and promotional materials I've designed for campus events and organizations."
+        },
+        {
+          "tag": "p",
+          "text": "Event flyers, social promos, and branding. Click any piece to view it full-size."
+        },
+        {
+          "tag": "p",
+          "text": "1 / 5"
+        },
+        {
+          "tag": "p",
+          "text": "1 / 4"
+        },
+        {
+          "tag": "p",
+          "text": "1 / 6"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20261020d"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "img",
+          "src": "combocraft-event/IMG_2989.JPG",
+          "alt": "ComboCraft project fair demo",
+          "class": "involvement-hero-photo involvement-hero-photo--zoom"
+        },
+        {
+          "tag": "a",
+          "href": "#in-progress",
+          "class": "page-hero-btn page-hero-btn--primary"
+        },
+        {
+          "tag": "a",
+          "href": "#hackathons",
+          "class": "page-hero-btn page-hero-btn--primary"
+        },
+        {
+          "tag": "a",
+          "href": "#past-projects",
+          "class": "page-hero-btn page-hero-btn--primary"
+        },
+        {
+          "tag": "a",
+          "href": "#design-work",
+          "class": "page-hero-btn page-hero-btn--primary"
+        },
+        {
+          "tag": "a",
+          "href": "https://impactstudio.oregonstate.edu/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-live",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-live",
+          "data-index": "1"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-live",
+          "data-index": "2"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-live",
+          "data-index": "3"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-homepage",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "impact-studio-about",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://corvallisddc.org/en/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "cddc-home",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "cddc-get-help",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "cddc-contact",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "cddc-about",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "cddc-donate",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/dubhack26/KO.rbit",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://devpost.com/software/space-battles-aei3wz",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://www.youtube.com/watch?v=Ta64tj6uJc4",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "korbit-demo",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "korbit-interface",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://eroverwatch.tech",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/Jonjlim/Quack3-AJAE",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://2026.quackhacks.org/projects/winners/er-overwatch",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "er-overwatch-demo",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "er-overwatch-interface",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "er-overwatch-gallery",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/alwxngn/ComboCraft",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://devpost.com/software/combocraft-azuynr",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "combocraft-demo",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "combocraft-interface",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "combocraft-gallery",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/alwxngn/Lantern-HackMIT2026",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://plume.hackmit.org/project/krpqx-lffop-wpuom-ttmme",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://www.youtube.com/watch?v=UiwDwaL6978",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "lantern-demo",
+          "data-index": "0"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc/Sallys-POS",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/osu-cs290-f25/project-afterlife-metro",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "a",
+          "href": "https://bit.ly/afterlife-metro",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "0"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "1"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "2"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "3"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "4"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "5"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "6"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "7"
+        },
+        {
+          "tag": "button",
+          "class": "thumb-btn",
+          "data-gallery": "afterlife-metro",
+          "data-index": "8"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc/dementia-detector",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "project-link-btn"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Cookies%20%26%20Clubs%202025%20Flyer.png",
+          "alt": "Cookies and Clubs 2025 event flyer"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Instagram%20post.png",
+          "alt": "Cookies and Clubs Instagram promo"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Final.png",
+          "alt": "Donuts with the Dean event flyer"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/dwd%20draft%202%20(Instagram%20Post%20(45)).png",
+          "alt": "Donuts with the Dean Instagram promo"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/FReps%20flyer.png",
+          "alt": "First-Year Representatives recruitment flyer"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Dam%20Proud.png",
+          "alt": "Dam Proud Day collage"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/letting%20off%20steam%20(Instagram%20Post%20(45)).png",
+          "alt": "Letting Off Steam Engineers' Week event flyer"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Startup%20Hub%20-%20insta%20drafts.png",
+          "alt": "Startup Hub kickoff Instagram promo"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/maybe%20a%20flier%20design.png",
+          "alt": "Startup Hub kickoff event flyer"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/Graphic%20Designer.png",
+          "alt": "Graphic Designer recruitment post"
+        },
+        {
+          "tag": "img",
+          "src": "graphic-designs/startup%20hub%20TV%20draft%20.png",
+          "alt": "Startup Hub MU TV display draft"
+        },
+        {
+          "tag": "img",
+          "class": "sticker-carousel-img",
+          "src": "eweek-stickers/E-week_Gear_Beaver.png",
+          "alt": "Engineers' Week Gear Beaver sticker"
+        },
+        {
+          "tag": "a",
+          "href": "eweek.html",
+          "class": "sticker-carousel-link"
+        },
+        {
+          "tag": "img",
+          "class": "sticker-carousel-img",
+          "src": "ij-stickers/lightbulb-crop.png",
+          "alt": "Innovation Jam Lightbulb sticker"
+        },
+        {
+          "tag": "a",
+          "href": "innovation-jam-2026.html",
+          "class": "sticker-carousel-link"
+        },
+        {
+          "tag": "img",
+          "class": "sticker-carousel-img",
+          "src": "bh-stickers/sticker-1-crop.png",
+          "alt": "BeaverHacks sticker 1"
+        },
+        {
+          "tag": "a",
+          "href": "beaverhacks-2026.html",
+          "class": "sticker-carousel-link"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        },
+        {
+          "tag": "script",
+          "src": "projects.js?v=20261020e"
+        }
+      ],
+      "embeddedScripts": []
+    },
+    {
+      "path": "involvement.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "involvement.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "Campus &Community"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Clubs &Organizations"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "College of Engineering Student Council"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Startup Hub"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Design for America"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "BeaverHacks"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Artificial Intelligence Club"
+        },
+        {
+          "id": "orgPanelTitle",
+          "level": "h3",
+          "text": ""
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Events"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "BeaverHacks 2026"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Innovation Jam 2026"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Engineers' Week 2026"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "Through student leadership roles across engineering, entrepreneurship, and hackathons, I've helped run campus-wide events for 500+ attendees, advocate for 10K+ engineering students, and ship real projects with cross-functional teams."
+        },
+        {
+          "tag": "p",
+          "text": "Here are a few highlights from events, clubs, and collaborative projects I have led and helped organize!"
+        },
+        {
+          "tag": "p",
+          "text": "Oregon's largest annual hackathon - 500+ students, 24 hours, multiple sponsor tracks. Build, compete, and connect with industry."
+        },
+        {
+          "tag": "p",
+          "text": "OSU's flagship innovation & entrepreneurship event - organized by Startup Hub for the Willamette Valley."
+        },
+        {
+          "tag": "p",
+          "text": "National Engineers Week at OSU - a full week of events, workshops, and community for engineering students."
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20260623k"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "img",
+          "src": "DSC00612.JPG",
+          "alt": "Ally Chen speaking in a classroom",
+          "class": "involvement-hero-photo"
+        },
+        {
+          "tag": "a",
+          "href": "#events",
+          "class": "page-hero-btn page-hero-btn--primary"
+        },
+        {
+          "tag": "a",
+          "href": "#clubs",
+          "class": "page-hero-btn page-hero-btn--secondary"
+        },
+        {
+          "tag": "a",
+          "href": "beaverhacks-2026.html",
+          "class": "event-card",
+          "id": "beaverhacks2026",
+          "style": "text-decoration: none; color: inherit;"
+        },
+        {
+          "tag": "img",
+          "src": "bh4.JPG",
+          "alt": "BeaverHacks 2026",
+          "class": "event-card-img",
+          "style": "object-position: 70% 65%; transform: scale(1.25); transform-origin: 70% 65%;"
+        },
+        {
+          "tag": "a",
+          "href": "innovation-jam-2026.html",
+          "class": "event-card",
+          "id": "innovationjam",
+          "style": "text-decoration: none; color: inherit;"
+        },
+        {
+          "tag": "img",
+          "src": "innovation-26/IMG_2965.JPG",
+          "alt": "Innovation Jam 2026",
+          "class": "event-card-img",
+          "style": "object-position: center 80%; transform: scale(1.05); transform-origin: center 80%;"
+        },
+        {
+          "tag": "a",
+          "href": "eweek.html",
+          "class": "event-card",
+          "id": "eweek2026",
+          "style": "text-decoration: none; color: inherit;"
+        },
+        {
+          "tag": "img",
+          "src": "eweek/IMG_8479.jpg",
+          "alt": "Engineers' Week",
+          "class": "event-card-img"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        }
+      ],
+      "embeddedScripts": [
+        "\n    var orgsData = {\n      coe: {\n        name: 'Engineering Student Council',\n        role: 'Vice President of Outreach',\n        date: 'June 2025 - Present',\n        photos: [\n          'cookies-clubs/IMG_2319.jpg',\n          'cookies-clubs/IMG_2290.jpg',\n          'cookies-clubs/IMG_2293.jpg',\n          'cookies-clubs/IMG_2301.jpg',\n          'cookies-clubs/IMG_2346.jpg',\n          'cookies-clubs/IMG_2360.jpg',\n          'cookies-clubs/IMG_2368.jpg',\n          'eweek/IMG_8728.jpg'\n        ],\n        description: [\n          \"As Vice President of Outreach for the College of Engineering Student Council, I'm the voice for 10K+ engineering students in faculty discussions and university-level decisions - from curriculum changes to tuition policy. I manage outreach and communications across 50+ student organizations and help allocate $200K+ in funding alongside the VP of Finance.\",\n          \"Beyond advocacy, I own all things design for ESC - creating promotional graphics, event materials, and merchandise distributed school-wide. That includes everything from Engineers' Week stickers handed out to the entire College of Engineering enrollment, to graphics and social content for events like Donuts with the Dean and Cookies & Clubs, OSU's school-wide club fair.\"\n        ],\n        ctas: [\n          { href: 'projects.html#design-graphics', label: 'Designs →' },\n          { href: 'eweek.html', label: \"Engineers' Week '26 →\" }\n        ]\n      },\n      startup: {\n        name: 'Startup Hub',\n        role: 'Co-Founder',\n        date: 'June 2025 - Present',\n        photos: [\n          'sh-pics/IMG_0068.JPG',\n          'sh-pics/IMG_2960.JPG',\n          'sh-pics/IMG_0217.JPG',\n          'sh-pics/IMG_0384.JPG',\n          'sh-pics/IMG_2961.JPG',\n          'sh-pics/IMG_2962.JPG',\n          'sh-pics/IMG_2963.JPG',\n          'sh-pics/IMG_2964.JPG'\n        ],\n        description: [\n          \"As Co-Founder of Startup Hub at OSU, our team built the university's only entrepreneurship community from the ground up - creating the branding kit, establishing the club structure, and connecting aspiring founders to resources that didn't exist at OSU before. We coordinate with the College of Business, Oregon Startup Center, and AI Collective to bring entrepreneurship infrastructure to 15K+ students, with programming that goes beyond the typical startup playbook - from VC guest speakers to storytelling-for-pitching workshops.\",\n          \"This year, we're organizing Innovation Jam '26 - one of OSU's flagship innovation events. Looking ahead, we're working toward raising funding to send members to conferences and experiences beyond Corvallis - because the best founders need exposure beyond campus.\"\n        ],\n        ctas: [\n          { href: 'projects.html#design-graphics', label: 'Designs →' },\n          { href: 'innovation-jam-2026.html', label: \"Innovation Jam '26 →\" }\n        ]\n      },\n      dfa: {\n        name: 'Design for America',\n        role: 'Project Lead',\n        date: 'Jan 2026 - Present',\n        photos: [\n          'dfa/IMG_4952.jpeg',\n          'dfa/DSC00506 (1).JPG',\n          'dfa/DSC00582.JPG',\n          'dfa/DSC00657.JPG',\n          'dfa/IMG_0176.jpg',\n          'dfa/IMG_0186.jpg',\n          'dfa/IMG_0193.jpg',\n          'dfa/DSC00472.JPG'\n        ],\n        description: [\n          \"As Project Lead for Design for America at OSU, I directed an 11-person cross-disciplinary team through discovery, wireframes, design iterations, and front-end development for the Corvallis Daytime Drop-In Center - a local nonprofit serving unhoused community members.\",\n          \"I chose this project after meeting the center's director and being moved by the passion behind their work. DFA's term has ended, but I'm continuing alongside a few teammates to see it through to deployment.\"\n        ],\n        ctas: [\n          { href: 'projects.html#project-cddc', label: 'View Project →' }\n        ]\n      },\n      ai: {\n        name: 'Artificial Intelligence Club',\n        role: 'Project Officer',\n        date: 'June 2025 - Present',\n        photos: [\n          'ai-club/IMG_8454.jpg',\n          'ai-club/IMG_1647.jpg',\n          'ai-club/IMG_8353.jpg',\n          'ai-club/IMG_8450.jpg',\n          'ai-club/IMG_8523.jpg',\n          'ai-club/IMG_8562.jpg',\n          'ai-club/photo2.jpg'\n        ],\n        description: [\n          \"The AI Club at OSU was revived this year and became one of the biggest launches on campus - our first meeting drew over 100 members, a clear sign of how much interest there is in AI across every major. As Project Officer, I help lead and support members through the weekly project workshop, meeting people where they are across all experience levels.\",\n          \"I created NumPy tutorials used by members throughout the term, and helped guide projects ranging from image classification to poker agents to Kaggle competitions. Our weekly meetings mix technical depth with community - from lectures breaking down how machine learning actually works, to interactive games that bring people together. We're building a space where anyone curious about AI can find their footing and go further. Next year, I'll be stepping into the role of Marketing Lead.\"\n        ]\n      },\n      bh: {\n        name: 'BeaverHacks',\n        role: 'Core & Marketing Team',\n        date: 'June 2025 - Present',\n        photos: [\n          'bh-merch/3.jpg',\n          'bh-event/carousel/untitled (102 of 275).jpg',\n          'bh-event/carousel/untitled (43 of 275).jpg',\n          'bh-merch/5.jpg',\n          'bh-merch/6.jpg',\n          'bh-event/carousel/untitled (70 of 275).jpg',\n          'bh-event/carousel/untitled (59 of 275).jpg',\n          'bh-event/carousel/venue2.jpg',\n          'bh-event/gp1.JPG'\n        ],\n        description: [\n          \"Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I know how they push you to pick up new tools, move fast, and lean on teamwork under pressure. Being part of the core operations team that organizes BeaverHacks, Oregon's largest collegiate hackathon hosted at OSU, felt like a natural extension of that passion.\",\n          \"Across the 24-hour event drawing 500+ students from universities across the country, I contributed across marketing, design, and operations - from running social campaigns and designing stickers, to modeling merchandise, to managing volunteers and logistics on event day.\"\n        ],\n        ctas: [\n          { href: 'beaverhacks-2026.html', label: 'BeaverHacks 2026 →' }\n        ]\n      }\n    };\n\n    var currentOrg = 'coe';\n    var currentPhoto = 0;\n    var orgPhotoCache = {};\n    var orgPhotoDisplayedSrc = '';\n\n    function preloadOrgPhotos(photos) {\n      photos.forEach(function (src) {\n        if (orgPhotoCache[src]) return;\n        var img = new Image();\n        img.decoding = 'async';\n        img.src = src;\n        orgPhotoCache[src] = img;\n      });\n    }\n\n    function selectOrg(id) {\n      currentOrg = id;\n      currentPhoto = 0;\n      orgPhotoDisplayedSrc = '';\n      document.querySelectorAll('.org-tab').forEach(function (tab) {\n        tab.classList.toggle('active', tab.dataset.org === id);\n      });\n      preloadOrgPhotos(orgsData[id].photos);\n      renderOrgPanel();\n    }\n\n    function initOrgFromHash() {\n      var hash = window.location.hash;\n      if (hash === '#events') {\n        var events = document.getElementById('events');\n        if (events) {\n          setTimeout(function () {\n            events.scrollIntoView({ behavior: 'smooth', block: 'start' });\n          }, 100);\n        }\n        return;\n      }\n      if (!hash.startsWith('#clubs-')) return;\n      var id = hash.slice(7);\n      if (!orgsData[id]) return;\n      selectOrg(id);\n      var tab = document.getElementById('clubs-' + id);\n      if (tab) {\n        setTimeout(function () {\n          tab.scrollIntoView({ behavior: 'smooth', block: 'center' });\n        }, 100);\n      }\n    }\n\n    window.addEventListener('hashchange', initOrgFromHash);\n\n    function orgCarouselNav(key, dir) {\n      var photos = orgsData[currentOrg].photos;\n      if (photos.length < 2) return;\n      currentPhoto = (currentPhoto + dir + photos.length) % photos.length;\n      renderOrgPhoto();\n    }\n\n    function renderOrgPhoto() {\n      var data = orgsData[currentOrg];\n      var display = document.getElementById('orgPhotoDisplay');\n      var counter = document.getElementById('orgPhotoCounter');\n      var prevBtn = document.getElementById('orgPhotoPrev');\n      var nextBtn = document.getElementById('orgPhotoNext');\n      var hasMultiple = data.photos.length > 1;\n      prevBtn.style.display = hasMultiple ? '' : 'none';\n      nextBtn.style.display = hasMultiple ? '' : 'none';\n      var frame = display.parentElement;\n      frame.classList.remove('landscape');\n      if (data.photos.length) {\n        var src = data.photos[currentPhoto];\n        var img = display.querySelector('img');\n        if (!img) {\n          display.innerHTML = '';\n          img = document.createElement('img');\n          img.alt = '';\n          img.decoding = 'async';\n          display.appendChild(img);\n        }\n        counter.style.display = hasMultiple ? '' : 'none';\n        if (hasMultiple) {\n          document.getElementById('orgPhotoCurrent').textContent = currentPhoto + 1;\n          document.getElementById('orgPhotoTotal').textContent = data.photos.length;\n        }\n        var applyOrientation = function () {\n          frame.classList.toggle('landscape', img.naturalWidth > img.naturalHeight);\n        };\n        if (orgPhotoDisplayedSrc !== src) {\n          orgPhotoDisplayedSrc = src;\n          img.onload = applyOrientation;\n          img.src = src;\n          if (img.complete && img.naturalWidth) applyOrientation();\n        } else if (img.complete && img.naturalWidth) {\n          applyOrientation();\n        }\n      } else {\n        orgPhotoDisplayedSrc = '';\n        display.innerHTML = '<div class=\"org-photo-placeholder\">Photos coming soon</div>';\n        counter.style.display = 'none';\n      }\n    }\n\n    function renderOrgPanel() {\n      renderOrgPhoto();\n      var data = orgsData[currentOrg];\n      document.getElementById('orgPanelTitle').textContent = data.role;\n      document.getElementById('orgPanelRole').textContent = data.name;\n      document.getElementById('orgPanelDate').textContent = data.date;\n      var desc = document.getElementById('orgPanelDesc');\n      desc.innerHTML = '';\n      data.description.forEach(function (paragraph) {\n        var p = document.createElement('p');\n        p.textContent = paragraph;\n        desc.appendChild(p);\n      });\n      var ctas = document.getElementById('orgPanelCtas');\n      ctas.innerHTML = '';\n      (data.ctas || []).forEach(function (cta) {\n        var a = document.createElement('a');\n        a.className = 'org-panel-cta';\n        a.href = cta.href;\n        a.textContent = cta.label;\n        ctas.appendChild(a);\n      });\n    }\n\n    preloadOrgPhotos(orgsData.coe.photos);\n    renderOrgPanel();\n    initOrgFromHash();\n  "
+      ]
+    },
+    {
+      "path": "beaverhacks-2026.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "beaverhacks-2026.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "BeaverHacks2026"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "About the Event"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Event Photos"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Marketing & Outreach"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Merch & Design"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Volunteer Coordination"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Sticker Designs"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Merch Photos"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "Oregon's largest annual hackathon - 500+ students, 24 hours, and sponsor challenges across multiple tracks."
+        },
+        {
+          "tag": "p",
+          "text": "BeaverHacks is Oregon's largest annual hackathon, hosted by Oregon State University and drawing 500+ students from universities across the country. Over 24 hours, teams of up to four tackle sponsor-based challenges across multiple tracks, building projects from scratch in a fast-paced, collaborative environment."
+        },
+        {
+          "tag": "p",
+          "text": "The event bridges the gap between university and industry, giving students direct exposure to the problems and people shaping the tech industry."
+        },
+        {
+          "tag": "p",
+          "text": "Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I love how they push you to pick up new tools, move fast, and get very comfortable with git and merge conflicts."
+        },
+        {
+          "tag": "li",
+          "text": "Managed marketing campaigns to drive student participation across 30+ universities."
+        },
+        {
+          "tag": "li",
+          "text": "Created promotional content across social media platforms ahead of registration."
+        },
+        {
+          "tag": "li",
+          "text": "Coordinated with sponsors to amplify visibility through co-branded announcements."
+        },
+        {
+          "tag": "li",
+          "text": "Designed event stickers distributed to all 500+ attendees."
+        },
+        {
+          "tag": "li",
+          "text": "Modeled and promoted official BeaverHacks hoodies and merchandise on social media."
+        },
+        {
+          "tag": "li",
+          "text": "Drove merch sales through promotional posts and content creation."
+        },
+        {
+          "tag": "li",
+          "text": "Led and coordinated volunteers throughout the 24-hour event."
+        },
+        {
+          "tag": "li",
+          "text": "Managed check-in, logistics, and attendee guidance across multiple event spaces."
+        },
+        {
+          "tag": "li",
+          "text": "Supported team leads in real-time problem solving during the event day."
+        },
+        {
+          "tag": "p",
+          "text": "Designed the full sticker collection for BeaverHacks 2026 - including stickers distributed to all 500+ attendees, an exclusive design for volunteers, and two limited designs for team members only. Also managed the end-to-end logistics of getting them produced through the manufacturer."
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20260623k"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "a",
+          "href": "involvement.html#events",
+          "style": "display:inline-block; margin-bottom:1.5rem; font-size:0.9rem; color:rgba(248,245,227,0.55); text-decoration:none; letter-spacing:0.05em;"
+        },
+        {
+          "tag": "img",
+          "id": "stickerImg",
+          "src": "bh-stickers/sticker-1-crop.png",
+          "alt": "BeaverHacks sticker",
+          "style": "max-height: 380px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        }
+      ],
+      "embeddedScripts": [
+        "\n      function initBhCarousel(root, photos, opts) {\n        opts = opts || {};\n        var secondsPerPhoto = opts.secondsPerPhoto || 6; // continuous drift pace\n        var alt = opts.alt || 'Photo';\n        var filters = opts.filters || {};\n        var classes = opts.classes || {}; // src -> extra class name for the slide\n\n        var N = photos.length;\n        var rendered = photos.concat(photos); // two copies for a seamless continuous loop\n\n        var viewport = root.querySelector('.bh-carousel-viewport');\n        var track = root.querySelector('.bh-carousel-track');\n        var prevBtn = opts.prevBtn || root.querySelector('.bh-carousel-arrow--prev');\n        var nextBtn = opts.nextBtn || root.querySelector('.bh-carousel-arrow--next');\n\n        rendered.forEach(function(src) {\n          var slide = document.createElement('div');\n          slide.className = 'bh-carousel-slide';\n          if (classes[src]) slide.classList.add(classes[src]);\n          var inner = document.createElement('div');\n          inner.className = 'bh-carousel-slide-inner';\n          var img = document.createElement('img');\n          img.src = src;\n          img.alt = alt;\n          img.loading = 'lazy';\n          if (filters[src]) img.style.filter = filters[src];\n          inner.appendChild(img);\n          slide.appendChild(inner);\n          track.appendChild(slide);\n        });\n\n        var widths = []; // per-slide widths for one set (index 0..N-1), in px\n        var cumulative = [0]; // prefix sums of widths, length N+1\n        var singleSetWidth = 0;\n        var speed = 0; // px per ms\n        var offset = 0; // current translateX, in (-singleSetWidth, 0]\n        var hovering = false; // mouse is over the photos or arrows\n        var jumping = false; // an arrow jump is settling\n        var paused = false;\n        var lastTime = null;\n\n        function updatePaused() {\n          paused = hovering || jumping;\n        }\n\n        function measure() {\n          widths = [];\n          cumulative = [0];\n          for (var i = 0; i < N; i++) {\n            var w = track.children[i].getBoundingClientRect().width;\n            widths.push(w);\n            cumulative.push(cumulative[i] + w);\n          }\n          singleSetWidth = cumulative[N];\n          speed = singleSetWidth / (N * secondsPerPhoto * 1000);\n        }\n\n        function setTransform() {\n          track.style.transform = 'translateX(' + offset + 'px)';\n        }\n\n        // Used for jumps (arrows/settle), where we need to toggle the\n        // transition on/off without it animating the wrong change.\n        function applyTransform(withTransition) {\n          track.style.transition = withTransition ? 'transform 0.4s ease' : 'none';\n          setTransform();\n          if (!withTransition) track.getBoundingClientRect(); // force reflow\n        }\n\n        function settle() {\n          jumping = false;\n          updatePaused();\n          if (offset <= -singleSetWidth) offset += singleSetWidth;\n          if (offset > 0) offset -= singleSetWidth;\n          applyTransform(false);\n        }\n\n        // Index of the slide currently sitting at (or just past) the viewport's left edge.\n        function currentIndex() {\n          var pos = ((-offset) % singleSetWidth + singleSetWidth) % singleSetWidth;\n          for (var i = 0; i < N; i++) {\n            if (pos < cumulative[i + 1] - 0.5) return i;\n          }\n          return 0;\n        }\n\n        function nudge(direction) {\n          jumping = true;\n          updatePaused();\n          var i = currentIndex();\n          if (direction > 0) {\n            offset -= widths[i];\n          } else {\n            offset += widths[(i - 1 + N) % N];\n          }\n          applyTransform(true);\n          setTimeout(settle, 420);\n        }\n\n        function tick(now) {\n          if (lastTime === null) lastTime = now;\n          var dt = now - lastTime;\n          lastTime = now;\n          if (!paused) {\n            offset -= speed * dt;\n            if (offset <= -singleSetWidth) offset += singleSetWidth;\n            setTransform();\n          }\n          requestAnimationFrame(tick);\n        }\n\n        prevBtn.addEventListener('click', function() { nudge(-1); });\n        nextBtn.addEventListener('click', function() { nudge(1); });\n\n        // Only pause for hover over the photos or the arrow buttons.\n        [viewport, prevBtn, nextBtn].forEach(function(el) {\n          el.addEventListener('mouseenter', function() { hovering = true; updatePaused(); });\n          el.addEventListener('mouseleave', function() { hovering = false; updatePaused(); });\n        });\n\n        window.addEventListener('resize', function() {\n          var old = singleSetWidth;\n          measure();\n          if (old) offset = offset * (singleSetWidth / old);\n          applyTransform(false);\n        });\n\n        // Wait for first-set images so width: auto resolves before measuring speed.\n        var firstSetImgs = [];\n        for (var fi = 0; fi < N; fi++) {\n          var firstImg = track.children[fi].querySelector('img');\n          firstImg.loading = 'eager';\n          firstSetImgs.push(firstImg);\n        }\n        function remeasureFromLoads() {\n          measure();\n          applyTransform(false);\n        }\n        firstSetImgs.forEach(function(img) {\n          if (img.complete && img.naturalWidth > 0) remeasureFromLoads();\n          else {\n            img.addEventListener('load', remeasureFromLoads);\n            img.addEventListener('error', remeasureFromLoads);\n          }\n        });\n\n        measure();\n        applyTransform(false);\n        requestAnimationFrame(tick);\n      }\n    ",
+        "\n      (function() {\n        var photos = [\n          'bh-event/carousel/untitled (189 of 275).jpg',\n          'bh-event/carousel/untitled (19 of 275).jpg',\n          'bh-event/carousel/IMG_7646.jpg',\n          'bh-event/carousel/untitled (70 of 275).jpg',\n          'bh-event/carousel/venue.jpg',\n          'bh-event/carousel/untitled (268 of 275).jpg',\n          'bh-event/carousel/untitled (57 of 275).jpg',\n          'bh-event/carousel/untitled (181 of 275).jpg',\n          'bh-event/carousel/top.jpg',\n          'bh-event/carousel/untitled (230 of 275).jpg',\n          'bh-event/carousel/untitled (43 of 275).jpg',\n          'bh-event/carousel/IMG_7744.jpg',\n          'bh-event/carousel/untitled (102 of 275).jpg',\n          'bh-event/carousel/venue2.jpg',\n          'bh-event/carousel/untitled (196 of 275).jpg',\n          'bh-event/carousel/untitled (275 of 275).jpg',\n          'bh-event/carousel/untitled (60 of 275).jpg',\n          'bh-event/carousel/untitled (32 of 275).jpg',\n          'bh-event/carousel/untitled (249 of 275).jpg',\n          'bh-event/carousel/untitled (187 of 275).jpg',\n          'bh-event/carousel/untitled (52 of 275).jpg',\n          'bh-event/carousel/DSCF6276.jpg',\n          'bh-event/carousel/untitled (89 of 275).jpg',\n          'bh-event/carousel/untitled (217 of 275).jpg',\n          'bh-event/carousel/untitled (11 of 275).jpg',\n          'bh-event/carousel/untitled (158 of 275).jpg',\n          'bh-event/carousel/untitled (248 of 275).jpg',\n          'bh-event/carousel/untitled (59 of 275).jpg'\n        ];\n\n        initBhCarousel(document.getElementById('bhCarousel'), photos, {\n          alt: 'BeaverHacks 2026 event photo',\n          prevBtn: document.getElementById('bhPrev'),\n          nextBtn: document.getElementById('bhNext')\n        });\n      })();\n    ",
+        "\n          (function() {\n            var stickers = [\n              { src: 'bh-stickers/sticker-1-crop.png',  rot: '-3deg' },\n              { src: 'bh-stickers/sticker-9-crop.png',  rot:  '2deg' },\n              { src: 'bh-stickers/sticker-10-crop.png', rot: '-2deg' },\n              { src: 'bh-stickers/sticker-11-crop.png', rot:  '3deg' },\n              { src: 'bh-stickers/sticker-12-crop.png', rot: '-1deg' },\n              { src: 'bh-stickers/sticker-13-crop.png', rot:  '2deg' },\n            ];\n            var idx = 0;\n            var img = document.getElementById('stickerImg');\n            var cur = document.getElementById('stickerCurrent');\n            window.stickerCarousel = function(dir) {\n              idx = (idx + dir + stickers.length) % stickers.length;\n              img.style.opacity = '0';\n              img.style.transform = 'rotate(0deg) scale(0.92)';\n              setTimeout(function() {\n                img.src = stickers[idx].src;\n                img.alt = 'BeaverHacks sticker ' + (idx + 1);\n                img.style.transform = 'rotate(' + stickers[idx].rot + ') scale(1)';\n                img.style.opacity = '1';\n                cur.textContent = idx + 1;\n              }, 180);\n            };\n            img.style.transform = 'rotate(' + stickers[0].rot + ') scale(1)';\n          })();\n        ",
+        "\n        (function() {\n          var photos = [\n            'bh-merch/1.jpg',\n            'bh-merch/3.jpg',\n            'bh-merch/4.jpg',\n            'bh-merch/9.jpg',\n            'bh-merch/5.jpg',\n            'bh-merch/6.jpg',\n            'bh-merch/10.JPG',\n            'bh-merch/bh3.jpg',\n            'bh-merch/8.jpg',\n            'bh-merch/11.JPG',\n            'bh-merch/12.JPG',\n            'bh-merch/13.JPG'\n          ];\n          initBhCarousel(document.getElementById('bhMerchCarousel'), photos, {\n            alt: 'BeaverHacks 2026 merch photo',\n            prevBtn: document.getElementById('bhMerchPrev'),\n            nextBtn: document.getElementById('bhMerchNext'),\n            filters: { 'bh-merch/13.JPG': 'contrast(1.15) saturate(1.25) brightness(1.35)' },\n            classes: {\n              'bh-merch/9.jpg': 'bh-carousel-slide--landscape',\n              'bh-merch/10.JPG': 'bh-carousel-slide--landscape',\n              'bh-merch/11.JPG': 'bh-carousel-slide--landscape'\n            }\n          });\n        })();\n      "
+      ]
+    },
+    {
+      "path": "innovation-jam-2026.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "innovation-jam-2026.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "InnovationJam 2026"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "About the Event"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Event Photos"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Event Coordination"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Branding & Merch"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Pitch Sessions"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Design Showcase"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "The Willamette Valley's flagship student innovation and entrepreneurship event - a full day of pitches, workshops, and collaboration at Oregon State University."
+        },
+        {
+          "tag": "p",
+          "text": "Innovation Jam brings together student founders, builders, and the broader Willamette Valley startup community for a full day of pitches, hands-on workshops, and networking. Teams compete for $1,500 in cash prizes and a shot at advancing to the statewide inventOR competition, where $30,000 in grants and awards are on the line. Mentors and judges are recruited from venture capital, business, and academia to guide teams through the process."
+        },
+        {
+          "tag": "p",
+          "text": "For Innovation Jam 2026, inventOR handed full ownership of the event to Startup Hub at OSU - the entrepreneurship club I co-founded - making it the first time a student organization has taken complete control of one of the Willamette Valley's flagship innovation events. inventOR provided the budget; we handled everything else."
+        },
+        {
+          "tag": "p",
+          "text": "As part of Startup Hub's core team, I led operations and design for the event - from early planning and budget allocation through running logistics on the day. Beyond keeping the event on track, I was responsible for all merchandise and branded materials that every attendee, volunteer, judge, and mentor walked away with."
+        },
+        {
+          "tag": "li",
+          "text": "Managed day-of logistics, including registration, check-in, attendee guidance, and swag distribution."
+        },
+        {
+          "tag": "li",
+          "text": "Oversaw budget allocation across food, supplies, merchandise, and event materials."
+        },
+        {
+          "tag": "li",
+          "text": "Designed the full suite of Innovation Jam '26 branded materials - stickers, tote bags, notebooks, award plaques, judge and mentor gift boxes, and name cards for all attendees, volunteers, and speakers."
+        },
+        {
+          "tag": "li",
+          "text": "Screen-printed the tote bags by hand, and self laser engraved the award plaques for winning teams."
+        },
+        {
+          "tag": "li",
+          "text": "Managed end-to-end production logistics for all merchandise."
+        },
+        {
+          "tag": "li",
+          "text": "Supported student pitch sessions where teams presented ventures to judges and peers."
+        },
+        {
+          "tag": "li",
+          "text": "Managed presentation logistics, including AV setup and keeping sessions on schedule."
+        },
+        {
+          "tag": "li",
+          "text": "Represented Startup Hub throughout the day, connecting with founders, judges, and fellow organizers."
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20260623k"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "a",
+          "href": "involvement.html#events",
+          "style": "display:inline-block; margin-bottom:1.5rem; font-size:0.9rem; color:rgba(248,241,232,0.55); text-decoration:none; letter-spacing:0.05em;"
+        },
+        {
+          "tag": "img",
+          "id": "ijStickerImg",
+          "src": "ij-stickers/lightbulb-crop.png",
+          "alt": "Innovation Jam sticker design 1",
+          "style": "max-height: 330px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;"
+        },
+        {
+          "tag": "img",
+          "id": "ijNametagImg",
+          "src": "ij-stickers/nametag-staff.png",
+          "alt": "Innovation Jam name tag design 1",
+          "style": "max-height: 265px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;"
+        },
+        {
+          "tag": "img",
+          "id": "ijPlaqueImg",
+          "src": "ij-stickers/plaque-1st.png",
+          "alt": "Innovation Jam plaque design 1",
+          "style": "max-height: 310px; max-width: 100%; width: auto; height: auto; display: block; transition: opacity 0.2s, transform 0.2s;"
+        },
+        {
+          "tag": "img",
+          "src": "ij-tote.png",
+          "alt": "Innovation Jam tote bag design",
+          "style": "width: 100%; height: 460px; object-fit: contain; transform: scale(1.3); display: block;"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        }
+      ],
+      "embeddedScripts": [
+        "\n      (function() {\n        function initIjCarousel(root, photos, opts) {\n          opts = opts || {};\n          var secondsPerPhoto = opts.secondsPerPhoto || 6;\n          var alt = opts.alt || 'Photo';\n          var transforms = opts.transforms || {};\n          var N = photos.length;\n          var rendered = photos.concat(photos);\n          var viewport = root.querySelector('.ij-carousel-viewport');\n          var track = root.querySelector('.ij-carousel-track');\n          var prevBtn = opts.prevBtn || root.querySelector('.ij-carousel-arrow--prev');\n          var nextBtn = opts.nextBtn || root.querySelector('.ij-carousel-arrow--next');\n          rendered.forEach(function(src) {\n            var slide = document.createElement('div');\n            slide.className = 'ij-carousel-slide';\n            var inner = document.createElement('div');\n            inner.className = 'ij-carousel-slide-inner';\n            var img = document.createElement('img');\n            img.src = src; img.alt = alt; img.loading = 'lazy';\n            if (transforms[src]) img.style.transform = transforms[src];\n            inner.appendChild(img);\n            slide.appendChild(inner);\n            track.appendChild(slide);\n          });\n          var widths = [], cumulative = [0], singleSetWidth = 0, speed = 0;\n          var offset = 0, hovering = false, jumping = false, paused = false, lastTime = null;\n          function updatePaused() { paused = hovering || jumping; }\n          function measure() {\n            widths = []; cumulative = [0];\n            for (var i = 0; i < N; i++) {\n              var w = track.children[i].getBoundingClientRect().width;\n              widths.push(w); cumulative.push(cumulative[i] + w);\n            }\n            singleSetWidth = cumulative[N];\n            speed = singleSetWidth / (N * secondsPerPhoto * 1000);\n          }\n          function setTransform() { track.style.transform = 'translateX(' + offset + 'px)'; }\n          function applyTransform(t) {\n            track.style.transition = t ? 'transform 0.4s ease' : 'none';\n            setTransform();\n            if (!t) track.getBoundingClientRect();\n          }\n          function settle() {\n            jumping = false; updatePaused();\n            if (offset <= -singleSetWidth) offset += singleSetWidth;\n            if (offset > 0) offset -= singleSetWidth;\n            applyTransform(false);\n          }\n          function currentIndex() {\n            var pos = ((-offset) % singleSetWidth + singleSetWidth) % singleSetWidth;\n            for (var i = 0; i < N; i++) { if (pos < cumulative[i+1] - 0.5) return i; }\n            return 0;\n          }\n          function nudge(dir) {\n            jumping = true; updatePaused();\n            var i = currentIndex();\n            if (dir > 0) { offset -= widths[i]; } else { offset += widths[(i-1+N)%N]; }\n            applyTransform(true);\n            setTimeout(settle, 420);\n          }\n          function tick(now) {\n            if (lastTime === null) lastTime = now;\n            var dt = now - lastTime; lastTime = now;\n            if (!paused) {\n              offset -= speed * dt;\n              if (offset <= -singleSetWidth) offset += singleSetWidth;\n              setTransform();\n            }\n            requestAnimationFrame(tick);\n          }\n          prevBtn.addEventListener('click', function() { nudge(-1); });\n          nextBtn.addEventListener('click', function() { nudge(1); });\n          [viewport, prevBtn, nextBtn].forEach(function(el) {\n            el.addEventListener('mouseenter', function() { hovering = true; updatePaused(); });\n            el.addEventListener('mouseleave', function() { hovering = false; updatePaused(); });\n          });\n          window.addEventListener('resize', function() {\n            var old = singleSetWidth; measure();\n            if (old) offset = offset * (singleSetWidth / old);\n            applyTransform(false);\n          });\n          // Wait for images to load so width: auto resolves before measuring\n          var imgs = track.querySelectorAll('img');\n          var loaded = 0;\n          function onImgLoad() {\n            loaded++;\n            if (loaded === imgs.length) { measure(); applyTransform(false); }\n          }\n          imgs.forEach(function(img) {\n            if (img.complete) { onImgLoad(); } else { img.addEventListener('load', onImgLoad); }\n          });\n          measure(); applyTransform(false); requestAnimationFrame(tick);\n        }\n\n        var photos = [\n          'innovation-26/IMG_2967.jpg',\n          'innovation-26/IMG_2520.JPG',\n          'innovation-26/IMG_2521.JPG',\n          'innovation-26/IMG_2522.JPG',\n          'innovation-26/IMG_2523.JPG',\n          'innovation-26/IMG_2955.JPG',\n          'innovation-26/IMG_2965.JPG',\n          'innovation-26/IMG_0247.jpg',\n          'innovation-26/IMG_8228.JPG'\n        ];\n\n        initIjCarousel(document.getElementById('ijCarousel'), photos, {\n          alt: 'Innovation Jam 2026 event photo',\n          prevBtn: document.getElementById('ijPrev'),\n          nextBtn: document.getElementById('ijNext'),\n          transforms: {\n            'innovation-26/IMG_2955.JPG': 'scale(1.18)',\n            'innovation-26/IMG_2965.JPG': 'scale(1.18)'\n          }\n        });\n      })();\n    ",
+        "\n          (function() {\n            var groups = {\n              sticker: { name: 'Sticker', designs: [\n                { src: 'ij-stickers/lightbulb-crop.png', rot:  '2deg', maxH: '330px', shift: '0px' },\n                { src: 'ij-stickers/airplane-crop.png',  rot: '-3deg', maxH: '330px', shift: '-25px' },\n                { src: 'ij-stickers/rocket-crop.png',    rot: '-2deg', maxH: '330px', shift: '0px' },\n                { src: 'ij-stickers/star-crop.png',      rot:  '3deg', maxH: '330px', shift: '0px' }\n              ], idx: 0 },\n              nametag: { name: 'Nametag', designs: [\n                { src: 'ij-stickers/nametag-staff.png',    rot: '-1deg', maxH: '265px', shift: '0px' },\n                { src: 'ij-stickers/nametag-mentor.png',   rot:  '1deg', maxH: '265px', shift: '0px' },\n                { src: 'ij-stickers/nametag-attendee.png', rot: '-1deg', maxH: '265px', shift: '0px' },\n                { src: 'ij-stickers/nametag-judge.png',    rot:  '1deg', maxH: '265px', shift: '0px' }\n              ], idx: 0 },\n              plaque: { name: 'Plaque', designs: [\n                { src: 'ij-stickers/plaque-1st.png', rot:  '2deg', maxH: '310px', shift: '0px' },\n                { src: 'ij-stickers/plaque-2nd.png', rot: '-2deg', maxH: '310px', shift: '0px' },\n                { src: 'ij-stickers/plaque-3rd.png', rot:  '2deg', maxH: '310px', shift: '0px' }\n              ], idx: 0 }\n            };\n            function refs(key) {\n              var name = groups[key].name;\n              return {\n                img: document.getElementById('ij' + name + 'Img'),\n                cur: document.getElementById('ij' + name + 'Current')\n              };\n            }\n            window.ijCarousel = function(key, dir) {\n              var group = groups[key];\n              var r = refs(key);\n              group.idx = (group.idx + dir + group.designs.length) % group.designs.length;\n              r.img.style.opacity = '0';\n              r.img.style.transform = 'translateX(0px) rotate(0deg) scale(0.92)';\n              setTimeout(function() {\n                var d = group.designs[group.idx];\n                r.img.src = d.src;\n                r.img.alt = 'Innovation Jam ' + key + ' design ' + (group.idx + 1);\n                r.img.style.maxHeight = d.maxH;\n                r.img.style.transform = 'translateX(' + d.shift + ') rotate(' + d.rot + ') scale(1)';\n                r.img.style.opacity = '1';\n                r.cur.textContent = group.idx + 1;\n              }, 180);\n            };\n            Object.keys(groups).forEach(function(key) {\n              var d = groups[key].designs[0];\n              var r = refs(key);\n              r.img.src = d.src;\n              r.img.alt = 'Innovation Jam ' + key + ' design 1';\n              r.img.style.maxHeight = d.maxH;\n              r.img.style.transform = 'translateX(' + d.shift + ') rotate(' + d.rot + ') scale(1)';\n            });\n          })();\n        "
+      ]
+    },
+    {
+      "path": "eweek.html",
+      "source": {
+        "repository": "allyytc/allyytc.github.io",
+        "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
+        "path": "eweek.html"
+      },
+      "headings": [
+        {
+          "id": null,
+          "level": "h1",
+          "text": "Engineers' Week2026"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "About the Event"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Event Photos"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "My Role"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Brand Identity"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Outreach & Promotion"
+        },
+        {
+          "id": null,
+          "level": "h3",
+          "text": "Sticker Design & Production"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Sticker Designs"
+        },
+        {
+          "id": null,
+          "level": "h2",
+          "text": "Let'sConnect"
+        }
+      ],
+      "textBlocks": [
+        {
+          "tag": "p",
+          "text": "National Engineers Week is an annual celebration honoring the contributions of engineers and inspiring the next generation. At Oregon State University, the College of Engineering runs a full week of events connecting students to industry, alumni, and hands-on experiences."
+        },
+        {
+          "tag": "p",
+          "text": "Engineers' Week is the College of Engineering's flagship annual celebration of National Engineers Week at Oregon State University. Over the course of a full week, the College hosts a lineup of workshops, panels, competitions, and community events designed to bring engineering students together and connect them with the broader engineering world."
+        },
+        {
+          "tag": "p",
+          "text": "As Vice President of Outreach for the COE Student Council, I took on full ownership of Engineers' Week marketing and design - from building a cohesive branding kit from scratch to coordinating with the events team to shape the week's programming."
+        },
+        {
+          "tag": "p",
+          "text": "As Vice President of Outreach, I led all marketing and design for Engineers' Week - building the brand identity from the ground up, driving event promotion, and handling sticker design and production end-to-end."
+        },
+        {
+          "tag": "li",
+          "text": "Created a dedicated Engineers' Week branding kit with cohesive visuals across all event materials."
+        },
+        {
+          "tag": "li",
+          "text": "Designed event graphics including flyers and social media posts for each event in the week."
+        },
+        {
+          "tag": "li",
+          "text": "Maintained consistent visual identity across physical and digital touchpoints."
+        },
+        {
+          "tag": "li",
+          "text": "Led social media campaigns to drive student attendance across all Engineers' Week events."
+        },
+        {
+          "tag": "li",
+          "text": "Coordinated with the events team to curate and finalize the week's programming."
+        },
+        {
+          "tag": "li",
+          "text": "Managed post scheduling and promotional announcements across platforms."
+        },
+        {
+          "tag": "li",
+          "text": "Designed Engineers' Week stickers distributed to engineering students throughout the week."
+        },
+        {
+          "tag": "li",
+          "text": "Managed end-to-end production logistics from design finalization to delivery."
+        },
+        {
+          "tag": "p",
+          "text": "Designed the full suite of promotional materials for Engineers' Week 2026 - including stickers distributed to students, event flyers, and a set of social media graphics that carried a consistent visual identity throughout the week."
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Ally Chen"
+        }
+      ],
+      "references": [
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.googleapis.com"
+        },
+        {
+          "tag": "link",
+          "rel": "preconnect",
+          "href": "https://fonts.gstatic.com",
+          "crossorigin": null
+        },
+        {
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap",
+          "rel": "stylesheet"
+        },
+        {
+          "tag": "link",
+          "rel": "stylesheet",
+          "href": "style.css?v=20260624k"
+        },
+        {
+          "tag": "script",
+          "src": "nav.js?v=9"
+        },
+        {
+          "tag": "a",
+          "href": "involvement.html#events",
+          "style": "display:inline-block; margin-bottom:1.5rem; font-size:0.9rem; color:rgba(255,255,255,0.58); text-decoration:none; letter-spacing:0.05em;"
+        },
+        {
+          "tag": "img",
+          "id": "ewDesignImg",
+          "src": "eweek-stickers/E-week_Gear_Beaver.png",
+          "alt": "Engineers' Week sticker design",
+          "style": "width: 100%; height: 100%; object-fit: contain; display: block; transition: opacity 0.2s;"
+        },
+        {
+          "tag": "a",
+          "href": "allychen-resume2028-pm.pdf",
+          "class": "contact-link",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "tag": "a",
+          "href": "mailto:allyten08@gmail.com",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://linkedin.com/in/allyychen/",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "https://github.com/allyytc",
+          "target": "_blank",
+          "rel": "noopener",
+          "class": "contact-link"
+        },
+        {
+          "tag": "a",
+          "href": "tel:5038660073",
+          "class": "contact-link"
+        },
+        {
+          "tag": "script",
+          "src": "script.js"
+        }
+      ],
+      "embeddedScripts": [
+        "\n      (function() {\n        function initEwCarousel(root, photos, opts) {\n          opts = opts || {};\n          var secondsPerPhoto = opts.secondsPerPhoto || 6;\n          var alt = opts.alt || 'Photo';\n          var N = photos.length;\n          var rendered = photos.concat(photos);\n          var viewport = root.querySelector('.ew-carousel-viewport');\n          var track = root.querySelector('.ew-carousel-track');\n          var prevBtn = opts.prevBtn || root.querySelector('.ew-carousel-arrow--prev');\n          var nextBtn = opts.nextBtn || root.querySelector('.ew-carousel-arrow--next');\n          rendered.forEach(function(src) {\n            var slide = document.createElement('div');\n            slide.className = 'ew-carousel-slide';\n            var inner = document.createElement('div');\n            inner.className = 'ew-carousel-slide-inner';\n            var img = document.createElement('img');\n            img.src = src; img.alt = alt; img.loading = 'lazy';\n            inner.appendChild(img);\n            slide.appendChild(inner);\n            track.appendChild(slide);\n          });\n          var widths = [], cumulative = [0], singleSetWidth = 0, speed = 0;\n          var offset = 0, hovering = false, jumping = false, paused = false, lastTime = null;\n          function updatePaused() { paused = hovering || jumping; }\n          function measure() {\n            widths = []; cumulative = [0];\n            for (var i = 0; i < N; i++) {\n              var w = track.children[i].getBoundingClientRect().width;\n              widths.push(w); cumulative.push(cumulative[i] + w);\n            }\n            singleSetWidth = cumulative[N];\n            speed = singleSetWidth / (N * secondsPerPhoto * 1000);\n          }\n          function setTransform() { track.style.transform = 'translateX(' + offset + 'px)'; }\n          function applyTransform(t) {\n            track.style.transition = t ? 'transform 0.4s ease' : 'none';\n            setTransform();\n            if (!t) track.getBoundingClientRect();\n          }\n          function settle() {\n            jumping = false; updatePaused();\n            if (offset <= -singleSetWidth) offset += singleSetWidth;\n            if (offset > 0) offset -= singleSetWidth;\n            applyTransform(false);\n          }\n          function currentIndex() {\n            var pos = ((-offset) % singleSetWidth + singleSetWidth) % singleSetWidth;\n            for (var i = 0; i < N; i++) { if (pos < cumulative[i+1] - 0.5) return i; }\n            return 0;\n          }\n          function nudge(dir) {\n            jumping = true; updatePaused();\n            var i = currentIndex();\n            if (dir > 0) { offset -= widths[i]; } else { offset += widths[(i-1+N)%N]; }\n            applyTransform(true);\n            setTimeout(settle, 420);\n          }\n          function tick(now) {\n            if (lastTime === null) lastTime = now;\n            var dt = now - lastTime; lastTime = now;\n            if (!paused) {\n              offset -= speed * dt;\n              if (offset <= -singleSetWidth) offset += singleSetWidth;\n              setTransform();\n            }\n            requestAnimationFrame(tick);\n          }\n          prevBtn.addEventListener('click', function() { nudge(-1); });\n          nextBtn.addEventListener('click', function() { nudge(1); });\n          [viewport, prevBtn, nextBtn].forEach(function(el) {\n            el.addEventListener('mouseenter', function() { hovering = true; updatePaused(); });\n            el.addEventListener('mouseleave', function() { hovering = false; updatePaused(); });\n          });\n          window.addEventListener('resize', function() {\n            var old = singleSetWidth; measure();\n            if (old) offset = offset * (singleSetWidth / old);\n            applyTransform(false);\n          });\n          var imgs = track.querySelectorAll('img');\n          var loaded = 0;\n          function onImgLoad() {\n            loaded++;\n            if (loaded === imgs.length) { measure(); applyTransform(false); }\n          }\n          imgs.forEach(function(img) {\n            if (img.complete) { onImgLoad(); } else { img.addEventListener('load', onImgLoad); }\n          });\n          measure(); applyTransform(false); requestAnimationFrame(tick);\n        }\n\n        var photos = [\n          'eweek/IMG_8733.jpg',\n          'eweek/IMG_8413.jpg',\n          'eweek/IMG_8479.jpg',\n          'eweek/IMG_8408.jpg',\n          'eweek/IMG_8526.jpg',\n          'eweek/IMG_8728.jpg',\n          'eweek/IMG_8414.jpg',\n          'eweek/IMG_8491.jpg',\n          'eweek/IMG_8406.jpg',\n          'eweek/IMG_8432.jpg',\n          'eweek/IMG_8412.jpg',\n          'eweek/IMG_8486.jpg'\n        ];\n\n        initEwCarousel(document.getElementById('ewCarousel'), photos, {\n          alt: 'Engineers\\' Week 2026 event photo',\n          prevBtn: document.getElementById('ewPrev'),\n          nextBtn: document.getElementById('ewNext')\n        });\n      })();\n    ",
+        "\n          (function() {\n            var designs = [\n              { src: 'eweek-stickers/E-week_Gear_Beaver.png',     label: 'Gear Beaver Sticker' },\n              { src: 'eweek-stickers/E-week_OSU.png',             label: 'OSU Sticker' },\n              { src: 'eweek-stickers/E-week_Post_Stamp.png',      label: 'Post Stamp Sticker' },\n              { src: 'eweek-stickers/E-week_Sleeping_Beaver.png', label: 'Sleeping Beaver Sticker' },\n              { src: 'eweek-stickers/E-week_Wrench.png',          label: 'Wrench Sticker' }\n            ];\n            var idx = 0;\n            var img = document.getElementById('ewDesignImg');\n            var cur = document.getElementById('ewDesignCurrent');\n            window.ewDesignCarousel = function(dir) {\n              idx = (idx + dir + designs.length) % designs.length;\n              img.style.opacity = '0';\n              setTimeout(function() {\n                img.src = designs[idx].src;\n                img.alt = 'Engineers\\' Week ' + designs[idx].label;\n                img.style.opacity = '1';\n                cur.textContent = idx + 1;\n              }, 180);\n            };\n          })();\n        "
+      ]
+    }
+  ],
+  "projectGalleries": {
+    "impact-studio-homepage": [
+      {
+        "type": "image",
+        "src": "impact-wireframe/mock%203.png",
+        "caption": "Homepage redesign - hero, approach, and lifecycle process"
+      }
+    ],
+    "impact-studio-about": [
+      {
+        "type": "image",
+        "src": "impact-wireframe/mock%201.png",
+        "caption": "About Us page - mission and team directory"
+      }
+    ],
+    "cddc-home": [
+      {
+        "type": "image",
+        "src": "cddc-wireframes/home.png",
+        "caption": "Homepage wireframe"
+      }
+    ],
+    "cddc-get-help": [
+      {
+        "type": "image",
+        "src": "cddc-wireframes/get-help.png",
+        "caption": "Get Help page wireframe"
+      }
+    ],
+    "cddc-contact": [
+      {
+        "type": "image",
+        "src": "cddc-wireframes/contact.png",
+        "caption": "Contact Us page wireframe"
+      }
+    ],
+    "cddc-about": [
+      {
+        "type": "image",
+        "src": "cddc-wireframes/about.png",
+        "caption": "About Us page wireframe"
+      }
+    ],
+    "cddc-donate": [
+      {
+        "type": "image",
+        "src": "cddc-wireframes/donate.png",
+        "caption": "Donate page wireframe"
+      }
+    ],
+    "impact-studio-live": [
+      {
+        "type": "image",
+        "src": "impact-live/home-desktop.webp",
+        "caption": "Full-page screenshot of the live Impact Studio homepage on a desktop browser"
+      },
+      {
+        "type": "image",
+        "src": "impact-live/about-desktop.webp",
+        "caption": "Full-page screenshot of the live Impact Studio About page on a desktop browser"
+      },
+      {
+        "type": "image",
+        "src": "impact-live/portfolio-desktop.webp",
+        "caption": "Full-page screenshot of the live Impact Studio portfolio page on a desktop browser"
+      },
+      {
+        "type": "image",
+        "src": "impact-live/home-mobile.webp",
+        "caption": "Full-page screenshot of the live Impact Studio homepage at a mobile width"
+      }
+    ],
+    "er-overwatch-demo": [
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/7biBbQWCngY",
+        "caption": "ER Overwatch demo - QuackHacks 2026"
+      }
+    ],
+    "er-overwatch-interface": [
+      {
+        "type": "image",
+        "src": "ero-gal/image-02.webp",
+        "caption": "System workflow diagram"
+      },
+      {
+        "type": "image",
+        "src": "ero-gal/nursedash.webp",
+        "caption": "Nurse dashboard - live patient queue and alerts"
+      },
+      {
+        "type": "image",
+        "src": "ero-gal/fall-alert.webp",
+        "caption": "Fall detection alert - critical emergency modal"
+      },
+      {
+        "type": "image",
+        "src": "ero-gal/patient.webp",
+        "caption": "Patient wait portal - queue position and ER status"
+      },
+      {
+        "type": "image",
+        "src": "ero-gal/qr.webp",
+        "caption": "Patient check-in flow"
+      }
+    ],
+    "er-overwatch-gallery": [
+      {
+        "type": "image",
+        "src": "ero-gal/awards/IMG_2647.WEBP",
+        "caption": "Team on stage at QuackHacks 3"
+      },
+      {
+        "type": "image",
+        "src": "ero-gal/awards/IMG_2654.WEBP",
+        "caption": "QuackHacks 3 - judging"
+      }
+    ],
+    "combocraft-demo": [
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/xNuD9hViZFQ",
+        "caption": "ComboCraft demo - QuackHacks 2025"
+      }
+    ],
+    "combocraft-interface": [
+      {
+        "type": "image",
+        "src": "combo-game/gallery%20(6).jpg",
+        "caption": "Main menu - Enter the Inferno"
+      },
+      {
+        "type": "image",
+        "src": "combo-game/gallery%20(5).jpg",
+        "caption": "How to Play - gesture tutorial and battle tips"
+      },
+      {
+        "type": "image",
+        "src": "combo-game/gallery%20(1).jpg",
+        "caption": "Boss fight - MediaPipe hand tracking and spell casting"
+      },
+      {
+        "type": "image",
+        "src": "combo-game/gallery%20(4).jpg",
+        "caption": "Defeat Bosses - enemy selection screen"
+      },
+      {
+        "type": "image",
+        "src": "combo-game/gallery.jpg",
+        "caption": "Victory screen - combo stats and final boss HP"
+      }
+    ],
+    "korbit-demo": [
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/Ta64tj6uJc4",
+        "caption": "KO.rbit demo - DubHacks 2026"
+      }
+    ],
+    "korbit-interface": [
+      {
+        "type": "image",
+        "src": "korbit-gal/title.webp",
+        "caption": "KO.rbit title screen on a starfield, with the prompt to begin a run"
+      },
+      {
+        "type": "image",
+        "src": "korbit-gal/cockpit.webp",
+        "caption": "KO.rbit 3D cockpit lobby, with a pilot at the console and a radar of nearby ships"
+      },
+      {
+        "type": "image",
+        "src": "korbit-gal/duel.webp",
+        "caption": "KO.rbit saber duel in a rocky arena, with health and stamina on the battle HUD"
+      },
+      {
+        "type": "image",
+        "src": "korbit-gal/mars-arena.webp",
+        "caption": "KO.rbit Mars arena at Jezero Crater, with a landed ship and two pilots on the terrain"
+      },
+      {
+        "type": "image",
+        "src": "korbit-gal/solar-view.webp",
+        "caption": "KO.rbit solar view of a banded planet, with the navigation menu open"
+      }
+    ],
+    "lantern-demo": [
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/UiwDwaL6978",
+        "caption": "Lantern demo - HackMIT 2026"
+      }
+    ],
+    "combocraft-gallery": [
+      {
+        "type": "image",
+        "src": "combocraft-event/DSC01945.JPG",
+        "caption": "1st Place Overall - QuackHacks 2025"
+      },
+      {
+        "type": "video",
+        "src": "combocraft-event/MAH01763.MP4",
+        "caption": "ComboCraft at QuackHacks 2025 - event footage"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/DSC01841.JPG",
+        "caption": "Final judging stage - presentation and live demo"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/DSC01844.JPG",
+        "caption": "Final judging stage - presentation and live demo"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/DSC01845.JPG",
+        "caption": "Final judging stage - presentation and live demo"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/DSC01846.JPG",
+        "caption": "Final judging stage - presentation and live demo"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/IMG_2987.JPG",
+        "caption": "Judging stage - Pipeworks judges"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/IMG_2988.JPG",
+        "caption": "Judging stage - Pipeworks judges"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/IMG_2986.JPG",
+        "caption": "Judging stage - Pipeworks judges"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/IMG_2989.JPG",
+        "caption": "Project fair - staff stopped by to play"
+      },
+      {
+        "type": "image",
+        "src": "combocraft-event/IMG_2990.JPG",
+        "caption": "Project fair - staff stopped by to play"
+      }
+    ],
+    "afterlife-metro": [
+      {
+        "type": "image",
+        "src": "afterlife-metro/split-screen.webp",
+        "caption": "Split-screen in the Afterlife Metro browser game (Godot 4.5 web build). The Human\\u2019s view is on the left and the Ghost\\u2019s view is on the right. The Ghost sees puzzle objects the Human can\\u2019t. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/puzzle-room.webp",
+        "caption": "Exploring a puzzle room in Afterlife Metro, a Godot 4.5 browser game. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/home.webp",
+        "caption": "Afterlife Metro home screen in the Godot 4.5 web build. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/intro-memory.webp",
+        "caption": "Intro in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above a memory-fragment passage about Hugh slipping or being pushed, then waking on an empty bench. The pixel-art scene shows a bench and a ghost figure. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/story-dialogue.webp",
+        "caption": "Story dialogue in the Afterlife Metro browser game (Godot 4.5 web build). A timer and Pause control sit above text of Violet speaking to Hugh in a dark tunnel. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/instructions.webp",
+        "caption": "Afterlife Metro instructions page, at the overview. It describes a 2D pixel-art co-op adventure where you play as a human or a ghost. Ghost moves with the arrow keys, and Player moves with WASD. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/instructions-scrolled.webp",
+        "caption": "Afterlife Metro instructions page, scrolled to the gameplay tips and Starting the Game. The tips mention the timer and the leaderboard, and the page says to click Start Game on the homepage. A Back to Home button is at the bottom. Game art by Nour Alzahraa Alqattan."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/leaderboard.webp",
+        "caption": "Afterlife Metro leaderboard from the Express server. The listed names are test entries: testing, hello world, and losing."
+      },
+      {
+        "type": "image",
+        "src": "afterlife-metro/pause-menu.webp",
+        "caption": "Pause menu in the Afterlife Metro browser game (Godot 4.5 web build), over a pixel-art scene. The menu is titled Paused and has Resume and Quit buttons. Game art by Nour Alzahraa Alqattan."
+      }
+    ]
+  },
+  "completeSnapshots": "docs/portfolio/reference/*.txt",
+  "originalMediaCount": 244
+}

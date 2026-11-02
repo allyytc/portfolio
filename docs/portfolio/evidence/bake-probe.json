@@ -1,0 +1,12 @@
+{
+  "seconds": 2.19,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "sourceObject": "OakDesk_desk",
+  "pass": "Diffuse color + direct + indirect",
+  "movingPaperIncluded": false,
+  "integratedIntoWebExport": false,
+  "reason": "Investigation only: preserves independent paper; final prototype retains coherent PBR materials with soft runtime shadows."
+}

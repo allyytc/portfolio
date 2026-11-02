@@ -1,0 +1,49 @@
+{
+  "url": "https://www.youtube.com/embed/Ta64tj6uJc4",
+  "iframe": {
+    "x": 370,
+    "y": 328.875,
+    "width": 700,
+    "height": 393.75
+  },
+  "buttons": [
+    {
+      "label": null,
+      "title": "",
+      "class": "ytp-unmute ytp-popup ytp-button ytp-unmute-animated ytp-unmute-shrink"
+    },
+    {
+      "label": "Play video",
+      "title": "Play video",
+      "class": "ytmCuedOverlayPlayButton"
+    },
+    {
+      "label": "Hide player controls",
+      "title": "",
+      "class": "ytmA11yStylesHiddenButton"
+    },
+    {
+      "label": null,
+      "title": "",
+      "class": "ytmVideoInfoLink ytmVideoInfoChannelAvatar"
+    },
+    {
+      "label": "Close",
+      "title": "",
+      "class": "ytSpecButtonShapeNextHost ytSpecButtonShapeNextText ytSpecButtonShapeNextOverlay ytSpecButtonShapeNextSizeM ytSpecButtonShapeNextIconOnlyDefault"
+    },
+    {
+      "label": "Share",
+      "title": "",
+      "class": "ytSpecButtonShapeNextHost ytSpecButtonShapeNextText ytSpecButtonShapeNextOverlay ytSpecButtonShapeNextSizeM ytSpecButtonShapeNextIconOnlyDefault"
+    }
+  ],
+  "body": "Dubhacks 2026\nAlex Nguyen\nAlex Nguyen\n1 subscriber\nWatch on",
+  "video": {
+    "currentTime": 1.624126,
+    "paused": false,
+    "readyState": 4
+  },
+  "playbackConfirmed": true,
+  "method": "Unmocked embedded YouTube player, real mouse click in visible player; currentTime advanced"
+}

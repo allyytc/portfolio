@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://github.com/dubhack26/KO.rbit",
+    "httpStatus": 200,
+    "finalURL": "https://github.com/dubhack26/KO.rbit",
+    "verification": "resolved",
+    "title": "GitHub - dubhack26/KO.rbit: Winner of the SpaceXAI track at DubHacks 2026 \u00b7 GitHub",
+    "note": "HTTP reachability only; no login, semantic award validation or playback guarantee."
+  },
+  {
+    "url": "https://devpost.com/software/space-battles-aei3wz",
+    "httpStatus": 403,
+    "verification": "blocked",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ta64tj6uJc4",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/watch?v=Ta64tj6uJc4",
+    "verification": "resolved",
+    "title": null,
+    "note": "HTTP reachability only; no login, semantic award validation or playback guarantee."
+  },
+  {
+    "url": "https://www.youtube.com/embed/Ta64tj6uJc4",
+    "httpStatus": 200,
+    "finalURL": "https://www.youtube.com/embed/Ta64tj6uJc4",
+    "verification": "resolved",
+    "title": null,
+    "note": "HTTP reachability only; no login, semantic award validation or playback guarantee."
+  }
+]

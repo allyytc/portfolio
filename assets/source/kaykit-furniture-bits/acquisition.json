@@ -1,0 +1,86 @@
+[
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+    "file": "assets/source/kaykit-furniture-bits/LICENSE.txt",
+    "bytes": 827,
+    "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/bed_double_B.gltf",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/bed_double_B.gltf",
+    "bytes": 3011,
+    "sha256": "f74f5d6d126f4821294cdf0985e7365743d28893098e625f01b58fdb75093cb4",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/bed_double_B.bin",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/bed_double_B.bin",
+    "bytes": 27856,
+    "sha256": "34c2a62639167e346b916fad93823d7a9cf25b4a93b71fd634dfa50c6bbc24ed",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/furniturebits_texture.png",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/furniturebits_texture.png",
+    "bytes": 15605,
+    "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/pillow_A.gltf",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/pillow_A.gltf",
+    "bytes": 3029,
+    "sha256": "c24247361c709675257b516dfab950708adf8c086710e8a1fc85e572ea5ebb61",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/pillow_A.bin",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/pillow_A.bin",
+    "bytes": 2724,
+    "sha256": "9a295dd293a96e518b0388d3cfcbc7c0ce491e46cfe2c5e3affa016b99e8c0ff",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/pillow_B.gltf",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/pillow_B.gltf",
+    "bytes": 3029,
+    "sha256": "cf47391e684e93241ba5f9db6bb1e518700fe3a7a79b7f58c40e38ee62e9e36d",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/pillow_B.bin",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/pillow_B.bin",
+    "bytes": 2724,
+    "sha256": "4cf9482b7fc816e038da3f25a793761b30d60880cb24b4f04ce1aee5f07f9d53",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair.gltf",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/armchair.gltf",
+    "bytes": 3019,
+    "sha256": "5236bd9c4945fb60d5ac4d4b064c0c0c74bcded1c280b474d3899a1d84d68b25",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair.bin",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/armchair.bin",
+    "bytes": 17312,
+    "sha256": "7e8762add696dc52fe545c3f25d6d25331e70f2fafbdf9ea79de75a75effec2b",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/armchair_pillows.gltf",
+    "bytes": 3036,
+    "sha256": "1344db27a72870fb0a1b43ffcfe12f5f3dd3284f5dcecd10ed593d6e0d940f79",
+    "license": "CC0-1.0"
+  },
+  {
+    "sourceURL": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.bin",
+    "file": "assets/source/kaykit-furniture-bits/Assets/gltf/armchair_pillows.bin",
+    "bytes": 20420,
+    "sha256": "b40556981e1bd4593ccaf7a14593f32e20859c2f2e6022a0ed0d1a278a4194a0",
+    "license": "CC0-1.0"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "sourcePath": "graphic-designs/Startup Hub - insta drafts.png",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/graphic-designs/Startup%20Hub%20-%20insta%20drafts.png",
+    "gitBlob": "4ee954fe695177f4e5bccaa0d198125eef073cbc",
+    "sha256": "36b7ff27b416d663f4e68308c3625ee2ed4667956ce39f0af189e9dddf1615eb",
+    "destination": "assets/source/portfolio-media/startup-hub.png",
+    "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred"
+  },
+  {
+    "sourcePath": "eweek-stickers/E-week_Sleeping_Beaver.png",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/eweek-stickers/E-week_Sleeping_Beaver.png",
+    "gitBlob": "e4f2d3f4c771d2669abcf0f1238ca9bd5f41d137",
+    "sha256": "1039eed042c1aa4c655a03b9f97c05a7bfd0334a2b6fb6bcc264b481487f560b",
+    "destination": "assets/source/portfolio-media/sleeping-beaver.png",
+    "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred"
+  },
+  {
+    "sourcePath": "ij-stickers/lightbulb-crop.png",
+    "sourceURL": "https://raw.githubusercontent.com/allyytc/allyytc.github.io/35ecfec2c43c535ea013e23720ffa6ad73108f10/ij-stickers/lightbulb-crop.png",
+    "gitBlob": "d2b2c30c3ddb97e5d1be2c7f5b262af7a668515f",
+    "sha256": "53d99d7593c1e1c6367fe26b83a615e77ab91290c5fb2b26203085b468f27aca",
+    "destination": "assets/source/portfolio-media/innovation-lightbulb.png",
+    "permission": "Owner portfolio design work, used within owner-requested local rebuild; no blanket third-party/artwork license inferred"
+  }
+]

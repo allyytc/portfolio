@@ -1,0 +1,32 @@
+{
+  "camera": {
+    "view": "readingNook",
+    "position": [
+      -2.4400526617841876,
+      6.6380572413575605,
+      11.129935844335256
+    ],
+    "target": [
+      2.559969127178192,
+      0.9380444150418044,
+      0.1299179196357727
+    ],
+    "zoom": 226.31515037481105,
+    "azimuth": -0.4266274931268761,
+    "polar": 1.130015014567444,
+    "minZoom": 203.6842105263158,
+    "maxZoom": 282.89473684210526,
+    "transitioning": false
+  },
+  "metrics": {
+    "calls": 25,
+    "triangles": 169047,
+    "peakCalls": 50,
+    "peakTriangles": 265302,
+    "textures": 7,
+    "geometries": 62,
+    "activeFrameMs": 17.411184210526315,
+    "frames": 152,
+    "paperProgress": 0
+  }
+}
