@@ -102,6 +102,19 @@ export const project: Project = {
       }
     },
     {
+      "id": "screenshots",
+      "title": "Screenshots",
+      "blocks": [
+        {
+          "kind": "gallery",
+          "label": "Lantern architecture",
+          "mediaIds": [
+            "lantern-architecture"
+          ]
+        }
+      ]
+    },
+    {
       "id": "lantern-demo",
       "title": "Demo Video",
       "blocks": [
@@ -133,6 +146,38 @@ export const project: Project = {
       "caption": "Lantern demo - HackMIT 2026",
       "title": "Lantern demo - HackMIT 2026",
       "watchURL": "https://www.youtube.com/watch?v=UiwDwaL6978"
+    },
+    {
+      "id": "lantern-robot",
+      "kind": "image",
+      "src": "media/lantern/robot-doorway.webp",
+      "originalPath": "https://img.youtube.com/vi/UiwDwaL6978/maxresdefault.jpg",
+      "source": {
+        "repository": "alwxngn/Lantern-HackMIT2026",
+        "ref": "main",
+        "path": "README.md"
+      },
+      "rights": "owner-local-rebuild",
+      "alt": "Unitree Go2 robot walking across a tiled entryway toward a person standing in an open doorway.",
+      "caption": "Unitree Go2 at the doorway, from the demo still in the Lantern README.",
+      "width": 406,
+      "height": 720
+    },
+    {
+      "id": "lantern-architecture",
+      "kind": "image",
+      "src": "media/lantern/architecture.webp",
+      "originalPath": "README.md#architecture",
+      "source": {
+        "repository": "alwxngn/Lantern-HackMIT2026",
+        "ref": "main",
+        "path": "README.md"
+      },
+      "rights": "owner-local-rebuild",
+      "alt": "Architecture diagram: React portal and paired phone connect to FastAPI on port 8000, which reaches Deepgram, ElevenLabs, Twilio, and a bus hub on port 9000. The bus connects the orchestrator and the command and map bridges, which use MCP to reach DimOS and Aegis skills on the Unitree Go2.",
+      "caption": "Architecture from the Lantern README: portal, phone, FastAPI, speech services, bus, orchestrator, robot bridges, and Twilio.",
+      "width": 3168,
+      "height": 688
     }
   ],
   "links": [
@@ -173,5 +218,5 @@ export const project: Project = {
   "recognition": [
     "HackMIT 2026"
   ],
-  "heroMediaId": "https://www.youtube.com/embed/UiwDwaL6978"
+  "heroMediaId": "lantern-robot"
 }
