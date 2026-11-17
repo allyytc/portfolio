@@ -18,17 +18,25 @@ export const project: Project = {
   title: 'Out Here | Meta Closer Together AI Hackathon 2026',
   category: 'hackathons',
   presentation: 'product',
-  overview: 'A live map inside a Facebook-style app that turns “I’m free” into a plan you can join now. Built at the Meta Closer Together AI Hackathon in November 2026. Invite-only, 75 people admitted, travel funded by Meta. No award.',
+  overview: 'Turn a casual “I’m free” into a real plan with friends nearby, in a walkable 3D city with an AI companion. Built in a weekend at Meta’s invite-only Closer Together AI Hackathon, with 75 participants admitted.',
   technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Blender', 'MapLibre', 'Supabase', 'UI/UX Design'],
   heroMediaId: 'oh-street',
   sections: [
     {
-      id: 'role',
-      title: 'Role',
+      id: 'problem',
+      title: 'Problem',
       blocks: [{
         kind: 'paragraph',
-        content: ['I built the 3D world, modeled the Muse companion in Blender, made the avatars, and did the UI/UX. Team: Andrew Yin, Alan Nguyen, Alex Nguyen, Ally Chen, and Rishab-Mal.'],
+        content: ['You have a free hour in a new city. By the time a group chat answers, the window is gone. Maps show where friends are, not who is free or what they would actually do.'],
       }],
+    },
+    {
+      id: 'role',
+      title: 'Role',
+      blocks: [
+        { kind: 'paragraph', content: ['I built the 3D world, modeled the Muse companion in Blender, made the avatars, and designed the UI/UX.'] },
+        { kind: 'paragraph', content: ['Team: Andrew Yin, Alan Nguyen, Alex Nguyen, Ally Chen, and Rishab-Mal.'] },
+      ],
     },
     {
       id: 'highlights',
@@ -36,9 +44,10 @@ export const project: Project = {
       blocks: [{
         kind: 'list',
         items: [
-          ['Friends on a map with status bubbles, then a 3D city you walk through together.'],
-          ['Muse, a small companion, turns a free-text “I’m free” note into a plan with a place, a time, and open seats.'],
-          ['The project README also calls the event the Facebook Closer Together AI Hackathon 2026. People in the demo are fictional.'],
+          ['Built the walkable 3D city, so a plan, a friend, and the open seats sit in the street you are about to cross.'],
+          ['Modeled Muse in Blender, the companion that takes “I’ve got 45 minutes, can I grab boba?” and returns a place, a walk time, and a friend who is free.'],
+          ['Made the avatars people follow through that city, including the third-person view and the status bubbles on friends nearby.'],
+          ['Designed the UI around the loop: say you are free, accept a plan, walk there, and keep the crew for next time.'],
         ],
       }],
     },

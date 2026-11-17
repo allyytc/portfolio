@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Afterlife Metro",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A two-player Godot game. One person plays the human, the other a ghost who can see puzzle objects the human can't. Hall of Fame project for CS 290. Game art by Nour Alzahraa Alqattan.",
+  "overview": "A two-player Godot game: one of you is human, the other is a ghost who can see the puzzle pieces you can't. The two of you have to talk. Hall of Fame, CS 290.",
   "technologies": [
     "JavaScript",
     "Godot",
@@ -14,12 +14,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "A multiplayer narrative simulation game with dynamic event systems and player-driven storytelling. Built 5+ modular systems (character tracking, branching event logic, leaderboard) using JSON-based data models over 3 months."
+            "Most co-op puzzles show both players the same room. This one only works when you talk: the ghost can see objects the human cannot, and the story branches on what the two of you do with that gap."
           ]
         }
       ],
@@ -37,7 +37,7 @@ export const project: Project = {
         {
           "kind": "paragraph",
           "content": [
-            "Designed and implemented the event and character systems as part of a team project over 3 months."
+            "I designed and built the event and character systems over three months: character tracking, branching event logic, and the data those systems read."
           ]
         }
       ],
@@ -47,6 +47,20 @@ export const project: Project = {
         "path": "projects.html",
         "anchor": "Afterlife Metro"
       }
+    },
+    {
+      "id": "highlights",
+      "title": "Highlights",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            ["Built 5+ modular systems over three months: character tracking, branching event logic, and a leaderboard, on JSON data models."],
+            ["Split what each player can see, so the ghost holds puzzle information the human has to ask for."],
+            ["Shipped a Godot 4.5 web build with story dialogue, instructions, a pause menu, and an Express leaderboard."]
+          ]
+        }
+      ]
     },
     {
       "id": "tech-stack",

@@ -19,16 +19,24 @@ export const project: Project = {
   category: 'hackathons',
   presentation: 'product',
   status: 'Cal Hacks 2026 · Visa track',
-  overview: 'Friends pool what they remember about someone and pick a gift together. Built at Cal Hacks 2026 on the Visa track. No award.',
+  overview: 'Friends each remember a different side of someone. Unwrap turns those clues into one gift the group chooses together, inside a shared 3D world. Cal Hacks 2026, Visa track.',
   technologies: ['Next.js', 'React', 'TypeScript', 'React Three Fiber', 'Three.js', 'Fetch.ai', 'Convex', 'UI/UX Design'],
   heroMediaId: 'unwrap-council',
   sections: [
+    {
+      id: 'problem',
+      title: 'Problem',
+      blocks: [{
+        kind: 'paragraph',
+        content: ['Group gifts fall apart in chat. Everyone who knows the person holds a different clue, research happens in private, and a generic recommendation misses the detail that would have made the gift land.'],
+      }],
+    },
     {
       id: 'role',
       title: 'Role',
       blocks: [{
         kind: 'paragraph',
-        content: ['I owned product and UX, the React Three Fiber frontend (the 3D world map, Book of Possibilities, phone join flow, and council visuals), and the multi-agent Fetch.ai implementation.'],
+        content: ['I owned product and UX, the React Three Fiber frontend, and the multi-agent Fetch.ai system. The frontend includes the 3D world map, the Book of Possibilities, the phone join flow, and the council visuals.'],
       }],
     },
     {
@@ -37,9 +45,10 @@ export const project: Project = {
       blocks: [{
         kind: 'list',
         items: [
-          ['A shared gift room: memories and ideas come in from phones, then the group compares real product options.'],
-          ['An AI council of agents reads the clues and proposes gifts. Payments in the build are pledges, not checkout.'],
-          ['The README calls the event Cal Hacks 13.0, October 2026.'],
+          ['Shaped the product as one shared room: memories on the outside, real gift options toward the middle, and a choice the group makes together.'],
+          ['Built the React Three Fiber world, including the 3D map, the Book of Possibilities, the phone join flow, and the council companions.'],
+          ['Implemented the Fetch.ai council so agents read the clues and research sourced gifts, while the group still approves the pick.'],
+          ['Made the money decision explicit with contribution limits and revision-specific approval. The build records pledges.'],
         ],
       }],
     },

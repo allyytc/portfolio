@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "ER Overwatch",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A waiting-room monitor for understaffed ERs. It watches for collapses, tracks vitals, and builds a case file while the patient waits. 1st place overall at QuackHacks 2026.",
+  "overview": "Live waiting-room video that catches a collapse, tracks vitals, and builds a case file before a doctor is free. 1st place overall at QuackHacks 2026.",
   "technologies": [
     "Next.js",
     "React",
@@ -21,18 +21,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "The project writeup starts from a hard number: over 1,000 people a year die waiting in an ER lobby. Symptoms that are survivable on arrival can get worse over a long wait, and a collapse in a crowded room can go unnoticed."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "content": [
-            "ER Overwatch connects waiting-room video to collapse detection and a nurse dashboard, so staff get an alert and a short patient record before a doctor is free."
+            "The project starts from a hard number: over 1,000 people a year die waiting in an ER lobby. Symptoms that are survivable on arrival can worsen over a long wait, and a collapse in a crowded room can go unnoticed."
           ]
         }
       ],
@@ -55,14 +49,14 @@ export const project: Project = {
                 "text": "Frontend development",
                 "emphasis": "strong"
               },
-              " - led the nurse dashboard where staff sign patients in, monitor vitals, and receive real-time alerts"
+              " - led the nurse dashboard where staff sign patients in, watch vitals, and receive collapse alerts in real time"
             ],
             [
               {
                 "text": "Fall detection",
                 "emphasis": "strong"
               },
-              " - explored an OpenCV-based approach before moving to Gemini video processing for collapse and loss-of-consciousness detection"
+              " - took detection from an OpenCV pass to Gemini video processing for collapse and loss of consciousness"
             ]
           ],
           "ordered": false
@@ -101,7 +95,7 @@ export const project: Project = {
     },
     {
       "id": "features",
-      "title": "Features",
+      "title": "Highlights",
       "blocks": [
         {
           "kind": "list",
@@ -118,7 +112,7 @@ export const project: Project = {
                 "text": "Fall & collapse detection",
                 "emphasis": "strong"
               },
-              " - Gemini video processing and OpenCV movement analysis on live waiting-room footage"
+              " - Gemini video and OpenCV on live waiting-room footage, with overlapping clip windows so an event on a boundary is not missed, and a batching scheme that stays inside Gemini's token limits"
             ],
             [
               {

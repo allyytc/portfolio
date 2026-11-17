@@ -19,16 +19,24 @@ export const project: Project = {
   category: 'in-progress',
   presentation: 'web-ux',
   status: 'In Progress',
-  overview: 'Redesign of the Oregon State Impact Studio site: clearer navigation, a homepage people can scan, and portfolio pages for faculty initiatives. I design it and ship it in Drupal.',
+  overview: 'As Software Developer Intern, I am leading the redesign of Oregon State’s Impact Studio site and shipping it in Drupal. A first visit now explains the studio, and faculty initiatives have a real home.',
   technologies: ['Drupal', 'HTML/CSS', 'UI/UX Design', 'Figma'],
   heroMediaId: 'impact-hero',
   sections: [
+    {
+      id: 'problem',
+      title: 'Problem',
+      blocks: [{
+        kind: 'paragraph',
+        content: ['The previous site buried the mission in jargon and repeated itself across pages. A first-time visitor had to hunt to learn what Impact Studio does and who it is for.'],
+      }],
+    },
     {
       id: 'role',
       title: 'Role',
       blocks: [{
         kind: 'paragraph',
-        content: ['Software Developer Intern. I lead the redesign with marketers, designers, and other contributors, then implement it: Figma frames, Drupal pages, and faculty initiative subdomains.'],
+        content: ['Software Developer Intern. I lead the redesign with marketers, designers, and other contributors, then ship it: Figma, Drupal pages, and new faculty initiative subdomains.'],
       }],
     },
     {
@@ -37,10 +45,10 @@ export const project: Project = {
       blocks: [{
         kind: 'list',
         items: [
-          ['Homepage hierarchy so a first visit explains what Impact Studio does.'],
-          ['Navigation into Portfolio, Our Approach, and Our Services.'],
-          ['Faculty initiative subdomains, configured and launched.'],
-          ['Traffic reports used to decide what to change next.'],
+          ['Rebuilt the homepage so the first screen states the mission and points to Portfolio, Our Approach, and Our Services.'],
+          ['Shipped the live Drupal site, including the lifecycle story and portfolio pages for faculty initiatives.'],
+          ['Configured and launched new faculty initiative subdomains end to end.'],
+          ['Turn site traffic into performance reports that decide the next UX and content changes.'],
         ],
       }],
     },

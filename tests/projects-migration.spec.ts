@@ -87,7 +87,7 @@ test('opaque sticky chrome, mobile section navigation and pending Unwrap discove
   await expect(page.getByText('Content pending verification')).toHaveCount(0);await expect(page.locator('.case-study img')).toHaveCount(2);await expect(page.locator('.case-study iframe')).toHaveCount(0);await expect(page.getByRole('heading',{name:'Role',exact:true})).toBeVisible();await page.locator('.case-hero img').evaluate(async n=>{await (n as HTMLImageElement).decode()});await page.getByRole('heading',{name:'Unwrap',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:`${captures}/unwrap-mobile.png`,fullPage:true})
   await page.getByRole('button',{name:'Back to Projects',exact:false}).click();await expect(page.getByRole('button',{name:'View Unwrap →',exact:true})).toBeFocused()
   await page.getByRole('button',{name:'View KO.rbit →',exact:true}).click()
-  await page.getByRole('navigation',{name:'Case study sections'}).getByRole('button',{name:'Features',exact:true}).click()
+  await page.getByRole('navigation',{name:'Case study sections'}).getByRole('button',{name:'Highlights',exact:true}).click()
   const head=page.locator('.dialog-head');await expect(head).toHaveCSS('background-color','rgb(38, 63, 53)');await expect(page.locator('.dialog-topline')).toHaveCSS('background-color','rgb(38, 63, 53)')
   expect(await page.getByRole('dialog').evaluate(n=>n.scrollWidth<=n.clientWidth+1)).toBe(true)
   await page.screenshot({path:`${captures}/ux-mobile-navigation.png`,fullPage:true})

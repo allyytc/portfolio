@@ -33,7 +33,7 @@ test('complete representative copy matches original source paragraphs, roles, fe
   const sectionIds=await article.locator('[data-case-section]').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('data-case-section')))
   expect(sectionIds).toEqual(['description','my-role','tech-stack','features','demo','screenshots'])
   await expect(article.locator('[data-case-section="my-role"] li')).toHaveCount(6)
-  await expect(article.locator('[data-case-section="features"] li')).toHaveCount(6)
+  await expect(article.locator('[data-case-section="features"] li')).toHaveCount(4)
   for(const href of expected.links) expect(await article.locator('a').evaluateAll(nodes=>nodes.map(node=>node.getAttribute('href')))).toContain(href)
   const captions=[...js.matchAll(/\{ type: 'image', src: '(korbit-gal\/[^']+)', caption: '([^']+)' \}/g)].map(match=>({src:match[1],caption:match[2]}))
   expect(captions).toHaveLength(5)

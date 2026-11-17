@@ -19,16 +19,24 @@ export const project: Project = {
   category: 'in-progress',
   presentation: 'web-ux',
   status: 'In progress',
-  overview: 'A redesign of the Corvallis Daytime Drop-In Center site so guests can find help on a phone, and donors get a clear page. The center serves unhoused people in Benton County. The live nonprofit site is still the current one; these frames are the redesign.',
+  overview: 'A phone-first redesign of the Corvallis Daytime Drop-In Center site, so someone who needs help can reach it in a few taps. I lead the 11-person Design for America team. The site serves 300+ people a day.',
   technologies: ['WordPress', 'React', 'Tailwind CSS', 'Figma', 'UI/UX Design', 'User Research'],
   heroMediaId: 'cddc-home',
   sections: [
+    {
+      id: 'problem',
+      title: 'Problem',
+      blocks: [{
+        kind: 'paragraph',
+        content: ['The center serves unhoused people in Benton County, and the current site makes critical information hard to find. For a guest with a few minutes on a phone, that is a barrier to getting help.'],
+      }],
+    },
     {
       id: 'role',
       title: 'Role',
       blocks: [{
         kind: 'paragraph',
-        content: ['Project lead for Design for America. I directed an 11-person team through discovery, wireframes, and front-end work, and I still meet with the center. The DFA term ended. A few of us are finishing the build. The site serves 300+ people a day.'],
+        content: ['Project lead. I meet with the center, direct an 11-person team through discovery and wireframes, and design and build the front end. The DFA term ended, and a few of us are still finishing the build. The frames below are the redesign. The center’s current public site is still the one linked here.'],
       }],
     },
     {
@@ -37,10 +45,10 @@ export const project: Project = {
       blocks: [{
         kind: 'list',
         items: [
-          ['Navigation ordered for guests: Get Help, Contact, About, Donate.'],
-          ['A warmer guest-facing voice, and a more direct donate page.'],
-          ['Phone-first layout, since most guests will not be on a desktop.'],
-          ['Next: a current homepage video, a monthly services calendar, and an accessibility pass.'],
+          ['Ordered the navigation by what a guest needs first: Get Help, then Contact, About, and Donate.'],
+          ['Split the tone on purpose: warm and simple for guests, direct for donors who need to trust where a gift goes.'],
+          ['Designed phone-first, because most guests will only ever open this on a phone.'],
+          ['Run the work with the center in the room: wireframes go back, get marked up, and change.'],
         ],
       }],
     },

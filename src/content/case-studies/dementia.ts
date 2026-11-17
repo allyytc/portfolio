@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Dementia Risk Predictor",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A small Streamlit app that estimates dementia risk from OASIS clinical measurements. The project README reports 82.6% accuracy for a random forest on held-out data. It is a class project, not a diagnostic tool.",
+  "overview": "Estimates dementia risk from OASIS clinical measurements and shows which features drive the call. The project README reports 82.6% accuracy for a random forest on held-out data.",
   "technologies": [
     "Python",
     "scikit-learn",
@@ -15,12 +15,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "A machine learning pipeline that predicts dementia risk from health and lifestyle survey data, comparing multiple classification models and identifying the strongest predictive features for early-stage screening."
+            "Early screening needs a signal from measurements a clinic already collects, and a way to see which of those measurements the model is actually using."
           ]
         }
       ],
@@ -38,7 +38,7 @@ export const project: Project = {
         {
           "kind": "paragraph",
           "content": [
-            "Cleaned and preprocessed survey data, trained and evaluated multiple classification models, and analyzed feature importance."
+            "I cleaned the OASIS data, trained and compared classifiers, and analyzed feature importance. The README's model is a random forest on age, MMSE, education, socioeconomic status, and brain-volume measures."
           ]
         }
       ],
@@ -50,13 +50,31 @@ export const project: Project = {
       }
     },
     {
+      "id": "highlights",
+      "title": "Highlights",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            ["Trained a random forest on OASIS measurements: age, MMSE, years of education, socioeconomic status, and brain volume."],
+            ["Compared classifiers and used feature importance to show which measurements the model was using."],
+            ["Shipped a Streamlit app: set the measurements, get a risk result, and see the call in one screen."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "content": ["Educational use only. This is not a medical diagnosis."]
+        }
+      ]
+    },
+    {
       "id": "tech-stack",
       "title": "Tech Stack",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "Python, scikit-learn, Pandas, NumPy, Jupyter"
+            "Python, scikit-learn, Pandas, NumPy, Jupyter, Streamlit."
           ]
         }
       ],
