@@ -43,55 +43,13 @@ export const korbit: Project = {
     },
     {
       "id": "my-role",
-      "title": "My Role",
+      "title": "Role",
       "blocks": [
         {
-          "kind": "list",
-          "items": [
-            [
-              {
-                "text": "3D cockpit lobby",
-                "emphasis": "strong"
-              },
-              " - the hub a pilot drops into, with the radar and ship console"
-            ],
-            [
-              {
-                "text": "Avatar creator",
-                "emphasis": "strong"
-              },
-              " - the pilot’s avatar"
-            ],
-            [
-              {
-                "text": "Battle HUD",
-                "emphasis": "strong"
-              },
-              " - the overlay on the live duel"
-            ],
-            [
-              {
-                "text": "Mars arena",
-                "emphasis": "strong"
-              },
-              " - the Jezero Crater fight floor, built on NASA MOLA terrain"
-            ],
-            [
-              {
-                "text": "Neptune arena",
-                "emphasis": "strong"
-              },
-              " - the duel scene modeled on Neptune’s atmosphere, since Neptune has no solid ground"
-            ],
-            [
-              {
-                "text": "Planetary roulette",
-                "emphasis": "strong"
-              },
-              " - the spin that picks Mars or Neptune, then flies the match in"
-            ]
-          ],
-          "ordered": false
+          "kind": "paragraph",
+          "content": [
+            "I built the 3D cockpit lobby, the avatar creator, the battle HUD, the Mars arena on NASA MOLA terrain, the Neptune arena, and planetary roulette."
+          ]
         }
       ],
       "source": {

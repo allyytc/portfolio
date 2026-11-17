@@ -32,7 +32,7 @@ test('monitor opens synchronized explorer with categories and accessible card/de
   await capture(page,'projects-monitor')
   await page.getByRole('button',{name:'View KO.rbit'}).focus();await page.keyboard.press('Enter')
   await expect(page.getByRole('heading',{name:'KO.rbit',exact:true})).toBeFocused()
-  await expect(page.getByText('the hub a pilot drops into, with the radar and ship console', {exact:false})).toBeVisible()
+  await expect(page.getByText('I built the 3D cockpit lobby, the avatar creator, the battle HUD', {exact:false})).toBeVisible()
   await capture(page,'project-detail')
   await page.getByRole('button',{name:'Back to Projects'}).click()
   await expect(page.getByRole('button',{name:'View KO.rbit'})).toBeFocused()
