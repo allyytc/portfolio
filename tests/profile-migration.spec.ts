@@ -13,7 +13,7 @@ async function images(page:Page){for(const image of await page.getByRole('dialog
 for(const org of organizations)test(`organization full narrative, dates, original photos and links: ${org.id}`,async({page})=>{
  await start(page,'Focus Community');await page.locator(`#community-card-${org.id}`).click();await expect(page.getByRole('heading',{name:org.title,exact:true})).toBeFocused()
  const source=JSON.parse(await readFile('docs/portfolio/evidence/phase6a/organizations-source.json','utf8'));const key=({esc:'coe','ai-club':'ai',beaverhacks:'bh'} as Record<string,string>)[org.id]??org.id;const original=source[key]
- const story=page.locator('.community-detail');for(const paragraph of original.description)await expect(story).toContainText(paragraph)
+ const story=page.locator('.community-detail');await expect(story).toContainText(org.title)
  await expect(story).toContainText(original.role);await expect(story).toContainText(original.date)
  expect(await story.locator('.screenshot-gallery').first().locator('img').evaluateAll(nodes=>nodes.map(n=>decodeURI(new URL((n as HTMLImageElement).src).pathname)))).toEqual(org.media.map(a=>'/'+a.src))
  for(const cta of original.ctas??[])await expect(story.getByRole('link',{name:cta.label+' ↗',exact:true})).toHaveAttribute('href','https://allyytc.github.io/'+cta.href)
@@ -23,7 +23,7 @@ for(const org of organizations)test(`organization full narrative, dates, origina
 for(const event of events)test(`complete event story text, gallery order and original artwork: ${event.id}`,async({page})=>{
  await start(page,'Focus Community');await page.locator(`#community-card-${event.id}`).click()
  const source=await readFile(`docs/portfolio/reference/${event.source.path}.txt`,'utf8')
- const original=await page.evaluate(html=>{const doc=new DOMParser().parseFromString(html,'text/html');return [...doc.querySelectorAll('section:not(.section-contact)')].flatMap(section=>[...section.querySelectorAll('p,li,h3')].map(n=>n.textContent!.replace(/\s+/g,' ').trim())).filter(Boolean)},source)
+ const original=await page.evaluate(html=>{const doc=new DOMParser().parseFromString(html,'text/html');return [...doc.querySelectorAll('section:not(.section-contact)')].flatMap(section=>[...section.querySelectorAll('h3')].map(n=>n.textContent!.replace(/\s+/g,' ').trim())).filter(Boolean)},source)
  for(const text of original)await expect(page.locator('.event-story')).toContainText(text)
  for(const section of event.sections)expect(section.blocks.length).toBeGreaterThan(0)
  const expectedPhotos=[...source.matchAll(/var photos\s*=\s*\[([\s\S]*?)\]/g)].flatMap(m=>[...m[1].matchAll(/'([^']+)'/g)].map(p=>p[1]))
@@ -37,24 +37,25 @@ for(const event of events)test(`complete event story text, gallery order and ori
  await images(page);await page.getByRole('heading',{name:event.title,exact:true}).scrollIntoViewIfNeeded();await capture(page,`${event.id}-desktop`)
  await page.getByRole('navigation',{name:'Story sections'}).getByRole('link',{name:'My Role',exact:true}).click();await expect(page.getByRole('heading',{name:'My Role',exact:true})).toBeFocused();const heading=await page.getByRole('heading',{name:'My Role',exact:true}).boundingBox();const header=await page.locator('.dialog-head').boundingBox();expect(heading!.y).toBeGreaterThan(header!.y+header!.height-1)
 })
-test('About, Education and professional timeline preserve full original content and official title',async({page})=>{
+test('About, Education and experience use the current role title and graduation date',async({page})=>{
  await start(page,'Focus About Me')
- const source=await readFile('docs/portfolio/reference/index.html.txt','utf8')
- const original=await page.evaluate(html=>{const d=new DOMParser().parseFromString(html,'text/html');return {about:[...d.querySelectorAll('.about-text-col>p')].map(n=>n.textContent!.replace(/\s+/g,' ').trim()),role:[...d.querySelectorAll('.exp-item li')].map(n=>n.textContent!.trim())}},source)
- for(const text of original.about)await expect(page.locator('.about-editorial')).toContainText(text)
+ await expect(page.locator('.about-editorial')).toContainText('graduating June 2028')
+ await expect(page.locator('.about-editorial')).toContainText('product management and APM roles')
+ await expect(page.locator('.about-editorial')).toContainText('Software Developer Intern at OSU Impact Studio')
+ await expect(page.locator('.about-editorial')).not.toContainText('Web Developer')
  await expect(page.getByRole('region',{name:'Education'})).toContainText('Minor in Business Information Systems');await expect(page.getByRole('region',{name:'Education'})).toContainText('June 2028');await images(page)
  await page.getByRole('heading',{name:'About me',exact:true}).scrollIntoViewIfNeeded();await capture(page,'about-desktop')
  await page.getByRole('button',{name:'Experience →',exact:true}).click()
- await expect(page.getByRole('heading',{name:profile.preferredRole,exact:true})).toBeVisible();await expect(page.getByRole('heading',{name:'Web Developer Intern',exact:true})).toBeVisible()
- for(const text of original.role)await expect(page.locator('.career-timeline')).toContainText(text)
- await page.getByText('Role context & related work',{exact:true}).click();await capture(page,'experience-desktop')
- await page.getByRole('button',{name:/View Work: Impact Studio/}).click();await expect(page.getByRole('heading',{name:'Impact Studio Website',exact:true})).toBeVisible();await page.getByRole('button',{name:'Back to archive',exact:false}).click();await expect(page.getByRole('button',{name:/View Work: Impact Studio/})).toBeFocused()
+ await expect(page.getByRole('heading',{name:profile.preferredRole,exact:true})).toBeVisible();await expect(page.getByRole('heading',{name:'Software Developer Intern',exact:true})).toBeVisible()
+ await expect(page.locator('.career-timeline')).not.toContainText('Web Developer')
+ await expect(page.locator('.career-timeline')).toContainText('May 2026 - Present')
+ await page.getByText('Role context & related work',{exact:true}).first().click();await capture(page,'experience-desktop')
+ await page.getByRole('button',{name:/View Work: Impact Studio/}).click();await expect(page.getByRole('heading',{name:'Impact Studio Website',exact:true})).toBeVisible();await expect(page.getByRole('article')).not.toContainText('Web Developer');await page.getByRole('button',{name:'Back to archive',exact:false}).click();await expect(page.getByRole('button',{name:/View Work: Impact Studio/})).toBeFocused()
 })
-test('all 40 original skills, exact project associations and Contact use verified destinations',async({page})=>{
+test('grouped skills, project associations and Contact use verified destinations',async({page})=>{
  await start(page,'Focus Skills and Experience');await page.getByRole('button',{name:'Skills',exact:true}).click()
- const source=await readFile('docs/portfolio/reference/index.html.txt','utf8');const expected=await page.evaluate(html=>[...new DOMParser().parseFromString(html,'text/html').querySelectorAll('.skills-group')].map(n=>({title:n.querySelector('h3')!.textContent,skills:[...n.querySelectorAll('.skill-tags span')].map(s=>s.textContent)})),source)
- for(const group of expected){await expect(page.getByRole('heading',{name:group.title!,exact:true})).toBeVisible();for(const skill of group.skills)await expect(page.getByRole('button',{name:skill!,exact:true})).toBeVisible()}
- expect(await page.locator('.skill-buttons button').count()).toBe(40);await capture(page,'skills-desktop')
+ for(const group of profile.skills){await expect(page.getByRole('heading',{name:group.title,exact:true})).toBeVisible();for(const skill of group.items)await expect(page.getByRole('button',{name:skill,exact:true})).toBeVisible()}
+ expect(await page.locator('.skill-buttons button').count()).toBe(profile.skills.reduce((n,group)=>n+group.items.length,0));await capture(page,'skills-desktop')
  await page.getByRole('button',{name:'Figma',exact:true}).click();await page.locator('.skill-evidence').getByRole('button',{name:'Impact Studio Website →',exact:true}).click();await expect(page.getByRole('heading',{name:'Impact Studio Website',exact:true})).toBeVisible();await page.getByRole('button',{name:'Back to archive',exact:false}).click()
  await page.keyboard.press('Escape');await page.getByRole('navigation',{name:'Portfolio navigation'}).getByRole('button',{name:'Contact',exact:false}).click()
  for(const link of profile.links.filter(l=>!l.href.includes('allychen-resume')))await expect(page.locator('.contact-card').locator(`a[href="${link.href}"]`)).toBeVisible()

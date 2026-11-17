@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Afterlife Metro",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A multiplayer narrative simulation game with dynamic event systems and player-driven storytelling.",
+  "overview": "A two-player Godot game. One person plays the human, the other a ghost who can see puzzle objects the human can't. Hall of Fame project for CS 290. Game art by Nour Alzahraa Alqattan.",
   "technologies": [
     "JavaScript",
     "Godot",
@@ -318,8 +318,8 @@ export const project: Project = {
       "Original portfolio text retained verbatim; source claims are not independently revalidated."
     ]
   },
-  "awards": [
-    "Hall of Fame - CS 290"
+  "recognition": [
+    "Hall of Fame, CS 290"
   ],
   "heroMediaId": "afterlife-metro/split-screen.webp"
 }

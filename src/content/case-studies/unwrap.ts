@@ -1,153 +1,71 @@
-import type { Project } from '../schema'
-/** Local source observations and existing captures; unresolved claims remain pending. */
-export const unwrap: Project = {
-  "id": "unwrap",
-  "title": "Unwrap",
-  "category": "design-work",
-  "presentation": "product",
-  "overview": "Turn what your friends remember into a gift you choose together.",
-  "status": "Source-backed development prototype · Details pending verification",
-  "technologies": [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Convex",
-    "React Three Fiber",
-    "Zod"
-  ],
-  "heroMediaId": "unwrap-0",
-  "media": [
-    {
-      "kind": "image",
-      "id": "unwrap-0",
-      "src": "media/unwrap/council-prod-final.png",
-      "originalPath": "/Users/ally/Github/calhacks2026/work/screens/council-prod-final.png",
-      "source": {
-        "repository": "local calhacks2026 worktree",
-        "ref": "0e3d7ab73e2c9a256cb831ca87814181a1391dc1 + local worktree",
-        "path": "/Users/ally/Github/calhacks2026/work/screens/council-prod-final.png"
-      },
-      "sha256": "02c0caac2c634d1b687ba75cc540b3bcd698bf1bc0a8d417963a3d21e2dccd65",
-      "rights": "review-required",
-      "alt": "Unwrap development UI with gift islands, clue rings and five council companions",
-      "caption": "Existing desktop development capture: gift-map UI and council companions. Public deployment and provider results are not independently verified."
-    },
-    {
-      "kind": "image",
-      "id": "unwrap-1",
-      "src": "media/unwrap/robots-map-narrow-dock.png",
-      "originalPath": "/Users/ally/Github/calhacks2026/work/screens/robots-map-narrow-dock.png",
-      "source": {
-        "repository": "local calhacks2026 worktree",
-        "ref": "0e3d7ab73e2c9a256cb831ca87814181a1391dc1 + local worktree",
-        "path": "/Users/ally/Github/calhacks2026/work/screens/robots-map-narrow-dock.png"
-      },
-      "sha256": "b901fe1054bc66dc1640130f7dd8a64c714cd32814436e091a0f486bbb58ea48",
-      "rights": "review-required",
-      "alt": "Unwrap narrow development UI showing a gift proposal, contribution shares and approval state",
-      "caption": "Existing narrow development capture: proposal and review-shares UI. The original development issue indicator remains visible; this is not a production-readiness claim."
-    }
-  ],
-  "links": [],
-  "source": {
-    "repository": "local calhacks2026 worktree",
-    "ref": "0e3d7ab73e2c9a256cb831ca87814181a1391dc1 + local worktree",
-    "path": "README.md"
-  },
-  "verification": {
-    "status": "pending",
-    "notes": [
-      "Verified material: local README, package metadata, map/council/proposal source and two existing UI captures. No app services were run for this audit.",
-      "Still needed: Ally’s individual role and contributions, research evidence, final design rationale, approved public project/demo links and independently verified outcomes.",
-      "README describes the map-first journey as a roadmap in progress. Existing captures and later worktree components show development UI, not proof that every planned feature is complete."
-    ]
-  },
-  "sections": [
-    {
-      "id": "unwrap-problem",
-      "title": "The problem",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "content": [
-            "Group gifts get scattered across chats. The people who know someone best remember different clues, research taste and budget separately, and coordinate who fronts the cost. Generic recommendations can miss the personal evidence behind a thoughtful gift."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "unwrap-product",
-      "title": "Product direction",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "content": [
-            "The source README frames Unwrap as a shared gift studio: friends contribute memories, photos and ideas; review clues; explore gift options; and choose a gift together. The intended audience is friends coordinating a personal group gift. The owner’s brief emphasizes highly personalized, niche, thoughtful gifts; it does not independently verify the final implementation."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "unwrap-source",
-      "title": "What the source supports",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "content": [
-            "The reviewed GiftMap component associates published clues with recommendations and listing titles. ProposalPanel implements contribution-limit input, revision-specific approval states and invalidation feedback. CouncilFamiliars defines five animated companions driven by stored task events, with a dock for narrow screens or reduced motion. These are code observations, not end-to-end deployment results."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "content": [
-            "Package metadata confirms Next.js, React, TypeScript, Convex, React Three Fiber and Zod dependencies. This portfolio reuses screenshots only; it does not install or run Unwrap’s services."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "unwrap-ui",
-      "title": "Development UI",
-      "blocks": [
-        {
-          "kind": "gallery",
-          "label": "Unwrap existing development captures",
-          "mediaIds": [
-            "unwrap-0",
-            "unwrap-1"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "unwrap-journey",
-      "title": "Planned journey and design direction",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "content": [
-            "The README proposes a lobby leading into a shared ring-based gift map: memories and ideas on the outside, reviewed themes and product candidates toward the middle, and a chosen gift at the center. Private limits and revision-aware approval are intended to keep group decisions explicit. The README labels the map-first phase as starting; these roadmap descriptions are not presented as completed delivery."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "unwrap-limits",
-      "title": "Verification and next steps",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "content": [
-            "The README reports a Phase 1 code baseline but identifies live product search, council integration and a two-browser path on one shared deployment as unverified. Payments remain pledges; payment processing is future scope. Source-reported test counts were not rerun and are not portfolio validation results."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "content": [
-            "Personal responsibilities, research findings, iteration outcomes, awards and public deployment links have not been supplied or verified. These fields remain omitted pending owner confirmation."
-          ]
-        }
-      ]
-    }
-  ]
+import type { Project, MediaAsset } from '../schema'
+
+const source = {
+  repository: 'Jonjlim/calhacks2026',
+  ref: 'readme',
+  path: 'README.md',
 }
+
+function shot(id: string, file: string, alt: string, width: number, height: number): MediaAsset {
+  return {
+    id, kind: 'image', src: `media/unwrap/${file}`, originalPath: `media/unwrap/${file}`,
+    source, rights: 'owner-local-rebuild', alt, caption: alt, width, height,
+  }
+}
+
+export const project: Project = {
+  id: 'unwrap',
+  title: 'Unwrap',
+  category: 'hackathons',
+  presentation: 'product',
+  status: 'Cal Hacks 2026 · Visa track',
+  overview: 'Friends pool what they remember about someone and pick a gift together. Built at Cal Hacks 2026 on the Visa track. No award.',
+  technologies: ['Next.js', 'React', 'TypeScript', 'React Three Fiber', 'Three.js', 'Fetch.ai', 'Convex', 'UI/UX Design'],
+  heroMediaId: 'unwrap-council',
+  sections: [
+    {
+      id: 'role',
+      title: 'Role',
+      blocks: [{
+        kind: 'paragraph',
+        content: ['I owned product and UX, the React Three Fiber frontend (the 3D world map, Book of Possibilities, phone join flow, and council visuals), and the multi-agent Fetch.ai implementation.'],
+      }],
+    },
+    {
+      id: 'highlights',
+      title: 'Highlights',
+      blocks: [{
+        kind: 'list',
+        items: [
+          ['A shared gift room: memories and ideas come in from phones, then the group compares real product options.'],
+          ['An AI council of agents reads the clues and proposes gifts. Payments in the build are pledges, not checkout.'],
+          ['The README calls the event Cal Hacks 13.0, October 2026.'],
+        ],
+      }],
+    },
+    {
+      id: 'screenshots',
+      title: 'Screenshots',
+      blocks: [{
+        kind: 'gallery',
+        label: 'Unwrap screenshots',
+        mediaIds: ['unwrap-proposal'],
+      }],
+    },
+  ],
+  media: [
+    shot('unwrap-council', 'council.webp', 'Unwrap gift map with council companions around a shared gift.', 1440, 900),
+    shot('unwrap-proposal', 'proposal.webp', 'Narrow Unwrap view of a gift proposal, contribution shares, and approval state.', 700, 900),
+  ],
+  links: [
+    { id: 'github', label: 'GitHub', href: 'https://github.com/Jonjlim/calhacks2026', kind: 'github', verification: 'resolved' },
+    { id: 'demo', label: 'Live demo', href: 'https://unwrap-six.vercel.app', kind: 'live', verification: 'resolved' },
+    { id: 'devpost', label: 'Devpost', href: 'https://devpost.com/software/unwrap-y7w16s', kind: 'devpost', verification: 'resolved' },
+  ],
+  verification: {
+    status: 'source-preserved',
+    notes: ['Published from the local case-study draft. Role, Visa track, and public links were confirmed by Ally. Screenshots are the existing development captures, recompressed.'],
+  },
+}
+
+export const unwrap = project

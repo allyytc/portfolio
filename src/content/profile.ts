@@ -11,64 +11,27 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
         {
           "kind": "paragraph",
           "content": [
-            "I'm a Computer Science student at Oregon State University (graduating June 2028) with a focus in Business Information Systems. I'm looking for ",
-            {
-              "text": "internship and new-grad roles",
-              "emphasis": "strong"
-            },
-            " in ",
-            {
-              "text": "software engineering",
-              "emphasis": "strong"
-            },
-            ", ",
-            {
-              "text": "UX/UI",
-              "emphasis": "strong"
-            },
-            ", ",
-            {
-              "text": "product",
-              "emphasis": "strong"
-            },
-            ", and other tech paths where ",
-            {
-              "text": "business, design, and creative work",
-              "emphasis": "strong"
-            },
-            " intersect - places I can ship real products, grow as a builder, and learn from working teams."
+            "I'm a computer science major at Oregon State University, graduating June 2028, with a minor in Business Information Systems. I'm looking for ",
+            { "text": "product management and APM roles", "emphasis": "strong" },
+            " first, then design and UI, and selective software engineering or technical program roles."
           ]
         },
         {
           "kind": "paragraph",
           "content": [
-            "I'm currently a ",
-            {
-              "text": "Web Developer Intern at OSU Impact Studio",
-              "emphasis": "strong"
-            },
-            ", shipping website updates in Drupal and Figma. Recent builds include ",
-            {
-              "text": "award-winning hackathon projects",
-              "emphasis": "strong"
-            },
-            " in computer vision and real-time web apps."
+            "I'm a ",
+            { "text": "Software Developer Intern at OSU Impact Studio", "emphasis": "strong" },
+            ". I also build hackathon products, including computer-vision tools, real-time web apps, and 3D interfaces."
           ]
         },
         {
           "kind": "paragraph",
           "content": [
-            "I work end-to-end - from wireframes and user research to React, Python, and API integration - and I'm as comfortable in Figma as I am in a codebase. I co-founded ",
-            {
-              "text": "Startup Hub at OSU",
-              "emphasis": "strong"
-            },
+            "I go from research and interface design through to the build. I co-founded ",
+            { "text": "Startup Hub at OSU", "emphasis": "strong" },
             " and lead a ",
-            {
-              "text": "Design for America",
-              "emphasis": "strong"
-            },
-            " team shipping a nonprofit website for 300+ daily users."
+            { "text": "Design for America", "emphasis": "strong" },
+            " team on a nonprofit website that serves 300+ people a day."
           ]
         }
       ],
@@ -97,7 +60,7 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
   "experience": [
     {
       "id": "impact-studio",
-      "title": "Web Developer Intern",
+      "title": "Software Developer Intern",
       "organization": "Impact Studio · Oregon State University",
       "dates": "May 2026 - Present",
       "sections": [
@@ -108,18 +71,10 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
             {
               "kind": "list",
               "items": [
-                [
-                  "Leading a full redesign of the Impact Studio website - restructuring navigation, homepage hierarchy, and content layout so visitors understand the initiative at first glance."
-                ],
-                [
-                  "Managed OSU Impact Studio's site and subdomains using Drupal, HTML, and CSS."
-                ],
-                [
-                  "Configured and launched new faculty initiative subdomains end-to-end."
-                ],
-                [
-                  "Analyzed website traffic and produced performance reports to guide UX and content strategy decisions."
-                ]
+                ["Leading the Impact Studio site redesign: navigation, homepage, and content structure, then shipping it in Drupal."],
+                ["Setting up faculty initiative subdomains and keeping the studio site running."],
+                ["Turning traffic into short performance reports that guide UX and content decisions."],
+                ["Working with marketers, designers, and other contributors to get the team's direction onto the live site."]
               ]
             }
           ],
@@ -134,8 +89,8 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
       "links": [
         {
           "id": "11",
-          "label": "View Work →",
-          "href": "https://allyytc.github.io/projects.html#project-impact-studio"
+          "label": "Live site",
+          "href": "https://impactstudio.oregonstate.edu/"
         }
       ],
       "projectIds": [
@@ -150,23 +105,96 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
       "verification": {
         "status": "source-preserved"
       }
+    },
+    {
+      "id": "dfa",
+      "title": "Project Lead",
+      "organization": "Design for America · Oregon State University",
+      "dates": "Jan 2026 - Present",
+      "sections": [{
+        "id": "dfa-role",
+        "title": "What I do",
+        "blocks": [{ "kind": "list", "items": [
+          ["Lead an 11-person team on the Corvallis Daytime Drop-In Center website, from discovery and wireframes through front-end development."],
+          ["Still finishing the site with a few teammates after the DFA term ended."]
+        ]}]
+      }],
+      "projectIds": ["cddc"],
+      "source": { "repository": "allyytc/allyytc.github.io", "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10", "path": "involvement.html", "anchor": "dfa" },
+      "verification": { "status": "source-preserved" }
+    },
+    {
+      "id": "esc",
+      "title": "Vice President of Outreach",
+      "organization": "Engineering Student Council · Oregon State University",
+      "dates": "June 2025 - Present",
+      "sections": [{
+        "id": "esc-role",
+        "title": "What I do",
+        "blocks": [{ "kind": "list", "items": [
+          ["Represent engineering students in faculty and university discussions, including curriculum and tuition."],
+          ["Run outreach across 50+ student organizations and help allocate $200K+ in funding with the VP of Finance."],
+          ["Design ESC graphics, event materials, and merchandise, including Engineers' Week."]
+        ]}]
+      }],
+      "source": { "repository": "allyytc/allyytc.github.io", "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10", "path": "involvement.html", "anchor": "esc" },
+      "verification": { "status": "source-preserved" }
+    },
+    {
+      "id": "startup-hub",
+      "title": "Co-Founder",
+      "organization": "Startup Hub · Oregon State University",
+      "dates": "June 2025 - Present",
+      "sections": [{
+        "id": "startup-role",
+        "title": "What I do",
+        "blocks": [{ "kind": "list", "items": [
+          ["Co-founded OSU's entrepreneurship community: the brand, the club structure, and connections to the College of Business, Oregon Startup Center, and AI Collective."],
+          ["Organizing Innovation Jam '26."]
+        ]}]
+      }],
+      "source": { "repository": "allyytc/allyytc.github.io", "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10", "path": "involvement.html", "anchor": "startup" },
+      "verification": { "status": "source-preserved" }
+    },
+    {
+      "id": "beaverhacks-org",
+      "title": "Core & Marketing Team",
+      "organization": "BeaverHacks · Oregon State University",
+      "dates": "June 2025 - Present",
+      "sections": [{
+        "id": "bh-role",
+        "title": "What I do",
+        "blocks": [{ "kind": "list", "items": [
+          ["Help run BeaverHacks, Oregon's largest collegiate hackathon at OSU, a 24-hour event with 500+ students."],
+          ["Marketing, sticker and merch design, volunteers, and event-day logistics."]
+        ]}]
+      }],
+      "source": { "repository": "allyytc/allyytc.github.io", "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10", "path": "involvement.html", "anchor": "beaverhacks" },
+      "verification": { "status": "source-preserved" }
+    },
+    {
+      "id": "ai-club-role",
+      "title": "Project Officer",
+      "organization": "Artificial Intelligence Club · Oregon State University",
+      "dates": "June 2025 - Present",
+      "sections": [{
+        "id": "ai-role",
+        "title": "What I do",
+        "blocks": [{ "kind": "list", "items": [
+          ["Support the weekly project workshop and wrote NumPy tutorials members used during the term."],
+          ["Help with projects from image classification to poker agents and Kaggle competitions."],
+          ["Stepping into Marketing Lead next year."]
+        ]}]
+      }],
+      "source": { "repository": "allyytc/allyytc.github.io", "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10", "path": "involvement.html", "anchor": "ai-club" },
+      "verification": { "status": "source-preserved" }
     }
   ],
   "skills": [
     {
       "id": "skills-0",
       "title": "Languages",
-      "items": [
-        "Python",
-        "JavaScript",
-        "TypeScript",
-        "C++",
-        "SQL",
-        "MySQL",
-        "MariaDB",
-        "HTML/CSS",
-        "Dart"
-      ],
+      "items": ["Python", "JavaScript", "TypeScript", "C++", "SQL", "HTML/CSS", "Dart"],
       "source": {
         "repository": "allyytc/allyytc.github.io",
         "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
@@ -177,20 +205,7 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
     {
       "id": "skills-1",
       "title": "Frameworks & Libraries",
-      "items": [
-        "React",
-        "Next.js",
-        "Node.js",
-        "Express",
-        "TailwindCSS",
-        "Flutter",
-        "React Native",
-        "PyTorch",
-        "scikit-learn",
-        "Pandas",
-        "NumPy",
-        "OpenCV"
-      ],
+      "items": ["React", "Next.js", "React Three Fiber", "Three.js", "Node.js", "Express", "Tailwind CSS", "Flutter", "React Native"],
       "source": {
         "repository": "allyytc/allyytc.github.io",
         "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
@@ -199,17 +214,20 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
       }
     },
     {
+      "id": "skills-ai",
+      "title": "AI & Data",
+      "items": ["Fetch.ai", "MediaPipe", "PyTorch", "scikit-learn", "Pandas", "NumPy", "OpenCV"],
+      "source": {
+        "repository": "allyytc/portfolio",
+        "ref": "content-refresh",
+        "path": "src/content/profile.ts",
+        "anchor": "skills"
+      }
+    },
+    {
       "id": "skills-2",
       "title": "Tools & Platforms",
-      "items": [
-        "Git",
-        "Drupal",
-        "WordPress",
-        "phpMyAdmin",
-        "Godot",
-        "Jupyter",
-        "Chrome Extensions API"
-      ],
+      "items": ["Git", "Drupal", "WordPress", "Blender", "Godot", "MySQL", "MariaDB", "phpMyAdmin", "Jupyter", "Chrome Extensions API"],
       "source": {
         "repository": "allyytc/allyytc.github.io",
         "ref": "35ecfec2c43c535ea013e23720ffa6ad73108f10",
@@ -337,8 +355,7 @@ export const profile: Profile & { media: readonly MediaAsset[] } = {
   "verification": {
     "status": "source-preserved",
     "notes": [
-      "Preferred visible role is owner-approved; original Web Developer Intern title and biography wording remain intact.",
-      "Only one professional role exists in the authoritative static source. No additional roles or personal interests are invented."
+      "Visible role is Software Developer Intern, including the Impact Studio job title. Campus roles below use the titles and dates already published in the community section."
     ]
   }
 }

@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "ComboCraft",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A gesture-based browser combat game where webcam hand motions cast elemental spells in real time against a multi-phase Demon Boss.",
+  "overview": "A browser fight where your hands are the controller. Webcam gestures cast fire, ice, and lightning against a boss that changes as its health drops. 1st place at QuackHacks 2025.",
   "technologies": [
     "JavaScript",
     "Python",
@@ -550,6 +550,13 @@ export const project: Project = {
       "href": "https://devpost.com/software/combocraft-azuynr",
       "kind": "devpost",
       "verification": "blocked"
+    },
+    {
+      "id": "link-2",
+      "label": "Demo",
+      "href": "https://www.youtube.com/watch?v=xNuD9hViZFQ",
+      "kind": "demo",
+      "verification": "resolved"
     }
   ],
   "source": {
@@ -567,5 +574,5 @@ export const project: Project = {
   "awards": [
     "🏆 1st Place, QuackHacks 2025"
   ],
-  "heroMediaId": "combo-game/gallery (6).jpg"
+  "heroMediaId": "combo-game/gallery (1).jpg"
 }

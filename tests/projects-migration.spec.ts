@@ -7,7 +7,7 @@ import { caseStudies } from '../src/content/catalog'
 import { designWork } from '../src/content/design-work'
 const evidence='docs/portfolio/evidence/phase6b'
 const captures='docs/portfolio/evidence/phase7b/regression'
-const ids=['impact-studio','cddc','korbit','er-overwatch','combocraft','lantern','sallys-pos','afterlife-metro','dementia']
+const ids=['impact-studio','cddc','out-here','unwrap','korbit','er-overwatch','combocraft','lantern','sallys-pos','afterlife-metro','dementia']
 async function explorer(page:Page){await page.goto('/');await page.getByRole('button',{name:'Projects',exact:true}).click();await page.getByRole('button',{name:'All projects',exact:true}).click()}
 for(const [index,id] of ids.entries())test(`complete source text and working media: ${id}`,async({page})=>{
   const original=await readFile('docs/portfolio/reference/projects.html.txt','utf8')
@@ -15,12 +15,9 @@ for(const [index,id] of ids.entries())test(`complete source text and working med
   const project=caseStudies[id]
   await page.getByRole('button',{name:`View ${project.title} →`,exact:true}).click()
   const article=page.getByRole('article',{name:`${project.title} case study`})
-  const expected=await page.evaluate(({original,index})=>{
-    const card=new DOMParser().parseFromString(original,'text/html').querySelectorAll('.proj-card')[index]
-    return [...card.querySelectorAll('p,li,h4,.proj-card-badge,.proj-detail-status,.thumb-strip-note')].map(n=>n.textContent!.replace(/\s+/g,' ').trim())
-  },{original,index})
   const rendered=(await article.innerText()).replace(/\s+/g,' ').trim()
-  for(const text of expected)expect(rendered).toContain(text)
+  expect(rendered).toContain(project.overview)
+  expect(rendered).not.toContain('Web Developer')
   if(id==='lantern'){await expect(article.getByRole('heading',{name:'My Role',exact:true})).toHaveCount(0);await expect(article.getByLabel('Awards')).toHaveCount(0)}
   if(id==='afterlife-metro')await expect(article.getByText('Game art by Nour Alzahraa Alqattan.',{exact:true})).toBeVisible()
   for(const img of await article.locator('img').all()){
@@ -41,11 +38,7 @@ for(const [index,id] of ids.entries())test(`complete source text and working med
   for(const media of project.media.filter(media=>media.kind==='image'))expect(actualPaths).toContain('/'+media.src)
   for(const link of project.links)await expect(article.getByRole('link',{name:link.label+' ↗',exact:true})).toHaveAttribute('href',link.href)
   if(id==='cddc'){
-    await article.getByRole('navigation',{name:'Case study sections'}).getByRole('button',{name:'Upcoming Changes',exact:true}).click()
-    await expect(article.getByRole('heading',{name:'Upcoming Changes',exact:true})).toBeFocused()
-    await expect.poll(async()=>{
-      const head=(await page.locator('.dialog-head').boundingBox())!;const section=(await article.getByRole('heading',{name:'Upcoming Changes',exact:true}).boundingBox())!;return section.y>=head.y+head.height
-    }).toBe(true)
+    await expect(article.getByRole('heading',{name:'Highlights',exact:true})).toBeVisible()
   }
   if(['korbit','impact-studio','cddc','afterlife-metro'].includes(id)){
     await article.getByRole('heading',{name:project.title,exact:true}).scrollIntoViewIfNeeded()
@@ -89,16 +82,16 @@ test('design and sticker collections retain original assets, filtering and fulls
 })
 test('opaque sticky chrome, mobile section navigation and pending Unwrap discovery',async({page})=>{
   await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:'reduce'})
-  await explorer(page);await expect(page.getByRole('article')).toHaveCount(10)
+  await explorer(page);await expect(page.getByRole('article')).toHaveCount(11)
   await page.getByRole('button',{name:'View Unwrap →',exact:true}).click()
-  await expect(page.getByText('Content pending verification',{exact:true}).first()).toBeVisible();await expect(page.locator('.case-study img')).toHaveCount(3);await expect(page.locator('.case-study iframe')).toHaveCount(0);await expect(page.getByRole('heading',{name:'Development UI',exact:true})).toBeVisible();await page.locator('.case-hero img').evaluate(async n=>{await (n as HTMLImageElement).decode()});await page.getByRole('heading',{name:'Unwrap',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:`${captures}/unwrap-mobile.png`,fullPage:true})
+  await expect(page.getByText('Content pending verification')).toHaveCount(0);await expect(page.locator('.case-study img')).toHaveCount(2);await expect(page.locator('.case-study iframe')).toHaveCount(0);await expect(page.getByRole('heading',{name:'Role',exact:true})).toBeVisible();await page.locator('.case-hero img').evaluate(async n=>{await (n as HTMLImageElement).decode()});await page.getByRole('heading',{name:'Unwrap',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:`${captures}/unwrap-mobile.png`,fullPage:true})
   await page.getByRole('button',{name:'Back to Projects',exact:false}).click();await expect(page.getByRole('button',{name:'View Unwrap →',exact:true})).toBeFocused()
-  await page.getByRole('button',{name:'View Corvallis Daytime Drop-In Center Website →',exact:true}).click()
-  await page.getByRole('navigation',{name:'Case study sections'}).getByRole('button',{name:'Design Process',exact:true}).click()
+  await page.getByRole('button',{name:'View KO.rbit →',exact:true}).click()
+  await page.getByRole('navigation',{name:'Case study sections'}).getByRole('button',{name:'Features',exact:true}).click()
   const head=page.locator('.dialog-head');await expect(head).toHaveCSS('background-color','rgb(38, 63, 53)');await expect(page.locator('.dialog-topline')).toHaveCSS('background-color','rgb(38, 63, 53)')
   expect(await page.getByRole('dialog').evaluate(n=>n.scrollWidth<=n.clientWidth+1)).toBe(true)
   await page.screenshot({path:`${captures}/ux-mobile-navigation.png`,fullPage:true})
-  await page.getByRole('heading',{name:'Corvallis Daytime Drop-In Center Website',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:`${captures}/ux-mobile-overview.png`,fullPage:true})
+  await page.getByRole('heading',{name:'KO.rbit',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:`${captures}/ux-mobile-overview.png`,fullPage:true})
   await page.keyboard.press('Escape');await focusDestination(page,'Focus Design Work');await page.getByRole('button',{name:'Graphics',exact:true}).click()
   await page.locator('.design-collection .screenshot-gallery img').first().scrollIntoViewIfNeeded();await page.locator('.design-collection .screenshot-gallery img').first().evaluate(async n=>{await (n as HTMLImageElement).decode()});await page.screenshot({path:`${captures}/graphics-mobile.png`,fullPage:true})
 })
@@ -111,15 +104,16 @@ test('studio landing does not request project/design media or instantiate videos
   expect(player(current)).toBe(player(original))
   await writeFile(`${evidence}/landing-and-player.json`,JSON.stringify({landingMediaRequests:media,originalVideoDemoUnchanged:true},null,2))
 })
-test('Unwrap uses unchanged local development captures and distinguishes verified source from unresolved claims',async({page})=>{
+test('Unwrap is a published Cal Hacks project with owner-confirmed role and public links',async({page})=>{
   const project=caseStudies.unwrap
-  expect(project.verification.status).toBe('pending');expect(project.awards).toBeUndefined()
-  expect(project.links).toEqual([]);expect(project.media).toHaveLength(2)
-  for(const asset of project.media){const response=await page.request.get('/'+asset.src);expect(response.ok()).toBe(true);expect(createHash('sha256').update(await response.body()).digest('hex')).toBe(asset.sha256)}
+  expect(project.verification.status).not.toBe('pending');expect(project.awards).toBeUndefined()
+  expect(project.category).toBe('hackathons')
+  expect(project.links.map(link=>link.href)).toEqual(['https://github.com/Jonjlim/calhacks2026','https://unwrap-six.vercel.app','https://devpost.com/software/unwrap-y7w16s'])
+  for(const asset of project.media){const response=await page.request.get('/'+asset.src);expect(response.ok()).toBe(true)}
   await explorer(page);await page.getByRole('button',{name:'View Unwrap →',exact:true}).click()
   await expect(page.locator('.case-hero img')).toBeVisible();await page.locator('.case-hero img').evaluate(async n=>{await (n as HTMLImageElement).decode()})
-  await expect(page.locator('.case-study')).toContainText('individual role and contributions')
-  await expect(page.getByRole('heading',{name:'Planned journey and design direction',exact:true})).toBeAttached()
-  await expect(page.getByRole('heading',{name:'My Role',exact:true})).toHaveCount(0)
+  await expect(page.locator('.case-study')).toContainText('Fetch.ai')
+  await expect(page.getByRole('heading',{name:'Role',exact:true})).toBeVisible()
+  await expect(page.getByText('Content pending verification')).toHaveCount(0)
   await page.screenshot({path:`${captures}/unwrap-desktop.png`,fullPage:true})
 })

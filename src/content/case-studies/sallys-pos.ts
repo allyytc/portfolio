@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Sally's Coffee Shop POS System",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A full-stack point-of-sale web app with a 5-table relational database, REST API, and a loyalty points system.",
+  "overview": "A point-of-sale app for a coffee shop, built for an OSU databases course (January–March 2026). Five tables, order workflows in stored procedures, and loyalty points on drinks.",
   "technologies": [
     "Node.js",
     "Express",

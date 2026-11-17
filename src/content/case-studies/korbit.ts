@@ -4,15 +4,16 @@ export const korbit: Project = {
   "id": "korbit",
   "title": "KO.rbit",
   "category": "hackathons",
-  "overview": "A real-time two-player lightsaber duel with no controller. A laptop webcam tracks your full body with MediaPipe Pose, and your phone becomes the saber.",
+  "overview": "A two-player lightsaber duel with no controller. A laptop webcam tracks your body, and your phone is the saber. Built at DubHacks 2026.",
   "awards": [
-    "🏆 1st Place SpaceXAI Track, DubHacks 2026"
+    "🏆 1st Place, SpaceXAI Track, DubHacks 2026"
   ],
   "technologies": [
     "React",
     "TypeScript",
     "JavaScript",
     "Three.js",
+    "React Three Fiber",
     "Vite",
     "MediaPipe",
     "Node.js",

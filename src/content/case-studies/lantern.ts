@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Lantern",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A Unitree Go2 companion for someone living with dementia, with a caregiver app for voice check-ins, Night Watch alerts, and a map of the home. We built it at HackMIT 2026.",
+  "overview": "A Unitree Go2 companion for someone living with dementia, plus a caregiver app for voice check-ins, Night Watch alerts, and a map of the home. Built in 24 hours at HackMIT 2026 (September 19–20). No award.",
   "technologies": [
     "React",
     "TypeScript",

@@ -1,5 +1,6 @@
 import { project as impactStudio } from './case-studies/impact-studio'
 import { project as cddc } from './case-studies/cddc'
+import { project as outHere } from './case-studies/out-here'
 import { project as erOverwatch } from './case-studies/er-overwatch'
 import { project as combocraft } from './case-studies/combocraft'
 import { project as lantern } from './case-studies/lantern'
@@ -16,6 +17,6 @@ export const projectCategories: readonly ProjectCategory[] = [
   { id: 'past-projects', label: 'Past Projects' }, { id: 'design-work', label: 'Design Work' },
 ]
 export const caseStudies: Readonly<Record<string, Project>> = {
-  'impact-studio': impactStudio, cddc, korbit, 'er-overwatch': erOverwatch,
-  combocraft, lantern, 'sallys-pos': sallysPos, 'afterlife-metro': afterlifeMetro, dementia, unwrap,
+  'impact-studio': impactStudio, cddc, 'out-here': outHere, unwrap, korbit, 'er-overwatch': erOverwatch,
+  combocraft, lantern, 'sallys-pos': sallysPos, 'afterlife-metro': afterlifeMetro, dementia,
 }

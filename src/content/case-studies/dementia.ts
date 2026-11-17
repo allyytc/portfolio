@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Dementia Risk Predictor",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A machine learning model that predicts dementia risk from health survey data, exploring feature importance for early screening.",
+  "overview": "A small Streamlit app that estimates dementia risk from OASIS clinical measurements. The project README reports 82.6% accuracy for a random forest on held-out data. It is a class project, not a diagnostic tool.",
   "technologies": [
     "Python",
     "scikit-learn",
@@ -75,6 +75,13 @@ export const project: Project = {
       "label": "GitHub",
       "href": "https://github.com/allyytc/dementia-detector",
       "kind": "github",
+      "verification": "resolved"
+    },
+    {
+      "id": "link-1",
+      "label": "Live app",
+      "href": "https://allyytc-dementia-detector.streamlit.app/",
+      "kind": "live",
       "verification": "resolved"
     }
   ],

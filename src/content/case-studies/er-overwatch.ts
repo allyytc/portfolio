@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "ER Overwatch",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A computer vision wide-angle surveillance platform that helps understaffed ERs monitor waiting-room patients - detecting collapses via fall detection, tracking vitals, and building AI casefiles for the doctor while they wait.",
+  "overview": "A waiting-room monitor for understaffed ERs. It watches for collapses, tracks vitals, and builds a case file while the patient waits. 1st place overall at QuackHacks 2026.",
   "technologies": [
     "Next.js",
     "React",
@@ -26,13 +26,13 @@ export const project: Project = {
         {
           "kind": "paragraph",
           "content": [
-            "Across the world, over 1,000 people die each year just waiting for medical care inside an emergency room lobby. Most arrive with symptoms that are survivable on their own - concussions, chest pain, bruising, spasms - but over the many hours spent waiting for a room to open up, those same conditions can escalate into strokes, heart attacks, and organ failure. In a crowded ER, someone could collapse and lose consciousness with no one noticing for minutes."
+            "The project writeup starts from a hard number: over 1,000 people a year die waiting in an ER lobby. Symptoms that are survivable on arrival can get worse over a long wait, and a collapse in a crowded room can go unnoticed."
           ]
         },
         {
           "kind": "paragraph",
           "content": [
-            "ER Overwatch connects live waiting-room footage to automated collapse detection and a nurse dashboard - giving understaffed ERs real-time alerts and structured patient context before a doctor is available."
+            "ER Overwatch connects waiting-room video to collapse detection and a nurse dashboard, so staff get an alert and a short patient record before a doctor is free."
           ]
         }
       ],
@@ -369,6 +369,13 @@ export const project: Project = {
       "href": "https://2026.quackhacks.org/projects/winners/er-overwatch",
       "kind": "live",
       "verification": "resolved"
+    },
+    {
+      "id": "link-3",
+      "label": "Demo",
+      "href": "https://www.youtube.com/watch?v=7biBbQWCngY",
+      "kind": "demo",
+      "verification": "resolved"
     }
   ],
   "source": {
@@ -386,5 +393,5 @@ export const project: Project = {
   "awards": [
     "🏆 1st Place Overall, QuackHacks 2026"
   ],
-  "heroMediaId": "ero-gal/image-02.webp"
+  "heroMediaId": "ero-gal/nursedash.webp"
 }
