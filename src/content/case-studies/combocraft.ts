@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "ComboCraft",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A gesture-based browser combat game where webcam hand motions cast elemental spells in real time against a multi-phase Demon Boss.",
+  "overview": "A browser boss fight where your hands are the spells. Webcam gestures cast fire, ice, and lightning, and the boss changes as its health drops. 1st place at QuackHacks 2025.",
   "technologies": [
     "JavaScript",
     "Python",
@@ -17,18 +17,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "ComboCraft started as a late-night “what if we could fight on screen with our hands?” idea and grew into a full browser game set in the Inferno Realm. A fist casts a fireball, an open hand summons an ice shard, a pointed finger calls lightning, and chaining gestures builds combo attacks."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "content": [
-            "Players face a Demon Boss whose behavior evolves across phases as its health drops. Three difficulty settings scale the encounter from easy to hard."
+            "A gesture demo is easy to film and hard to play. The spell, the combo, and the boss all have to answer in the same moment as the hand, or the fight feels like a laggy webcam filter."
           ]
         }
       ],
@@ -117,45 +111,26 @@ export const project: Project = {
     },
     {
       "id": "features",
-      "title": "Features",
+      "title": "Highlights",
       "blocks": [
         {
           "kind": "list",
           "items": [
             [
-              {
-                "text": "Gesture spellcasting",
-                "emphasis": "strong"
-              },
-              " - real-time hand motions trigger fire, ice, and lightning spells with dual-hand casting"
+              { "text": "Gesture spellcasting", "emphasis": "strong" },
+              " - cast fire, ice, and lightning from live hand poses, with dual-hand casting and chained combos"
             ],
             [
-              {
-                "text": "Combo system",
-                "emphasis": "strong"
-              },
-              " - chain gestures into multi-step attacks for higher damage"
+              { "text": "Player overlay", "emphasis": "strong" },
+              " - cut the player out of the webcam with MediaPipe Selfie Segmentation and composite them into the fight, after early builds showed the whole room"
             ],
             [
-              {
-                "text": "Multi-phase Demon Boss",
-                "emphasis": "strong"
-              },
-              " - evolving animations, attacks, and behavior as health drops"
+              { "text": "A classifier that keeps up", "emphasis": "strong" },
+              " - trained a scikit-learn gesture model next to MediaPipe Hands, then replaced 60 FPS backend polling with a command pipeline so spells stayed responsive"
             ],
             [
-              {
-                "text": "Mana & orb system",
-                "emphasis": "strong"
-              },
-              " - collect boss energy fragments to restore mana mid-fight"
-            ],
-            [
-              {
-                "text": "Tutorial & UI",
-                "emphasis": "strong"
-              },
-              " - how-to-play guide, difficulty select, and pixel-art menus"
+              { "text": "A boss that changes", "emphasis": "strong" },
+              " - built the canvas systems for a Demon Boss whose attacks change as its health drops, across three difficulties"
             ]
           ],
           "ordered": false
@@ -550,6 +525,13 @@ export const project: Project = {
       "href": "https://devpost.com/software/combocraft-azuynr",
       "kind": "devpost",
       "verification": "blocked"
+    },
+    {
+      "id": "link-2",
+      "label": "Demo",
+      "href": "https://www.youtube.com/watch?v=xNuD9hViZFQ",
+      "kind": "demo",
+      "verification": "resolved"
     }
   ],
   "source": {
@@ -567,5 +549,5 @@ export const project: Project = {
   "awards": [
     "🏆 1st Place, QuackHacks 2025"
   ],
-  "heroMediaId": "combo-game/gallery (6).jpg"
+  "heroMediaId": "combo-game/gallery (1).jpg"
 }

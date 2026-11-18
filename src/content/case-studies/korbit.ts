@@ -4,15 +4,16 @@ export const korbit: Project = {
   "id": "korbit",
   "title": "KO.rbit",
   "category": "hackathons",
-  "overview": "A real-time two-player lightsaber duel with no controller. A laptop webcam tracks your full body with MediaPipe Pose, and your phone becomes the saber.",
+  "overview": "A two-player lightsaber duel with no controller. A laptop camera tracks your body, your phone is the saber, and the fight lands on real Mars terrain. 1st place, SpaceXAI track, DubHacks 2026.",
   "awards": [
-    "🏆 1st Place SpaceXAI Track, DubHacks 2026"
+    "🏆 1st Place, SpaceXAI Track, DubHacks 2026"
   ],
   "technologies": [
     "React",
     "TypeScript",
     "JavaScript",
     "Three.js",
+    "React Three Fiber",
     "Vite",
     "MediaPipe",
     "Node.js",
@@ -24,12 +25,12 @@ export const korbit: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "KO.rbit is a real-time, two-player lightsaber duel with no controller, built by our four-person team at DubHacks 2026. A laptop webcam tracks your full body with MediaPipe Pose, and your phone’s motion sensors become the saber. Before the fight, we fly a 3D cockpit through a universe of real catalogued objects. Planetary roulette then sends the match to Mars or Neptune."
+            "A duel usually means memorizing a controller. KO.rbit asks you to stand up: the laptop watches your body, the phone is the saber, and the server decides who actually landed the hit."
           ]
         }
       ],
@@ -42,55 +43,13 @@ export const korbit: Project = {
     },
     {
       "id": "my-role",
-      "title": "My Role",
+      "title": "Role",
       "blocks": [
         {
-          "kind": "list",
-          "items": [
-            [
-              {
-                "text": "3D cockpit lobby",
-                "emphasis": "strong"
-              },
-              " - the hub a pilot drops into, with the radar and ship console"
-            ],
-            [
-              {
-                "text": "Avatar creator",
-                "emphasis": "strong"
-              },
-              " - the pilot’s avatar"
-            ],
-            [
-              {
-                "text": "Battle HUD",
-                "emphasis": "strong"
-              },
-              " - the overlay on the live duel"
-            ],
-            [
-              {
-                "text": "Mars arena",
-                "emphasis": "strong"
-              },
-              " - the Jezero Crater fight floor, built on NASA MOLA terrain"
-            ],
-            [
-              {
-                "text": "Neptune arena",
-                "emphasis": "strong"
-              },
-              " - the duel scene modeled on Neptune’s atmosphere, since Neptune has no solid ground"
-            ],
-            [
-              {
-                "text": "Planetary roulette",
-                "emphasis": "strong"
-              },
-              " - the spin that picks Mars or Neptune, then flies the match in"
-            ]
-          ],
-          "ordered": false
+          "kind": "paragraph",
+          "content": [
+            "I built the 3D cockpit lobby, the avatar creator, the battle HUD, the Mars arena on NASA MOLA terrain, the Neptune arena, and planetary roulette."
+          ]
         }
       ],
       "source": {
@@ -120,7 +79,7 @@ export const korbit: Project = {
     },
     {
       "id": "features",
-      "title": "Features",
+      "title": "Highlights",
       "blocks": [
         {
           "kind": "list",
@@ -130,42 +89,28 @@ export const korbit: Project = {
                 "text": "Full-body duel",
                 "emphasis": "strong"
               },
-              " - MediaPipe Pose on the laptop and the phone as the saber, paired by QR code"
+              " - pair MediaPipe Pose on the laptop with the phone as the saber, connected by QR code"
             ],
             [
               {
                 "text": "Server-owned hits",
                 "emphasis": "strong"
               },
-              " - a Node and Socket.IO server decides health, stamina, guards, and every hit"
+              " - a Node and Socket.IO server decides health, stamina, guards, and every hit, so the two clients cannot disagree"
             ],
             [
               {
-                "text": "Cockpit and roulette",
+                "text": "Real arenas",
                 "emphasis": "strong"
               },
-              " - a 3D lobby, then a planetary roulette handoff into the Mars or Neptune arena"
+              " - the Mars floor is a NASA MOLA crop of Jezero Crater, and Neptune is modeled as atmosphere because it has no solid ground"
             ],
             [
               {
-                "text": "Real Mars terrain",
+                "text": "A real catalog",
                 "emphasis": "strong"
               },
-              " - the Mars floor is a NASA MOLA crop of Jezero Crater"
-            ],
-            [
-              {
-                "text": "Catalog explorer",
-                "emphasis": "strong"
-              },
-              " - we search real stars, exoplanets, galaxies, satellites, and spacecraft and open a fact card on each"
-            ],
-            [
-              {
-                "text": "KO replay",
-                "emphasis": "strong"
-              },
-              " - an opt-in clip, with Perceptron picking highlights and the replay ending on the server-confirmed finishing blow"
+              " - fly the cockpit through stars, exoplanets, galaxies, satellites, and spacecraft, then let planetary roulette pick Mars or Neptune"
             ]
           ],
           "ordered": false

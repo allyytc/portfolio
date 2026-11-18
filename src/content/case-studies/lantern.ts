@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Lantern",
   "category": "hackathons",
   "presentation": "software",
-  "overview": "A Unitree Go2 companion for someone living with dementia, with a caregiver app for voice check-ins, Night Watch alerts, and a map of the home. We built it at HackMIT 2026.",
+  "overview": "A Unitree Go2 companion for someone living with dementia, plus a caregiver app for voice check-ins, Night Watch alerts, and a map of the home. The team built it in 24 hours at HackMIT 2026.",
   "technologies": [
     "React",
     "TypeScript",
@@ -21,18 +21,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "Lantern is a robot companion for someone living with dementia, and a link for the family members who look after them. We built the prototype in 24 hours at HackMIT 2026 (September 19–20). The idea came from a teammate’s grandmother. After the family dog was no longer at home, she was alone for much of the day, and she did not want to wear a location tracker."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "content": [
-            "The phone is the microphone and speaker. She talks to Lantern instead of using a screen. For the family, a web app shows how she is doing, plays check-ins aloud, and sends alerts if she moves into a place the caregivers marked as dangerous."
+            "The idea came from a teammate’s grandmother. After the family dog was no longer at home, she was alone for much of the day, and she did not want to wear a location tracker. Her family still needed a way to check in and know if she had moved somewhere they had marked as dangerous."
           ]
         }
       ],
@@ -45,7 +39,7 @@ export const project: Project = {
     },
     {
       "id": "what-we-built",
-      "title": "What we built",
+      "title": "Highlights",
       "blocks": [
         {
           "kind": "list",
@@ -55,28 +49,28 @@ export const project: Project = {
                 "text": "Caregiver portal",
                 "emphasis": "strong"
               },
-              " - onboarding, check-ins, a daily routine, Night Watch, a zone map, alerts, and an activity timeline"
+              " - built onboarding, spoken check-ins, a daily routine, Night Watch, a zone map, and an activity timeline in one caregiver app"
             ],
             [
               {
                 "text": "Paired phone",
                 "emphasis": "strong"
               },
-              " - QR pairing, ElevenLabs playback of a check-in, and a short reply transcribed with Deepgram"
+              " - made the phone the microphone and speaker, with QR pairing, ElevenLabs playback, and a short reply transcribed by Deepgram"
             ],
             [
               {
                 "text": "Robot requests",
                 "emphasis": "strong"
               },
-              " - spoken phrases can walk, follow, return home, or play a fixed set of Go2 actions when DimOS and the robot bridges are running"
+              " - send spoken requests through the cloud app to walk, follow, or return home when DimOS and the robot bridges are running"
             ],
             [
               {
                 "text": "Night Watch",
                 "emphasis": "strong"
               },
-              " - caregivers paint zones, and alerts can escalate to Twilio SMS and phone calls"
+              " - let caregivers paint danger zones and escalate alerts to Twilio SMS and phone calls"
             ]
           ],
           "ordered": false
@@ -106,6 +100,19 @@ export const project: Project = {
         "path": "projects.html",
         "anchor": "project-lantern"
       }
+    },
+    {
+      "id": "screenshots",
+      "title": "Screenshots",
+      "blocks": [
+        {
+          "kind": "gallery",
+          "label": "Lantern architecture",
+          "mediaIds": [
+            "lantern-architecture"
+          ]
+        }
+      ]
     },
     {
       "id": "lantern-demo",
@@ -139,6 +146,38 @@ export const project: Project = {
       "caption": "Lantern demo - HackMIT 2026",
       "title": "Lantern demo - HackMIT 2026",
       "watchURL": "https://www.youtube.com/watch?v=UiwDwaL6978"
+    },
+    {
+      "id": "lantern-robot",
+      "kind": "image",
+      "src": "media/lantern/robot-doorway.webp",
+      "originalPath": "https://img.youtube.com/vi/UiwDwaL6978/maxresdefault.jpg",
+      "source": {
+        "repository": "alwxngn/Lantern-HackMIT2026",
+        "ref": "main",
+        "path": "README.md"
+      },
+      "rights": "owner-local-rebuild",
+      "alt": "Unitree Go2 robot walking across a tiled entryway toward a person standing in an open doorway.",
+      "caption": "Unitree Go2 at the doorway, from the demo still in the Lantern README.",
+      "width": 406,
+      "height": 720
+    },
+    {
+      "id": "lantern-architecture",
+      "kind": "image",
+      "src": "media/lantern/architecture.webp",
+      "originalPath": "README.md#architecture",
+      "source": {
+        "repository": "alwxngn/Lantern-HackMIT2026",
+        "ref": "main",
+        "path": "README.md"
+      },
+      "rights": "owner-local-rebuild",
+      "alt": "Architecture diagram: React portal and paired phone connect to FastAPI on port 8000, which reaches Deepgram, ElevenLabs, Twilio, and a bus hub on port 9000. The bus connects the orchestrator and the command and map bridges, which use MCP to reach DimOS and Aegis skills on the Unitree Go2.",
+      "caption": "Architecture from the Lantern README: portal, phone, FastAPI, speech services, bus, orchestrator, robot bridges, and Twilio.",
+      "width": 3168,
+      "height": 688
     }
   ],
   "links": [
@@ -179,5 +218,5 @@ export const project: Project = {
   "recognition": [
     "HackMIT 2026"
   ],
-  "heroMediaId": "https://www.youtube.com/embed/UiwDwaL6978"
+  "heroMediaId": "lantern-robot"
 }

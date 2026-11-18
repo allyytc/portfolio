@@ -9,4 +9,4 @@ export const projects = Object.values(caseStudies).map(project => ({
   thumbnail: project.media.find(asset => asset.id === project.heroMediaId && asset.kind === 'image'),
   pending: project.verification.status === 'pending',
 }))
-export const featuredProjectIds = ['impact-studio','korbit','er-overwatch']
+export const featuredProjectIds = ['out-here','impact-studio','korbit','er-overwatch']

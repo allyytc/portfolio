@@ -5,7 +5,7 @@ export const project: Project = {
   "title": "Sally's Coffee Shop POS System",
   "category": "past-projects",
   "presentation": "technical",
-  "overview": "A full-stack point-of-sale web app with a 5-table relational database, REST API, and a loyalty points system.",
+  "overview": "A point-of-sale system for a coffee counter: customers, a live order queue, inventory, and loyalty points that update when a drink is completed. I designed the schema and built the back end.",
   "technologies": [
     "Node.js",
     "Express",
@@ -15,12 +15,12 @@ export const project: Project = {
   "sections": [
     {
       "id": "description",
-      "title": "Description",
+      "title": "Problem",
       "blocks": [
         {
           "kind": "paragraph",
           "content": [
-            "A full-stack point-of-sale web app with a 5-table relational database. Features 8+ REST API endpoints for full CRUD, 4 stored procedures for order workflows, and a loyalty points system tracking customer rewards and redemptions."
+            "A counter needs one transaction to place an order, redeem points, and later award them. If those steps live in the page instead of the database, the totals drift."
           ]
         }
       ],
@@ -38,7 +38,7 @@ export const project: Project = {
         {
           "kind": "paragraph",
           "content": [
-            "Designed the database schema and built the full back end for a class project, including all REST endpoints and stored procedures."
+            "I designed the schema and built the back end, including the REST API and the stored procedures for the order workflow. OSU databases course, January–March 2026."
           ]
         }
       ],
@@ -48,6 +48,20 @@ export const project: Project = {
         "path": "projects.html",
         "anchor": "Sally's Coffee Shop POS System"
       }
+    },
+    {
+      "id": "highlights",
+      "title": "Highlights",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            ["Designed five tables, customers, orders, products, line items, and inventory, with foreign keys that cascade when a parent row goes away."],
+            ["Put the order workflow in stored procedures: place a queued order, complete it and award points, or cancel it."],
+            ["Exposed the counter through 8+ REST endpoints for customers, the queue, inventory, and redemptions."]
+          ]
+        }
+      ]
     },
     {
       "id": "tech-stack",

@@ -13,13 +13,13 @@ export const organizations: readonly Organization[] = [
           {
             "kind": "paragraph",
             "content": [
-              "As Vice President of Outreach for the College of Engineering Student Council, I'm the voice for 10K+ engineering students in faculty discussions and university-level decisions - from curriculum changes to tuition policy. I manage outreach and communications across 50+ student organizations and help allocate $200K+ in funding alongside the VP of Finance."
+              "As Vice President of Outreach for the College of Engineering Student Council, I represent engineering students in faculty and university discussions, including curriculum and tuition. I manage outreach across 50+ student organizations and help allocate $200K+ in funding with the VP of Finance."
             ]
           },
           {
             "kind": "paragraph",
             "content": [
-              "Beyond advocacy, I own all things design for ESC - creating promotional graphics, event materials, and merchandise distributed school-wide. That includes everything from Engineers' Week stickers handed out to the entire College of Engineering enrollment, to graphics and social content for events like Donuts with the Dean and Cookies & Clubs, OSU's school-wide club fair."
+              "I also design ESC's graphics, event materials, and merchandise, including Engineers' Week stickers and materials for Donuts with the Dean and Cookies & Clubs."
             ]
           }
         ],
@@ -207,13 +207,13 @@ export const organizations: readonly Organization[] = [
           {
             "kind": "paragraph",
             "content": [
-              "As Co-Founder of Startup Hub at OSU, our team built the university's only entrepreneurship community from the ground up - creating the branding kit, establishing the club structure, and connecting aspiring founders to resources that didn't exist at OSU before. We coordinate with the College of Business, Oregon Startup Center, and AI Collective to bring entrepreneurship infrastructure to 15K+ students, with programming that goes beyond the typical startup playbook - from VC guest speakers to storytelling-for-pitching workshops."
+              "I co-founded Startup Hub at OSU. We built the brand and the club, and we connect founders with the College of Business, Oregon Startup Center, and AI Collective."
             ]
           },
           {
             "kind": "paragraph",
             "content": [
-              "This year, we're organizing Innovation Jam '26 - one of OSU's flagship innovation events. Looking ahead, we're working toward raising funding to send members to conferences and experiences beyond Corvallis - because the best founders need exposure beyond campus."
+              "This year we're organizing Innovation Jam '26. We're also working on funding so members can go to conferences off campus."
             ]
           }
         ],
@@ -401,13 +401,13 @@ export const organizations: readonly Organization[] = [
           {
             "kind": "paragraph",
             "content": [
-              "As Project Lead for Design for America at OSU, I directed an 11-person cross-disciplinary team through discovery, wireframes, design iterations, and front-end development for the Corvallis Daytime Drop-In Center - a local nonprofit serving unhoused community members."
+              "I lead an 11-person Design for America team on the Corvallis Daytime Drop-In Center website: discovery, wireframes, design, and front-end development."
             ]
           },
           {
             "kind": "paragraph",
             "content": [
-              "I chose this project after meeting the center's director and being moved by the passion behind their work. DFA's term has ended, but I'm continuing alongside a few teammates to see it through to deployment."
+              "I picked the project after meeting the center's director. The DFA term is over, and I'm still finishing the site with a few teammates."
             ]
           }
         ],
@@ -588,13 +588,13 @@ export const organizations: readonly Organization[] = [
           {
             "kind": "paragraph",
             "content": [
-              "Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I know how they push you to pick up new tools, move fast, and lean on teamwork under pressure. Being part of the core operations team that organizes BeaverHacks, Oregon's largest collegiate hackathon hosted at OSU, felt like a natural extension of that passion."
+              "I help run BeaverHacks, Oregon's largest collegiate hackathon at OSU. I've competed at hackathons too, which is why I wanted to help organize one."
             ]
           },
           {
             "kind": "paragraph",
             "content": [
-              "Across the 24-hour event drawing 500+ students from universities across the country, I contributed across marketing, design, and operations - from running social campaigns and designing stickers, to modeling merchandise, to managing volunteers and logistics on event day."
+              "For the 24-hour event (500+ students), I work on marketing, stickers and merch, volunteers, and day-of logistics."
             ]
           }
         ],
@@ -794,13 +794,13 @@ export const organizations: readonly Organization[] = [
           {
             "kind": "paragraph",
             "content": [
-              "The AI Club at OSU was revived this year and became one of the biggest launches on campus - our first meeting drew over 100 members, a clear sign of how much interest there is in AI across every major. As Project Officer, I help lead and support members through the weekly project workshop, meeting people where they are across all experience levels."
+              "The AI Club at OSU came back this year. Our first meeting drew over 100 people. As Project Officer, I support the weekly project workshop for members at different experience levels."
             ]
           },
           {
             "kind": "paragraph",
             "content": [
-              "I created NumPy tutorials used by members throughout the term, and helped guide projects ranging from image classification to poker agents to Kaggle competitions. Our weekly meetings mix technical depth with community - from lectures breaking down how machine learning actually works, to interactive games that bring people together. We're building a space where anyone curious about AI can find their footing and go further. Next year, I'll be stepping into the role of Marketing Lead."
+              "I wrote NumPy tutorials the club used that term, and I help with projects from image classification to poker agents and Kaggle. Next year I'll be Marketing Lead."
             ]
           }
         ],
@@ -1030,7 +1030,7 @@ export const events: readonly (Event & { overview: string; heroMediaId: string }
           {
             "kind": "paragraph",
             "content": [
-              "Hackathons hold a special place for me - they're one of the few opportunities to carve out dedicated time for a creative project you'd never get around to otherwise. Having competed in multiple hackathons myself, I love how they push you to pick up new tools, move fast, and get very comfortable with git and merge conflicts."
+              "I've competed at a few hackathons, so I help run BeaverHacks too. The useful part is the time limit, the new tools, and getting comfortable with git."
             ]
           }
         ],
@@ -3063,8 +3063,8 @@ export const events: readonly (Event & { overview: string; heroMediaId: string }
 ]
 export const communityOverview: { intro: readonly string[]; media: MediaAsset; eventCards: readonly { href: string; overview: string; media: MediaAsset }[] } = {
   "intro": [
-    "Through student leadership roles across engineering, entrepreneurship, and hackathons, I've helped run campus-wide events for 500+ attendees, advocate for 10K+ engineering students, and ship real projects with cross-functional teams.",
-    "Here are a few highlights from events, clubs, and collaborative projects I have led and helped organize!"
+    "I help run student organizations in engineering, entrepreneurship, and hackathons at Oregon State, including events for 500+ people.",
+    "Events, clubs, and projects I help lead."
   ],
   "media": {
     "id": "DSC00612.JPG",
